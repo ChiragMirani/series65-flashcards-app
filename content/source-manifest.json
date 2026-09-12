@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "2026-09-12",
+  "sourceFiles": [
+    {
+      "file": "series_65_must_memorize_SHORT_2026-09-06.md",
+      "sha256": "e8b6668211d53a272188ec8f4df7e0b5b27c98447d0dc71e158dd64eb3356d47"
+    },
+    {
+      "file": "series_65_question_design_research.md",
+      "sha256": "b6e5f333f557230acba4e5902b3569bc49cb6f88ae066029f8342b8fc1aee7e2"
+    },
+    {
+      "file": "series_65_new_chat_handoff.md",
+      "sha256": "9312659a21abef3787dad6abbfaaed5dce4ad9599f09182c98bf0d68db30c3b0"
+    },
+    {
+      "file": "series_65_test_5_miss_audit_2026-09-12.md",
+      "sha256": "b0afdb1fac1e27045c7fee48a1439d848dd30663064c48a9c75b88147625d878"
+    }
+  ],
+  "rules": 310,
+  "cards": 623,
+  "sections": [
+    {
+      "number": 1,
+      "title": "De minimis and state registration",
+      "sha256": "0c8c53ebeefbfb3082c8b06a31e645e6349b32affefd541d6eea33934cc6e4a4"
+    },
+    {
+      "number": 2,
+      "title": "IAR employment notice and continuing education",
+      "sha256": "3c51db3a1c2ea5a914a8ff10f4eda5972271bc2b39bcd50ccaaa437e472186de"
+    },
+    {
+      "number": 3,
+      "title": "Form ADV (Uniform Application for Investment Adviser Registration and Report by Exempt Reporting Advisers), contracts, and federal acts",
+      "sha256": "6ba06be8cf582c8e17b93a448b9143b88ea30209980e435e331ac53e532cf96b"
+    },
+    {
+      "number": 4,
+      "title": "Registration clocks and federal/state AUM flips",
+      "sha256": "1601a828c320996b66ffd07b302d3edceb3e8170b85c0f41006aeb2dbe00e7a0"
+    },
+    {
+      "number": 5,
+      "title": "Same subject, different deadline or consequence",
+      "sha256": "b1094df88d7eb68528ec92e97f157f9d873598926068680622228b6c6483acb4"
+    },
+    {
+      "number": 6,
+      "title": "Securities-law look-alikes",
+      "sha256": "8665b4ea3bcb5862796af2bdc02be448085c728a1be3f8be83c1deb218991397"
+    },
+    {
+      "number": 7,
+      "title": "Three investor labels that are not interchangeable",
+      "sha256": "8447ac9c295c010344ed29a533729006a2dd2db08b954fdbdd714aa0961f088e"
+    },
+    {
+      "number": 8,
+      "title": "Private fund versus private fund adviser",
+      "sha256": "644182c4ef3fc9041b90b31f3510651f3377480d0becc86aea5a7ad8266f54c2"
+    },
+    {
+      "number": 9,
+      "title": "Authority, contracts, and offering communications",
+      "sha256": "51a8a81fca77dcc50e23a9b1ee6b1a1005be8cfe3b62bc0bf2ce9735df07c847"
+    },
+    {
+      "number": 10,
+      "title": "Rule 144",
+      "sha256": "41408d46a302428cce3d3f6fa937133b0e0cda73655df874f85519149ac1712d"
+    },
+    {
+      "number": 11,
+      "title": "Two employee-plan thresholds",
+      "sha256": "084b521ae14c2c79ce703e8bc90a7622c4ea4be09a0179ce5aeb75b99c070c15"
+    },
+    {
+      "number": 12,
+      "title": "Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
+      "sha256": "f8c5ff484e78c668641f34d5107d1cd10220de2256faaa5aba2f448f13aba3ed"
+    },
+    {
+      "number": 13,
+      "title": "Retirement penalties and distribution traps",
+      "sha256": "1a8c7b32950df0b36227acb1cefdc7365976d339fba054dd251b47506f9bf0e2"
+    },
+    {
+      "number": 14,
+      "title": "College and minor accounts",
+      "sha256": "3116918aefadae29c38eaa8f8e1528c5531259570cd0bc8e5a23872b5443da31"
+    },
+    {
+      "number": 15,
+      "title": "Client ownership, taxes, and transfers",
+      "sha256": "c22f83e82a79612aaed58a8aa4c92ce358ab842260f3a3a7ec60011dc2f3ed04"
+    },
+    {
+      "number": 16,
+      "title": "Business entities and direct participation program (DPP) losses",
+      "sha256": "d487ba0f1fb4c7b1aa0a721afb8e95389038d7505e28ee52bf527d22585ebdb7"
+    },
+    {
+      "number": 17,
+      "title": "Portfolio theory and efficient market hypothesis (EMH)",
+      "sha256": "00ec6e300c49aeb04df29a3342673cb87f32ee55d7d32c352a85cc835989619c"
+    },
+    {
+      "number": 18,
+      "title": "Mutual funds",
+      "sha256": "3d6e8ca0c1e338b91212f1c08cee9a132e88ac0a15eff3693a7b3c93eca988cd"
+    },
+    {
+      "number": 19,
+      "title": "Rights, warrants, and calls",
+      "sha256": "783dbf7f13951d581e0972cc265653981d4e42777670b7aa7666c660aca68fd9"
+    },
+    {
+      "number": 20,
+      "title": "Annuities and life insurance",
+      "sha256": "0274b46d83419025fbbd06606a3447a4cab7ccc3299a4d6409cdd807f1accb61"
+    },
+    {
+      "number": 21,
+      "title": "Bonds, dividends, and risk labels",
+      "sha256": "40397a06b5c9afcc6a72e83bd2b1a1552922dc213679851bf0576a68c81ae949"
+    },
+    {
+      "number": 22,
+      "title": "Financial statements",
+      "sha256": "c0cd209defae3436aebad6f15ef79288489b0dd1df7deb5926365ca80b84f9ef"
+    },
+    {
+      "number": 23,
+      "title": "Indicators and statistical labels",
+      "sha256": "5b43995256a0b97d3a7276155385977a291c03b3338a290bba87513305900f05"
+    },
+    {
+      "number": 24,
+      "title": "Auditor opinions",
+      "sha256": "f1bbf0d622ffb0c7cca7906612f5e8c354557a1cc6cff5e3406445bff47ee8de"
+    },
+    {
+      "number": 25,
+      "title": "Pension-plan blackout period",
+      "sha256": "0ee343c2ca3666ef3e6809a54dfc817bd63d9b51b83b076286612f668ffb9672"
+    },
+    {
+      "number": 26,
+      "title": "Practice-performance context and residual reminders",
+      "sha256": "4f761917a1c82ba67e550d87637384939fea960332d16a3fddeabed032bd28cc"
+    },
+    {
+      "number": 27,
+      "title": "Test 5 niche last-look rules",
+      "sha256": "7969177d46af338741a2c5febf6732fb8393c591016aa25c08b6dfaf2eb4ab71"
+    }
+  ]
+}
