@@ -13,6 +13,8 @@ export const officialSources = {
  custody: source('NASAA', 'Custody Requirements Model Rule 102(e)(1)-1', 'https://www.nasaa.org/wp-content/uploads/2023/07/Investment_Adviser_Custody_Rules_102e1-1_and_411f-1.pdf', 'rule'),
  brochure: source('NASAA', 'Brochure Requirements Model Rule 203(b)-1', 'https://www.nasaa.org/wp-content/uploads/2011/07/IA-Brochure-Rule.pdf', 'rule'),
  adv: source('SEC', 'Form ADV general instructions', 'https://www.sec.gov/about/forms/formadv-instructions.pdf'),
+ advPart2Nasaa: source('NASAA', 'NASAA-published Form ADV Part 2A, Item 18 — prepaid fees and audited balance sheets (PDF page 14)', 'https://www.nasaa.org/wp-content/uploads/2015/03/Part2andSched.02-2015.pdf#page=14', 'reference'),
+ financialReporting: source('NASAA', 'Financial Reporting Model Rule 203(c)-1 — audited state adviser balance sheets', 'https://www.nasaa.org/wp-content/uploads/2022/11/model-rule-investment-adviser-financial-reporting.pdf', 'rule'),
  acts: source('SEC', 'Federal securities statutes and links to their full texts', 'https://www.sec.gov/rules-regulations/statutes-regulations'),
  qualified: source('SEC', 'Qualified-client inflation adjustment, Release IA-6961', 'https://www.sec.gov/files/rules/ia/2026/ia-6961.pdf', 'rule'),
  privateFunds: source('SEC', 'Private Funds — fund exclusions and adviser registration', 'https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/private-funds'),
@@ -105,7 +107,9 @@ map(3,'adv-one adv-two-a adv-two-b','adv'); map(3,'assignment-contract','ethics'
 map(3,'act-1933 act-1934 federal-civil civil-scope underlying-offer non-offers fundamental-policy','acts');
 map(4,'tested-act state-effective state-expiry','usa'); map(4,'adv-update prompt-amendment','adv');
 map(4,'brochure-annual brochure-initial','brochure'); map(4,'records-ordinary records-formation','records');
-map(5,'termination-prompt enforcement hearing','usa'); map(5,'prepay-federal','adv');
+map(5,'termination-prompt enforcement hearing','usa');
+map(5,'prepay-state','advPart2Nasaa','financialReporting');
+map(5,'prepay-federal prepay-boundary prepay-consequence','advPart2Nasaa');
 map(5,'fee-custody bill-custody consent-custody','custody');
 map(7,'accredited qualified-purchaser','privateFunds');
 map(9,'time-price agent-written','discretion'); map(9,'oral-offer media-prospectus tombstone cooling-off no-completion','acts');

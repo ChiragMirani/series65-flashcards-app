@@ -4389,12 +4389,18 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 5 — Same subject, different deadline or consequence",
-    "contentVersion": "9cd6ae49453bebee044d40c0234a33e75e47f96d74f82f4a023dc6f5f46bd5ee",
+    "contentVersion": "149eb1caa744644dec5aadd5bbcd537f5d53f7dc2e01830e9bd992091ba02f86",
     "officialSources": [
       {
         "authority": "NASAA",
-        "title": "Minimum Financial Requirements Model Rule 202(d)-1",
-        "url": "https://www.nasaa.org/wp-content/uploads/2011/07/IA-Model-Rule-Minimum-Financial-Requirements.pdf",
+        "title": "NASAA-published Form ADV Part 2A, Item 18 — prepaid fees and audited balance sheets (PDF page 14)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2015/03/Part2andSched.02-2015.pdf#page=14",
+        "kind": "reference"
+      },
+      {
+        "authority": "NASAA",
+        "title": "Financial Reporting Model Rule 203(c)-1 — audited state adviser balance sheets",
+        "url": "https://www.nasaa.org/wp-content/uploads/2022/11/model-rule-investment-adviser-financial-reporting.pdf",
         "kind": "rule"
       }
     ],
@@ -4410,8 +4416,8 @@
     "category": "laws",
     "priority": "high",
     "type": "contrast",
-    "front": "Does a state adviser's fee of exactly $500 paid five months ahead trigger the tested prepaid-fee financial-reporting rule?",
-    "answer": "No. The fee must exceed $500 per client and be paid at least six months in advance.",
+    "front": "A state adviser collects $900 per client at the start of each three-month service period. Does that prepayment alone trigger the audited-balance-sheet rule?",
+    "answer": "No. The fee exceeds $500, but each payment covers only three months. Both the dollar and six-month tests must be met.",
     "governingRule": "More than $500 per client paid at least six months in advance.",
     "trap": "Exactly $500 paid five months ahead meets both tests.",
     "explanation": "More than $500 per client paid at least six months in advance.",
@@ -4421,12 +4427,18 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 5 — Same subject, different deadline or consequence",
-    "contentVersion": "f8d9825af93ecb55d12ba3024aa98925b6dac942527f9fade5d140b6878d3104",
+    "contentVersion": "4f040627fa81e60d723ed6734f6ebe61e0a3b6d390d10da9b8962578fe44ab6b",
     "officialSources": [
       {
         "authority": "NASAA",
-        "title": "Minimum Financial Requirements Model Rule 202(d)-1",
-        "url": "https://www.nasaa.org/wp-content/uploads/2011/07/IA-Model-Rule-Minimum-Financial-Requirements.pdf",
+        "title": "NASAA-published Form ADV Part 2A, Item 18 — prepaid fees and audited balance sheets (PDF page 14)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2015/03/Part2andSched.02-2015.pdf#page=14",
+        "kind": "reference"
+      },
+      {
+        "authority": "NASAA",
+        "title": "Financial Reporting Model Rule 203(c)-1 — audited state adviser balance sheets",
+        "url": "https://www.nasaa.org/wp-content/uploads/2022/11/model-rule-investment-adviser-financial-reporting.pdf",
         "kind": "rule"
       }
     ],
@@ -4453,13 +4465,13 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 5 — Same subject, different deadline or consequence",
-    "contentVersion": "0c96f38dc121042facddecf177b0c36075cb3a2dace35e7bacb3e054d3408b74",
+    "contentVersion": "6608fa83bb2f8e639b8d550a4ec68ec87279bf3821374e0735ed0116504b97ba",
     "officialSources": [
       {
-        "authority": "SEC",
-        "title": "Form ADV general instructions",
-        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
-        "kind": "guidance"
+        "authority": "NASAA",
+        "title": "NASAA-published Form ADV Part 2A, Item 18 — prepaid fees and audited balance sheets (PDF page 14)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2015/03/Part2andSched.02-2015.pdf#page=14",
+        "kind": "reference"
       }
     ],
     "retest": true,
@@ -4474,8 +4486,8 @@
     "category": "laws",
     "priority": "high",
     "type": "contrast",
-    "front": "Does the state $500 prepaid-fee threshold also control a federal covered adviser's brochure balance-sheet requirement?",
-    "answer": "No. The federal threshold is more than $1,200 per client paid at least six months ahead.",
+    "front": "A Securities and Exchange Commission (SEC)-registered adviser collects $2,000 per client for the next three months only. Does that prepayment alone require an audited balance sheet in its brochure?",
+    "answer": "No. The fee exceeds $1,200, but three months falls short of the required six months. The dollar test alone is insufficient.",
     "governingRule": "More than $1,200 per client paid at least six months in advance.",
     "trap": "The state $500 threshold also controls federal covered firms.",
     "explanation": "More than $1,200 per client paid at least six months in advance.",
@@ -4485,13 +4497,13 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 5 — Same subject, different deadline or consequence",
-    "contentVersion": "1a45c01aca2cd70b229ea536ef2e368daab5a8f67bd5097529e4119e3df9d879",
+    "contentVersion": "aea069932141a313094110f70016f8c5d054a9e73e09d249ba53cb57c12b19db",
     "officialSources": [
       {
-        "authority": "SEC",
-        "title": "Form ADV general instructions",
-        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
-        "kind": "guidance"
+        "authority": "NASAA",
+        "title": "NASAA-published Form ADV Part 2A, Item 18 — prepaid fees and audited balance sheets (PDF page 14)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2015/03/Part2andSched.02-2015.pdf#page=14",
+        "kind": "reference"
       }
     ],
     "retest": true,
@@ -4506,24 +4518,24 @@
     "category": "laws",
     "priority": "high",
     "type": "application",
-    "front": "A federal covered adviser receives $1,250 per client for exactly six months. Does the stated prepayment trigger apply?",
-    "answer": "Yes. The amount exceeds $1,200 and exactly six months meets the time test.",
+    "front": "A Securities and Exchange Commission (SEC)-registered adviser requires $1,250 per client for exactly six months and has no balance-sheet exception. Must its Part 2A brochure include an audited balance sheet?",
+    "answer": "Yes. The fee exceeds $1,200 and exactly six months satisfies the time test. Include the most recent fiscal-year balance sheet, independently audited.",
     "governingRule": "More than $1,200 per client paid at least six months in advance.",
     "trap": "The state $500 threshold also controls federal covered firms.",
-    "explanation": "Both required conditions are satisfied; this is a disclosure consequence, not a fee prohibition.",
+    "explanation": "The prepayment must pass both tests. Item 18.A has exceptions for qualified custodians and insurance companies. Item 18.B separately requires disclosure of financial problems reasonably likely to impair the adviser’s ability to fulfill client contracts.",
     "tags": [
       "prepay-federal",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 5 — Same subject, different deadline or consequence",
-    "contentVersion": "0b042f2b3f2b4d74591b261d679b432eb02047a0a8ac3f0f3cb8b5e09d3ca2ef",
+    "contentVersion": "18957952accbdaea3ef6ed7fd91d3dd6e0fabc2f921c81a993ca0b93c685a0d8",
     "officialSources": [
       {
-        "authority": "SEC",
-        "title": "Form ADV general instructions",
-        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
-        "kind": "guidance"
+        "authority": "NASAA",
+        "title": "NASAA-published Form ADV Part 2A, Item 18 — prepaid fees and audited balance sheets (PDF page 14)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2015/03/Part2andSched.02-2015.pdf#page=14",
+        "kind": "reference"
       }
     ],
     "retest": true,
@@ -4549,13 +4561,13 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 5 — Same subject, different deadline or consequence",
-    "contentVersion": "bbfad16c6e888689b530a9d8a9b5e1281305983831573cd1a8c5b5999e3fed86",
+    "contentVersion": "614f3ec287488d30a36dd5542720b04da5dc8a7af7d9ae6f62be7bf7e178eb29",
     "officialSources": [
       {
         "authority": "NASAA",
-        "title": "Minimum Financial Requirements Model Rule 202(d)-1",
-        "url": "https://www.nasaa.org/wp-content/uploads/2011/07/IA-Model-Rule-Minimum-Financial-Requirements.pdf",
-        "kind": "rule"
+        "title": "NASAA-published Form ADV Part 2A, Item 18 — prepaid fees and audited balance sheets (PDF page 14)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2015/03/Part2andSched.02-2015.pdf#page=14",
+        "kind": "reference"
       }
     ],
     "retest": true,
@@ -4581,13 +4593,13 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 5 — Same subject, different deadline or consequence",
-    "contentVersion": "d72b33dbdf4b76006eff118e4af31c377538b6cba6330a1f231c2016cb94133e",
+    "contentVersion": "5bfb90a4062b1936229f5acdb93fc81ef3ddfd1d20ebe06cd085951c8451962e",
     "officialSources": [
       {
         "authority": "NASAA",
-        "title": "Minimum Financial Requirements Model Rule 202(d)-1",
-        "url": "https://www.nasaa.org/wp-content/uploads/2011/07/IA-Model-Rule-Minimum-Financial-Requirements.pdf",
-        "kind": "rule"
+        "title": "NASAA-published Form ADV Part 2A, Item 18 — prepaid fees and audited balance sheets (PDF page 14)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2015/03/Part2andSched.02-2015.pdf#page=14",
+        "kind": "reference"
       }
     ],
     "retest": true,
@@ -4613,13 +4625,13 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 5 — Same subject, different deadline or consequence",
-    "contentVersion": "b408ad3dee74abfcb9afb06a9cafaed0dc9426f22473305a862c4455685898c5",
+    "contentVersion": "99f1bd28e81da828dc32f08562d0d78959974d6226f831cc953f09654922572a",
     "officialSources": [
       {
         "authority": "NASAA",
-        "title": "Minimum Financial Requirements Model Rule 202(d)-1",
-        "url": "https://www.nasaa.org/wp-content/uploads/2011/07/IA-Model-Rule-Minimum-Financial-Requirements.pdf",
-        "kind": "rule"
+        "title": "NASAA-published Form ADV Part 2A, Item 18 — prepaid fees and audited balance sheets (PDF page 14)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2015/03/Part2andSched.02-2015.pdf#page=14",
+        "kind": "reference"
       }
     ],
     "retest": true,
@@ -4634,24 +4646,24 @@
     "category": "laws",
     "priority": "high",
     "type": "recall",
-    "front": "Does crossing a prepaid-fee threshold prohibit collecting the fee?",
-    "answer": "No. It triggers the applicable financial reporting and disclosure obligations.",
-    "governingRule": "No. It triggers the applicable financial reporting and disclosure obligations.",
-    "trap": "Crossing the threshold makes the fee illegal or changes registration status.",
-    "explanation": "No. It triggers the applicable financial reporting and disclosure obligations.",
+    "front": "An adviser meets both substantial-prepayment tests and has no applicable exception. What financial statement must its Form ADV Part 2A brochure include?",
+    "answer": "An independently audited balance sheet for its most recent fiscal year. Meeting the tests does not prohibit collecting the fee.",
+    "governingRule": "An independently audited balance sheet for its most recent fiscal year. Meeting the tests does not prohibit collecting the fee.",
+    "trap": "Any fee above the dollar threshold requires an audit, even when it pays for only three months.",
+    "explanation": "An independently audited balance sheet for its most recent fiscal year. Meeting the tests does not prohibit collecting the fee.",
     "tags": [
       "prepay-consequence",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 5 — Same subject, different deadline or consequence",
-    "contentVersion": "681e251187cfb81d7c9c4e7d9c2cb967c6a63fa3a0a98d7998477448f6886c4b",
+    "contentVersion": "c887789434afc80ce3d2c2b69e6c3056f9f2130744d702aca937b899adc7f745",
     "officialSources": [
       {
         "authority": "NASAA",
-        "title": "Minimum Financial Requirements Model Rule 202(d)-1",
-        "url": "https://www.nasaa.org/wp-content/uploads/2011/07/IA-Model-Rule-Minimum-Financial-Requirements.pdf",
-        "kind": "rule"
+        "title": "NASAA-published Form ADV Part 2A, Item 18 — prepaid fees and audited balance sheets (PDF page 14)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2015/03/Part2andSched.02-2015.pdf#page=14",
+        "kind": "reference"
       }
     ],
     "retest": true,
@@ -4666,24 +4678,24 @@
     "category": "laws",
     "priority": "high",
     "type": "contrast",
-    "front": "Does crossing an adviser's prepaid-fee threshold make the fee prohibited?",
-    "answer": "No. It triggers applicable financial reporting and disclosure obligations.",
-    "governingRule": "No. It triggers the applicable financial reporting and disclosure obligations.",
-    "trap": "Crossing the threshold makes the fee illegal or changes registration status.",
-    "explanation": "No. It triggers the applicable financial reporting and disclosure obligations.",
+    "front": "Does a prepaid fee that exceeds the applicable dollar threshold and covers at least six months become prohibited?",
+    "answer": "No. Unless an exception applies, the adviser must include an independently audited balance sheet in Part 2A. The fee itself is not prohibited by this test.",
+    "governingRule": "An independently audited balance sheet for its most recent fiscal year. Meeting the tests does not prohibit collecting the fee.",
+    "trap": "Any fee above the dollar threshold requires an audit, even when it pays for only three months.",
+    "explanation": "An independently audited balance sheet for its most recent fiscal year. Meeting the tests does not prohibit collecting the fee.",
     "tags": [
       "prepay-consequence",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 5 — Same subject, different deadline or consequence",
-    "contentVersion": "de7425c51faf0a714873943c9851a30eeb95244d44caabb2acf0cb5d5d695e49",
+    "contentVersion": "1314480203f6c9050ee80a36653f7a9f32dc6c2447f1d4e1c729671a14664617",
     "officialSources": [
       {
         "authority": "NASAA",
-        "title": "Minimum Financial Requirements Model Rule 202(d)-1",
-        "url": "https://www.nasaa.org/wp-content/uploads/2011/07/IA-Model-Rule-Minimum-Financial-Requirements.pdf",
-        "kind": "rule"
+        "title": "NASAA-published Form ADV Part 2A, Item 18 — prepaid fees and audited balance sheets (PDF page 14)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2015/03/Part2andSched.02-2015.pdf#page=14",
+        "kind": "reference"
       }
     ],
     "retest": true,
