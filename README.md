@@ -57,6 +57,17 @@ npm run content:check
 
 Keep each card's key the same. Saved progress then stays.
 
+## Rule changes
+
+Some facts change over time. `content/rule-watch.json` lists them. Each has a check date.
+
+```bash
+npm run rules:due
+npm run rules:verify -- <id>
+```
+
+`rules:due` shows checks due now. Fix cards if rules changed. Run `content:import` after edits. Then mark the check done. A weekly GitHub job opens an issue too.
+
 ## Search and discovery
 
 Topic pages list every question. Search engines can read them. Indexing stays off for now. Set `PUBLIC_INDEXING=true` to allow it.
