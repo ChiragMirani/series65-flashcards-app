@@ -1,11 +1,11 @@
-﻿import { test, expect } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 const prefix = '/series65-flashcards-app';
 
 test('one page opens a full deck and switches all subjects inline with the correct counter', async ({ page }) => {
   await page.goto(`${prefix}/`);
-  const selector = page.getByRole('combobox', { name: 'Review area', exact: true });
+  const selector = page.getByRole('combobox', { name: 'Subject', exact: true });
   const counter = page.locator('.card-position');
-  await expect(selector).toHaveValue('random');
+  await expect(selector).toHaveValue('all');
   await expect(selector.locator('option')).toHaveCount(5);
   await expect(counter).toHaveText('1 of 628');
   await expect(page.locator('.question-button')).toBeVisible();
@@ -19,18 +19,18 @@ test('one page opens a full deck and switches all subjects inline with the corre
     await expect(page).toHaveURL(studyUrl);
   }
   await page.getByRole('button', { name: 'Reveal answer', exact: true }).click();
-  await page.getByRole('button', { name: /^Good/ }).click();
+  await page.getByRole('button', { name: 'Next card', exact: true }).click();
   await expect(counter).toHaveText('2 of 28');
-  const question = await page.locator('.question-button>span').innerText();
+  const question = await page.locator('.study-question').innerText();
   await page.reload();
   await expect(selector).toHaveValue('economics');
   await expect(counter).toHaveText('2 of 28');
-  await expect(page.locator('.question-button>span')).toHaveText(question);
+  await expect(page.locator('.study-question')).toHaveText(question);
   await page.getByRole('link', { name: 'Progress', exact: true }).click();
   await page.getByRole('link', { name: 'Study', exact: true }).click();
-  await expect(page.locator('.question-button>span')).toHaveText(question);
+  await expect(page.locator('.study-question')).toHaveText(question);
   await expect(counter).toHaveText('2 of 28');
-  await selector.selectOption('random');
+  await selector.selectOption('all');
   await expect(counter).toHaveText('1 of 628');
   await expect(page).toHaveURL(studyUrl);
 });
@@ -83,11 +83,89 @@ test('hosted worker caches unvisited pages and saves phone reviews offline', asy
   await expect(page).toHaveURL(new RegExp(`${prefix}/$`));
   await expect(page.locator('.card-position')).toHaveText('1 of 628');
   await page.getByRole('button', { name: 'Reveal answer', exact: true }).click();
-  await page.getByRole('button', { name: /^Good/ }).click();
-  const next = await page.locator('.question-button>span').innerText();
+  await page.getByRole('button', { name: 'Next card', exact: true }).click();
+  const next = await page.locator('.study-question').innerText();
   await page.reload();
-  await expect(page.locator('.question-button>span')).toHaveText(next);
+  await expect(page.locator('.study-question')).toHaveText(next);
   await expect(page.locator('.card-position')).toHaveText('2 of 628');
   await page.getByRole('link', { name: 'Progress', exact: true }).click();
-  await expect(page.locator('.progress-stats')).toContainText('100%');
+  await page.getByRole('link', { name: 'Study', exact: true }).click();await expect(page.locator('.card-position')).toHaveText('2 of 628');
+});
+
+test('repeated finger taps reveal and advance at the same spot without ratings', async ({ page }) => {
+  await page.goto(`${prefix}/`);
+  await expect(page.locator('.question-button')).toBeVisible();
+  const action = page.locator('.study-face');
+  const box = (await action.boundingBox())!;
+  const x = box.x + box.width / 2, y = box.y + box.height / 2;
+  for (let index = 1; index <= 3; index++) {
+    await page.touchscreen.tap(x, y);
+    await expect(page.locator('.answer-text')).toBeVisible();
+    await expect(action).toHaveAttribute('aria-label', 'Next card');await expect(page.locator('.study-answer-wrap')).toHaveCSS('opacity', '1');
+    await expect(page.locator('.card-position')).toHaveText(`${index} of 628`);
+    await expect(page.getByRole('button', { name: /^(Again|Hard|Good|Easy)/ })).toHaveCount(0);
+    await page.touchscreen.tap(x, y);
+    await expect(page.locator('.question-button')).toBeVisible();
+    await expect(page.locator('.card-position')).toHaveText(`${index + 1} of 628`);
+  }
+  await page.locator('.question-button').tap();
+  await page.getByText('Card details', { exact: true }).tap();
+  await expect(page.locator('.card-position')).toHaveText('4 of 628');
+  await page.getByText('Card details', { exact: true }).tap();
+  await page.locator('.answer-text').tap();
+  await expect(page.locator('.card-position')).toHaveText('5 of 628');
+  const next = await page.locator('.study-question').innerText();
+  await page.reload();
+  await expect(page.locator('.study-question')).toHaveText(next);
+  await expect(page.locator('.card-position')).toHaveText('5 of 628');
+});
+
+test('VocabDeck reveal motion, order toggle, previous card and share link', async ({ page, browser }) => {
+  await page.addInitScript(() => {
+    Object.defineProperty(navigator, 'clipboard', { configurable: true, value: { writeText: async (value:string) => { (window as Window & { copiedStudyLink?:string }).copiedStudyLink = value; } } });
+  });
+  await page.goto(`${prefix}/`);
+  const subject = page.getByRole('combobox', { name: 'Subject', exact: true });
+  await subject.selectOption('economics');
+  await page.getByRole('button', { name: 'Sequential', exact: true }).tap();
+  await expect(page.getByRole('button', { name: 'Sequential', exact: true })).toHaveAttribute('aria-pressed', 'true');
+  const prompt = page.locator('.study-question');
+  const first = await prompt.innerText();
+  const before = (await prompt.boundingBox())!;
+  const font = await prompt.evaluate(el => getComputedStyle(el).fontSize);
+  await page.locator('.study-face').tap();
+  await expect(page.locator('.study-answer-wrap')).toHaveCSS('opacity', '1');
+  const after = (await prompt.boundingBox())!;
+  expect(after.y).toBeLessThan(before.y - 10);
+  expect(await prompt.evaluate(el => getComputedStyle(el).fontSize)).toBe(font);
+  await expect(prompt).toHaveText(first);
+  await page.locator('.study-face').tap();
+  await expect(page.locator('.card-position')).toHaveText('2 of 28');
+  await page.getByRole('button', { name: 'Previous card', exact: true }).tap();
+  await expect(prompt).toHaveText(first);
+  await expect(page.locator('.card-position')).toHaveText('1 of 28');
+  await page.getByRole('button', { name: 'Shuffle', exact: true }).tap();
+  await expect(page.getByRole('button', { name: 'Shuffle', exact: true })).toHaveAttribute('aria-pressed', 'true');
+  await page.reload();
+  await expect(subject).toHaveValue('economics');
+  await expect(page.getByRole('button', { name: 'Shuffle', exact: true })).toHaveAttribute('aria-pressed', 'true');
+  await page.getByRole('button', { name: 'Sequential', exact: true }).tap();
+  await expect(prompt).toHaveText(first);
+  await page.getByRole('button', { name: 'Copy study link', exact: true }).tap();
+  await expect(page.getByRole('status').filter({ hasText: 'Link copied' })).toBeVisible();
+  const shared = await page.evaluate(() => (window as Window & { copiedStudyLink?:string }).copiedStudyLink!);
+  expect(new URL(shared).pathname).toBe(`${prefix}/`);
+  expect(new URL(shared).searchParams.get('subject')).toBe('economics');
+  expect(new URL(shared).searchParams.get('order')).toBe('sequential');
+  const friend = await browser.newPage({ viewport: { width: 390, height: 844 }, hasTouch: true });
+  try {
+    await friend.goto(shared);
+    await expect(friend.getByRole('combobox', { name: 'Subject', exact: true })).toHaveValue('economics');
+    await expect(friend.getByRole('button', { name: 'Sequential', exact: true })).toHaveAttribute('aria-pressed', 'true');
+    await expect(friend.locator('.card-position')).toHaveText('1 of 28');
+    await expect(friend.locator('.study-question')).toHaveText(first);
+    await friend.getByRole('combobox', { name: 'Subject', exact: true }).selectOption('laws');
+    await friend.reload();
+    await expect(friend.getByRole('combobox', { name: 'Subject', exact: true })).toHaveValue('laws');
+  } finally { await friend.close(); }
 });

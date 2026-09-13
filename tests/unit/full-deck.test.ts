@@ -4,6 +4,7 @@ import { emptySnapshot, snapshotSchema, type Category, type Rating, type Snapsho
 import { makeFullDeckSession, reduceSnapshot } from '../../lib/engine';
 import { freshState } from '../../lib/scheduler';
 import { IndexedDbStudyRepository } from '../../lib/repository';
+import { selectionFromSearch, studyLink } from '../../lib/study-selection';
 import 'fake-indexeddb/auto';
 
 const now = new Date('2026-09-13T15:00:00Z');
@@ -103,5 +104,66 @@ describe('one-page full-deck review', () => {
     expect(snapshotSchema.safeParse({ ...state, session: { ...state.session, order: [deck[0].id, deck[0].id] } }).success).toBe(false);
     expect(snapshotSchema.safeParse({ ...state, session: { ...state.session, initialCount: 20 } }).success).toBe(false);
     expect(snapshotSchema.safeParse(reduceSnapshot(emptySnapshot(), { type: 'start', now: now.toISOString() }, deck)).success).toBe(true);
+  });
+
+  it('advances without changing recall scores and rejects a stale duplicate tap', () => {
+    const state = rate(start());
+    const session = state.session!;
+    const command = { type: 'advance' as const, cardId: session.queue[0], sessionId: session.id, expectedRatings: session.ratings };
+    const next = reduceSnapshot(state, command, deck);
+    expect(next.session!.queue).toEqual(session.queue.slice(1));
+    expect(next.session!.completed).toContain(command.cardId);
+    expect(next.session!.order).toEqual(session.order);
+    expect(next.session!.ratings).toBe(session.ratings);
+    expect(next.states).toEqual(state.states);
+    expect(next.events).toEqual(state.events);
+    expect(snapshotSchema.safeParse(next).success).toBe(true);
+    expect(() => reduceSnapshot(next, command, deck)).toThrow('session changed');
+  });
+
+  it('persists ungraded navigation and finishes a one-card deck', async () => {
+    const cards = deck.slice(0, 1);
+    const name = `tap-next-${crypto.randomUUID()}`;
+    const first = new IndexedDbStudyRepository(cards, name);
+    const initial = await first.execute({ type: 'start', fullDeck: true, now: now.toISOString() });
+    const saved = await first.execute({ type: 'advance', cardId: cards[0].id, sessionId: initial.session!.id, expectedRatings: 0 });
+    expect(saved.session!.queue).toEqual([]);
+    expect(saved.session!.completed).toEqual([cards[0].id]);
+    expect(saved.states).toEqual({});
+    expect(saved.events).toEqual([]);
+    first.close();
+    const reopened = new IndexedDbStudyRepository(cards, name);
+    expect(await reopened.read()).toEqual(saved);
+    reopened.close();
+  });
+
+  it('orders the whole deck or one subject independently of selection', () => {
+    for(const category of [undefined,'economics'] as const) {
+      const ordered=makeFullDeckSession(deck,emptySnapshot(),now,category,'scheduled');
+      const random=makeFullDeckSession(deck,emptySnapshot(),now,category,'random');
+      expect(ordered.order).toEqual(deck.filter(c=>!category||c.category===category).map(c=>c.id));
+      expect(new Set(random.order)).toEqual(new Set(ordered.order));
+      expect(random.order).not.toEqual(ordered.order);
+    }
+  });
+
+  it('moves back in the saved order without duplicating cards or changing recall data', () => {
+    const original=start(emptySnapshot(),'economics');
+    const advanced=reduceSnapshot(original,{type:'advance',cardId:original.session!.queue[0],sessionId:original.session!.id,expectedRatings:0},deck);
+    const command={type:'previous' as const,cardId:advanced.session!.queue[0],sessionId:advanced.session!.id,expectedRatings:0};
+    const previous=reduceSnapshot(advanced,command,deck);
+    expect(previous.session!.queue).toEqual(original.session!.queue);
+    expect(previous.session!.completed).toEqual([]);
+    expect(previous.events).toEqual(original.events);
+    expect(snapshotSchema.safeParse(previous).success).toBe(true);
+    expect(()=>reduceSnapshot(previous,command,deck)).toThrow('session changed');
+  });
+
+  it('shares only subject and order and validates incoming selection links', () => {
+    const url=studyLink('https://example.com','/series65/','economics','scheduled');
+    expect(url).toBe('https://example.com/series65/?subject=economics&order=sequential');
+    expect(selectionFromSearch(new URL(url).search)).toEqual({category:'economics',mode:'scheduled'});
+    expect(selectionFromSearch('?subject=all&order=shuffle')).toEqual({category:undefined,mode:'random'});
+    for(const search of ['', '?subject=secret', '?subject=all&order=invalid', '?subject=__proto__']) expect(selectionFromSearch(search)).toBeNull();
   });
 });

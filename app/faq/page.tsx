@@ -1,4 +1,4 @@
 import { pageMetadata,faqItems } from '@/lib/site-info';
 import { StructuredData } from '@/components/structured-data';
-export const metadata=pageMetadata('Frequently asked questions','Direct answers about the Series 65 Review flashcard deck, spaced repetition, offline study, local progress, and content review.','/faq/');
+export const metadata=pageMetadata('Frequently asked questions','Direct answers about the Series 65 Review flashcard deck, tap-through review, offline study, local progress, and content review.','/faq/');
 export default function FAQ(){return <article className="page prose"><p className="eyebrow">COMMON QUESTIONS</p><h1>Know what you are studying.</h1><p className="lead">What the app does, how your progress is saved, and where its limits are.</p>{faqItems.map(item=><section className="faq-item" key={item.q}><h2>{item.q}</h2><p>{item.a}</p></section>)}<StructuredData value={{'@context':'https://schema.org','@type':'FAQPage',mainEntity:faqItems.map(item=>({'@type':'Question',name:item.q,acceptedAnswer:{'@type':'Answer',text:item.a}}))}}/></article>;}

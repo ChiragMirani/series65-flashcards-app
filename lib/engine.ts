@@ -3,8 +3,10 @@ import { emptySnapshot } from './model';
 import { freshState, isDue, schedule, utcDay } from './scheduler';
 import { shuffled } from './shuffle';
 export type Command =
-  | {type:'start'; now:string; section?:number; retestOnly?:boolean; mode?:'random'; category?:Category; fullDeck?:boolean; resume?:boolean}
+  | {type:'start'; now:string; section?:number; retestOnly?:boolean; mode?:'random'|'scheduled'; category?:Category; fullDeck?:boolean; resume?:boolean}
   | {type:'rate'; cardId:string; rating:Rating; now:string; sessionId:string; expectedRatings?:number}
+  | {type:'advance'; cardId:string; sessionId:string; expectedRatings:number}
+  | {type:'previous'; cardId:string; sessionId:string; expectedRatings:number}
   | {type:'flag'; cardId:string; flag:'bookmarked'|'suspended'; value:boolean; now:string}
   | {type:'settings'; settings:Settings}
   | {type:'issue'; cardId:string; text:string; now:string}
@@ -25,11 +27,11 @@ export function makeSession(cards: Card[], state: Snapshot, now: Date, section?:
   const queue=(mode==='random'?shuffled(candidates,seed+2):candidates).slice(0,state.settings.sessionLength).map(c=>c.id);
   return {id:now.toISOString(), mode, ...(category?{category}:{}), startedAt:now.toISOString(), queue, completed:[], initialCount:queue.length, ratings:0};
 }
-export function makeFullDeckSession(cards:Card[], state:Snapshot, now:Date, category?:Category):Session {
+export function makeFullDeckSession(cards:Card[], state:Snapshot, now:Date, category?:Category, mode:'random'|'scheduled'=category?'scheduled':'random'):Session {
   const available=cards.filter(c=>(!category||c.category===category)&&!state.states[c.id]?.suspended);
-  const selected=category?available:shuffled(available,(now.getTime()^state.revision)>>>0);
+  const selected=mode==='random'?shuffled(available,(now.getTime()^state.revision)>>>0):available;
   const order=selected.map(c=>c.id);
-  return {id:`${now.toISOString()}:${state.revision}`,scope:'full-deck',mode:category?'scheduled':'random',...(category?{category}:{}),order,queue:[...order],completed:[],initialCount:order.length,ratings:0,startedAt:now.toISOString()};
+  return {id:`${now.toISOString()}:${state.revision}`,scope:'full-deck',mode,...(category?{category}:{}),order,queue:[...order],completed:[],initialCount:order.length,ratings:0,startedAt:now.toISOString()};
 }
 export function reduceSnapshot(state: Snapshot, command: Command, cards: Card[]): Snapshot {
   let next: Snapshot = {...state, states:{...state.states}};
@@ -39,7 +41,7 @@ export function reduceSnapshot(state: Snapshot, command: Command, cards: Card[])
   else if(command.type==='start') {
     if(command.fullDeck) {
       if(command.resume&&state.session?.scope==='full-deck') return state;
-      next.session=makeFullDeckSession(cards,state,new Date(command.now),command.category);
+      next.session=makeFullDeckSession(cards,state,new Date(command.now),command.category,command.mode);
     } else {
       if(state.session?.queue.length && !command.section && !command.retestOnly && !command.category && command.mode!=='random') return state;
       next.session = makeSession(cards, state, new Date(command.now),command.section,command.retestOnly,command.mode,command.category);
@@ -56,14 +58,28 @@ export function reduceSnapshot(state: Snapshot, command: Command, cards: Card[])
         } else next.session={...state.session,queue:state.session.queue.filter(id=>id!==command.cardId),completed:[...new Set([...state.session.completed,command.cardId])]};
       }
     }
-    if(command.type==='rate') {
+    if(command.type==='rate'||command.type==='advance'||command.type==='previous') {
       if(!state.session || state.session.id!==command.sessionId || state.session.queue[0]!==command.cardId || (command.expectedRatings!==undefined && state.session.ratings!==command.expectedRatings)) throw new Error('This session changed in another tab. Reloaded the latest progress.');
+    }
+    if(command.type==='advance') {
+      // Navigation is not a recall rating: preserve schedules and accuracy data.
+      next.session={...state.session!,queue:state.session!.queue.slice(1),completed:[...new Set([...state.session!.completed,command.cardId])]};
+    }
+    if(command.type==='previous') {
+      const session=state.session!;
+      const index=session.order?.indexOf(command.cardId)??-1;
+      if(index<=0) return state;
+      const previous=session.order![index-1];
+      next.session={...session,queue:[previous,...session.queue.filter(id=>id!==previous)],completed:session.completed.filter(id=>id!==previous)};
+    }
+    if(command.type==='rate') {
+      const session=state.session!;
       const previous=state.states[command.cardId] || freshState(command.cardId,new Date(command.now));
       next.states[command.cardId]=schedule(previous,command.rating,new Date(command.now));
-      const queue=state.session.queue.slice(1);
+      const queue=session.queue.slice(1);
       if(command.rating==='again') queue.splice(Math.min(2,queue.length),0,command.cardId);
-      next.session={...state.session,queue,ratings:state.session.ratings+1,completed:command.rating==='again'?state.session.completed:[...new Set([...state.session.completed,command.cardId])]};
-      next.events=[...state.events,{id:`${state.session.id}:${state.session.ratings}`,cardId:command.cardId,at:command.now,rating:command.rating,wasNew:previous.totalReviews===0}];
+      next.session={...session,queue,ratings:session.ratings+1,completed:command.rating==='again'?session.completed:[...new Set([...session.completed,command.cardId])]};
+      next.events=[...state.events,{id:`${session.id}:${session.ratings}`,cardId:command.cardId,at:command.now,rating:command.rating,wasNew:previous.totalReviews===0}];
     }
   }
   return {...next,revision:state.revision+1};

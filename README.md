@@ -4,7 +4,9 @@ A mobile-first final-review prototype in VocabDeck's visual style: white rounded
 
 **Open on your phone:** [Series 65 Review](https://chiragmirani.github.io/series65-flashcards-app/). The owner authorized this public study preview. You can add it to your phone's home screen and study offline after the initial download.
 
-**Study is one page:** the **Review area** dropdown sits directly above the flashcard. Choosing **Random** immediately loads a shuffled full deck with a **1 of 628** counter. Choosing a subject loads all its active cards: Laws & ethics **321**, Recommendations **187**, Investment vehicles **92**, or Economics & business **28**. Suspended cards are excluded from those totals. There is no Start screen; the selected deck and your place save automatically and survive refresh.
+**Study is one page:** the Subject dropdown selects All subjects or one of four areas. Shuffle mixes the selected deck; Sequential follows its source order. All subjects contains **628** cards: Laws & ethics **321**, Recommendations **187**, Investment vehicles **92**, and Economics & business **28**. Suspended cards are excluded. The counter sits inside the card, and the selected subject, order, and place save automatically.
+
+**Tap to reveal; tap again for the next card.** The question remains large and moves upward as the answer opens underneath, following the VocabDeck interaction. There are no rating buttons or separate reveal controls. Side arrows move between cards. Space and Enter support the same tap flow. The top link icon copies the subject and order; opening that link selects the same deck. Extra explanations, source details, and bookmark/suspend/report tools are in Card details. Utility navigation lives in the footer.
 
 **Commercial release is blocked.** Every card is a draft pending a human accuracy review and copyright/provenance audit. See [COMMERCIAL_RELEASE_BLOCKED.md](COMMERCIAL_RELEASE_BLOCKED.md). Public preview access and passing technical tests do not constitute commercial release approval.
 
@@ -30,7 +32,7 @@ Project path: `C:\Users\chira\Desktop\sports\datascience\series65-flashcards-app
 
 ## Product and architecture
 
-Study selection and review share the home page. Legacy `/review/` bookmarks redirect there. Browse, Progress, Settings, About, and FAQ remain available as utility pages. Due/new counts, streak, category mastery, weakest sections, and retest counts live on Progress. Review includes four ratings, same-session relearning, bookmarks, suspend/resume, local issue reports, and expandable explanations. Browse supports every requested filter. Settings include themes, motion preference, JSON export/import, and confirmed resets. Full-deck review includes future-due cards and has no daily or session cap; earlier limit settings remain in backup data for compatibility but do not limit this interface.
+Study selection and review share the home page. Legacy `/review/` bookmarks redirect there. Browse, Progress, Settings, About, and FAQ remain available as utility pages. Review includes tap navigation, bookmarks, suspend/resume, local issue reports, and expandable explanations. Historical recall statistics remain on Progress; tap navigation does not update those scores. Browse supports every requested filter. Settings include themes, motion preference, JSON export/import, and confirmed resets. Full-deck review includes future-due cards and has no daily or session cap. The earlier scheduler, rating data, and limit settings remain compatible with backups but are not exposed as study controls.
 
 | Module | Responsibility |
 |---|---|
@@ -45,7 +47,7 @@ Study selection and review share the home page. Legacy `/review/` bookmarks redi
 | `scripts/build-sw.mjs` | Complete static-export cache, versioned by content hash |
 | `lib/ports.ts` | Future auth, payment, entitlement, sync, and exam-concept contracts; no implementations |
 
-Every review commits its schedule, event, and session in one IndexedDB transaction before the UI advances. Read/write transactions serialize concurrent tab updates; BroadcastChannel refreshes the other tab. Errors do not silently reset saved data. See [scheduling](docs/spaced-repetition.md).
+Every advance commits the session position in one IndexedDB transaction before the UI moves to the next card. It preserves existing recall schedules and rating events. Read/write transactions serialize concurrent tab updates; BroadcastChannel refreshes the other tab. Errors do not silently reset saved data. See [navigation and the retained scheduler](docs/spaced-repetition.md).
 
 ## Reproducible content import
 
@@ -80,7 +82,7 @@ Tests exercise full-deck and subject counts, inline selection, saved position, s
 
 GitHub Actions verifies the root-hosted app, then builds and tests the GitHub Pages version before deploying `out/`. The Pages build sets `PUBLIC_SITE_URL=https://chiragmirani.github.io` and `NEXT_PUBLIC_BASE_PATH=/series65-flashcards-app`. Navigation, canonical URLs, icons, the manifest, worker scope, and cache URLs all include that prefix. Cache cleanup is isolated by app path. No hosting secrets or payment account are needed.
 
-To reproduce the hosted build locally in PowerShell, set those two environment variables, run `npm run build`, then `npm run test:pages`. The four deployment tests use port 3067 and check phone navigation, refresh, install metadata, and offline persistence. Set `PAGES_TEST_ORIGIN=https://chiragmirani.github.io` to run the same checks against the deployed site. Clear the build variables before rebuilding the ordinary localhost preview.
+To reproduce the hosted build locally in PowerShell, set those two environment variables, run `npm run build`, then `npm run test:pages`. The six deployment tests use port 3067 and check repeated finger taps, reveal geometry, sharing, order selection, phone navigation, refresh, install metadata, and offline persistence. Set `PAGES_TEST_ORIGIN=https://chiragmirani.github.io` to run the same checks against the deployed site. Clear the build variables before rebuilding the ordinary localhost preview.
 
 `npm run build` emits `out/`, including all route `.txt` navigation payloads, chunks, icons, and `sw.js`. Other HTTPS hosts may serve it at an origin root with an empty base path or at the configured prefix. Serve route `index.html` files and use JavaScript MIME plus `Cache-Control: no-cache` for `sw.js` when configurable. `scripts/serve.mjs` demonstrates routing. Do not deploy server intermediates or original study files.
 
@@ -91,7 +93,7 @@ The study preview remains deliberately noindex. Its project-level robots file do
 - Draft final-review content is neither a complete textbook nor verified exam questions. Self-rated recall and maturity are not exam scores or pass probabilities.
 - Progress is tied to a browser and origin. Browser eviction, private browsing, clearing site data, or changing origins can remove/separate it. Export backups; no cloud recovery exists.
 - Offline availability requires a successful initial cache download. Updates require connectivity. A downloaded static deck cannot be made subscription-secure with client-side flags.
-- UTC defines due days and streaks. Full-deck review is unrestricted by due dates. Again deliberately revisits a card at its original number, so rating attempts can exceed the displayed unique-card total.
+- UTC defines historical due days and rating streaks. Full-deck tap-through review is unrestricted by due dates and does not assign ratings or change recall schedules.
 - One deck is implemented. Deck reset preserves settings; all reset also restores them. Issue reports stay local until exported.
 - Review status changes require an authoring audit, not a learner rating. Accounts, 12-month access, Stripe, coupons, sync, sample entitlements, and four full exams are future work: [commercial roadmap](docs/commercial-roadmap.md).
 - The optional proposed WebMCP start-session tool is feature-detected. Native WebMCP validation was unavailable; no compatibility claim is made. It uses the same visible session action and never rates cards.
