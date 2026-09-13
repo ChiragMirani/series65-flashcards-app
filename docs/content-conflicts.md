@@ -1,0 +1,18 @@
+# Content conflicts and qualifications
+
+The canonical cram sheet controls this prototype. The original files were never edited. Optional question banks and keys were not read or imported. These are all conflicts identified in the four required inputs; this is not a legal audit.
+
+| Source conflict | Prototype treatment | Release action |
+|---|---|---|
+| Handoff describes the cram-sheet revision as September 10; the canonical document explicitly says September 12 despite its September 6 filename. | Use the September 12 canonical revision. | Confirm revision before every content update. |
+| Miss audit recommends leaving successor-firm procedure, trust DNI, and advertising-recipient records out; canonical section 27 includes them. | Include all three, at low priority. | Verify each against official authority. |
+| Miss audit recommends omitting entity tax-return deadlines; canonical section 16 includes them. | Include the canonical deadlines with a calendar-year assumption. | Review current IRS deadlines, exceptions, and holiday treatment. |
+| Older vendor figures in the sources use $1.1M/$2.2M qualified-client tests; the canonical sheet uses at least $1.4M managed or net worth over $2.7M, effective June 29, 2026. | Use canonical figures. SEC Release IA-6961 was inspected as a primary-source cross-check; cards still remain draft. | Human review of thresholds, residence treatment, transition rules, and applicability. |
+| Canonical section 22 warns that a vendor's “debt-to-equity” label may actually mean long-term debt divided by total capital. The miss audit names that inconsistency. | Use a self-contained prompt explicitly defining the formula and call it debt to total capital. Do not teach the vendor's incorrect label as a definition. | Verify conventional terminology and all denominator assumptions. |
+| Canonical section 21 says paying a declared cash dividend raises the current ratio without giving a starting ratio. This is mathematically conditional. | Make the above-one starting ratio explicit. The worked example uses current assets $90,000 and current liabilities $45,000 before a $9,000 payment. The original source remains untouched. | Human approval of the qualification. At a starting ratio of one there is no change; below one, the ratio falls. |
+| The question-design blueprint minimizes definition recall in scored hard drills; this product specification expressly requires atomic recall flashcards for every rule. | Include recall plus contrast companions and original changed-fact applications. This app is self-rated practice, not a scored hard exam. | Review transfer difficulty before adding scored exams. |
+| Handoff and audit contain different exam dates, scores, readiness judgments, and historical retest results. | Exclude all personal performance data from the product. Use concepts only to flag editorial retest priorities. | Ensure no personal notes enter future imports. |
+
+The source's special securities-law exclusions, 1956 Act assumptions, simplified civil limitation comparisons, ERISA exceptions, 529 rollovers, qualified-client tests, marketing rules, blackout thresholds, DNI, and tax rules require a jurisdiction- and date-aware professional review. This prototype does not generalize its exam summaries into legal or financial advice.
+
+Primary-source cross-check: [SEC Release IA-6961](https://www.sec.gov/files/rules/ia/2026/ia-6961.pdf). Its presence does not certify the complete deck.

@@ -3,7 +3,7 @@ import { emptySnapshot } from './model';
 import { freshState, isDue, schedule, utcDay } from './scheduler';
 export type Command =
   | {type:'start'; now:string; section?:number; retestOnly?:boolean}
-  | {type:'rate'; cardId:string; rating:Rating; now:string; sessionId:string}
+  | {type:'rate'; cardId:string; rating:Rating; now:string; sessionId:string; expectedRatings?:number}
   | {type:'flag'; cardId:string; flag:'bookmarked'|'suspended'; value:boolean; now:string}
   | {type:'settings'; settings:Settings}
   | {type:'issue'; cardId:string; text:string; now:string}
@@ -15,7 +15,7 @@ export function makeSession(cards: Card[], state: Snapshot, now: Date, section?:
   const reviewUsed = new Set(today.filter(e=>!e.wasNew).map(e=>e.cardId)).size;
   const available = cards.filter(c=>(!section || c.section===section) && (!retestOnly || c.retest) && !state.states[c.id]?.suspended);
   const rank = (a:Card,b:Card) => Number(b.retest)-Number(a.retest) || ({high:0,medium:1,low:2}[a.priority]-{high:0,medium:1,low:2}[b.priority]) || a.id.localeCompare(b.id);
-  const due = available.filter(c=>isDue(state.states[c.id],now)).sort((a,b)=>Number(state.states[b.id].stage==='learning')-Number(state.states[a.id].stage==='learning') || rank(a,b));
+  const due = available.filter(c=>isDue(state.states[c.id],now)).sort((a,b)=>Number(state.states[b.id].stage==='learning')-Number(state.states[a.id].stage==='learning') || state.states[b.id].lapses-state.states[a.id].lapses || rank(a,b));
   const fresh = available.filter(c=>!state.states[c.id]?.totalReviews).sort(rank);
   const queue = [...due.slice(0,Math.max(0,state.settings.dailyReviews-reviewUsed)),...fresh.slice(0,Math.max(0,state.settings.dailyNew-newUsed))].slice(0,state.settings.sessionLength).map(c=>c.id);
   return {id:now.toISOString(), startedAt:now.toISOString(), queue, completed:[], initialCount:queue.length, ratings:0};
@@ -36,7 +36,7 @@ export function reduceSnapshot(state: Snapshot, command: Command, cards: Card[])
       if(command.flag==='suspended' && command.value && state.session) next.session={...state.session,queue:state.session.queue.filter(id=>id!==command.cardId),completed:[...new Set([...state.session.completed,command.cardId])]};
     }
     if(command.type==='rate') {
-      if(!state.session || state.session.id!==command.sessionId || state.session.queue[0]!==command.cardId) throw new Error('This session changed in another tab. Reloaded the latest progress.');
+      if(!state.session || state.session.id!==command.sessionId || state.session.queue[0]!==command.cardId || (command.expectedRatings!==undefined && state.session.ratings!==command.expectedRatings)) throw new Error('This session changed in another tab. Reloaded the latest progress.');
       const previous=state.states[command.cardId] || freshState(command.cardId,new Date(command.now));
       next.states[command.cardId]=schedule(previous,command.rating,new Date(command.now));
       const queue=state.session.queue.slice(1);

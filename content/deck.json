@@ -229,13 +229,14 @@
     "governingRule": "The representative registers where the representative has a place of business; client count alone is insufficient.",
     "trap": "The representative must register in every state with six retail clients.",
     "explanation": "Distinguish the tested condition from this misconception: “The representative must register in every state with six retail clients.”",
+    "memoryHook": "For the federal representative, locate the desk.",
     "tags": [
       "federal-iar",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 1 — De minimis and state registration",
-    "contentVersion": "e57b539a6e171379ac7ea1c7e59afdc2df1bed7e1fba056ba50b721a041dd387",
+    "contentVersion": "29be9534776a47670c2735da85cf2c2d2ce7bfc7eba6f3e8952c44bc4930677c",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -253,13 +254,14 @@
     "governingRule": "The representative registers where the representative has a place of business; client count alone is insufficient.",
     "trap": "The representative must register in every state with six retail clients.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. The representative registers where the representative has a place of business; client count alone is insufficient.",
+    "memoryHook": "For the federal representative, locate the desk.",
     "tags": [
       "federal-iar",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 1 — De minimis and state registration",
-    "contentVersion": "5ba9847e883dae7dbf01a81e6fea90040dde74536c539410a4e18b66a47e57c0",
+    "contentVersion": "95ac175d59a9fea834953a4fd5de602517a82f60eb4771e455ed3931e6d04448",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -277,13 +279,14 @@
     "governingRule": "The representative registers where the representative has a place of business; client count alone is insufficient.",
     "trap": "The representative must register in every state with six retail clients.",
     "explanation": "The federal firm may have a notice-filing obligation; its representative uses the office test.",
+    "memoryHook": "For the federal representative, locate the desk.",
     "tags": [
       "federal-iar",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 1 — De minimis and state registration",
-    "contentVersion": "fcaf091904c15d00f4e806062b3108b60e9a1e3b523403bb691e618ad5a376e1",
+    "contentVersion": "f6d40eb9d8750a4dd72ae49679da905170a95888fd6e3170a294113658c77f98",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -1333,12 +1336,13 @@
     "governingRule": "12 credits: 6 Products and Practice plus 6 Ethics and Professional Responsibility.",
     "trap": "Any mix of 12 credits satisfies both categories.",
     "explanation": "Distinguish the tested condition from this misconception: “Any mix of 12 credits satisfies both categories.”",
+    "memoryHook": "Two six-credit buckets; no rollover.",
     "tags": [
       "ce-split"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 2 — IAR employment notice and continuing education",
-    "contentVersion": "fec2e8ee4f8552a8a58db3bd84bca2c655b0b175e5c86aae68c0eedad460c739",
+    "contentVersion": "85b759928bc7c5d530756484bce23b7d9821ad2805ae3287f585a7ab74065d25",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -1356,12 +1360,13 @@
     "governingRule": "12 credits: 6 Products and Practice plus 6 Ethics and Professional Responsibility.",
     "trap": "Any mix of 12 credits satisfies both categories.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. 12 credits: 6 Products and Practice plus 6 Ethics and Professional Responsibility.",
+    "memoryHook": "Two six-credit buckets; no rollover.",
     "tags": [
       "ce-split"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 2 — IAR employment notice and continuing education",
-    "contentVersion": "6bef4b878c9bb18a2731ca1353153a76d55e05d979e8916447eb2004e4230f3d",
+    "contentVersion": "ae9acd69adfcad112f06a2c36fbc8ef1b580399a8f721d1cc2b4c11919d0fc62",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -1617,13 +1622,14 @@
     "governingRule": "The Securities Act of 1933.",
     "trap": "The 1934 Act created the primary new-issue registration framework.",
     "explanation": "Distinguish the tested condition from this misconception: “The 1934 Act created the primary new-issue registration framework.”",
+    "memoryHook": "Issuing comes before trading: 1933 before 1934.",
     "tags": [
       "act-1933",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 3 — Form ADV (Uniform Application for Investment Adviser Registration and Report by Exempt Reporting Advisers), contracts, and federal acts",
-    "contentVersion": "885d29d99936bd180d49abc15bde63bc69cb4cf55460f1005c186c5593630e58",
+    "contentVersion": "f3d6d1d60baf2258e11a9529c47eed29910091de1bd8a3f9204c22a6f0f9338f",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -1641,13 +1647,14 @@
     "governingRule": "The Securities Act of 1933.",
     "trap": "The 1934 Act created the primary new-issue registration framework.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. The Securities Act of 1933.",
+    "memoryHook": "Issuing comes before trading: 1933 before 1934.",
     "tags": [
       "act-1933",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 3 — Form ADV (Uniform Application for Investment Adviser Registration and Report by Exempt Reporting Advisers), contracts, and federal acts",
-    "contentVersion": "a4f3aeb56ef775e35e68be74d49bc398289cd31c1a2440f125ca7ffff37b2bdb",
+    "contentVersion": "a715bd9a3e5c444321532f2c3e131672741183996491b1c7d4a347aa63efc04d",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -2377,12 +2384,13 @@
     "governingRule": "Within 90 days after the fiscal year ends.",
     "trap": "The annual brochure's 120-day window also applies to ADV.",
     "explanation": "Distinguish the tested condition from this misconception: “The annual brochure's 120-day window also applies to ADV.”",
+    "memoryHook": "File at ninety; deliver at one-twenty.",
     "tags": [
       "adv-update"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 4 — Registration clocks and federal/state AUM flips",
-    "contentVersion": "566815da68b79d0b4e8140d77637e2960db2b72a1856e91e309ccb0cfdda9cdd",
+    "contentVersion": "8f1cb4ddb9f8b7033670aff1be6bb229fd30230d90858df971ad745fa77842ad",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -2400,12 +2408,13 @@
     "governingRule": "Within 90 days after the fiscal year ends.",
     "trap": "The annual brochure's 120-day window also applies to ADV.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. Within 90 days after the fiscal year ends.",
+    "memoryHook": "File at ninety; deliver at one-twenty.",
     "tags": [
       "adv-update"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 4 — Registration clocks and federal/state AUM flips",
-    "contentVersion": "34f6219f04f2fa9fbdf79efe040fb3ae0a50bf9027c5833e6a49928af98a8e67",
+    "contentVersion": "a8c2111561e54e14e41f8047dd01ec39be9561dc70059f68d9abc75efc968903",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -2423,12 +2432,13 @@
     "governingRule": "Within 90 days after the fiscal year ends.",
     "trap": "The annual brochure's 120-day window also applies to ADV.",
     "explanation": "These are different obligations even though both clocks begin at fiscal year-end.",
+    "memoryHook": "File at ninety; deliver at one-twenty.",
     "tags": [
       "adv-update"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 4 — Registration clocks and federal/state AUM flips",
-    "contentVersion": "4d95a998423e7ecac696c16afce47d51ef3aa3c3e182bebe8ddc110375b768f2",
+    "contentVersion": "bcd035d2803230a4b2f22750f589e1fa3fec33af1df95ebd832864fce481dfca",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -3598,13 +3608,14 @@
     "governingRule": "Use the deficiency below the applicable minimum, rounded up to a $5,000 increment.",
     "trap": "The bond always equals the full minimum net worth.",
     "explanation": "Distinguish the tested condition from this misconception: “The bond always equals the full minimum net worth.”",
+    "memoryHook": "Find the gap, then round upward.",
     "tags": [
       "deficiency-bond",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 5 — Same subject, different deadline or consequence",
-    "contentVersion": "ad1d9d5df060ee83441da68f057e05ec4b70c49a3214e83982522297c5483489",
+    "contentVersion": "498ac3c6040c3fc739f1c746685c1f6163ff15dc5b302c53c5204e538ce1a239",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -3622,13 +3633,14 @@
     "governingRule": "Use the deficiency below the applicable minimum, rounded up to a $5,000 increment.",
     "trap": "The bond always equals the full minimum net worth.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. Use the deficiency below the applicable minimum, rounded up to a $5,000 increment.",
+    "memoryHook": "Find the gap, then round upward.",
     "tags": [
       "deficiency-bond",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 5 — Same subject, different deadline or consequence",
-    "contentVersion": "75a043b31c9968499b3dfd7561242e8cb8d3cfbb5bf345461aa2e59dad888734",
+    "contentVersion": "2d725743b4fb0af573fae377426e5f2aea0df69fc1c8d39184c8dbb9dfea6c33",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -3646,13 +3658,14 @@
     "governingRule": "Use the deficiency below the applicable minimum, rounded up to a $5,000 increment.",
     "trap": "The bond always equals the full minimum net worth.",
     "explanation": "$35,000 − $23,000 = $12,000 deficiency; round upward to the next $5,000 increment: $15,000.",
+    "memoryHook": "Find the gap, then round upward.",
     "tags": [
       "deficiency-bond",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 5 — Same subject, different deadline or consequence",
-    "contentVersion": "7e85faa6b4abbb8df9c4a00db30a4295f0f858713a6f3fbde0942b6fd660607f",
+    "contentVersion": "2fe0ddfe9f2a16bfd45dabc583ce870919091edbc3141ca4bb8f0abe4ef9f4fd",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -4782,13 +4795,14 @@
     "governingRule": "It requires qualified purchasers rather than the traditional 100-owner ceiling.",
     "trap": "The 100-owner ceiling governs both exclusions.",
     "explanation": "Distinguish the tested condition from this misconception: “The 100-owner ceiling governs both exclusions.”",
+    "memoryHook": "The fund checks investors; the adviser checks aggregate assets.",
     "tags": [
       "fund-seven",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 8 — Private fund versus private fund adviser",
-    "contentVersion": "5c2890dba295f89a9f6b4716a7b3f8a4483d88312130f5f15c9ffdc25fa552fe",
+    "contentVersion": "b7edc3d4ef6412402f3bfa8d78222c4ca213daa1495e4c885822751f603f5f20",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -4806,13 +4820,14 @@
     "governingRule": "It requires qualified purchasers rather than the traditional 100-owner ceiling.",
     "trap": "The 100-owner ceiling governs both exclusions.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. It requires qualified purchasers rather than the traditional 100-owner ceiling.",
+    "memoryHook": "The fund checks investors; the adviser checks aggregate assets.",
     "tags": [
       "fund-seven",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 8 — Private fund versus private fund adviser",
-    "contentVersion": "b74d4bf5c3f7add629b639f15db6ddd2b22a545256fd8870f483c1436fc9eb8e",
+    "contentVersion": "4be5b24a352089c016ffcc2b6adf3d080ce5d2748a24e11594a512603a029252",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -4830,13 +4845,14 @@
     "governingRule": "It requires qualified purchasers rather than the traditional 100-owner ceiling.",
     "trap": "The 100-owner ceiling governs both exclusions.",
     "explanation": "Section 3(c)(7) tests purchaser status; the traditional 100-owner ceiling belongs to section 3(c)(1).",
+    "memoryHook": "The fund checks investors; the adviser checks aggregate assets.",
     "tags": [
       "fund-seven",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 8 — Private fund versus private fund adviser",
-    "contentVersion": "6542a1db9b9e67d4766f6348e727cfff023a241bfd6be6d16768e22ee8551c6c",
+    "contentVersion": "4e7777f7347ccfddf5c8269cee402e6393501f9b03f1bdbb1afad3074a73cc56",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -6292,12 +6308,13 @@
     "governingRule": "Acquiring restricted securities in an unregistered or private transaction.",
     "trap": "Affiliate status alone creates a holding period for publicly bought shares.",
     "explanation": "Distinguish the tested condition from this misconception: “Affiliate status alone creates a holding period for publicly bought shares.”",
+    "memoryHook": "Acquisition sets the clock; affiliation sets the conditions.",
     "tags": [
       "restricted-clock"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 10 — Rule 144",
-    "contentVersion": "fc4d26960ae7d7ee88be7fc7e68e943b392dbf755d0961bedf52c7153776ffd8",
+    "contentVersion": "171c1e3d41d0e85cc154802485e162fc004b6cdd3fdf7a2d5d3bd8a730545bbc",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -6315,12 +6332,13 @@
     "governingRule": "Acquiring restricted securities in an unregistered or private transaction.",
     "trap": "Affiliate status alone creates a holding period for publicly bought shares.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. Acquiring restricted securities in an unregistered or private transaction.",
+    "memoryHook": "Acquisition sets the clock; affiliation sets the conditions.",
     "tags": [
       "restricted-clock"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 10 — Rule 144",
-    "contentVersion": "979c9e43954dcae0d42b62f524c40044d0de3ab5717c9dc476825b0361a9ad65",
+    "contentVersion": "a7d13f325bd201963224bf71d20c59b74efa12ee584d5a5f9c2801d53335e090",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -9459,13 +9477,14 @@
     "governingRule": "No. The named minor is already the beneficial owner and the gift is irrevocable.",
     "trap": "Managing the account gives the custodian the right to choose a new beneficiary.",
     "explanation": "Distinguish the tested condition from this misconception: “Managing the account gives the custodian the right to choose a new beneficiary.”",
+    "memoryHook": "The custodian holds the keys; the child owns the car.",
     "tags": [
       "utma-retest",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 14 — College and minor accounts",
-    "contentVersion": "58f94a1c87221e8405c07ffd991cd706d70716a6690bd363f678132580b115a1",
+    "contentVersion": "f19e422440dc56e90e50c804517bb9ac37b0fcbdd234ca883d0b86a00c2a1ba9",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -9483,13 +9502,14 @@
     "governingRule": "No. The named minor is already the beneficial owner and the gift is irrevocable.",
     "trap": "Managing the account gives the custodian the right to choose a new beneficiary.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. No. The named minor is already the beneficial owner and the gift is irrevocable.",
+    "memoryHook": "The custodian holds the keys; the child owns the car.",
     "tags": [
       "utma-retest",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 14 — College and minor accounts",
-    "contentVersion": "3714dd1f4a343778ed113498d89645fc247b8750aacc2a25e7ae4aa4b643a810",
+    "contentVersion": "0de4d5d452c124b419b1ef629e3f1591dea52be0c056bf47a6c25589e150b03b",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -9507,13 +9527,14 @@
     "governingRule": "No. The named minor is already the beneficial owner and the gift is irrevocable.",
     "trap": "Managing the account gives the custodian the right to choose a new beneficiary.",
     "explanation": "Control is management authority, not ownership or power to redirect the gift.",
+    "memoryHook": "The custodian holds the keys; the child owns the car.",
     "tags": [
       "utma-retest",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 14 — College and minor accounts",
-    "contentVersion": "6524677955a8f5f6b03a01e93900b3dd46bc7d865e9bcecd47a5469ea53854e7",
+    "contentVersion": "266e00e7d5e39d6d3d83b0bfab4a47c170d5ad1955b3d44f0ff512e053847229",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -10256,13 +10277,14 @@
     "governingRule": "A TIC interest can follow the will through the estate; a JTWROS interest goes directly to the survivor outside probate.",
     "trap": "A will supersedes an existing survivorship designation.",
     "explanation": "Distinguish the tested condition from this misconception: “A will supersedes an existing survivorship designation.”",
+    "memoryHook": "Read the title before reading the will.",
     "tags": [
       "will-title",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 15 — Client ownership, taxes, and transfers",
-    "contentVersion": "80c0a41a8b14697172b9ebdab5391bf9ec7af0038b20d4ca1e1b4c54062b4817",
+    "contentVersion": "c8f61ff02409f24703dd379691abb5d40dddcff3de4c4838b9ff1bf6c85aebb2",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -10280,13 +10302,14 @@
     "governingRule": "A TIC interest can follow the will through the estate; a JTWROS interest goes directly to the survivor outside probate.",
     "trap": "A will supersedes an existing survivorship designation.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. A TIC interest can follow the will through the estate; a JTWROS interest goes directly to the survivor outside probate.",
+    "memoryHook": "Read the title before reading the will.",
     "tags": [
       "will-title",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 15 — Client ownership, taxes, and transfers",
-    "contentVersion": "9bffd61510a91f3c4d51163153675d77328e2e258b98caf17da6c38645d17964",
+    "contentVersion": "689d9bf8b82a97c7512a7bbec43966af0df877b351e4843e229dc72e77b18792",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -10764,12 +10787,13 @@
     "governingRule": "Basis, then at risk, then passive-activity limitations.",
     "trap": "The largest of the three limits determines the deduction.",
     "explanation": "Distinguish the tested condition from this misconception: “The largest of the three limits determines the deduction.”",
+    "memoryHook": "Basis first, economic exposure second, passive income last.",
     "tags": [
       "loss-gates"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 16 — Business entities and direct participation program (DPP) losses",
-    "contentVersion": "1974d27a0c45d6c3b970f8e9a840d2c57111eb930fcf52318cfbcc71d422d40d",
+    "contentVersion": "2fbc76537b14a97f126f0c5c01fb47e6950c3f22fc7216c45fd7a1e7dfb2c403",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -10787,12 +10811,13 @@
     "governingRule": "Basis, then at risk, then passive-activity limitations.",
     "trap": "The largest of the three limits determines the deduction.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. Basis, then at risk, then passive-activity limitations.",
+    "memoryHook": "Basis first, economic exposure second, passive income last.",
     "tags": [
       "loss-gates"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 16 — Business entities and direct participation program (DPP) losses",
-    "contentVersion": "e20bba1f9ea18b25cfb56cb6d9af6655fbc3445b42bb8891955b0200196a8561",
+    "contentVersion": "e59c799f947bb85ac8e921391525e147c449485d5ef7b4d37ae07c9d9b666cea",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -10810,12 +10835,13 @@
     "governingRule": "Basis, then at risk, then passive-activity limitations.",
     "trap": "The largest of the three limits determines the deduction.",
     "explanation": "Allocated loss is capped at $16,000 by basis, then $12,000 by at-risk rules, then $7,000 by passive income.",
+    "memoryHook": "Basis first, economic exposure second, passive income last.",
     "tags": [
       "loss-gates"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 16 — Business entities and direct participation program (DPP) losses",
-    "contentVersion": "d5694b7cb940c1bb5e44911fe30f9d2878c0b9fb81217c2bf4527c6bbea2db6e",
+    "contentVersion": "c7741947c3d55b186edfecb9c1646e54e123b79638f43338ad14077eadac7a9e",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -11776,13 +11802,14 @@
     "governingRule": "Solve (assets − repayment) ÷ (debt − repayment) = 3.",
     "trap": "Subtract the repayment from debt while leaving assets unchanged.",
     "explanation": "Distinguish the tested condition from this misconception: “Subtract the repayment from debt while leaving assets unchanged.”",
+    "memoryHook": "Cash leaves both sides of the coverage fraction.",
     "tags": [
       "repay-equation",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 18 — Mutual funds",
-    "contentVersion": "2a04efe7c18c454df4d7a85ba741fba5370d2d34d89d5283a9236e67d7a3cf9d",
+    "contentVersion": "05e3b5b701255afdd605fcc0a61f01bdbb6047ee3db076728d82f5a4d5179bb2",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -11800,13 +11827,14 @@
     "governingRule": "Solve (assets − repayment) ÷ (debt − repayment) = 3.",
     "trap": "Subtract the repayment from debt while leaving assets unchanged.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. Solve (assets − repayment) ÷ (debt − repayment) = 3.",
+    "memoryHook": "Cash leaves both sides of the coverage fraction.",
     "tags": [
       "repay-equation",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 18 — Mutual funds",
-    "contentVersion": "1793c989d6485fa0835c7371677052862c5d1be9019ebf83c1ff677d461f87b9",
+    "contentVersion": "cebe994acd95795232b2abacbc300f706094c22f0f0483b0e5d7ff4b321c0ad5",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -11824,13 +11852,14 @@
     "governingRule": "Solve (assets − repayment) ÷ (debt − repayment) = 3.",
     "trap": "Subtract the repayment from debt while leaving assets unchanged.",
     "explanation": "(18 − x)/(7 − x) = 3 → 18 − x = 21 − 3x → 2x = 3 → x = 1.5. Remaining assets 16.5 ÷ debt 5.5 = 3.",
+    "memoryHook": "Cash leaves both sides of the coverage fraction.",
     "tags": [
       "repay-equation",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 18 — Mutual funds",
-    "contentVersion": "77b0336d259dd8cc02196d32a49cd3edaa67b98c6e1ed1dae602bb808b62ffb1",
+    "contentVersion": "589f9164630f55de39a89d5c18c363269aef827c1a18e2905725457c56bdcc1b",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -12653,13 +12682,14 @@
     "governingRule": "Flexible premiums and interest-sensitive cash value, with a loan possible if value is sufficient.",
     "trap": "Universal life necessarily uses fixed premiums and separate-account market exposure.",
     "explanation": "Distinguish the tested condition from this misconception: “Universal life necessarily uses fixed premiums and separate-account market exposure.”",
+    "memoryHook": "Flexible premiums, interest-sensitive value.",
     "tags": [
       "universal-life",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 20 — Annuities and life insurance",
-    "contentVersion": "a7dc1977a6b861ce2494614f28da1c1b6c4989f6d7b3ade64e28999f9d535e76",
+    "contentVersion": "657f86811041b7a7107a8c60c303142718d07c56590acbf48758918d5df5dc25",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -12677,13 +12707,14 @@
     "governingRule": "Flexible premiums and interest-sensitive cash value, with a loan possible if value is sufficient.",
     "trap": "Universal life necessarily uses fixed premiums and separate-account market exposure.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. Flexible premiums and interest-sensitive cash value, with a loan possible if value is sufficient.",
+    "memoryHook": "Flexible premiums, interest-sensitive value.",
     "tags": [
       "universal-life",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 20 — Annuities and life insurance",
-    "contentVersion": "b41b65b5adf43e97eccf7de65445a330cb297d8bbf01f9a9acd7f8c9380d7c3c",
+    "contentVersion": "7e452ca0d579e6dfc8d5415c3b0e646a1c4fa17728ef9735601dcdbf6145f540",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -12701,13 +12732,14 @@
     "governingRule": "Flexible premiums and interest-sensitive cash value, with a loan possible if value is sufficient.",
     "trap": "Universal life necessarily uses fixed premiums and separate-account market exposure.",
     "explanation": "Flexible premiums and interest-sensitive cash value distinguish it from whole and variable life.",
+    "memoryHook": "Flexible premiums, interest-sensitive value.",
     "tags": [
       "universal-life",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 20 — Annuities and life insurance",
-    "contentVersion": "a2d359c26d79cf4d4e740b932e726ae51de7bcdddec03ba081effac982189e24",
+    "contentVersion": "a2533b2330c5804dd793f38f488d44e01894dbe7f6453a823a9eff3cc74c888c",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -13299,13 +13331,14 @@
     "governingRule": "Divide the tax-free yield by one minus the tax rate.",
     "trap": "Multiply the tax-free yield by one minus the tax rate.",
     "explanation": "Distinguish the tested condition from this misconception: “Multiply the tax-free yield by one minus the tax rate.”",
+    "memoryHook": "To compare with a taxable bond, gross up the tax-free yield.",
     "tags": [
       "tax-equivalent",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 21 — Bonds, dividends, and risk labels",
-    "contentVersion": "0d984361f126bd7837bc4c4290a6eb448fa34c9427e2c6ae14b0c74980bffcc0",
+    "contentVersion": "94577edf8613455ad6df9abd5a9b3731ee4a442181c71ed6c681d418fb232fbc",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -13323,13 +13356,14 @@
     "governingRule": "Divide the tax-free yield by one minus the tax rate.",
     "trap": "Multiply the tax-free yield by one minus the tax rate.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. Divide the tax-free yield by one minus the tax rate.",
+    "memoryHook": "To compare with a taxable bond, gross up the tax-free yield.",
     "tags": [
       "tax-equivalent",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 21 — Bonds, dividends, and risk labels",
-    "contentVersion": "c3a10762cbb487d95606ecb1d9a6dad825710d5711cbc8a2c8565d30217bf112",
+    "contentVersion": "1f09342bca9d9296f509b583cd6902b6138cc08ea3192e5d54d69908b18d72bd",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -13347,13 +13381,14 @@
     "governingRule": "Divide the tax-free yield by one minus the tax rate.",
     "trap": "Multiply the tax-free yield by one minus the tax rate.",
     "explanation": "3.6% ÷ (1 − 0.28) = 3.6% ÷ 0.72 = 5%.",
+    "memoryHook": "To compare with a taxable bond, gross up the tax-free yield.",
     "tags": [
       "tax-equivalent",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 21 — Bonds, dividends, and risk labels",
-    "contentVersion": "79871034947795137487b63b5aede15a76844edca5d1e2df6a54fb57eb119a9a",
+    "contentVersion": "d1365663aede7c7c57f97b2f722b42a55e2f1c1c8c48771f35ace2b0ed377539",
     "retest": true,
     "reviewStatus": "draft"
   },
@@ -13923,12 +13958,13 @@
     "governingRule": "Disclaimer: no opinion.",
     "trap": "Missing evidence is automatically proof of a known misstatement.",
     "explanation": "Distinguish the tested condition from this misconception: “Missing evidence is automatically proof of a known misstatement.”",
+    "memoryHook": "Unknown evidence, no opinion; known error, adverse.",
     "tags": [
       "disclaimer"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 24 — Auditor opinions",
-    "contentVersion": "1df713cb6a204962d1e1217cbc7c3f33a9dfd788814d05dbe9a984d7a3100aa8",
+    "contentVersion": "0c2893ff4c7eee34fd6ca191a4cd06747fbb4bc67757bab683ea1e37f9286f2c",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -13946,12 +13982,13 @@
     "governingRule": "Disclaimer: no opinion.",
     "trap": "Missing evidence is automatically proof of a known misstatement.",
     "explanation": "The issue is inability to obtain evidence, not a known pervasive misstatement that would warrant adverse.",
+    "memoryHook": "Unknown evidence, no opinion; known error, adverse.",
     "tags": [
       "disclaimer"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 24 — Auditor opinions",
-    "contentVersion": "882b885bd51e0738ca58fa828d36a448b3380091a9bf490d0bce79dd16fa22fc",
+    "contentVersion": "af8fd22659bd7b2487343c8db5935fe483a42322cf8f1137223dede2cacae103",
     "retest": false,
     "reviewStatus": "draft"
   },

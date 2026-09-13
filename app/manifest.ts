@@ -1,0 +1,3 @@
+import type { MetadataRoute } from 'next';
+export const dynamic='force-static';
+export default function manifest():MetadataRoute.Manifest{return {id:'/',name:'Series 65 Review',short_name:'Series65',description:'Focused Series 65 flashcards and spaced repetition.',start_url:'/',scope:'/',display:'standalone',background_color:'#f5f5f7',theme_color:'#0066cc',lang:'en',icons:[{src:'/icon-192.png',sizes:'192x192',type:'image/png',purpose:'any'},{src:'/icon-512.png',sizes:'512x512',type:'image/png',purpose:'any'},{src:'/icon-maskable-512.png',sizes:'512x512',type:'image/png',purpose:'maskable'}]};}

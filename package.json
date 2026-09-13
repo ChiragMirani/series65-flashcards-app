@@ -8,11 +8,12 @@
     "build": "next build && node scripts/build-sw.mjs",
     "start": "node scripts/serve.mjs",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
     "test:e2e": "playwright test",
     "content:import": "tsx scripts/import-content.ts",
     "content:check": "tsx scripts/import-content.ts --check",
+    "icons:build": "node scripts/build-icons.mjs",
     "check": "npm run lint && npm run typecheck && npm test && npm run build"
   },
   "dependencies": {
@@ -23,6 +24,6 @@
     "@tailwindcss/postcss": "4.3.3", "tailwindcss": "4.3.3",
     "typescript": "^5.9.3", "@types/node": "^24.10.0", "@types/react": "^19.2.0", "@types/react-dom": "^19.2.0",
     "eslint": "^9.39.0", "eslint-config-next": "16.3.5", "tsx": "^4.21.0",
-    "vitest": "5.0.0", "fake-indexeddb": "^6.2.5", "@playwright/test": "1.63.0", "@axe-core/playwright": "^4.11.1"
+    "vitest": "5.0.0", "fake-indexeddb": "^6.2.5", "@playwright/test": "1.63.0", "@axe-core/playwright": "^4.11.1", "sharp": "0.35.4"
   }
 }

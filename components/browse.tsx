@@ -1,0 +1,24 @@
+'use client';
+import { useState } from 'react';
+import { useSearchParams } from 'next/navigation';
+import { Search } from 'lucide-react';
+import { deck,sections } from '@/lib/deck';
+import { categories } from '@/lib/model';
+import { isDue } from '@/lib/scheduler';
+import { useStudy } from './study-provider';
+import { AnswerDetails,CardActions } from './card-actions';
+export function Browse(){
+  const params=useSearchParams();const {data,now}=useStudy();
+  const [search,setSearch]=useState('');const [section,setSection]=useState(params.get('section')||'');const [category,setCategory]=useState(params.get('category')||'');
+  const [priority,setPriority]=useState('');const [type,setType]=useState('');const [due,setDue]=useState('');const [bookmarked,setBookmarked]=useState(false);const [retest,setRetest]=useState(false);const [limit,setLimit]=useState(30);
+  const query=search.toLocaleLowerCase().trim();
+  const results=deck.filter(c=>{const s=data?.states[c.id];return (!query||`${c.front} ${c.answer} ${c.tags.join(' ')} ${c.sourceHeading}`.toLocaleLowerCase().includes(query))&&(!section||c.section===Number(section))&&(!category||c.category===category)&&(!priority||c.priority===priority)&&(!type||c.type===type)&&(!bookmarked||s?.bookmarked)&&(!retest||c.retest)&&(!due||(due==='due'?isDue(s,now):due==='new'?!s?.totalReviews:due==='suspended'?s?.suspended:s&&s.totalReviews>0&&!isDue(s,now)&&!s.suspended));});
+  const reset=()=>{setSearch('');setSection('');setCategory('');setPriority('');setType('');setDue('');setBookmarked(false);setRetest(false);setLimit(30);};
+  return <div className="page"><div className="page-heading"><div><p className="eyebrow">THE COMPLETE REVIEW DECK</p><h1>Find the rule you need.</h1><p className="muted">{deck.length} original draft cards · {sections.length} sections</p></div></div><section className="filter-panel" aria-label="Card filters"><label className="search-box"><Search aria-hidden="true"/><span className="sr-only">Search all cards</span><input type="search" placeholder="Search a rule, phrase, or topic" value={search} onChange={e=>{setSearch(e.target.value);setLimit(30);}}/></label><div className="filter-grid">
+    <label>Section<select value={section} onChange={e=>setSection(e.target.value)}><option value="">All sections</option>{sections.map(s=><option value={s.number} key={s.number}>{s.number}. {s.title}</option>)}</select></label>
+    <label>Category<select value={category} onChange={e=>setCategory(e.target.value)}><option value="">All categories</option>{Object.entries(categories).map(([key,c])=><option value={key} key={key}>{c.title}</option>)}</select></label>
+    <label>Priority<select value={priority} onChange={e=>setPriority(e.target.value)}><option value="">All priorities</option>{['high','medium','low'].map(p=><option key={p}>{p}</option>)}</select></label>
+    <label>Card type<select value={type} onChange={e=>setType(e.target.value)}><option value="">All types</option>{['recall','application','contrast','calculation'].map(t=><option key={t}>{t}</option>)}</select></label>
+    <label>Due status<select value={due} onChange={e=>setDue(e.target.value)}><option value="">Any status</option><option value="due">Due now</option><option value="new">New</option><option value="scheduled">Scheduled later</option><option value="suspended">Suspended</option></select></label></div><div className="filter-bottom"><label className="checkbox-label"><input type="checkbox" checked={bookmarked} onChange={e=>setBookmarked(e.target.checked)}/>Bookmarked</label><label className="checkbox-label"><input type="checkbox" checked={retest} onChange={e=>setRetest(e.target.checked)}/>Retest only</label><button className="text-button" onClick={reset}>Clear filters</button></div></section>
+    <p className="result-count" role="status">{results.length} cards found{!data?' · Opening saved progress…':''}</p><div className="browse-list">{results.slice(0,limit).map(card=><details className="browse-card" key={card.id}><summary><span className="browse-card-meta">Section {card.section} · {card.type}{card.retest?' · Retest':''}{data?.states[card.id]?.suspended?' · Suspended':''}</span><span>{card.front}</span></summary><div className="browse-answer"><p className="answer-text">{card.answer}</p><AnswerDetails card={card}/><CardActions card={card}/></div></details>)}</div>{results.length===0&&<div className="empty-state compact"><h2>No matching cards.</h2><p>Try a shorter phrase or clear a filter.</p><button className="button secondary" onClick={reset}>Clear filters</button></div>}{results.length>limit&&<div className="button-row"><button className="button secondary" onClick={()=>setLimit(limit+30)}>Show 30 more</button></div>}<p className="draft-note">Every card is a draft pending a human content audit. The source panel shows the canonical section, without private study notes.</p></div>;
+}
