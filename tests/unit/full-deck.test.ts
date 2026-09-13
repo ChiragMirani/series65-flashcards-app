@@ -1,4 +1,4 @@
-﻿import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'vitest';
 import { deck } from '../../lib/deck';
 import { emptySnapshot, snapshotSchema, type Category, type Rating, type Snapshot } from '../../lib/model';
 import { makeFullDeckSession, reduceSnapshot } from '../../lib/engine';
@@ -17,7 +17,7 @@ describe('one-page full-deck review', () => {
     state.settings = { ...state.settings, dailyNew: 0, dailyReviews: 0, sessionLength: 1 };
     state.states[deck[0].id] = { ...freshState(deck[0].id, now), totalReviews: 1, stage: 'review', due: '2027-01-01T00:00:00Z' };
     const session = makeFullDeckSession(deck, state, now);
-    expect(session.initialCount).toBe(628);
+    expect(session.initialCount).toBe(632);
     expect(new Set(session.queue)).toEqual(new Set(deck.map(c => c.id)));
     expect(session.order).toEqual(session.queue);
     expect(session.queue).not.toEqual(deck.map(c => c.id));
@@ -27,7 +27,7 @@ describe('one-page full-deck review', () => {
   });
 
   it('selects every card in each subject and excludes suspended cards', () => {
-    const counts = { laws: 321, recommendations: 187, vehicles: 92, economics: 28 };
+    const counts = { laws: 321, recommendations: 187, vehicles: 96, economics: 28 };
     for (const category of Object.keys(counts) as Category[]) {
       const session = start(emptySnapshot(), category).session!;
       expect(session.initialCount).toBe(counts[category]);
@@ -36,7 +36,7 @@ describe('one-page full-deck review', () => {
     const state = emptySnapshot();
     const excluded = deck.find(c => c.category === 'economics')!;
     state.states[excluded.id] = { ...freshState(excluded.id, now), suspended: true };
-    expect(start(state).session!.initialCount).toBe(627);
+    expect(start(state).session!.initialCount).toBe(deck.length - 1);
     const subject = start(state, 'economics').session!;
     expect(subject.initialCount).toBe(27);
     expect(subject.queue).not.toContain(excluded.id);
@@ -61,7 +61,7 @@ describe('one-page full-deck review', () => {
     state = rate(state);
     state = reduceSnapshot(state, { type: 'flag', cardId: deck[0].id, flag: 'bookmarked', value: true, now: now.toISOString() }, deck);
     const migrated = reduceSnapshot(state, { type: 'start', fullDeck: true, resume: true, now: now.toISOString() }, deck);
-    expect(migrated.session!.initialCount).toBe(628);
+    expect(migrated.session!.initialCount).toBe(632);
     expect(migrated.states).toEqual(state.states);
     expect(migrated.events).toEqual(state.events);
     expect(migrated.settings).toEqual(state.settings);

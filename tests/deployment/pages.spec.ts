@@ -7,12 +7,12 @@ test('one page opens a full deck and switches all subjects inline with the corre
   const counter = page.locator('.card-position');
   await expect(selector).toHaveValue('all');
   await expect(selector.locator('option')).toHaveCount(5);
-  await expect(counter).toHaveText('1 of 628');
+  await expect(counter).toHaveText('1 of 632');
   await expect(page.locator('.question-button')).toBeVisible();
   await expect(page.getByRole('button', { name: /^(Start|Continue) review$/ })).toHaveCount(0);
   await expect(page.getByRole('link', { name: 'Save & exit' })).toHaveCount(0);
   const studyUrl = page.url();
-  for (const [category, count] of Object.entries({ laws: 321, recommendations: 187, vehicles: 92, economics: 28 })) {
+  for (const [category, count] of Object.entries({ laws: 321, recommendations: 187, vehicles: 96, economics: 28 })) {
     await selector.selectOption(category);
     await expect(counter).toHaveText(`1 of ${count}`);
     await expect(page.locator('.question-button')).toBeVisible();
@@ -31,7 +31,7 @@ test('one page opens a full deck and switches all subjects inline with the corre
   await expect(page.locator('.study-question')).toHaveText(question);
   await expect(counter).toHaveText('2 of 28');
   await selector.selectOption('all');
-  await expect(counter).toHaveText('1 of 628');
+  await expect(counter).toHaveText('1 of 632');
   await expect(page).toHaveURL(studyUrl);
 });
 
@@ -81,16 +81,16 @@ test('hosted worker caches unvisited pages and saves phone reviews offline', asy
   await context.setOffline(true);
   await page.goto(`${prefix}/review/`);
   await expect(page).toHaveURL(new RegExp(`${prefix}/$`));
-  await expect(page.locator('.card-position')).toHaveText('1 of 628');
+  await expect(page.locator('.card-position')).toHaveText('1 of 632');
   await page.getByRole('button', { name: 'Reveal answer', exact: true }).click();
   await page.getByRole('button', { name: 'Next card', exact: true }).click();
   await expect(page.locator('.question-button')).toBeVisible();
   const next = await page.locator('.study-question').innerText();
   await page.reload();
   await expect(page.locator('.study-question')).toHaveText(next);
-  await expect(page.locator('.card-position')).toHaveText('2 of 628');
+  await expect(page.locator('.card-position')).toHaveText('2 of 632');
   await page.getByRole('link', { name: 'Progress', exact: true }).click();
-  await page.getByRole('link', { name: 'Study', exact: true }).click();await expect(page.locator('.card-position')).toHaveText('2 of 628');
+  await page.getByRole('link', { name: 'Study', exact: true }).click();await expect(page.locator('.card-position')).toHaveText('2 of 632');
 });
 
 test('repeated finger taps reveal and advance at the same spot without ratings', async ({ page }) => {
@@ -103,23 +103,41 @@ test('repeated finger taps reveal and advance at the same spot without ratings',
     await page.touchscreen.tap(x, y);
     await expect(page.locator('.answer-text')).toBeVisible();
     await expect(action).toHaveAttribute('aria-label', 'Next card');await expect(page.locator('.study-answer-wrap')).toHaveCSS('opacity', '1');
-    await expect(page.locator('.card-position')).toHaveText(`${index} of 628`);
+    await expect(page.locator('.card-position')).toHaveText(`${index} of 632`);
     await expect(page.getByRole('button', { name: /^(Again|Hard|Good|Easy)/ })).toHaveCount(0);
     await page.touchscreen.tap(x, y);
     await expect(page.locator('.question-button')).toBeVisible();
-    await expect(page.locator('.card-position')).toHaveText(`${index + 1} of 628`);
+    await expect(page.locator('.card-position')).toHaveText(`${index + 1} of 632`);
   }
   await page.locator('.question-button').tap();
   await page.getByText('Card details', { exact: true }).tap();
-  await expect(page.locator('.card-position')).toHaveText('4 of 628');
+  await expect(page.locator('.card-position')).toHaveText('4 of 632');
   await page.getByText('Card details', { exact: true }).tap();
   await page.locator('.answer-text').tap();
-  await expect(page.locator('.card-position')).toHaveText('5 of 628');
+  await expect(page.locator('.card-position')).toHaveText('5 of 632');
   await expect(page.locator('.question-button')).toBeVisible();
   const next = await page.locator('.study-question').innerText();
   await page.reload();
   await expect(page.locator('.study-question')).toHaveText(next);
-  await expect(page.locator('.card-position')).toHaveText('5 of 628');
+  await expect(page.locator('.card-position')).toHaveText('5 of 632');
+});
+
+test('published answer has a public reference without advancing the card', async ({ page, context }) => {
+  await context.route('https://www.nasaa.org/**', route => route.fulfill({contentType:'text/html',body:'<h1>Public reference</h1>'}));
+  await page.goto(`${prefix}/?subject=all&order=sequential`);
+  await expect(page.locator('.study-source')).toHaveCount(0);
+  const question = page.locator('.study-question');
+  await expect(question).toContainText('five or fewer retail clients');
+  const before = await question.innerText();
+  await page.getByRole('button', {name:'Reveal answer',exact:true}).tap();
+  await expect(question).toHaveText(before);
+  const source = page.locator('.study-source a');
+  await expect(source).toHaveAttribute('href', 'https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf');
+  const popupPromise = page.waitForEvent('popup');
+  await source.tap();
+  const popup = await popupPromise; await popup.waitForLoadState(); await popup.close();
+  await expect(page.locator('.card-position')).toHaveText('1 of 632');
+  await expect(page.getByRole('button', {name:'Next card',exact:true})).toBeVisible();
 });
 
 test('VocabDeck reveal motion, order toggle, previous card and share link', async ({ page, browser }) => {

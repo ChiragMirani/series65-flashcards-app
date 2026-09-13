@@ -7,6 +7,7 @@ import { cardById } from '@/lib/deck';
 import { categories, type Category, type Card } from '@/lib/model';
 import { selectionFromSearch, type StudyOrder } from '@/lib/study-selection';
 import { AnswerDetails, CardActions } from './card-actions';
+import { OfficialLinks } from './official-links';
 
 export function Review() {
   const { data, busy, error, dispatch } = useStudy();
@@ -82,6 +83,7 @@ function ReviewCard({ card, position, total }: { card:Card; position:number; tot
       <span className={`study-answer-wrap ${revealed ? 'show' : ''}`} aria-hidden={!revealed}><span className="study-answer-clip"><span className="answer-text" id={`answer-${card.id}`}>{card.answer}</span></span></span>
       <small className="study-hint">{revealed ? 'tap for next' : 'tap to reveal'}</small>
     </button>
+    {revealed && <div className="study-source"><OfficialLinks card={card}/></div>}
     <button className="card-arrow next" aria-label="Skip to next card" disabled={busy} onClick={() => void advance()}><ChevronRight aria-hidden="true"/></button>
     <p className="card-position" aria-live="polite" aria-atomic="true">{position} of {total}</p>
     <span className="sr-only" role="status">{revealed ? 'Answer revealed. Tap again for the next card.' : 'Question ready.'}</span>

@@ -6,9 +6,9 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 
 ## Input fingerprints
 
-- C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md — SHA-256 f9f5cd2f506fea7046fab34c27ff72ecc046216bdddff6ae21d61e1e6cac75fc
+- C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md — SHA-256 59bcd149398c961f3a35b919ddd662eb5fd38fd74183b0b50644ecc5a43877a7
 - C:\Users\chira\Desktop\sports\datascience\series_65_question_design_research.md — SHA-256 b6e5f333f557230acba4e5902b3569bc49cb6f88ae066029f8342b8fc1aee7e2
-- C:\Users\chira\Desktop\sports\datascience\series_65_new_chat_handoff.md — SHA-256 9312659a21abef3787dad6abbfaaed5dce4ad9599f09182c98bf0d68db30c3b0
+- C:\Users\chira\Desktop\sports\datascience\series_65_new_chat_handoff.md — SHA-256 b041accb930b7fe9bc4289453fa68a77a28622554b72525a307141a8755b0782
 - C:\Users\chira\Desktop\sports\datascience\series_65_test_5_miss_audit_2026-09-12.md — SHA-256 b0afdb1fac1e27045c7fee48a1439d848dd30663064c48a9c75b88147625d878
 
 ## Rule provenance
@@ -250,6 +250,7 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 | s65-18-shareholder-report | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 18 — Mutual funds | REQUIRED: primary authority + human wording audit |
 | s65-18-coverage-three | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 18 — Mutual funds | REQUIRED: primary authority + human wording audit |
 | s65-18-repay-equation | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 18 — Mutual funds | REQUIRED: primary authority + human wording audit |
+| s65-18-borrow-equation | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 18 — Mutual funds | REQUIRED: primary authority + human wording audit |
 | s65-19-right | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 19 — Rights, warrants, and calls | REQUIRED: primary authority + human wording audit |
 | s65-19-warrant | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 19 — Rights, warrants, and calls | REQUIRED: primary authority + human wording audit |
 | s65-19-listed-call | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 19 — Rights, warrants, and calls | REQUIRED: primary authority + human wording audit |

@@ -30,6 +30,10 @@ body{padding-bottom:0}
 .study-face .study-hint{margin-top:24px;font-size:.8rem;font-weight:400;color:var(--muted)}
 .card-position{position:absolute;bottom:18px;left:44px;right:44px;text-align:center;font-size:.8rem;font-weight:600;color:var(--muted);pointer-events:none;font-variant-numeric:tabular-nums}
 .card-draft{position:absolute;right:20px;top:14px;color:var(--muted);font-size:.65rem;text-transform:capitalize;pointer-events:none}
+.official-links{display:flex;flex-wrap:wrap;justify-content:center;gap:0 12px}
+.official-links a{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:0 8px;color:var(--muted);font-size:.75rem;text-decoration:underline;text-underline-offset:3px}
+.study-source{position:absolute;bottom:35px;left:44px;right:44px}
+.study-face.answer-button{padding-bottom:102px}
 .card-arrow{position:absolute;top:50%;transform:translateY(-50%);width:44px;min-height:64px;display:grid;place-items:center;border:0;background:transparent;color:var(--muted);z-index:2}
 .card-arrow.previous{left:0}.card-arrow.next{right:0}.card-arrow:disabled{opacity:.2;cursor:default}
 .study-order{display:inline-flex;align-self:center;border:2px solid var(--text);border-radius:99px;overflow:hidden;margin:0 auto 4px}

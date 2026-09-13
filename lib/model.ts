@@ -11,6 +11,12 @@ export const ratingSchema = z.enum(['again','hard','good','easy']);
 export type Rating = z.infer<typeof ratingSchema>;
 const iso = z.string().datetime();
 const safeId = z.string().regex(/^s65-[a-z0-9-]+$/).max(140);
+export const officialSourceSchema = z.object({
+  authority: z.string().min(2), title: z.string().min(8),
+  url: z.url().refine(value => new URL(value).protocol === 'https:', 'Public references must use HTTPS.'),
+  kind: z.enum(['rule', 'guidance', 'reference', 'outline']),
+});
+export type OfficialSource = z.infer<typeof officialSourceSchema>;
 export const cardSchema = z.object({
   id: safeId, ruleId: safeId, deckId: z.literal('series65'),
   section: z.number().int().min(1).max(27), sectionTitle: z.string(),
@@ -19,6 +25,7 @@ export const cardSchema = z.object({
   front: z.string().min(8), answer: z.string().min(2), governingRule: z.string().min(2),
   trap: z.string(), explanation: z.string(), memoryHook: z.string().optional(), tags: z.array(z.string()),
   sourcePath: z.string(), sourceHeading: z.string(), contentVersion: z.string().regex(/^[a-f0-9]{64}$/),
+  officialSources: z.array(officialSourceSchema).min(1),
   retest: z.boolean(), reviewStatus: z.enum(['draft','reviewed','verified']),
 });
 export type Card = z.infer<typeof cardSchema>;

@@ -4,7 +4,7 @@
   "sourceFiles": [
     {
       "file": "series_65_must_memorize_SHORT_2026-09-06.md",
-      "sha256": "f9f5cd2f506fea7046fab34c27ff72ecc046216bdddff6ae21d61e1e6cac75fc"
+      "sha256": "59bcd149398c961f3a35b919ddd662eb5fd38fd74183b0b50644ecc5a43877a7"
     },
     {
       "file": "series_65_question_design_research.md",
@@ -12,15 +12,15 @@
     },
     {
       "file": "series_65_new_chat_handoff.md",
-      "sha256": "9312659a21abef3787dad6abbfaaed5dce4ad9599f09182c98bf0d68db30c3b0"
+      "sha256": "b041accb930b7fe9bc4289453fa68a77a28622554b72525a307141a8755b0782"
     },
     {
       "file": "series_65_test_5_miss_audit_2026-09-12.md",
       "sha256": "b0afdb1fac1e27045c7fee48a1439d848dd30663064c48a9c75b88147625d878"
     }
   ],
-  "rules": 311,
-  "cards": 628,
+  "rules": 312,
+  "cards": 632,
   "sections": [
     {
       "number": 1,
@@ -90,7 +90,7 @@
     {
       "number": 14,
       "title": "College and minor accounts",
-      "sha256": "3116918aefadae29c38eaa8f8e1528c5531259570cd0bc8e5a23872b5443da31"
+      "sha256": "7b25e4ea99f677efe56ae4919573e7bbfe7089b3fb37266d8a357ed76230fed4"
     },
     {
       "number": 15,
@@ -110,12 +110,12 @@
     {
       "number": 18,
       "title": "Mutual funds",
-      "sha256": "3d6e8ca0c1e338b91212f1c08cee9a132e88ac0a15eff3693a7b3c93eca988cd"
+      "sha256": "0329c4ba4e65bf4536bd158936d8aff44f42df59ab2a5125ec4d80275621a5e8"
     },
     {
       "number": 19,
       "title": "Rights, warrants, and calls",
-      "sha256": "783dbf7f13951d581e0972cc265653981d4e42777670b7aa7666c660aca68fd9"
+      "sha256": "31b6953d468e8b5f828dace4b63600a3a22cff997ba19124fdfe2878f5149166"
     },
     {
       "number": 20,
