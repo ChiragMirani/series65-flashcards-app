@@ -4,10 +4,10 @@ Verified on September 13, 2026 with Node.js, production Next.js static output, a
 
 | Check | Result |
 |---|---|
-| Reproducible content check | Passed; 310 rule objectives, 623 draft cards, all 27 numbered sections |
+| Reproducible content check | Passed; 311 rule objectives, 628 draft cards, all 27 numbered sections |
 | ESLint | Passed without warnings |
 | Strict TypeScript | Passed; route types generated before checking |
-| Vitest | 16 tests passed |
+| Vitest | 17 tests passed |
 | Production build | Passed; 12 static pages and 80 precached URLs |
 | Playwright | All 7 end-to-end tests passed; no failed tests |
 | Automated accessibility | No axe WCAG 2 A/AA or WCAG 2.1 AA violations in tested routes/states |
@@ -34,6 +34,8 @@ Representative final screenshots:
 
 The visual inspection used real browser-rendered screenshots. The native interactive computer-use browser was unavailable, so no native browser-control or WebMCP compatibility result is claimed. Real iOS/Android installation, VoiceOver/TalkBack, and broader assistive-technology checks remain release checks. Automated axe checks and emulation do not establish full WCAG conformance.
 
-The original source files were read without modification. The importer checks source fingerprints and compares all regenerated artifacts. Passing these checks proves reproducibility, not complete subject-matter accuracy or copyright clearance. All 623 cards remain drafts; the human reviews in [COMMERCIAL_RELEASE_BLOCKED.md](../COMMERCIAL_RELEASE_BLOCKED.md) are still required.
+The app implementation never modified the original source files. A final fresh-checkout check detected a concurrent September 13 revision to the canonical sheet, including new section 12 ERISA retests. That section was reread, the affected concepts received retest flags, and one new atomic rule plus three original applications were added. The other 26 section fingerprints were unchanged. The source manifest now reads the revision date from the canonical heading.
+
+The importer checks source fingerprints and compares all regenerated artifacts. Passing these checks proves reproducibility, not complete subject-matter accuracy or copyright clearance. All 628 cards remain drafts; the human reviews in [COMMERCIAL_RELEASE_BLOCKED.md](../COMMERCIAL_RELEASE_BLOCKED.md) are still required.
 
 GitHub Actions repeats lint, types, unit tests, production build, and browser tests on Ubuntu with Chromium. It uses the committed deck and does not require private source materials. The source-dependent content check is run locally. Consult the repository's Actions tab for the current remote run; local results above are independent of its status.

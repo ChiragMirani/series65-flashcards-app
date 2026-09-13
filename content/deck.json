@@ -7235,7 +7235,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "06e2444b0dade6659171a908ed42bad2c85f829b237331caf893adf083018f53",
+    "contentVersion": "98a6e22f949bf4d49be3824b7bf7114cd4f1d46913b92a7154f758253d307950",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7258,7 +7258,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "71ce4c9a95ac79ccab99daa579bc69fdb14c713e2ada81f7e78b60f79ea3aa1e",
+    "contentVersion": "8244c22ffa7bd054bf88f041f6b056d94ef205ec25aae57068bb5146508a78d9",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7281,7 +7281,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "4cc9e5af2376efb14323909a94ef67dcb84ffba8f7708aafb06366832e3d72ef",
+    "contentVersion": "94f52c1e35e3a5d6ad4c396d8bcb21e8da11ddc6e5fe61c2270cdf797c985929",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7304,7 +7304,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "15676391f0814f1cdc4e03bc0c56fa74a0c3472f4dd88630cd2aa5b26a4d43d4",
+    "contentVersion": "ef9876f3da3b41fef850f023e96f1f4a2176f8da3abdbbfef463a1a4981bfe15",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7323,12 +7323,13 @@
     "trap": "Personal use is permitted if the fiduciary plans to repay the plan.",
     "explanation": "Distinguish the tested condition from this misconception: “Personal use is permitted if the fiduciary plans to repay the plan.”",
     "tags": [
-      "fiduciary"
+      "fiduciary",
+      "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "33c76014b0f1646341b124944989a4e1d848ed2e25bd8243af664d2a1488b39d",
-    "retest": false,
+    "contentVersion": "deabbbfdd8d2ed2cd0e79f2e993956307691dfc55161af183186e662456ad1d9",
+    "retest": true,
     "reviewStatus": "draft"
   },
   {
@@ -7346,12 +7347,37 @@
     "trap": "Personal use is permitted if the fiduciary plans to repay the plan.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. Loyalty, prudence, diversification, and compliance with plan documents; no self-dealing or personal use of plan assets.",
     "tags": [
-      "fiduciary"
+      "fiduciary",
+      "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "84542deff209a27619c67180a9fce8207eaa4cc0da29ef2934f80a3da04cbf5e",
-    "retest": false,
+    "contentVersion": "c3c90495d8169a72613a7f2ea87ce26953de3ba7428ff01071cfdf748d1b7075",
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-12-fiduciary-apply",
+    "ruleId": "s65-12-fiduciary",
+    "deckId": "series65",
+    "section": 12,
+    "sectionTitle": "Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "application",
+    "front": "A retirement-plan fiduciary temporarily takes plan cash for a personal bill. The rest of the portfolio is broadly diversified. Does that diversification make the personal use permissible?",
+    "answer": "No. Diversification does not excuse fiduciary self-dealing.",
+    "governingRule": "Loyalty, prudence, diversification, and compliance with plan documents; no self-dealing or personal use of plan assets.",
+    "trap": "Personal use is permitted if the fiduciary plans to repay the plan.",
+    "explanation": "Diversification and avoiding personal use are separate duties. Satisfying one does not cancel the other.",
+    "tags": [
+      "fiduciary",
+      "retest"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
+    "contentVersion": "910f1ea30ad176c421ad7260a2fa6b63593bbd2ec5fbf2d669e7296932e48cb6",
+    "retest": true,
     "reviewStatus": "draft"
   },
   {
@@ -7373,7 +7399,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "38294bf0078659d0caaa07ece194073c4f2c460e0db12f1beb6491c1d3da8198",
+    "contentVersion": "23efa39507d4b02777fe0a3cd3348eb649598b645c7114607aa7176b8a176526",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7396,7 +7422,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "be95bbec599ed3d0d048038420c573049bc6ad815970cdabbdfe9a89ac772815",
+    "contentVersion": "d2b4c4f6acf6f2f7856fe4c448c1a4959f621205189284fe0877cce8fca370c0",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7419,7 +7445,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "f0d81bf2882bc5c250f5ce2390b3180374ec80975a0b7c8fa8797cfc9607bcad",
+    "contentVersion": "4562b6b2f5a25c5345499001f13fbc2ee53c92a8397d41a69496d7eb62c46ce5",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7442,7 +7468,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "af74092c19089d0b0db449addaacc5dc222e85a720e331a50cc5b35b4d3b9f7f",
+    "contentVersion": "58e1b19faf238ef650704054e87a57956f4286fece3522278db95cc24eeb52c7",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7465,7 +7491,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "a11b43bfbc195b6ee432a4c105230b1509e6955170725a286be04de10035e58b",
+    "contentVersion": "ec32522e219dd24a95ba040add559a8b8837d4467ac0d4a2198409044ef94ac6",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7488,7 +7514,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "aacfe429d5a4bd39cd106e1912ff290da9fad84551bf8d04ab123f6a0108a468",
+    "contentVersion": "15f62779632c3f9f36c9ff4be9f0ec4d6b46c4685647a516d93b283bf6cf027c",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7511,7 +7537,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "4bc7ef486ae58fcbc5baa96102d9a4fdbe529676380dd979802016b736070136",
+    "contentVersion": "ee8e198afba6b4bec25ec8648dccea9729360fb17712dc8396c3271b237fdce6",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7534,7 +7560,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "149066cf9e7c16c8010db4fe7f4d5b0dfe6336a7a1ac44826c8ac77f47d6926f",
+    "contentVersion": "b7501514a87585ef756acdfbbf8279a6f9b8832ced2aeb054a9437dcc5092746",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7557,7 +7583,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "bdc969b2c7fade95eed94e169e0d6caba69a142b81bc9cff13e51604f8bdddd4",
+    "contentVersion": "51e4460a09190565f586040f029884d54c854b9aa90e3de9f6c30fcb6901115d",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7576,12 +7602,13 @@
     "trap": "A 403(b) is the ordinary corporate salary-deferral plan.",
     "explanation": "Distinguish the tested condition from this misconception: “A 403(b) is the ordinary corporate salary-deferral plan.”",
     "tags": [
-      "plan-403"
+      "plan-403",
+      "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "8b195a22ad0492ee7001236df74cb0d7bf6e9ac40bf4e03a8daa153179bb285c",
-    "retest": false,
+    "contentVersion": "19139306045fc0134d95b1d2d2af43ee6ab0a07dfd316763928186ae7a60a55c",
+    "retest": true,
     "reviewStatus": "draft"
   },
   {
@@ -7599,12 +7626,37 @@
     "trap": "A 403(b) is the ordinary corporate salary-deferral plan.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. Public schools and qualifying nonprofit or church organizations.",
     "tags": [
-      "plan-403"
+      "plan-403",
+      "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "6c79d3d84c054bb1e47de8a8b17285335ff2c4e38913bbc9651696277bcf831c",
-    "retest": false,
+    "contentVersion": "833802f62ce10fad88e25b0874a545f41ae27c4f7b733ba4ae712511877adfe2",
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-12-plan-403-apply",
+    "ruleId": "s65-12-plan-403",
+    "deckId": "series65",
+    "section": 12,
+    "sectionTitle": "Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "application",
+    "front": "A hospital that is a qualifying nonprofit wants a salary-deferral arrangement commonly used by eligible nonprofit employers. Which plan designation fits that employer category?",
+    "answer": "A 403(b) plan.",
+    "governingRule": "Public schools and qualifying nonprofit or church organizations.",
+    "trap": "A 403(b) is the ordinary corporate salary-deferral plan.",
+    "explanation": "Select the framework using the qualifying nonprofit employer, rather than assuming every salary-deferral arrangement is a corporate 401(k).",
+    "tags": [
+      "plan-403",
+      "retest"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
+    "contentVersion": "eeab4d98130a0417f60305648bbf04933ff34ef1e553f681a07f243df78aea40",
+    "retest": true,
     "reviewStatus": "draft"
   },
   {
@@ -7622,12 +7674,13 @@
     "trap": "Every 457(b) is a private corporate ERISA plan.",
     "explanation": "Distinguish the tested condition from this misconception: “Every 457(b) is a private corporate ERISA plan.”",
     "tags": [
-      "plan-457"
+      "plan-457",
+      "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "f3ee1973c8aceabfc5f517580c35fd112ebfa27538ae4a520bc124e4bc1a0a74",
-    "retest": false,
+    "contentVersion": "3bc0825eec1b7629699fddf1b45be3b70936defbc57aabfccf201792f643c733",
+    "retest": true,
     "reviewStatus": "draft"
   },
   {
@@ -7645,12 +7698,13 @@
     "trap": "Every 457(b) is a private corporate ERISA plan.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. State or local governments and certain tax-exempt employers; governmental plans generally fall outside ERISA.",
     "tags": [
-      "plan-457"
+      "plan-457",
+      "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "782c1359bf6d744b5b2ef390547216927c0e025624a29deba5f49d8fc65184d7",
-    "retest": false,
+    "contentVersion": "b55d8896c4d238b253cf21a5230905636e19f0a038a634f0f60bc737f03d0d8c",
+    "retest": true,
     "reviewStatus": "draft"
   },
   {
@@ -7672,7 +7726,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "5a464fecfee5a00f46660575ed35a20593e3a20eeaf77df5cae9a11cccaed933",
+    "contentVersion": "0b9f152019ee1574a10d573453ce7190385d25f7bde91bd2c381d538bf256244",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7695,7 +7749,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "607b6295574c9c6d1310dc13885c898678570dca18d0a007eaf6b198f3f36971",
+    "contentVersion": "6b27d0e7ed99969c6ebc535123f591ae6be0b074fd009d8c44b2532af5048ba3",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7718,7 +7772,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "988ed4a7c2601e6cd4a7815f09b78312737b94b5b1dec4dc421d62d340f94042",
+    "contentVersion": "e00a734512a571425674ba6d2df2b84b48a61f3b34667ecf7b889ab20d4cecd1",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7741,7 +7795,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "45c61df9c69772867447ab624cb293e2174bdf9f36e101888be13fefae73ce67",
+    "contentVersion": "7dcfcc80e8931bd5b24b7e2ba468e13bc5b98eeac909ed88bae596e74965a474",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7764,7 +7818,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "96c2f79d6ecfb03522f7415324acc8eab8185721b035abe9a52e50127acb63f0",
+    "contentVersion": "cda5bff8d348a22d18811307fd1ef6719e7cd2d2e0262488cc4ec2dda23f865c",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7787,7 +7841,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "5c4479aebef6e44e8aae5661b41eafab2a1a084cdd2158698a26667f9a337201",
+    "contentVersion": "dc603f993993ef25d53efe77c9e84b5f00bedc5fd460a35ca6863f76a14e6c4e",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7810,7 +7864,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "a10f6ed980fc68e310ded8cc127521374c425797db2622e7f75d8e508e74f0c4",
+    "contentVersion": "f3574aa7b5cf3fb6c30410bfd3ca4af63ccfe180881fc60dfbd000b104141fad",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7833,7 +7887,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "610beaa8cb6ed7b4b70d0ae43a38cb1256ee9eb187fa7488723f44e37dbcf066",
+    "contentVersion": "346ebe48fa63096b7e3e068cd16a683b089765d00f3de3d52a4a433f5745aa73",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7856,7 +7910,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "5df74b48842cbb2efb2a51d484a4abe2b1ec55514bc72028279154490cdf4888",
+    "contentVersion": "b155ce2c4f2291b4e8e2a1d888e3cbf5bd9b354a4597f5073fd2320f814e72d9",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7879,7 +7933,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "7812851d6549b8763f024e763f55f90f8587040688066a4b19c30ae4a5ce8341",
+    "contentVersion": "4fcde0942177128b242ea1a7def333882697124a9eeef9a86f233e2ef7195b3c",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7902,7 +7956,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "619968c66e11ae9b346c9de93d55c617efe8ca009ae062096da7df5554ae7fae",
+    "contentVersion": "be3d95a99d7bd43778f8525fd5a7fd21d5197255587a2b4fb9691efe8e24e2b9",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7925,7 +7979,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "7a1b971951ca9dc0ac692bb7827c234ffa3d2d56c8c7c4e1fa879a59fa80e9c8",
+    "contentVersion": "5e932ec56f84bc34c2c9203f6a5ababf3ea82044048e8dd546025a1a2ecd172b",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7948,7 +8002,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "b6f9751b442348c6acf9ab36a132beb52de8c2ab5b831bf01cbb72d27d6619ce",
+    "contentVersion": "0a0f41aac03a3021faa8770f15e33bdf63bbd4a82f38f18aa118c969aa9e729d",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7971,7 +8025,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "191a06e5f80b1c9364238c0694750734e3e20982095f4cf057ab7959d714c33c",
+    "contentVersion": "96c4dd53776ea0247b50bccb1381465075ac8c76d9a04f3c70422ef3e1fbe2f0",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -7994,7 +8048,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "e395b7630ddf4ac4f32304a07e193125f7bb3617a824461718927333831dfb9d",
+    "contentVersion": "044d42fe8d7fe94e258ed6f978ba2919fb469e463c1dc217d1a0963d3c2424a2",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -8017,7 +8071,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "2a8a54f1b2351b75d581cddfbf7f3874a0ed5b614eae7c00d8a36ea4da687fd6",
+    "contentVersion": "36d7f20a92582a9b621f4d2bdd3cc61345ab05b2da4603f933d7ba144e9c5a24",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -8040,7 +8094,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "a3f78bac03630bfa7eab5c1e1527ceeae1e9140de461e1498a5ae9dc6cd4064a",
+    "contentVersion": "f1f06ea8a567658cc2ea21d72bffa415ce99e05293f8da829aadef745189fc80",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -8063,7 +8117,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "95d021c440c4014c1c9f65740046ec7fb088b01ee744be74dc9a90c0328530dc",
+    "contentVersion": "26536eaf7d6a894d832c011725817dfc5eb52bc3bf46bca9fb93ded8b015bd7e",
     "retest": false,
     "reviewStatus": "draft"
   },
@@ -8082,12 +8136,13 @@
     "trap": "Tax-qualified and ERISA-covered are interchangeable labels.",
     "explanation": "Distinguish the tested condition from this misconception: “Tax-qualified and ERISA-covered are interchangeable labels.”",
     "tags": [
-      "qualified-erisa"
+      "qualified-erisa",
+      "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "200d56dd6f67294d728be68eacb4298b0c2b96734e68d5bdfdddb6bc2ce1c0d9",
-    "retest": false,
+    "contentVersion": "54e620ebccfd5260c50dd779a7ed8844c0dbdd53fbb5f9bd35c0c38b1e0676e9",
+    "retest": true,
     "reviewStatus": "draft"
   },
   {
@@ -8105,12 +8160,85 @@
     "trap": "Tax-qualified and ERISA-covered are interchangeable labels.",
     "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. No. A government plan may receive favorable tax treatment while remaining outside ERISA.",
     "tags": [
-      "qualified-erisa"
+      "qualified-erisa",
+      "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-    "contentVersion": "ab4e9da53e39c165df7187ec1026744c68fbfa952958f974212dfbe9b3f66f64",
-    "retest": false,
+    "contentVersion": "73dbc89a85901b58c7b9bbe412bd06de2ae156a6a47c9f94e9c35bdc7341f931",
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-12-government-design-recall",
+    "ruleId": "s65-12-government-design",
+    "deckId": "series65",
+    "section": 12,
+    "sectionTitle": "Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "recall",
+    "front": "Does the label governmental 457(b) establish that a plan promises a defined benefit?",
+    "answer": "No. Governmental 457(b) status does not by itself make a plan a defined-benefit plan.",
+    "governingRule": "No. Governmental 457(b) status does not by itself make a plan a defined-benefit plan.",
+    "trap": "A government employer makes every 457(b) a defined-benefit pension.",
+    "explanation": "Distinguish the tested condition from this misconception: “A government employer makes every 457(b) a defined-benefit pension.”",
+    "tags": [
+      "government-design",
+      "retest"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
+    "contentVersion": "5e5b28484a6a5c06866282bf4d5c3143e23b4b3373ae9a8f833750bf5f3daa0d",
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-12-government-design-contrast",
+    "ruleId": "s65-12-government-design",
+    "deckId": "series65",
+    "section": 12,
+    "sectionTitle": "Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A trainee makes this claim: “A government employer makes every 457(b) a defined-benefit pension.” What correction is needed?",
+    "answer": "No. Governmental 457(b) status does not by itself make a plan a defined-benefit plan.",
+    "governingRule": "No. Governmental 457(b) status does not by itself make a plan a defined-benefit plan.",
+    "trap": "A government employer makes every 457(b) a defined-benefit pension.",
+    "explanation": "The mistaken claim substitutes a neighboring rule or omits a required condition. No. Governmental 457(b) status does not by itself make a plan a defined-benefit plan.",
+    "tags": [
+      "government-design",
+      "retest"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
+    "contentVersion": "537d587ac7a0398bdc984c31fd65f93606be2208e38cf8609ffa273d90229ce6",
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-12-government-design-apply",
+    "ruleId": "s65-12-government-design",
+    "deckId": "series65",
+    "section": 12,
+    "sectionTitle": "Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "application",
+    "front": "A city offers a tax-favored governmental 457(b). A brochure writer concludes that tax treatment establishes Employee Retirement Income Security Act (ERISA) coverage and that city sponsorship establishes a defined benefit. Are those two conclusions supported?",
+    "answer": "Neither follows: the governmental plan is generally outside ERISA, and 457(b) status does not establish a defined benefit.",
+    "governingRule": "No. Governmental 457(b) status does not by itself make a plan a defined-benefit plan.",
+    "trap": "A government employer makes every 457(b) a defined-benefit pension.",
+    "explanation": "Tax treatment, ERISA coverage, and a promise of a specified retirement benefit are different classifications. Government sponsorship does not collapse them into one.",
+    "tags": [
+      "government-design",
+      "retest"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
+    "contentVersion": "51060635ec9cc84040e185d2e1fbfb96943e901c5c8d2e965bd88bde20f1e265",
+    "retest": true,
     "reviewStatus": "draft"
   },
   {

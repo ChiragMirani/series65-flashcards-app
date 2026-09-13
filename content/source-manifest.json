@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "sourceRevision": "2026-09-12",
+  "sourceRevision": "September 13, 2026",
   "sourceFiles": [
     {
       "file": "series_65_must_memorize_SHORT_2026-09-06.md",
-      "sha256": "e8b6668211d53a272188ec8f4df7e0b5b27c98447d0dc71e158dd64eb3356d47"
+      "sha256": "f9f5cd2f506fea7046fab34c27ff72ecc046216bdddff6ae21d61e1e6cac75fc"
     },
     {
       "file": "series_65_question_design_research.md",
@@ -19,8 +19,8 @@
       "sha256": "b0afdb1fac1e27045c7fee48a1439d848dd30663064c48a9c75b88147625d878"
     }
   ],
-  "rules": 310,
-  "cards": 623,
+  "rules": 311,
+  "cards": 628,
   "sections": [
     {
       "number": 1,
@@ -80,7 +80,7 @@
     {
       "number": 12,
       "title": "Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-      "sha256": "f8c5ff484e78c668641f34d5107d1cd10220de2256faaa5aba2f448f13aba3ed"
+      "sha256": "cbe41d1f36e613d1c7275f72922490273aaf30803becbb7df9f8ec9d9b15f4ad"
     },
     {
       "number": 13,

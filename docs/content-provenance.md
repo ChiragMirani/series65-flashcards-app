@@ -6,7 +6,7 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 
 ## Input fingerprints
 
-- C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md — SHA-256 e8b6668211d53a272188ec8f4df7e0b5b27c98447d0dc71e158dd64eb3356d47
+- C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md — SHA-256 f9f5cd2f506fea7046fab34c27ff72ecc046216bdddff6ae21d61e1e6cac75fc
 - C:\Users\chira\Desktop\sports\datascience\series_65_question_design_research.md — SHA-256 b6e5f333f557230acba4e5902b3569bc49cb6f88ae066029f8342b8fc1aee7e2
 - C:\Users\chira\Desktop\sports\datascience\series_65_new_chat_handoff.md — SHA-256 9312659a21abef3787dad6abbfaaed5dce4ad9599f09182c98bf0d68db30c3b0
 - C:\Users\chira\Desktop\sports\datascience\series_65_test_5_miss_audit_2026-09-12.md — SHA-256 b0afdb1fac1e27045c7fee48a1439d848dd30663064c48a9c75b88147625d878
@@ -174,6 +174,7 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 | s65-12-nonqualified | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions | REQUIRED: primary authority + human wording audit |
 | s65-12-qdro | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions | REQUIRED: primary authority + human wording audit |
 | s65-12-qualified-erisa | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions | REQUIRED: primary authority + human wording audit |
+| s65-12-government-design | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 12 — Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions | REQUIRED: primary authority + human wording audit |
 | s65-13-early-tax | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 13 — Retirement penalties and distribution traps | REQUIRED: primary authority + human wording audit |
 | s65-13-simple-early | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 13 — Retirement penalties and distribution traps | REQUIRED: primary authority + human wording audit |
 | s65-13-457-exception | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 13 — Retirement penalties and distribution traps | REQUIRED: primary authority + human wording audit |

@@ -4,7 +4,7 @@ The canonical cram sheet controls this prototype. The original files were never 
 
 | Source conflict | Prototype treatment | Release action |
 |---|---|---|
-| Handoff describes the cram-sheet revision as September 10; the canonical document explicitly says September 12 despite its September 6 filename. | Use the September 12 canonical revision. | Confirm revision before every content update. |
+| Handoff describes an older cram-sheet revision. During implementation the canonical document changed from September 12 to September 13 despite its September 6 filename. Section 12 gained explicit ERISA application retests. | Use the September 13 revision, add the governmental plan-design distinction and three original applications, and flag all affected concepts for retest. Existing stable IDs are retained. | Confirm revision before every content update. The manifest now reads the revision from the canonical heading. |
 | Miss audit recommends leaving successor-firm procedure, trust DNI, and advertising-recipient records out; canonical section 27 includes them. | Include all three, at low priority. | Verify each against official authority. |
 | Miss audit recommends omitting entity tax-return deadlines; canonical section 16 includes them. | Include the canonical deadlines with a calendar-year assumption. | Review current IRS deadlines, exceptions, and holiday treatment. |
 | Older vendor figures in the sources use $1.1M/$2.2M qualified-client tests; the canonical sheet uses at least $1.4M managed or net worth over $2.7M, effective June 29, 2026. | Use canonical figures. SEC Release IA-6961 was inspected as a primary-source cross-check; cards still remain draft. | Human review of thresholds, residence treatment, transition rules, and applicability. |
