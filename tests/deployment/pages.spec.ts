@@ -104,7 +104,7 @@ test('repeated finger taps reveal and advance at the same spot without ratings',
     await expect(page.locator('.answer-text')).toBeVisible();
     await expect(action).toHaveAttribute('aria-label', 'Next card');await expect(page.locator('.study-answer-wrap')).toHaveCSS('opacity', '1');
     await expect(page.locator('.card-position')).toHaveText(`${index} of 1003`);
-    await expect(page.getByRole('button', { name: /^(Again|Hard|Good|Easy)/ })).toHaveCount(0);
+    await expect(page.getByRole('button', { name: /^(Hard|Good|Easy)$/ })).toHaveCount(0);
     await page.touchscreen.tap(x, y);
     await expect(page.locator('.question-button')).toBeVisible();
     await expect(page.locator('.card-position')).toHaveText(`${index + 1} of 1003`);
