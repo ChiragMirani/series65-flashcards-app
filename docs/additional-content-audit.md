@@ -1,12 +1,14 @@
 # Additional concept coverage audit — September 13, 2026
 
+**Follow-up:** the later batch adds 72 NASAA-supported cards (775 total). See [September notes audit](september-notes-audit.md) and the generated [provision ledger](nasaa-supplement.md). The 703-card counts below describe the earlier prepaid-fee revision.
+
 Compared the 703-card `content/deck.json` with the user's complete cram sheet and subsequent concept notes. This is a read-through of card prompts, answers, explanations, and traps, not a certification of exam completeness. The initial audit made no card changes. A subsequent NASAA-supported prepaid-fee revision changes five existing question/answer pairs and their references, as recorded below; the deck still has 703 cards. All cards retain draft review status.
 
 ## Controlling source restriction
 
 The user subsequently identified the two pasted sets as Kaplan-derived and required official NASAA language and a NASAA source before including their concepts. For additions prompted by these messages, this restriction supersedes the broader primary-source suggestions later in this report. The pasted wording is not an authoring source. SEC, IRS, FINRA, insurer, vendor, or third-party material alone does not satisfy this restriction, nor does a topic heading in a NASAA exam outline. A third-party comment letter hosted on nasaa.org is not NASAA's own statement.
 
-This does not certify the entire pre-existing deck as exclusively NASAA-supported. Except for the prepaid-fee revision below, the candidate additions remain unimplemented. Any eligible future card must have independently authored wording, a direct NASAA reference for its precise claim, and draft review status until human review. An official uniform regulatory form published by NASAA can support its actual provisions; label it as that form, rather than misrepresenting it as a NASAA-authored federal rule.
+This does not certify the entire pre-existing deck as exclusively NASAA-supported. The later supplement implements the separately listed NASAA-supported concepts, including written material-conflict timing. Other candidates remain held where precise NASAA support has not been established. Any eligible future card must have independently authored wording, a direct NASAA reference for its precise claim, and draft review status until human review. An official uniform regulatory form published by NASAA can support its actual provisions; label it as that form, rather than misrepresenting it as a NASAA-authored federal rule.
 
 ### Completed prepaid-fee follow-up
 

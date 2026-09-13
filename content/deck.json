@@ -1743,6 +1743,204 @@
     "reviewStatus": "draft"
   },
   {
+    "id": "s65-01-nasaa-bd-advice-recall",
+    "ruleId": "s65-01-nasaa-bd-advice",
+    "deckId": "series65",
+    "section": 1,
+    "sectionTitle": "De minimis and state registration",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "What two conditions let a broker-dealer use the incidental-advice exclusion under the Uniform Securities Act?",
+    "answer": "The advice is solely incidental to brokerage business, and there is no special compensation for it.",
+    "governingRule": "The advice is solely incidental to brokerage business, and there is no special compensation for it.",
+    "trap": "Broker-dealer registration covers separately paid advisory services automatically.",
+    "explanation": "Test the advisory activity separately when either condition fails. The brokerage exclusion is conditional.",
+    "tags": [
+      "nasaa-bd-advice",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 401(f)(4)",
+    "contentVersion": "930202295d1b07ada22e58f9fd16753afe60f9e4319785ea8d475c1dfd2493c4",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 401(f)(4)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=33",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-01-nasaa-bd-advice-contrast",
+    "ruleId": "s65-01-nasaa-bd-advice",
+    "deckId": "series65",
+    "section": 1,
+    "sectionTitle": "De minimis and state registration",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A broker-dealer charges a separate fee for ongoing securities advice. Can it rely on the incidental-advice exclusion?",
+    "answer": "No. Special compensation defeats this exclusion; adviser requirements must be evaluated.",
+    "governingRule": "The advice is solely incidental to brokerage business, and there is no special compensation for it.",
+    "trap": "Broker-dealer registration covers separately paid advisory services automatically.",
+    "explanation": "Test the advisory activity separately when either condition fails. The brokerage exclusion is conditional.",
+    "tags": [
+      "nasaa-bd-advice",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 401(f)(4)",
+    "contentVersion": "c376d3f5553156e06d9bdf7dc9125b12f21a3dac1aa46c384ab1a5ea52770b49",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 401(f)(4)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=33",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-01-nasaa-economist-recall",
+    "ruleId": "s65-01-nasaa-economist",
+    "deckId": "series65",
+    "section": 1,
+    "sectionTitle": "De minimis and state registration",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Does the Uniform Securities Act give economists the same named incidental-profession exclusion as lawyers and teachers?",
+    "answer": "No. The named professions are lawyer, accountant, engineer, and teacher; economist is not on that list.",
+    "governingRule": "No. The named professions are lawyer, accountant, engineer, and teacher; economist is not on that list.",
+    "trap": "Every profession that analyzes financial information gets the exclusion.",
+    "explanation": "Someone may qualify for a different exclusion, but the title economist alone supplies none under this provision.",
+    "tags": [
+      "nasaa-economist",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 401(f)(3)",
+    "contentVersion": "732d793ec7d5d680c51fc4b2e8495a0ff4ec40bd71b041ad9bf0a63ba3b0c721",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 401(f)(3)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=33",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-01-nasaa-economist-contrast",
+    "ruleId": "s65-01-nasaa-economist",
+    "deckId": "series65",
+    "section": 1,
+    "sectionTitle": "De minimis and state registration",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An economist regularly charges clients for individualized securities recommendations. Does the professional title alone remove adviser status?",
+    "answer": "No. Evaluate the securities-advice business and compensation; economist is not a named professional exclusion.",
+    "governingRule": "No. The named professions are lawyer, accountant, engineer, and teacher; economist is not on that list.",
+    "trap": "Every profession that analyzes financial information gets the exclusion.",
+    "explanation": "Someone may qualify for a different exclusion, but the title economist alone supplies none under this provision.",
+    "tags": [
+      "nasaa-economist",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 401(f)(3)",
+    "contentVersion": "51bae212ef4f8e19b3a713798054bfcaf661ade38f3d338d1b022a912fe7c413",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 401(f)(3)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=33",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-01-nasaa-publisher-recall",
+    "ruleId": "s65-01-nasaa-publisher",
+    "deckId": "series65",
+    "section": 1,
+    "sectionTitle": "De minimis and state registration",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "What distinguishes the Uniform Securities Act publisher exclusion from individualized advisory services?",
+    "answer": "A bona fide publication gives impersonal information, rather than advice tailored to each subscriber’s investment situation.",
+    "governingRule": "A bona fide publication gives impersonal information, rather than advice tailored to each subscriber’s investment situation.",
+    "trap": "Putting personalized advice in a newsletter automatically creates an exclusion.",
+    "explanation": "The delivery format can be print or electronic. The service’s substance, including whether it is individualized, matters.",
+    "tags": [
+      "nasaa-publisher",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 401(f)(5)",
+    "contentVersion": "446d476b01d2386982d4cdc8e2cbeddd435ac784788e2ccff85ae58503a58299",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 401(f)(5)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=33",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-01-nasaa-publisher-contrast",
+    "ruleId": "s65-01-nasaa-publisher",
+    "deckId": "series65",
+    "section": 1,
+    "sectionTitle": "De minimis and state registration",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A paid newsletter sends each subscriber trades selected for that subscriber’s finances. Does calling it a newsletter establish the publisher exclusion?",
+    "answer": "No. Tailoring recommendations to each subscriber’s situation defeats this publisher exclusion.",
+    "governingRule": "A bona fide publication gives impersonal information, rather than advice tailored to each subscriber’s investment situation.",
+    "trap": "Putting personalized advice in a newsletter automatically creates an exclusion.",
+    "explanation": "The delivery format can be print or electronic. The service’s substance, including whether it is individualized, matters.",
+    "tags": [
+      "nasaa-publisher",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 401(f)(5)",
+    "contentVersion": "41719157089bd0a8abdbd29553c30e6a3a6117aae8f05191278811d77a1e0a88",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 401(f)(5)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=33",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
     "id": "s65-02-state-employment-recall",
     "ruleId": "s65-02-state-employment",
     "deckId": "series65",
@@ -3113,6 +3311,72 @@
         "title": "Federal securities statutes and links to their full texts",
         "url": "https://www.sec.gov/rules-regulations/statutes-regulations",
         "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-03-nasaa-registration-filers-recall",
+    "ruleId": "s65-03-nasaa-registration-filers",
+    "deckId": "series65",
+    "section": 3,
+    "sectionTitle": "Form ADV (Uniform Application for Investment Adviser Registration and Report by Exempt Reporting Advisers), contracts, and federal acts",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Who may file a securities registration statement under the Uniform Securities Act?",
+    "answer": "The issuer, another person on whose behalf the offering is made, or a registered broker-dealer.",
+    "governingRule": "The issuer, another person on whose behalf the offering is made, or a registered broker-dealer.",
+    "trap": "Any registered agent has the same filing capacity as a broker-dealer.",
+    "explanation": "An agent’s registration alone does not put the individual into the broker-dealer category in this provision.",
+    "tags": [
+      "nasaa-registration-filers",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 305(a)",
+    "contentVersion": "bb003bd93fbbb9cfed0ad95c0006d8a4d0779f21fa726ef504e2a54bdef51847",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 305(a)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=26",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-03-nasaa-registration-filers-contrast",
+    "ruleId": "s65-03-nasaa-registration-filers",
+    "deckId": "series65",
+    "section": 3,
+    "sectionTitle": "Form ADV (Uniform Application for Investment Adviser Registration and Report by Exempt Reporting Advisers), contracts, and federal acts",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "Must the issuer personally file every state securities registration statement?",
+    "answer": "No. A registered broker-dealer or another person on whose behalf the offering is made may also file.",
+    "governingRule": "The issuer, another person on whose behalf the offering is made, or a registered broker-dealer.",
+    "trap": "Any registered agent has the same filing capacity as a broker-dealer.",
+    "explanation": "An agent’s registration alone does not put the individual into the broker-dealer category in this provision.",
+    "tags": [
+      "nasaa-registration-filers",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 305(a)",
+    "contentVersion": "be424b37226b7cf2414bf4358bcff662701d0e304b80655236db347bb261dafd",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 305(a)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=26",
+        "kind": "rule"
       }
     ],
     "retest": true,
@@ -5409,6 +5673,930 @@
     "reviewStatus": "draft"
   },
   {
+    "id": "s65-05-nasaa-criminal-ceiling-recall",
+    "ruleId": "s65-05-nasaa-criminal-ceiling",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "What maximum fine and imprisonment does the tested 1956 Uniform Securities Act provide for a qualifying willful violation?",
+    "answer": "Up to $5,000, up to three years in prison, or both.",
+    "governingRule": "Up to $5,000, up to three years in prison, or both.",
+    "trap": "These are the maximum penalties under every state and federal securities law.",
+    "explanation": "This is the model Act’s criminal ceiling. Actual state statutes and federal law may differ; civil recovery is a separate question.",
+    "tags": [
+      "nasaa-criminal-ceiling",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 409(a)",
+    "contentVersion": "4375b2d11afb08b25f197f1a4df343cb8edd3cdcaa1b11f3220f8145e9bf26cf",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 409(a)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=48",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-criminal-ceiling-contrast",
+    "ruleId": "s65-05-nasaa-criminal-ceiling",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "Under the tested 1956 Uniform Securities Act, must a court choose between a $5,000 fine and three years’ imprisonment?",
+    "answer": "No. The provision permits both, subject to its conditions.",
+    "governingRule": "Up to $5,000, up to three years in prison, or both.",
+    "trap": "These are the maximum penalties under every state and federal securities law.",
+    "explanation": "This is the model Act’s criminal ceiling. Actual state statutes and federal law may differ; civil recovery is a separate question.",
+    "tags": [
+      "nasaa-criminal-ceiling",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 409(a)",
+    "contentVersion": "32434ea4e10fff2bde78e9df2cc3dd2e3ec7986de5135b2732025e96c9b6de1a",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 409(a)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=48",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-appeal-deadline-recall",
+    "ruleId": "s65-05-nasaa-appeal-deadline",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Under the Uniform Securities Act, how long does an aggrieved person have to seek court review of a final Administrator order?",
+    "answer": "File the petition within 60 days after entry of the final order.",
+    "governingRule": "File the petition within 60 days after entry of the final order.",
+    "trap": "Use the civil damages limitation period to appeal an administrative order.",
+    "explanation": "Judicial review of an order has its own filing clock; it is different from an investor’s damages lawsuit.",
+    "tags": [
+      "nasaa-appeal-deadline",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 411(a)",
+    "contentVersion": "45dad73efe811d2f8684acccbd8d1baa4ca3468cf28e277514a30da7fe4b73d5",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 411(a)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=51",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-appeal-deadline-contrast",
+    "ruleId": "s65-05-nasaa-appeal-deadline",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A final Administrator order was entered 45 days ago. Under the model Act’s ordinary review clock, how many days remain to file a petition?",
+    "answer": "15 days. The petition must be filed within 60 days after the order was entered.",
+    "governingRule": "File the petition within 60 days after entry of the final order.",
+    "trap": "Use the civil damages limitation period to appeal an administrative order.",
+    "explanation": "Judicial review of an order has its own filing clock; it is different from an investor’s damages lawsuit.",
+    "tags": [
+      "nasaa-appeal-deadline",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 411(a)",
+    "contentVersion": "3ae17413bf4358a587bf982caee22aa9d9c31165e14912d99321678e6ca70014",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 411(a)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=51",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-appeal-stay-recall",
+    "ruleId": "s65-05-nasaa-appeal-stay",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Does filing for court review automatically pause a final Administrator order?",
+    "answer": "No. The order remains operative unless the court specifically orders a stay.",
+    "governingRule": "No. The order remains operative unless the court specifically orders a stay.",
+    "trap": "An appeal itself cancels the order’s effect.",
+    "explanation": "Asking a court to review an order and obtaining a pause in its enforcement are separate steps.",
+    "tags": [
+      "nasaa-appeal-stay",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 411(b)",
+    "contentVersion": "5d7c6b704602cc090d141647518f7a73436634462fbabb25d450321599442f35",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 411(b)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=52",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-appeal-stay-contrast",
+    "ruleId": "s65-05-nasaa-appeal-stay",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A registrant appeals a suspension but obtains no court-ordered stay. May the registrant resume the suspended activity just because review is pending?",
+    "answer": "No. Filing the appeal does not itself suspend the order.",
+    "governingRule": "No. The order remains operative unless the court specifically orders a stay.",
+    "trap": "An appeal itself cancels the order’s effect.",
+    "explanation": "Asking a court to review an order and obtaining a pause in its enforcement are separate steps.",
+    "tags": [
+      "nasaa-appeal-stay",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 411(b)",
+    "contentVersion": "572e5a021834f9c7c75198babfe2f69fb87d1940bbd4c1aadee1fd9571b6f55b",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 411(b)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=52",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-civil-recovery-recall",
+    "ruleId": "s65-05-nasaa-civil-recovery",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Under the model Act, what can an eligible buyer generally recover by tendering a security in a civil rescission claim?",
+    "answer": "The purchase amount plus statutory interest, costs, and reasonable attorney fees, less income received from the security.",
+    "governingRule": "The purchase amount plus statutory interest, costs, and reasonable attorney fees, less income received from the security.",
+    "trap": "Civil recovery automatically equals three times the original investment.",
+    "explanation": "Tender means offering to return the security. The statute uses a separate damages computation when the buyer no longer owns it.",
+    "tags": [
+      "nasaa-civil-recovery",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 410(a)",
+    "contentVersion": "ad462fa476bec9dcc99da29a2245158248a8db0173284a12a39addcc33621f7c",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 410(a)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=49",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-civil-recovery-contrast",
+    "ruleId": "s65-05-nasaa-civil-recovery",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A buyer wins an eligible rescission claim after receiving dividends. Does the model Act let the buyer ignore that income when computing recovery?",
+    "answer": "No. Income received from the security reduces the statutory recovery.",
+    "governingRule": "The purchase amount plus statutory interest, costs, and reasonable attorney fees, less income received from the security.",
+    "trap": "Civil recovery automatically equals three times the original investment.",
+    "explanation": "Tender means offering to return the security. The statute uses a separate damages computation when the buyer no longer owns it.",
+    "tags": [
+      "nasaa-civil-recovery",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 410(a)",
+    "contentVersion": "6ec922bbe4c3a34281b47cba2ea5032fb3f4f10ace07a8055446c350fcc5c61f",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 410(a)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=49",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-offer-jurisdiction-recall",
+    "ruleId": "s65-05-nasaa-offer-jurisdiction",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "For the model Act’s offer rules, when is an offer made in a state?",
+    "answer": "When it originates there, or is directed there and received at its intended destination.",
+    "governingRule": "When it originates there, or is directed there and received at its intended destination.",
+    "trap": "Only the issuer’s home state can have authority over the offer.",
+    "explanation": "Acceptance has a separate communication test. More than one state can have jurisdiction over one offering.",
+    "tags": [
+      "nasaa-offer-jurisdiction",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 414(a)–(d)",
+    "contentVersion": "6718708a4672e3e7258f3663654bc0fc988107f1494622a2ed7f457a550ba8eb",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 414(a)–(d)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=53",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-offer-jurisdiction-contrast",
+    "ruleId": "s65-05-nasaa-offer-jurisdiction",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An offer originates in State A and is directed to and received by a buyer in State B. Can both states have jurisdiction over the offer?",
+    "answer": "Yes. State A is the origin; State B is where the directed offer was received.",
+    "governingRule": "When it originates there, or is directed there and received at its intended destination.",
+    "trap": "Only the issuer’s home state can have authority over the offer.",
+    "explanation": "Acceptance has a separate communication test. More than one state can have jurisdiction over one offering.",
+    "tags": [
+      "nasaa-offer-jurisdiction",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 414(a)–(d)",
+    "contentVersion": "a367f675a1e90229fac49c170e57df3d5ec88fef87b4fac0146918cf5873f187",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 414(a)–(d)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=53",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-supervision-recall",
+    "ruleId": "s65-05-nasaa-supervision",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Can an investment adviser face discipline for failing reasonably to supervise its representatives?",
+    "answer": "Yes. Failure to supervise for compliance is a disciplinary ground under the model Act, with the required public-interest finding.",
+    "governingRule": "Yes. Failure to supervise for compliance is a disciplinary ground under the model Act, with the required public-interest finding.",
+    "trap": "Only the representative who committed the violation can face consequences.",
+    "explanation": "The firm’s own supervision duty is distinct from the representative’s conduct. This card addresses the state model Act.",
+    "tags": [
+      "nasaa-supervision",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 204(a)(2)(J)",
+    "contentVersion": "1d256043b2d154193008945a1f64ff6fa2607e396fa060049ca4b8fdd5c18a9e",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 204(a)(2)(J)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=14",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-supervision-contrast",
+    "ruleId": "s65-05-nasaa-supervision",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An advisory firm ignores repeated compliance violations by its representatives. Does employing registered people satisfy its supervision duty?",
+    "answer": "No. Registration does not replace reasonable supervision.",
+    "governingRule": "Yes. Failure to supervise for compliance is a disciplinary ground under the model Act, with the required public-interest finding.",
+    "trap": "Only the representative who committed the violation can face consequences.",
+    "explanation": "The firm’s own supervision duty is distinct from the representative’s conduct. This card addresses the state model Act.",
+    "tags": [
+      "nasaa-supervision",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 204(a)(2)(J)",
+    "contentVersion": "fae1c4fc5c8871f6ef943e5a1b10d9e226833f454f3a9dc075d5e434816a6540",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 204(a)(2)(J)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=14",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-insolvency-recall",
+    "ruleId": "s65-05-nasaa-insolvency",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Can a firm’s insolvency support denial, suspension, or revocation under the model Act?",
+    "answer": "Yes, with a finding that the action is in the public interest and that the firm itself is insolvent.",
+    "governingRule": "Yes, with a finding that the action is in the public interest and that the firm itself is insolvent.",
+    "trap": "A partner’s personal money problem automatically proves the firm is insolvent.",
+    "explanation": "Insolvency can mean liabilities exceed assets or the firm cannot meet obligations as they mature. Required procedures still apply.",
+    "tags": [
+      "nasaa-insolvency",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 204(a)(1), (2)(H)",
+    "contentVersion": "3503c1aaa48d838a836807b8c55da4dcad791e03dd53d5716d0e3279a1d3b70b",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 204(a)(1), (2)(H)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=12",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-insolvency-contrast",
+    "ruleId": "s65-05-nasaa-insolvency",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "One partner cannot pay a personal loan, but the adviser is solvent. Does that fact alone establish the firm-insolvency ground?",
+    "answer": "No. This ground requires an insolvency finding about the firm itself.",
+    "governingRule": "Yes, with a finding that the action is in the public interest and that the firm itself is insolvent.",
+    "trap": "A partner’s personal money problem automatically proves the firm is insolvent.",
+    "explanation": "Insolvency can mean liabilities exceed assets or the firm cannot meet obligations as they mature. Required procedures still apply.",
+    "tags": [
+      "nasaa-insolvency",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 204(a)(1), (2)(H)",
+    "contentVersion": "f5d06f8d2499bfaaa221489400bfd2646dd0ad5b29bb93461e1d832cb4bf2eda",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 204(a)(1), (2)(H)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=12",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-conviction-recall",
+    "ruleId": "s65-05-nasaa-conviction",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Which convictions within the preceding ten years are specified disciplinary grounds in the tested Uniform Securities Act?",
+    "answer": "Any felony, or a misdemeanor involving a security or the securities business; the public-interest requirement also applies.",
+    "governingRule": "Any felony, or a misdemeanor involving a security or the securities business; the public-interest requirement also applies.",
+    "trap": "An accusation alone is a conviction under this provision.",
+    "explanation": "This is the state model Act’s conviction ground, not a complete account of federal statutory disqualification or every disclosure duty.",
+    "tags": [
+      "nasaa-conviction",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 204(a)(1), (2)(C)",
+    "contentVersion": "2d9b167719c50407c7c2dd108354cd77c1b8147aad7c4323d4fdb9498ab529cf",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 204(a)(1), (2)(C)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=12",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-conviction-contrast",
+    "ruleId": "s65-05-nasaa-conviction",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An applicant has only been accused of an offense. Does the accusation alone satisfy the model Act’s conviction ground?",
+    "answer": "No. An accusation is not a conviction; other properly established grounds must be evaluated separately.",
+    "governingRule": "Any felony, or a misdemeanor involving a security or the securities business; the public-interest requirement also applies.",
+    "trap": "An accusation alone is a conviction under this provision.",
+    "explanation": "This is the state model Act’s conviction ground, not a complete account of federal statutory disqualification or every disclosure duty.",
+    "tags": [
+      "nasaa-conviction",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 204(a)(1), (2)(C)",
+    "contentVersion": "47dd301ebcebf13d00a9146fe40f65aea1958f1408ca8654f01597fa30086407",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 204(a)(1), (2)(C)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=12",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-custody-separate-recall",
+    "ruleId": "s65-05-nasaa-custody-separate",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Under North American Securities Administrators Association (NASAA)’s custody model, how must client assets be separated from the adviser’s own assets?",
+    "answer": "Use a qualified custodian and properly titled client accounts; client assets must not be mixed with the adviser’s money.",
+    "governingRule": "Use a qualified custodian and properly titled client accounts; client assets must not be mixed with the adviser’s money.",
+    "trap": "Keeping a spreadsheet makes a personal bank account acceptable for client funds.",
+    "explanation": "The model permits individual client accounts or accounts containing only client assets under the adviser as agent or trustee, with separate pooled-vehicle treatment.",
+    "tags": [
+      "nasaa-custody-separate",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(e)(1)-1(a)(2)",
+    "contentVersion": "2581b5017511d1054fc3c6d339b3914a733d01127141048016da318f843a240b",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Custody Requirements Model Rule 102(e)(1)-1 — 102(e)(1)-1(a)(2)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2023/07/Investment_Adviser_Custody_Rules_102e1-1_and_411f-1.pdf#page=1",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-custody-separate-contrast",
+    "ruleId": "s65-05-nasaa-custody-separate",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An adviser temporarily deposits client investment money into its own operating account but tracks each deposit. Is recordkeeping enough to permit this?",
+    "answer": "No. Accurate records do not make commingling client and adviser assets permissible.",
+    "governingRule": "Use a qualified custodian and properly titled client accounts; client assets must not be mixed with the adviser’s money.",
+    "trap": "Keeping a spreadsheet makes a personal bank account acceptable for client funds.",
+    "explanation": "The model permits individual client accounts or accounts containing only client assets under the adviser as agent or trustee, with separate pooled-vehicle treatment.",
+    "tags": [
+      "nasaa-custody-separate",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(e)(1)-1(a)(2)",
+    "contentVersion": "27d14ad8ca87042b863cb96c3bf3f1438bc1063b06d650be2608d77e41ae55c4",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Custody Requirements Model Rule 102(e)(1)-1 — 102(e)(1)-1(a)(2)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2023/07/Investment_Adviser_Custody_Rules_102e1-1_and_411f-1.pdf#page=1",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-custody-statements-recall",
+    "ruleId": "s65-05-nasaa-custody-statements",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Under North American Securities Administrators Association (NASAA)’s ordinary custody model, how often must the qualified custodian send client account statements?",
+    "answer": "At least quarterly, identifying holdings, funds, and transactions during the period.",
+    "governingRule": "At least quarterly, identifying holdings, funds, and transactions during the period.",
+    "trap": "A statement every six months satisfies the ordinary quarterly requirement.",
+    "explanation": "The adviser must have a reasonable basis, after due inquiry, for believing the custodian sends the statements. Special pooled-fund exceptions require their own analysis.",
+    "tags": [
+      "nasaa-custody-statements",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(e)(1)-1(a)(4)",
+    "contentVersion": "7c5511a2e476543801d937c2ade7fe0ce999ae51eb1faaf08ce5e967efb18d4e",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Custody Requirements Model Rule 102(e)(1)-1 — 102(e)(1)-1(a)(4)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2023/07/Investment_Adviser_Custody_Rules_102e1-1_and_411f-1.pdf#page=1",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-custody-statements-contrast",
+    "ruleId": "s65-05-nasaa-custody-statements",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A custodian sends statements only twice a year. With no applicable exception, does this satisfy North American Securities Administrators Association (NASAA)’s ordinary custody model?",
+    "answer": "No. The ordinary requirement is at least quarterly.",
+    "governingRule": "At least quarterly, identifying holdings, funds, and transactions during the period.",
+    "trap": "A statement every six months satisfies the ordinary quarterly requirement.",
+    "explanation": "The adviser must have a reasonable basis, after due inquiry, for believing the custodian sends the statements. Special pooled-fund exceptions require their own analysis.",
+    "tags": [
+      "nasaa-custody-statements",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(e)(1)-1(a)(4)",
+    "contentVersion": "3ca19d0b7c9ae5b21e0c4d0ed84a7bb2be4c95889a5c47368b2b0d2094850700",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Custody Requirements Model Rule 102(e)(1)-1 — 102(e)(1)-1(a)(4)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2023/07/Investment_Adviser_Custody_Rules_102e1-1_and_411f-1.pdf#page=1",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-custody-return-recall",
+    "ruleId": "s65-05-nasaa-custody-return",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "What must an adviser do with inadvertently received client assets to use North American Securities Administrators Association (NASAA)’s three-business-day custody exception?",
+    "answer": "Return them to the sender within three business days and keep the required records.",
+    "governingRule": "Return them to the sender within three business days and keep the required records.",
+    "trap": "The exception allows the adviser to retain an accidental receipt indefinitely.",
+    "explanation": "This exception requires inadvertent receipt, timely return, and records. It does not authorize deliberately accepting custody.",
+    "tags": [
+      "nasaa-custody-return",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(e)(1)-1(d)(2)(A)(i)",
+    "contentVersion": "57c12efc7fc0f0fd19b60a8c2f2510e8e7fb35bc92b0f2e33725d7e82f2e5703",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Custody Requirements Model Rule 102(e)(1)-1 — 102(e)(1)-1(d)(2)(A)(i)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2023/07/Investment_Adviser_Custody_Rules_102e1-1_and_411f-1.pdf#page=8",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-custody-return-contrast",
+    "ruleId": "s65-05-nasaa-custody-return",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An adviser inadvertently receives a client’s investment check payable to the adviser. Can it keep the check for a week while relying on the inadvertent-receipt exception?",
+    "answer": "No. The exception requires return to the sender within three business days, plus the required records.",
+    "governingRule": "Return them to the sender within three business days and keep the required records.",
+    "trap": "The exception allows the adviser to retain an accidental receipt indefinitely.",
+    "explanation": "This exception requires inadvertent receipt, timely return, and records. It does not authorize deliberately accepting custody.",
+    "tags": [
+      "nasaa-custody-return",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(e)(1)-1(d)(2)(A)(i)",
+    "contentVersion": "8be73b0e04c12549e8ca0a4f74074007b308add015fb00849ce08665de49c2f0",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Custody Requirements Model Rule 102(e)(1)-1 — 102(e)(1)-1(d)(2)(A)(i)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2023/07/Investment_Adviser_Custody_Rules_102e1-1_and_411f-1.pdf#page=8",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-custody-forward-recall",
+    "ruleId": "s65-05-nasaa-custody-forward",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "When does receiving a client check payable to a third party avoid custody under North American Securities Administrators Association (NASAA)’s check-forwarding rule?",
+    "answer": "When the adviser forwards it to the third party within three business days and keeps the required records.",
+    "governingRule": "When the adviser forwards it to the third party within three business days and keeps the required records.",
+    "trap": "A check payable to the adviser is treated the same as one payable to a third party.",
+    "explanation": "Read the payee first. The third-party forwarding rule and the inadvertent-receipt return rule are distinct.",
+    "tags": [
+      "nasaa-custody-forward",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(e)(1)-1(d)(2)(B)",
+    "contentVersion": "a18eca0cddbe2d4b12632c18759cadba31bab85a324fbc8c26b234951460100d",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Custody Requirements Model Rule 102(e)(1)-1 — 102(e)(1)-1(d)(2)(B)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2023/07/Investment_Adviser_Custody_Rules_102e1-1_and_411f-1.pdf#page=8",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-custody-forward-contrast",
+    "ruleId": "s65-05-nasaa-custody-forward",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An adviser receives a check payable to the client’s custodian, forwards it the next business day, and keeps the required records. Does receiving this check alone create custody?",
+    "answer": "No. Those facts satisfy North American Securities Administrators Association (NASAA)’s third-party check-forwarding exception.",
+    "governingRule": "When the adviser forwards it to the third party within three business days and keeps the required records.",
+    "trap": "A check payable to the adviser is treated the same as one payable to a third party.",
+    "explanation": "Read the payee first. The third-party forwarding rule and the inadvertent-receipt return rule are distinct.",
+    "tags": [
+      "nasaa-custody-forward",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(e)(1)-1(d)(2)(B)",
+    "contentVersion": "c0563237e90fa188183f3504c2d9908e63089aa1e3beb9aa328e362a6a94cb60",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Custody Requirements Model Rule 102(e)(1)-1 — 102(e)(1)-1(d)(2)(B)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2023/07/Investment_Adviser_Custody_Rules_102e1-1_and_411f-1.pdf#page=8",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-custody-exam-recall",
+    "ruleId": "s65-05-nasaa-custody-exam",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Absent an exception, how often does North American Securities Administrators Association (NASAA)’s custody model require an independent examination of client assets?",
+    "answer": "At least once each calendar year, at an unannounced time chosen by the independent accountant.",
+    "governingRule": "At least once each calendar year, at an unannounced time chosen by the independent accountant.",
+    "trap": "The adviser may pick the examination date to make it predictable.",
+    "explanation": "A written engagement and irregular timing are required. Under this state model, the accountant files Form ADV-E with the Administrator; federal filing rules are separate.",
+    "tags": [
+      "nasaa-custody-exam",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(e)(1)-1(a)(6)",
+    "contentVersion": "191b06497e3fcd0f9ea193052ef08c4fc2f9a1b6ddb5f4195a512222f27a16ba",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Custody Requirements Model Rule 102(e)(1)-1 — 102(e)(1)-1(a)(6)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2023/07/Investment_Adviser_Custody_Rules_102e1-1_and_411f-1.pdf#page=2",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-custody-exam-contrast",
+    "ruleId": "s65-05-nasaa-custody-exam",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An adviser has custody only through qualifying fee deductions. Must you ignore custody-model exceptions and automatically demand a surprise examination?",
+    "answer": "No. Test the applicable exception and its safeguards before deciding whether an examination is required.",
+    "governingRule": "At least once each calendar year, at an unannounced time chosen by the independent accountant.",
+    "trap": "The adviser may pick the examination date to make it predictable.",
+    "explanation": "A written engagement and irregular timing are required. Under this state model, the accountant files Form ADV-E with the Administrator; federal filing rules are separate.",
+    "tags": [
+      "nasaa-custody-exam",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(e)(1)-1(a)(6)",
+    "contentVersion": "b211b143a0916dab8daf0203518406ee570d3741625921086916cd5da5975bb6",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Custody Requirements Model Rule 102(e)(1)-1 — 102(e)(1)-1(a)(6)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2023/07/Investment_Adviser_Custody_Rules_102e1-1_and_411f-1.pdf#page=2",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-custody-balance-recall",
+    "ruleId": "s65-05-nasaa-custody-balance",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Under North American Securities Administrators Association (NASAA)’s financial-reporting model, can custody trigger an audited balance sheet even without substantial prepaid fees?",
+    "answer": "Yes. Custody is a separate trigger for the adviser’s fiscal-year-end audited balance sheet.",
+    "governingRule": "Yes. Custody is a separate trigger for the adviser’s fiscal-year-end audited balance sheet.",
+    "trap": "Both custody and substantial prepayment must occur together.",
+    "explanation": "The model uses alternative triggers. This financial statement reports on the adviser; it is distinct from a surprise examination of client assets.",
+    "tags": [
+      "nasaa-custody-balance",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 203(c)-1(a)",
+    "contentVersion": "4ae43729687441d348bbd711eee4b4a003c06c265c8ec4807e01d83f826d167a",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Financial Reporting Model Rule 203(c)-1 — audited state adviser balance sheets — 203(c)-1(a)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2022/11/model-rule-investment-adviser-financial-reporting.pdf#page=1",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-05-nasaa-custody-balance-contrast",
+    "ruleId": "s65-05-nasaa-custody-balance",
+    "deckId": "series65",
+    "section": 5,
+    "sectionTitle": "Same subject, different deadline or consequence",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A state adviser has custody but bills after providing services. Does the absence of prepaid fees alone remove the model’s audited-balance-sheet requirement?",
+    "answer": "No. Custody independently triggers that financial-reporting requirement.",
+    "governingRule": "Yes. Custody is a separate trigger for the adviser’s fiscal-year-end audited balance sheet.",
+    "trap": "Both custody and substantial prepayment must occur together.",
+    "explanation": "The model uses alternative triggers. This financial statement reports on the adviser; it is distinct from a surprise examination of client assets.",
+    "tags": [
+      "nasaa-custody-balance",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 203(c)-1(a)",
+    "contentVersion": "a1e07505106577f53bde42f241182ae7421cf5dfb0428d2769c06ac652742103",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Financial Reporting Model Rule 203(c)-1 — audited state adviser balance sheets — 203(c)-1(a)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2022/11/model-rule-investment-adviser-financial-reporting.pdf#page=1",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
     "id": "s65-06-security-exempt-recall",
     "ruleId": "s65-06-security-exempt",
     "deckId": "series65",
@@ -6381,6 +7569,534 @@
         "authority": "NASAA",
         "title": "1956 Uniform Securities Act with NASAA updates and commentary",
         "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-isolated-sale-recall",
+    "ruleId": "s65-06-nasaa-isolated-sale",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Does the model Act’s isolated nonissuer transaction exemption require use of a broker-dealer?",
+    "answer": "No. An isolated nonissuer transaction can qualify whether or not a broker-dealer is involved.",
+    "governingRule": "No. An isolated nonissuer transaction can qualify whether or not a broker-dealer is involved.",
+    "trap": "An isolated transaction makes every later sale of the same security exempt.",
+    "explanation": "The exemption concerns that transaction. Nonissuer means the transaction does not directly or indirectly benefit the issuer.",
+    "tags": [
+      "nasaa-isolated-sale",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(b)(1)",
+    "contentVersion": "3a70d44fe8a69967fda205767d2f641a29acce0d144a035ff45077c63efdb309",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(b)(1)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=39",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-isolated-sale-contrast",
+    "ruleId": "s65-06-nasaa-isolated-sale",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An investor makes a qualifying isolated nonissuer sale without a broker. Does the lack of a broker defeat this transaction exemption?",
+    "answer": "No. The isolated nonissuer exemption does not require a broker-dealer.",
+    "governingRule": "No. An isolated nonissuer transaction can qualify whether or not a broker-dealer is involved.",
+    "trap": "An isolated transaction makes every later sale of the same security exempt.",
+    "explanation": "The exemption concerns that transaction. Nonissuer means the transaction does not directly or indirectly benefit the issuer.",
+    "tags": [
+      "nasaa-isolated-sale",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(b)(1)",
+    "contentVersion": "2df65702ab1a263b1bfce4b8854072840bbd85df0794cc2b5412f37604e3debb",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(b)(1)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=39",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-unsolicited-sale-recall",
+    "ruleId": "s65-06-nasaa-unsolicited-sale",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "What unsolicited-order transaction does the Uniform Securities Act specifically exempt?",
+    "answer": "A nonissuer transaction through a registered broker-dealer pursuant to an unsolicited order or offer to buy.",
+    "governingRule": "A nonissuer transaction through a registered broker-dealer pursuant to an unsolicited order or offer to buy.",
+    "trap": "A salesperson can solicit a purchase and then label the resulting order unsolicited.",
+    "explanation": "The Administrator may require a signed customer acknowledgment and retention of that record. The transaction exemption does not waive seller registration.",
+    "tags": [
+      "nasaa-unsolicited-sale",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(b)(3)",
+    "contentVersion": "0b728a6000a89bfcf74762dac2a6ca7db50a2532b5eab70b124df98952f2c777",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(b)(3)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=41",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-unsolicited-sale-contrast",
+    "ruleId": "s65-06-nasaa-unsolicited-sale",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A registered broker-dealer recommends a purchase and the customer agrees. Does customer agreement make it an unsolicited transaction?",
+    "answer": "No. The firm solicited the purchase; customer agreement does not change that.",
+    "governingRule": "A nonissuer transaction through a registered broker-dealer pursuant to an unsolicited order or offer to buy.",
+    "trap": "A salesperson can solicit a purchase and then label the resulting order unsolicited.",
+    "explanation": "The Administrator may require a signed customer acknowledgment and retention of that record. The transaction exemption does not waive seller registration.",
+    "tags": [
+      "nasaa-unsolicited-sale",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(b)(3)",
+    "contentVersion": "6d39d48ec2a68acbaa4e7459eca62c90340dc9c244046fc5b7d785a33c2f7e68",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(b)(3)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=41",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-underwriting-sale-recall",
+    "ruleId": "s65-06-nasaa-underwriting-sale",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Is an issuer-to-underwriter transaction an exempt transaction under the Uniform Securities Act?",
+    "answer": "Yes. The Act also exempts transactions among underwriters under this provision.",
+    "governingRule": "Yes. The Act also exempts transactions among underwriters under this provision.",
+    "trap": "The underwriter’s later retail distribution automatically has the same exemption.",
+    "explanation": "Each transaction needs its own analysis. The issuer-to-underwriter exemption does not carry over to every subsequent buyer.",
+    "tags": [
+      "nasaa-underwriting-sale",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(b)(4)",
+    "contentVersion": "c94095f46fc1ac330cd5ffd98114add0edb2160a08fa89db654a6a29a44675f6",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(b)(4)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=41",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-underwriting-sale-contrast",
+    "ruleId": "s65-06-nasaa-underwriting-sale",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An underwriter buys from an issuer and then sells to retail investors. Does the first transaction’s exemption automatically exempt those retail sales?",
+    "answer": "No. The retail transactions require a separate registration or exemption analysis.",
+    "governingRule": "Yes. The Act also exempts transactions among underwriters under this provision.",
+    "trap": "The underwriter’s later retail distribution automatically has the same exemption.",
+    "explanation": "Each transaction needs its own analysis. The issuer-to-underwriter exemption does not carry over to every subsequent buyer.",
+    "tags": [
+      "nasaa-underwriting-sale",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(b)(4)",
+    "contentVersion": "817b05df4e80ba86f925f683c5b18568ecbe5b1b534f78831d6ed092a025bd8f",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(b)(4)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=41",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-estate-sale-recall",
+    "ruleId": "s65-06-nasaa-estate-sale",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Does the Uniform Securities Act specifically exempt transactions by an executor or estate administrator?",
+    "answer": "Yes. Both are included in the listed fiduciary transaction exemption.",
+    "governingRule": "Yes. Both are included in the listed fiduciary transaction exemption.",
+    "trap": "Anyone claiming to be an heir automatically has the executor’s authority or exemption.",
+    "explanation": "The listed capacity matters. This securities exemption does not establish who has legal authority to act for a particular estate.",
+    "tags": [
+      "nasaa-estate-sale",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(b)(6)",
+    "contentVersion": "a5ef04498885f11f1682a12365a9c6885e32c3092a95a73395ecb8be2f4cb14c",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(b)(6)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=41",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-estate-sale-contrast",
+    "ruleId": "s65-06-nasaa-estate-sale",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An estate’s duly appointed administrator sells estate securities in that capacity. Does the model Act identify this as an exempt transaction?",
+    "answer": "Yes. Transactions by an administrator fall within the listed exemption.",
+    "governingRule": "Yes. Both are included in the listed fiduciary transaction exemption.",
+    "trap": "Anyone claiming to be an heir automatically has the executor’s authority or exemption.",
+    "explanation": "The listed capacity matters. This securities exemption does not establish who has legal authority to act for a particular estate.",
+    "tags": [
+      "nasaa-estate-sale",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(b)(6)",
+    "contentVersion": "0431570fac46e9b653e5b863c23fb4f44b26fac1c945338cab69b226ccb53b79",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(b)(6)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=41",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-pledgee-sale-recall",
+    "ruleId": "s65-06-nasaa-pledgee-sale",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "What condition qualifies a pledgee’s transaction for the model Act’s collateral-sale exemption?",
+    "answer": "It must be a bona fide pledgee transaction, without a purpose of evading the Act.",
+    "governingRule": "It must be a bona fide pledgee transaction, without a purpose of evading the Act.",
+    "trap": "Calling an arranged securities sale a loan liquidation guarantees an exemption.",
+    "explanation": "A pledgee holds collateral for a genuine obligation. An arrangement designed to evade registration does not meet this exemption.",
+    "tags": [
+      "nasaa-pledgee-sale",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(b)(7)",
+    "contentVersion": "c5ff623d162f8728c81f0ea82bce5c23da9a0f300e54d9007a6ae0df351dcf59",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(b)(7)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=41",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-pledgee-sale-contrast",
+    "ruleId": "s65-06-nasaa-pledgee-sale",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A lender sells genuinely pledged securities after default, without a scheme to evade registration. Which transaction exemption fits?",
+    "answer": "The bona fide pledgee transaction exemption.",
+    "governingRule": "It must be a bona fide pledgee transaction, without a purpose of evading the Act.",
+    "trap": "Calling an arranged securities sale a loan liquidation guarantees an exemption.",
+    "explanation": "A pledgee holds collateral for a genuine obligation. An arrangement designed to evade registration does not meet this exemption.",
+    "tags": [
+      "nasaa-pledgee-sale",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(b)(7)",
+    "contentVersion": "c41d9a2b91e6ea29ca7dd7967e4e5751b337e7d2e63807026ccc7bf3e332ff06",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(b)(7)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=41",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-commercial-paper-recall",
+    "ruleId": "s65-06-nasaa-commercial-paper",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "What maturity, denomination, and rating conditions define the tested commercial-paper exemption in the model Act?",
+    "answer": "Payment within nine months, denominations of at least $50,000, and a rating in one of the top three categories.",
+    "governingRule": "Payment within nine months, denominations of at least $50,000, and a rating in one of the top three categories.",
+    "trap": "A short maturity alone is enough.",
+    "explanation": "These conditions operate together. The Act states nine months; do not replace this state test with a different federal offering exemption.",
+    "tags": [
+      "nasaa-commercial-paper",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(a)(10)",
+    "contentVersion": "0d43e0f04fe20db1ddd59d2ce80e9603c57118c0f8548ea9c552186163047c9f",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(a)(10)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=39",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-commercial-paper-contrast",
+    "ruleId": "s65-06-nasaa-commercial-paper",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A note matures in seven months and has a top-category rating, but its denomination is $20,000. Does it meet this model Act exemption?",
+    "answer": "No. The denomination must be at least $50,000.",
+    "governingRule": "Payment within nine months, denominations of at least $50,000, and a rating in one of the top three categories.",
+    "trap": "A short maturity alone is enough.",
+    "explanation": "These conditions operate together. The Act states nine months; do not replace this state test with a different federal offering exemption.",
+    "tags": [
+      "nasaa-commercial-paper",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(a)(10)",
+    "contentVersion": "4773c172a507617350899028b750a52a49e6c101cd3998a7c8199de528246604",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(a)(10)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=39",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-charity-security-recall",
+    "ruleId": "s65-06-nasaa-charity-security",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Under the model Act, can securities of a qualifying nonprofit charitable issuer be exempt from state securities registration?",
+    "answer": "Yes. The issuer must be organized and operated not for private profit and exclusively for a listed purpose.",
+    "governingRule": "Yes. The issuer must be organized and operated not for private profit and exclusively for a listed purpose.",
+    "trap": "Donating part of a for-profit company’s revenue makes its securities exempt.",
+    "explanation": "The exemption turns on the issuer’s organization and operation, not merely a charitable use of some sales proceeds. Antifraud duties remain.",
+    "tags": [
+      "nasaa-charity-security",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(a)(9)",
+    "contentVersion": "1fba7b0c8e676c4410c20bc08169bda761282769becf01ec1f9ca574362b94e5",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(a)(9)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=39",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-charity-security-contrast",
+    "ruleId": "s65-06-nasaa-charity-security",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A for-profit company gives 5% of revenue to charity. Does that fact alone establish the nonprofit-issuer securities exemption?",
+    "answer": "No. Occasional charitable giving does not make the issuer a qualifying nonprofit organization.",
+    "governingRule": "Yes. The issuer must be organized and operated not for private profit and exclusively for a listed purpose.",
+    "trap": "Donating part of a for-profit company’s revenue makes its securities exempt.",
+    "explanation": "The exemption turns on the issuer’s organization and operation, not merely a charitable use of some sales proceeds. Antifraud duties remain.",
+    "tags": [
+      "nasaa-charity-security",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(a)(9)",
+    "contentVersion": "5168a5b223e48e8c5a5d365e0b70942351274213ef0e30ac60d2c1dc867a48a1",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(a)(9)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=39",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-insurer-security-recall",
+    "ruleId": "s65-06-nasaa-insurer-security",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "For the model Act’s insurance-company securities exemption, what state authorization matters?",
+    "answer": "The insurer is organized under a state’s laws and authorized to do business in the state where the exemption is claimed.",
+    "governingRule": "The insurer is organized under a state’s laws and authorized to do business in the state where the exemption is claimed.",
+    "trap": "Authorization in its home state alone is sufficient everywhere.",
+    "explanation": "This objective concerns the insurer’s ordinary stock or debt. Do not generalize it to every variable insurance contract; the model text treats those separately.",
+    "tags": [
+      "nasaa-insurer-security",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(a)(5)",
+    "contentVersion": "00853c7971baf0681050233d61eb1e329080b619d885f63cca039f89e458694a",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(a)(5)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=38",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-nasaa-insurer-security-contrast",
+    "ruleId": "s65-06-nasaa-insurer-security",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An insurer seeks the exemption for its ordinary debt in State B but is authorized only in State A. Does home-state authorization alone satisfy the State B condition?",
+    "answer": "No. It must be authorized to do business in State B for that condition to be met.",
+    "governingRule": "The insurer is organized under a state’s laws and authorized to do business in the state where the exemption is claimed.",
+    "trap": "Authorization in its home state alone is sufficient everywhere.",
+    "explanation": "This objective concerns the insurer’s ordinary stock or debt. Do not generalize it to every variable insurance contract; the model text treats those separately.",
+    "tags": [
+      "nasaa-insurer-security",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 402(a)(5)",
+    "contentVersion": "dffd1df425b4f76f470c9d7715660284cb2c5076b7320e66119a52c9444d2045",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary — 402(a)(5)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=38",
         "kind": "rule"
       }
     ],
@@ -9243,6 +10959,534 @@
         "title": "Proposed rescission of Rule 206(4)-5 — September 3, 2026; not an effective repeal",
         "url": "https://www.sec.gov/rules-regulations/2026/09/s7-2026-31",
         "kind": "reference"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-third-party-orders-recall",
+    "ruleId": "s65-09-nasaa-third-party-orders",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Before an adviser acts on a third party’s trade instruction for a client, what authorization must it obtain?",
+    "answer": "The client’s written third-party trading authorization, obtained before the order.",
+    "governingRule": "The client’s written third-party trading authorization, obtained before the order.",
+    "trap": "A close relationship to the client substitutes for written authority.",
+    "explanation": "The separate ten-business-day accommodation for the adviser’s oral discretion does not waive this third-party requirement.",
+    "tags": [
+      "nasaa-third-party-orders",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(a)(4)-1(e)",
+    "contentVersion": "3618737d8b6a429d2e192471d37a405935ad2794a568b690d4be916f73d2ccb0",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(e)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=2",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-third-party-orders-contrast",
+    "ruleId": "s65-09-nasaa-third-party-orders",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A client’s sibling requests a sale, but no written third-party authority is on file. May the adviser act merely because the sibling knows the account details?",
+    "answer": "No. Obtain the client’s written third-party trading authorization first.",
+    "governingRule": "The client’s written third-party trading authorization, obtained before the order.",
+    "trap": "A close relationship to the client substitutes for written authority.",
+    "explanation": "The separate ten-business-day accommodation for the adviser’s oral discretion does not waive this third-party requirement.",
+    "tags": [
+      "nasaa-third-party-orders",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(a)(4)-1(e)",
+    "contentVersion": "af058e60081f595078e1d13ed29193d6b6d6795d00bb7d3705830fcc22b86d1b",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(e)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=2",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-borrow-client-recall",
+    "ruleId": "s65-09-nasaa-borrow-client",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Under North American Securities Administrators Association (NASAA)’s adviser model, which client categories can fall within the exception to borrowing from clients?",
+    "answer": "A broker-dealer, an adviser affiliate, or a financial institution in the lending business.",
+    "governingRule": "A broker-dealer, an adviser affiliate, or a financial institution in the lending business.",
+    "trap": "Every wealthy client who agrees to lend qualifies.",
+    "explanation": "This is the adviser model’s borrowing provision. Do not assume broker-dealer agents have identical exceptions.",
+    "tags": [
+      "nasaa-borrow-client",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(a)(4)-1(f)",
+    "contentVersion": "1903f387d9a90e2b640d42125fbb02ad26341b8a7d08fc1fa1273c19a7ad2261",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(f)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=2",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-borrow-client-contrast",
+    "ruleId": "s65-09-nasaa-borrow-client",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An adviser wants a personal loan from an ordinary individual client who is not an affiliate. Does the client’s willingness make it permissible under this provision?",
+    "answer": "No. Consent alone does not place the client in a permitted lender category.",
+    "governingRule": "A broker-dealer, an adviser affiliate, or a financial institution in the lending business.",
+    "trap": "Every wealthy client who agrees to lend qualifies.",
+    "explanation": "This is the adviser model’s borrowing provision. Do not assume broker-dealer agents have identical exceptions.",
+    "tags": [
+      "nasaa-borrow-client",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(a)(4)-1(f)",
+    "contentVersion": "e5710718d1b674e4a2df5c4e4032649e985d0387400c346ed3dc8c9653c66cd0",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(f)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=2",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-lend-client-recall",
+    "ruleId": "s65-09-nasaa-lend-client",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Under North American Securities Administrators Association (NASAA)’s adviser model, when may an adviser fall within the exception to lending money to a client?",
+    "answer": "When the adviser is a financial institution in the lending business, or the client is an adviser affiliate.",
+    "governingRule": "When the adviser is a financial institution in the lending business, or the client is an adviser affiliate.",
+    "trap": "The borrowing exception and lending exception have identical wording.",
+    "explanation": "Identify who lends and who borrows before selecting the exception.",
+    "tags": [
+      "nasaa-lend-client",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(a)(4)-1(g)",
+    "contentVersion": "923c323d1d98949e3a99a7a01a07562d3307502d1dfe596d675ca0f3737ca6cb",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(g)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=2",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-lend-client-contrast",
+    "ruleId": "s65-09-nasaa-lend-client",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An ordinary advisory firm lends to an unrelated retail client and obtains written consent. Does consent alone satisfy the model’s lending exception?",
+    "answer": "No. The stated facts meet neither the financial-institution nor affiliate exception.",
+    "governingRule": "When the adviser is a financial institution in the lending business, or the client is an adviser affiliate.",
+    "trap": "The borrowing exception and lending exception have identical wording.",
+    "explanation": "Identify who lends and who borrows before selecting the exception.",
+    "tags": [
+      "nasaa-lend-client",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(a)(4)-1(g)",
+    "contentVersion": "c672cd7022d92c02d01ea4e0a49d0c983b46a07d6b0e6a60e8fb8e873c707e01",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(g)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=2",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-excessive-trading-recall",
+    "ruleId": "s65-09-nasaa-excessive-trading",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "What makes trading excessive under North American Securities Administrators Association (NASAA)’s adviser conduct model?",
+    "answer": "Its size or frequency is excessive for the account’s resources, objectives, and character, while the adviser can benefit from the transactions.",
+    "governingRule": "Its size or frequency is excessive for the account’s resources, objectives, and character, while the adviser can benefit from the transactions.",
+    "trap": "A longstanding relationship or discretionary authority makes excessive trading acceptable.",
+    "explanation": "Repeated trading to increase compensation is commonly called churning. Evaluate the activity against the client’s circumstances.",
+    "tags": [
+      "nasaa-excessive-trading",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(a)(4)-1(c)",
+    "contentVersion": "bb94f01ef66a038c9897b95d5deaeca3a0ff10a0190a46aee6d9b4787facd5fb",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(c)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=1",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-excessive-trading-contrast",
+    "ruleId": "s65-09-nasaa-excessive-trading",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An adviser repeatedly trades a conservative client’s account to generate more compensation. Does having served the client for years excuse the activity?",
+    "answer": "No. The length of the relationship does not excuse excessive trading.",
+    "governingRule": "Its size or frequency is excessive for the account’s resources, objectives, and character, while the adviser can benefit from the transactions.",
+    "trap": "A longstanding relationship or discretionary authority makes excessive trading acceptable.",
+    "explanation": "Repeated trading to increase compensation is commonly called churning. Evaluate the activity against the client’s circumstances.",
+    "tags": [
+      "nasaa-excessive-trading",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(a)(4)-1(c)",
+    "contentVersion": "00bf576ecba9019cd0fa8d28dfa04bafd2eb0e8c1be3d76017090a8425c5802f",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(c)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=1",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-conflict-timing-recall",
+    "ruleId": "s65-09-nasaa-conflict-timing",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Under North American Securities Administrators Association (NASAA)’s adviser model, when and how must a material conflict capable of impairing objective advice be disclosed?",
+    "answer": "In writing, before the advice is given.",
+    "governingRule": "In writing, before the advice is given.",
+    "trap": "Disclosure after the client trades is always sufficient.",
+    "explanation": "Conflicts can involve the adviser or employees, including additional compensation connected with the advice. The source addresses material conflicts, not every incidental personal preference.",
+    "tags": [
+      "nasaa-conflict-timing",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(a)(4)-1(k)",
+    "contentVersion": "804a1072a7ec88a7de2f6fba81fa85076e0f9d3fe4ba62c742463af381c60d61",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(k)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=2",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-conflict-timing-contrast",
+    "ruleId": "s65-09-nasaa-conflict-timing",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An adviser will receive extra compensation connected with its recommendation. May it wait until after giving the advice to disclose this material conflict?",
+    "answer": "No. Written disclosure must precede the advice under this model provision.",
+    "governingRule": "In writing, before the advice is given.",
+    "trap": "Disclosure after the client trades is always sufficient.",
+    "explanation": "Conflicts can involve the adviser or employees, including additional compensation connected with the advice. The source addresses material conflicts, not every incidental personal preference.",
+    "tags": [
+      "nasaa-conflict-timing",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(a)(4)-1(k)",
+    "contentVersion": "8aa7b8b392f0d5f902febf28176997b76715c3c8130b5bac4b44d59f75ecb2d3",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(k)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=2",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-individual-fit-recall",
+    "ruleId": "s65-09-nasaa-individual-fit",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Before recommending the same security to several clients, what must an adviser establish for each client?",
+    "answer": "Reasonable grounds for suitability based on inquiry into that client’s objectives, finances, needs, and other known information.",
+    "governingRule": "Reasonable grounds for suitability based on inquiry into that client’s objectives, finances, needs, and other known information.",
+    "trap": "One investment is suitable for everyone simply because it is suitable for one client.",
+    "explanation": "Several clients can receive the same suitable recommendation. Skipping the individual assessment is the problem.",
+    "tags": [
+      "nasaa-individual-fit",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(a)(4)-1(a)",
+    "contentVersion": "578b2304bb90f69f432f1072ef6ec2e0004cd248391ee406aeb54178d5a47fd6",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(a)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=1",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-individual-fit-contrast",
+    "ruleId": "s65-09-nasaa-individual-fit",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An adviser recommends one fund to every client without reviewing their circumstances. Does the fund’s good performance make that process adequate?",
+    "answer": "No. Performance does not replace the required client-specific suitability assessment.",
+    "governingRule": "Reasonable grounds for suitability based on inquiry into that client’s objectives, finances, needs, and other known information.",
+    "trap": "One investment is suitable for everyone simply because it is suitable for one client.",
+    "explanation": "Several clients can receive the same suitable recommendation. Skipping the individual assessment is the problem.",
+    "tags": [
+      "nasaa-individual-fit",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(a)(4)-1(a)",
+    "contentVersion": "fb59c76c15bdb15672d8f190d93c244f3216246210d69766e701fec62db2065b",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(a)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=1",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-no-guarantee-recall",
+    "ruleId": "s65-09-nasaa-no-guarantee",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "May an adviser guarantee that its securities advice will produce a gain or prevent a loss?",
+    "answer": "No. North American Securities Administrators Association (NASAA)’s adviser model prohibits guaranteeing those specific investment results.",
+    "governingRule": "No. NASAA’s adviser model prohibits guaranteeing those specific investment results.",
+    "trap": "Confidence in the strategy or client consent makes a result guarantee acceptable.",
+    "explanation": "Describe an investment’s actual contractual protections accurately; do not turn them into the adviser’s promise of an investment result.",
+    "tags": [
+      "nasaa-no-guarantee",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(a)(4)-1(l)",
+    "contentVersion": "c6748b4e44278941ef91dc8ddc3b7b4cc4ee1b02935050ed2c152674c00dbb71",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(l)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=2",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-no-guarantee-contrast",
+    "ruleId": "s65-09-nasaa-no-guarantee",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An adviser promises that a recommended stock strategy cannot lose money. Does using a diversified portfolio make that promise permissible?",
+    "answer": "No. Diversification does not permit the adviser to guarantee no loss.",
+    "governingRule": "No. North American Securities Administrators Association (NASAA)’s adviser model prohibits guaranteeing those specific investment results.",
+    "trap": "Confidence in the strategy or client consent makes a result guarantee acceptable.",
+    "explanation": "Describe an investment’s actual contractual protections accurately; do not turn them into the adviser’s promise of an investment result.",
+    "tags": [
+      "nasaa-no-guarantee",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — 102(a)(4)-1(l)",
+    "contentVersion": "cedab3b555baa30428f7245b6f5a8819dd1f03d5f58f9adccc7381dbe5a71166",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(l)",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=2",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-covered-fraud-recall",
+    "ruleId": "s65-09-nasaa-covered-fraud",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Does federal covered adviser status eliminate state authority over fraudulent or deceptive conduct?",
+    "answer": "No. State antifraud authority remains, within federal preemption limits.",
+    "governingRule": "No. State antifraud authority remains, within federal preemption limits.",
+    "trap": "Securities and Exchange Commission (SEC) registration prevents every state investigation.",
+    "explanation": "The model expressly limits its application to federal covered advisers to fraud, deception, or other conduct permitted by federal law. It does not create general state registration authority over the firm.",
+    "tags": [
+      "nasaa-covered-fraud",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — Introduction — federal covered advisers",
+    "contentVersion": "c99b5c514e3882e8dba8145516f16d876e27ba4ed6663675c33c8e0e83e8be24",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — Introduction — federal covered advisers",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=1",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-nasaa-covered-fraud-contrast",
+    "ruleId": "s65-09-nasaa-covered-fraud",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A federally registered adviser claims the state cannot investigate alleged client fraud because the firm is Securities and Exchange Commission (SEC)-registered. Is that claim correct?",
+    "answer": "No. Federal registration does not erase state antifraud authority.",
+    "governingRule": "No. State antifraud authority remains, within federal preemption limits.",
+    "trap": "SEC registration prevents every state investigation.",
+    "explanation": "The model expressly limits its application to federal covered advisers to fraud, deception, or other conduct permitted by federal law. It does not create general state registration authority over the firm.",
+    "tags": [
+      "nasaa-covered-fraud",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — Introduction — federal covered advisers",
+    "contentVersion": "66e52bed70afbb858bb21a77902014d0b2466b96363e447c5b5baf1808dabfd2",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — Introduction — federal covered advisers",
+        "url": "https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=1",
+        "kind": "rule"
       }
     ],
     "retest": true,
@@ -17633,6 +19877,138 @@
         "authority": "SEC",
         "title": "Exchange-Traded Funds — market prices, structure, and active management",
         "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-18-nasaa-inverse-daily-recall",
+    "ruleId": "s65-18-nasaa-inverse-daily",
+    "deckId": "series65",
+    "section": 18,
+    "sectionTitle": "Mutual funds",
+    "category": "vehicles",
+    "priority": "medium",
+    "type": "recall",
+    "front": "What does a daily inverse exchange-traded fund (ETF) seek to do?",
+    "answer": "Produce the opposite of its benchmark’s daily return, before fees and tracking differences.",
+    "governingRule": "Produce the opposite of its benchmark’s daily return, before fees and tracking differences.",
+    "trap": "Its daily objective guarantees the opposite return over a month or year.",
+    "explanation": "The daily reset matters. Compounding can make a longer holding period differ substantially from the stated daily objective.",
+    "tags": [
+      "nasaa-inverse-daily",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — Executive summary and footnote 1, PDF page 2",
+    "contentVersion": "4a048f16f7242060780033fdbed0b5f41d7916e2458df552c278b773abc57ff9",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Leveraged/inverse ETF report — executive summary and footnote 1",
+        "url": "https://www.nasaa.org/wp-content/uploads/2019/07/2019-BD-Study-of-Exchange-Traded-Funds-FINAL.pdf#page=2",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-18-nasaa-inverse-daily-contrast",
+    "ruleId": "s65-18-nasaa-inverse-daily",
+    "deckId": "series65",
+    "section": 18,
+    "sectionTitle": "Mutual funds",
+    "category": "vehicles",
+    "priority": "medium",
+    "type": "contrast",
+    "front": "A daily inverse exchange-traded fund (ETF) tracks an index that falls over a month. Must the fund gain exactly the opposite percentage over that month?",
+    "answer": "No. A daily objective does not guarantee the corresponding monthly return.",
+    "governingRule": "Produce the opposite of its benchmark’s daily return, before fees and tracking differences.",
+    "trap": "Its daily objective guarantees the opposite return over a month or year.",
+    "explanation": "The daily reset matters. Compounding can make a longer holding period differ substantially from the stated daily objective.",
+    "tags": [
+      "nasaa-inverse-daily",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — Executive summary and footnote 1, PDF page 2",
+    "contentVersion": "9e6544b7f8e197ca8b736e7820df21952357d3f9e46659fe7b297cfd425c2fea",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Leveraged/inverse ETF report — executive summary and footnote 1",
+        "url": "https://www.nasaa.org/wp-content/uploads/2019/07/2019-BD-Study-of-Exchange-Traded-Funds-FINAL.pdf#page=2",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-18-nasaa-leverage-direction-recall",
+    "ruleId": "s65-18-nasaa-leverage-direction",
+    "deckId": "series65",
+    "section": 18,
+    "sectionTitle": "Mutual funds",
+    "category": "vehicles",
+    "priority": "medium",
+    "type": "recall",
+    "front": "Does leveraged exchange-traded fund (ETF) necessarily mean inverse ETF?",
+    "answer": "No. Leverage targets a multiple; inverse describes the opposite direction. A fund may have either feature or both.",
+    "governingRule": "No. Leverage targets a multiple; inverse describes the opposite direction. A fund may have either feature or both.",
+    "trap": "Every leveraged fund profits when its benchmark falls.",
+    "explanation": "A positive daily multiple and a negative daily multiple have different directional objectives. Neither promises the same multiple over a longer holding period.",
+    "tags": [
+      "nasaa-leverage-direction",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — Executive summary footnote 1, PDF page 2",
+    "contentVersion": "ce1d2165885dcff54616f5d7f8af72833ef4fba248251e41f80a4cb90d2e4383",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Leveraged/inverse ETF report — executive summary and footnote 1",
+        "url": "https://www.nasaa.org/wp-content/uploads/2019/07/2019-BD-Study-of-Exchange-Traded-Funds-FINAL.pdf#page=2",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-18-nasaa-leverage-direction-contrast",
+    "ruleId": "s65-18-nasaa-leverage-direction",
+    "deckId": "series65",
+    "section": 18,
+    "sectionTitle": "Mutual funds",
+    "category": "vehicles",
+    "priority": "medium",
+    "type": "contrast",
+    "front": "One daily exchange-traded fund (ETF) targets +2 times an index’s return; another targets −2 times. Which one is inverse?",
+    "answer": "The −2-times fund is inverse. Both are leveraged.",
+    "governingRule": "No. Leverage targets a multiple; inverse describes the opposite direction. A fund may have either feature or both.",
+    "trap": "Every leveraged fund profits when its benchmark falls.",
+    "explanation": "A positive daily multiple and a negative daily multiple have different directional objectives. Neither promises the same multiple over a longer holding period.",
+    "tags": [
+      "nasaa-leverage-direction",
+      "nasaa-supplement",
+      "retest"
+    ],
+    "sourcePath": "content/nasaa-supplement.ts",
+    "sourceHeading": "NASAA supplement — Executive summary footnote 1, PDF page 2",
+    "contentVersion": "29ab98083911b0af2f9781a9f38441ab31723cfcda06de67956bd0125a741162",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "Leveraged/inverse ETF report — executive summary and footnote 1",
+        "url": "https://www.nasaa.org/wp-content/uploads/2019/07/2019-BD-Study-of-Exchange-Traded-Funds-FINAL.pdf#page=2",
         "kind": "guidance"
       }
     ],

@@ -27,10 +27,14 @@
     {
       "file": "content/review-checklist.ts",
       "sha256": "84326b15bf5589a99f046744de89f5d21a04d03749141d476ecd4f4b7a17b499"
+    },
+    {
+      "file": "content/nasaa-supplement.ts",
+      "sha256": "5cac934fcfee001c9e0e88a74163784d81baa9f83ebc9afa0280d120f90c096d"
     }
   ],
-  "rules": 339,
-  "cards": 703,
+  "rules": 375,
+  "cards": 775,
   "sections": [
     {
       "number": 1,

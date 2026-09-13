@@ -1,5 +1,37 @@
 # Content conflicts and qualifications
 
+## Later September 13 concept notes
+
+The full disposition is in [September notes audit](september-notes-audit.md), including existing coverage and individually held details. Canonical files remain unchanged. The new [NASAA supplement](nasaa-supplement.md) contains 36 separately attributed objectives; no vendor wording or scenarios were imported.
+
+| Conflict or overstatement | Treatment |
+|---|---|
+| Rule of 72 proposed for bond pricing | Reject that use; it estimates doubling time/rate. The copied recovery scenario is not imported. |
+| Adviser discretion shortened to consent in ten days | Preserve ten **business** days after the first orally authorized transaction. Add prior written third-party authority as a separate rule. |
+| Custody notes mix state/federal filings, statements, and exceptions | New pairs specify ordinary qualified-custodian quarterly statements, separate assets, independent examination with exceptions, and state filing with the Administrator. |
+| Three-day check provisions omit conditions | Separate inadvertent receipt/return from third-party payee/forwarding; both require three **business** days and required records. |
+| Insurer authorization described only in home-state terms | New card requires authorization in the state where the exemption is claimed; ordinary stock/debt is not generalized to every variable contract. |
+| Commercial-paper maturity paraphrased as 270 days | The new card uses the operative model Act's **nine months**, plus denomination and rating conditions. No substitution of a federal exemption test. |
+| Criminal ceiling, conviction grounds, and appeal lack legal context | Label the 1956 model Act; separate criminal penalty, civil recovery, specified conviction grounds, 60-day review and a court-ordered stay. |
+| Personal insolvency or accusation treated as automatic firm discipline | Require the relevant public-interest and statutory grounds; distinguish firm insolvency from personal debt and accusation from conviction. |
+| Client consent offered as universal loan permission | New cards use the distinct adviser borrowing/lending exceptions, not an assumed BD-agent rule. |
+| Same security for multiple clients treated as inherently improper | Require individual suitability inquiry. Multiple clients can receive the same suitable recommendation. |
+| Federal registration portrayed as immunity from state fraud investigation | New pair retains state antifraud authority within federal preemption limits. |
+| Inverse/leveraged returns stated without a period | New pairs specify daily objectives and longer-period divergence. |
+| An older SEC mutual-fund/ETF guide describes ETNs as secured obligations, conflicting with the canonical unsecured-credit-risk objective and its dedicated ETN reference. | Retain the canonical unsecured ETN card and its specific authority. The older broad guide is used only for the traditional mutual-fund pricing explanation, not to revise the ETN rule. |
+| All REITs portrayed as exchange traded | Reject the absolute: NASAA discusses non-traded REITs. Detailed tax/entity additions remain held. |
+| TIPS coupon, indexing frequency, and realized real return conflated | Preserve existing fixed-rate/variable-principal rule. Do not add the periodicity or always-equals-coupon claims. |
+| Passive losses or gift basis stated without exceptions | Preserve existing disposition-release and dual-basis cards. |
+| Old tax limits or age-73 historical examples presented as universal | Hold new numeric cards for dated, cohort-aware review. Preserve 59½ where pasted formatting lost the fraction. |
+| 457, payroll deduction, nonqualified plans, or 1,000-hour service overgeneralized | Hold new details for the exact plan, qualification, distribution, service, and reporting provisions. Preserve the existing governmental 457 rolled-in-money exception. |
+| Insurance guarantees, surrender charges, variable-life terms, and probate treated as universal | Hold for precise contract and legal authority; no new universal guarantee. |
+| 12b-1 classification, seminar safe harbor, or investment-company initial contract term stated categorically | Hold. Fee components, eligible expenses, and continuation provisions must be checked individually; no exactly-two-year requirement added. |
+| Prior order entry offered as unconditional insider-trading defense | Hold for applicable conditions and facts; no universal prior-order or tipping protection added. |
+| Websites given a universal three-year retention and every-change filing rule | Preserve the existing state-adviser five-year rule; do not import a broker-dealer rule into adviser content. |
+| Preemptive rights, assessable shares, market prints, allocations and fee waivers generalized | Held individually in the audit for governing charter, jurisdiction, market, client, and firm-policy facts. |
+
+Precise sources for the new legal distinctions are identified by clause in the supplement ledger. The audit also separates external-authority corrections from additions eligible under the user's NASAA-only restriction.
+
 The canonical cram sheet controls this prototype. The original files were never edited. Optional question banks and keys were not read or imported. These are all conflicts identified in the four required inputs; this is not a legal audit.
 
 | Source conflict | Prototype treatment | Release action |

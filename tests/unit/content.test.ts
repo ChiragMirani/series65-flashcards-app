@@ -3,11 +3,27 @@ import { deck } from '../../lib/deck';
 import { contrastText } from '../../content/contrasts';
 import { cardSchema } from '../../lib/model';
 import { reviewRules } from '../../content/review-expansion';
+import { nasaaRules, assertNasaaSource } from '../../content/nasaa-supplement';
 
 describe('question and answer continuity', () => {
+ it('keeps the NASAA supplement attributable and rejects weak or deceptive references', () => {
+  for(const rule of nasaaRules) {
+   expect(()=>assertNasaaSource(rule.source,rule.clause)).not.toThrow();
+   const cards=deck.filter(c=>c.sourcePath==='content/nasaa-supplement.ts'&&c.tags.includes(rule.key));
+   expect(cards).toHaveLength(2);
+   expect(cards.map(c=>c.type)).toEqual(['recall','contrast']);
+   for(const card of cards) expect(card.officialSources).toEqual([rule.source]);
+  }
+  const valid=nasaaRules[0].source;
+  for(const url of ['https://www.nasaa.org.example.com/rule.pdf','https://example.com/rule.pdf','http://www.nasaa.org/rule.pdf','https://name@www.nasaa.org/rule.pdf']) {
+   expect(()=>assertNasaaSource({...valid,url},'specific clause')).toThrow();
+  }
+  expect(()=>assertNasaaSource({...valid,kind:'outline'},'topic')).toThrow();
+  expect(()=>assertNasaaSource(valid,' ')).toThrow();
+ });
  it('requires an authored question and answer for every contrast', () => {
   const authored = Object.values(contrastText).flatMap(rows => rows.trim().split('\n'));
-  expect(authored.length+reviewRules.length).toBe(deck.filter(card => card.type === 'contrast').length);
+  expect(authored.length+reviewRules.length+nasaaRules.length).toBe(deck.filter(card => card.type === 'contrast').length);
   for (const card of deck) {
    expect(card.front, card.id).toMatch(/\?$/);
    expect(card.front, card.id).not.toMatch(/trainee|makes this claim|what correction is needed|what applies to/i);

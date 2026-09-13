@@ -40,8 +40,17 @@ export function reduceSnapshot(state: Snapshot, command: Command, cards: Card[])
   else if(command.type==='settings') next.settings = command.settings;
   else if(command.type==='start') {
     if(command.fullDeck) {
-      if(command.resume&&state.session?.scope==='full-deck') return state;
-      next.session=makeFullDeckSession(cards,state,new Date(command.now),command.category,command.mode);
+      if(command.resume&&state.session?.scope==='full-deck') {
+        const session=state.session;
+        const saved=new Set(session.order);
+        const eligible=makeFullDeckSession(cards,state,new Date(command.now),session.category,session.mode);
+        const added=eligible.order!.filter(id=>!saved.has(id));
+        if(!added.length) return state;
+        // A content update must not move the current card or erase completed work.
+        // Append newly available cards once, within the saved subject and mode.
+        const order=[...session.order!,...added];
+        next.session={...session,order,queue:[...session.queue,...added],initialCount:order.length};
+      } else next.session=makeFullDeckSession(cards,state,new Date(command.now),command.category,command.mode);
     } else {
       if(state.session?.queue.length && !command.section && !command.retestOnly && !command.category && command.mode!=='random') return state;
       next.session = makeSession(cards, state, new Date(command.now),command.section,command.retestOnly,command.mode,command.category);

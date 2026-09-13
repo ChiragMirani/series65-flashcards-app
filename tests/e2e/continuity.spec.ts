@@ -10,6 +10,9 @@ test('every sequential reveal keeps its question and displays that cards own ans
  await page.goto('/?subject=all&order=sequential');
  await mkdir('test-results/continuity',{recursive:true});
  const screenshots = new Set(['s65-05-prepay-state-contrast','s65-05-prepay-consequence-recall','s65-10-affiliate-reporting-recall','s65-10-affiliate-nonreporting-recall','s65-15-gift-gain-contrast','s65-03-adv-one-contrast','s65-01-issuer-muni-recall','s65-09-pay-play-status-recall','s65-13-conversion-clock-contrast','s65-19-protect-short-apply','s65-21-tips-coupon-apply']);
+ screenshots.add('s65-05-nasaa-custody-forward-contrast');
+ screenshots.add('s65-09-nasaa-third-party-orders-recall');
+ screenshots.add('s65-18-nasaa-inverse-daily-contrast');
  // Stub only the external destination: verify browser link behavior without
  // depending on the regulator's network or anti-bot policy in app CI.
  await context.route('https://www.nasaa.org/**',route=>route.fulfill({contentType:'text/html',body:'<h1>Reference destination</h1>'}));

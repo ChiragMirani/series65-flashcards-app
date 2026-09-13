@@ -4,17 +4,21 @@ Verified September 13, 2026 on Windows with production Next.js output and Playwr
 
 | Check | Result |
 |---|---|
-| Content import and reproducibility | Passed: 339 objectives, 703 draft cards, all 27 sections |
+| Content import and reproducibility | Passed: 375 objectives, 775 draft cards, all 27 sections |
 | ESLint and strict TypeScript | Passed |
-| Vitest | 46 tests passed |
+| Vitest | 49 tests passed |
 | Root production build | Passed: 12 static pages, 79 precached URLs |
-| Root browser suite | 8 tests passed, including a complete traversal of all 703 cards |
+| Root browser suite | 9 tests passed, including a complete traversal of all 775 cards and migration from an older saved deck |
 | GitHub Pages build | The publish workflow builds with the real project base path after the root checks pass |
 | Deployment browser suite | 7 checks gate publication; they also support testing the live host |
 | Accessibility | No axe WCAG 2 A/AA or 2.1 AA violations in tested routes and answer states |
 | Manual visual inspection | Phone and desktop question/answer flow, short form names, source links, and focus visibility checked |
 
 ## Continuity review
+
+The NASAA-only follow-up adds 36 objectives / 72 original cards, with no changed or removed IDs among the prior 703. All four canonical-input fingerprints still match. Import and reproducibility check, lint, strict types, 49 unit tests, a 12-page production build with 79 cached URLs, and all nine root browser tests passed. The complete 775-card traversal took 2.5 minutes. Added phone states for check forwarding, third-party authority, and daily inverse ETFs passed axe checks and were visually inspected. Existing desktop, dark-theme and reduced-motion flows passed too.
+
+The content-update test starts with the previous deck, persists a review and bookmark, reopens IndexedDB with the expanded deck, and verifies that new subject cards append once without moving the current question or losing history. Separate tests cover completed sessions, suspension, shuffled order, and deliberate relearning. The browser test checks the same migration through two reloads and a further advance. The NASAA host/type guard rejects deceptive hosts, non-HTTPS URLs, credential-bearing URLs, outline citations, and missing clauses; it does not claim to automate factual verification.
 
 The subsequent prepaid-fee clarification revises five existing question/answer pairs while preserving all 703 IDs. Ten related cards now cite Form ADV Part 2A, Item 18 directly through NASAA's published copy; the state pair also cites NASAA's financial-reporting model. The quarterly examples pass the dollar test but fail the six-month test. The exact-six-month example and ordinary audited-balance-sheet consequence are explicit. The original study inputs and the study engine are unchanged.
 

@@ -25,6 +25,10 @@ export function Review() {
           return;
         }
       }
+      if (session) {
+        void dispatch({ type: 'start', fullDeck: true, resume: true, now: new Date().toISOString() });
+        return;
+      }
     }
     if (!session) void dispatch({ type: 'start', fullDeck: true, resume: true, category: data.session?.category, mode: data.session?.mode, now: new Date().toISOString() });
   }, [data, session, busy, error, dispatch]);

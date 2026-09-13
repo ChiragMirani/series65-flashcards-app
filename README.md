@@ -4,7 +4,7 @@ A mobile-first final-review prototype in VocabDeck's visual style: white rounded
 
 **Open on your phone:** [Series 65 Review](https://chiragmirani.github.io/series65-flashcards-app/). The owner authorized this public study preview. You can add it to your phone's home screen and study offline after the initial download.
 
-**Study is one page:** the Subject dropdown selects All subjects or one of four areas. Shuffle mixes the selected deck; Sequential follows its source order. All subjects contains **703** cards: Laws & ethics **347**, Recommendations **198**, Investment vehicles **125**, and Economics & business **33**. Suspended cards are excluded. The counter sits inside the card, and the selected subject, order, and place save automatically.
+**Study is one page:** the Subject dropdown selects All subjects or one of four areas. Shuffle mixes the selected deck; Sequential follows its source order. All subjects contains **775** cards: Laws & ethics **415**, Recommendations **198**, Investment vehicles **129**, and Economics & business **33**. Suspended cards are excluded. The counter sits inside the card, and the selected subject, order, and place save automatically.
 
 **Tap to reveal; tap again for the next card.** The question remains large and moves upward as the answer opens underneath, following the VocabDeck interaction. There are no rating buttons or separate reveal controls. Side arrows move between cards. Space and Enter support the same tap flow. The top link icon copies the subject and order; opening that link selects the same deck. Extra explanations, source details, and bookmark/suspend/report tools are in Card details. Utility navigation lives in the footer.
 
@@ -51,6 +51,10 @@ Every advance commits the session position in one IndexedDB transaction before t
 
 ## Reproducible content import
 
+The later NASAA-only supplement is independently authored in `content/nasaa-supplement.ts`: 36 objectives and 72 cards, each with a precise inspected NASAA provision. [Its ledger](docs/nasaa-supplement.md) lists the references. [The notes audit](docs/september-notes-audit.md) distinguishes additions, existing coverage, and held details. Domain/type checks enforce a source boundary; they cannot certify factual accuracy. Every supplemental card stays draft.
+
+On opening an older saved session, newly available cards for its subject are appended once. The current card, prior order, completed work, bookmarks, and review history stay intact. New Sequential sessions follow the complete expanded section order.
+
 ```powershell
 $env:SERIES65_SOURCE_DIR = 'C:\Users\chira\Desktop\sports\datascience'
 npm run content:import
@@ -59,7 +63,7 @@ npm run content:check
 
 The default source directory is the one above. All four mandatory inputs are read. The original rules come from the canonical sheet; `content/review-expansion.ts` separately supplies the additional topics requested on September 13, with public authority links. The blueprint shapes difficulty, and handoff/miss-audit concepts shape priorities. Optional question banks, answer keys, and recalled-exam materials are never imported. Original inputs are read only.
 
-The deck has **339 rule objectives and 703 cards across all 27 sections**, including the September 13 ERISA, fund-borrowing, and options-sequence retests. [Coverage](docs/deck-coverage.md) lists every objective and its counts. [Provenance](docs/content-provenance.md) identifies local sources and pending human review. [Conflicts](docs/content-conflicts.md) records discrepancies. Builds use the committed deck without private source files; `content:check` is a local authoring check.
+The deck has **375 rule objectives and 775 cards across all 27 sections**, including the September 13 ERISA, fund-borrowing, and options-sequence retests. [Coverage](docs/deck-coverage.md) lists every objective and its counts. [Provenance](docs/content-provenance.md) identifies local sources and pending human review. [Conflicts](docs/content-conflicts.md) records discrepancies. Builds use the committed deck without private source files; `content:check` is a local authoring check.
 
 Contrast prompts and answers are explicitly authored together in `content/contrasts.ts` and `content/review-expansion.ts`. Missing pairs fail import instead of falling back to unrelated recall text. The [30-topic coverage report](docs/requested-review-coverage.md) maps all requested topics to recall, contrast, application, and calculation cards. The expansion adds 27 objectives and 71 cards, including registration boundaries, issuer/agent distinctions, hedges, fund pricing, two Roth clocks, and the dated pay-to-play proposal. Each supplemental card identifies its own authoring source instead of claiming to come from the cram sheet. The [continuity ledger](docs/answer-continuity.md) shows every question beside its revealed answer. The full-deck browser test visits every card and checks this pairing, retained question text, and source links.
 
