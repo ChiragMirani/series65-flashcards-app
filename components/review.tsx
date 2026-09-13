@@ -1,7 +1,7 @@
 'use client';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { Check, ChevronLeft, ChevronRight, RotateCcw } from 'lucide-react';
 import { useStudy } from './study-provider';
 import { cardById, deck } from '@/lib/deck';
 import { knownCount } from '@/lib/engine';
@@ -97,6 +97,6 @@ function ReviewCard({ card, position, total }: { card:Card; position:number; tot
     <p className="card-position" aria-live="polite" aria-atomic="true">{position} of {total}</p>
     <span className="sr-only" role="status">{revealed ? 'Answer revealed. Tap again for the next card.' : 'Question ready.'}</span>
   </section>
-  <div className={`mark-row${revealed ? ' show' : ''}`} aria-hidden={!revealed}><button type="button" tabIndex={revealed ? 0 : -1} disabled={busy || !revealed} onClick={() => void mark('again')}>Again</button><button type="button" tabIndex={revealed ? 0 : -1} disabled={busy || !revealed} onClick={() => void mark('known')}>Got it</button></div>
+  <div className={`mark-row${revealed ? ' show' : ''}`} role="group" aria-label="Mark card" aria-hidden={!revealed}><button type="button" tabIndex={revealed ? 0 : -1} disabled={busy || !revealed} onClick={() => void mark('again')}><RotateCcw aria-hidden="true"/>Again</button><button type="button" tabIndex={revealed ? 0 : -1} disabled={busy || !revealed} onClick={() => void mark('known')}><Check aria-hidden="true"/>Got it</button></div>
   </div>;
 }
