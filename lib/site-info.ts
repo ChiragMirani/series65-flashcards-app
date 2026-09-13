@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
+import { publicPath } from './paths';
 export const disclaimer='Independent educational study aid. Not affiliated with or endorsed by NASAA, FINRA, Kaplan, or any examination provider. Passing results are not guaranteed.';
 const raw=process.env.PUBLIC_SITE_URL?.trim();
 export const siteOrigin=raw ? new URL(raw).origin : undefined;
 if(raw && (!raw.startsWith('https://') || new URL(raw).pathname!=='/'))throw new Error('PUBLIC_SITE_URL must be a real HTTPS origin without a path.');
-export function pageMetadata(title:string,description:string,route:string):Metadata{return {title,description,alternates:siteOrigin?{canonical:new URL(route,siteOrigin).href}:undefined,openGraph:{title:`${title} | Series 65 Review`,description,type:'website',siteName:'Series 65 Review',...(siteOrigin?{url:new URL(route,siteOrigin).href}:{})},twitter:{card:'summary',title:`${title} | Series 65 Review`,description}};}
+export function pageMetadata(title:string,description:string,route:string):Metadata{return {title,description,alternates:siteOrigin?{canonical:new URL(publicPath(route),siteOrigin).href}:undefined,openGraph:{title:`${title} | Series 65 Review`,description,type:'website',siteName:'Series 65 Review',...(siteOrigin?{url:new URL(publicPath(route),siteOrigin).href}:{})},twitter:{card:'summary',title:`${title} | Series 65 Review`,description}};}
 export const faqItems=[
   {q:'What is Series 65 Review?',a:'Series 65 Review is a focused final-review flashcard prototype for people preparing for the Series 65 examination. It teaches a compact study outline through original recall, application, contrast, and calculation cards. It is a supplement to broader preparation, not a complete textbook or an official examination product.'},
   {q:'What subjects does the deck cover?',a:'The deck is organized into the four exam categories: laws and ethics, client investment recommendations and strategies, investment vehicles, and economics and business information. Its 27 source sections emphasize practical distinctions such as registration versus notice filing, ownership versus account control, and similar rules with different deadlines.'},

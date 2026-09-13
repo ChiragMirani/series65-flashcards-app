@@ -1,6 +1,6 @@
 # Content provenance
 
-Private prototype. All authored prompts, scenarios, traps, and worked numerical examples were independently written for this project. The importer never reads optional vendor-style question banks, keys, or recalled examination materials. Facts come from the canonical sheet. The design blueprint shapes difficulty; handoff and miss audit identify priorities only. No private scores or source-note text are bundled in the application.
+Study preview; commercial release blocked. All authored prompts, scenarios, traps, and worked numerical examples were independently written for this project. The importer never reads optional vendor-style question banks, keys, or recalled examination materials. Facts come from the canonical sheet. The design blueprint shapes difficulty; handoff and miss audit identify priorities only. No private scores or source-note text are bundled in the application.
 
 All cards remain **draft**. None has received a human copyright/provenance audit or subject-matter verification. Every imported rule below **requires review against official public authority before commercial release**. A technical schema or source-locator check is not substantive verification.
 

@@ -2,7 +2,9 @@
 
 A mobile-first final-review prototype in VocabDeck's visual style: white rounded flashcards, blue controls, simple typography, keyboard/touch review, and a matching “65” favicon and install icon.
 
-**Commercial release is blocked.** Every card is a draft pending a human accuracy review and copyright/provenance audit. See [COMMERCIAL_RELEASE_BLOCKED.md](COMMERCIAL_RELEASE_BLOCKED.md). A private repository or passing technical test does not constitute release approval.
+**Open on your phone:** [Series 65 Review](https://chiragmirani.github.io/series65-flashcards-app/). The owner authorized this public study preview. You can add it to your phone's home screen and study offline after the initial download.
+
+**Commercial release is blocked.** Every card is a draft pending a human accuracy review and copyright/provenance audit. See [COMMERCIAL_RELEASE_BLOCKED.md](COMMERCIAL_RELEASE_BLOCKED.md). Public preview access and passing technical tests do not constitute commercial release approval.
 
 ## Setup and running
 
@@ -22,7 +24,7 @@ npm start
 
 Production: **http://127.0.0.1:3066**. Wait for **Available offline on this device** before disconnecting. The dev server does not register the production worker; keep the ports separate.
 
-Project path: `C:\Users\chira\Desktop\sports\datascience\series65-flashcards-app`. Run the commands above from that directory. The private repository is [ChiragMirani/series65-flashcards-app](https://github.com/ChiragMirani/series65-flashcards-app). Development was staged in the session's writable workspace before delivery to Desktop; the original study inputs remain outside the app and are read only.
+Project path: `C:\Users\chira\Desktop\sports\datascience\series65-flashcards-app`. Run the commands above from that directory. The public repository is [ChiragMirani/series65-flashcards-app](https://github.com/ChiragMirani/series65-flashcards-app). Development was staged in the session's writable workspace before delivery to Desktop; the original study inputs remain outside the app and are read only.
 
 ## Product and architecture
 
@@ -74,9 +76,13 @@ Tests exercise scheduling/lapses, daily limits, UTC/DST consistency, duplicate/s
 
 ## Deployment and AEO
 
-`npm run build` emits `out/`. Serve it at an HTTPS **origin root**, including all route `.txt` navigation payloads, chunks, icons, and `sw.js`. Serve route `index.html` files and use JavaScript MIME plus `Cache-Control: no-cache` for `sw.js`. `scripts/serve.mjs` demonstrates routing. Subpath hosting requires explicit base-path/worker-scope changes and another offline test. Do not deploy server intermediates or original study files.
+GitHub Actions verifies the root-hosted app, then builds and tests the GitHub Pages version before deploying `out/`. The Pages build sets `PUBLIC_SITE_URL=https://chiragmirani.github.io` and `NEXT_PUBLIC_BASE_PATH=/series65-flashcards-app`. Navigation, canonical URLs, icons, the manifest, worker scope, and cache URLs all include that prefix. Cache cleanup is isolated by app path. No hosting secrets or payment account are needed.
 
-The prototype is deliberately noindex with crawler blocking. Private previews require actual hosting access control: noindex and a private GitHub repo do not password-protect a site. `.env.example` documents optional `PUBLIC_SITE_URL`; no invented canonical domain is emitted. Server-rendered FAQ/About text and matching JSON-LD support machine readability. [AEO notes](docs/aeo.md) cover approved launch configuration and limits on discovery/ranking claims.
+To reproduce the hosted build locally in PowerShell, set those two environment variables, run `npm run build`, then `npm run test:pages`. The three deployment tests use port 3067 and check phone navigation, refresh, install metadata, and offline persistence. Set `PAGES_TEST_ORIGIN=https://chiragmirani.github.io` to run the same checks against the deployed site. Clear the build variables before rebuilding the ordinary localhost preview.
+
+`npm run build` emits `out/`, including all route `.txt` navigation payloads, chunks, icons, and `sw.js`. Other HTTPS hosts may serve it at an origin root with an empty base path or at the configured prefix. Serve route `index.html` files and use JavaScript MIME plus `Cache-Control: no-cache` for `sw.js` when configurable. `scripts/serve.mjs` demonstrates routing. Do not deploy server intermediates or original study files.
+
+The study preview remains deliberately noindex. Its project-level robots file does not control crawling of the entire shared GitHub Pages origin; page metadata supplies the indexing restriction. Noindex is not access control. Server-rendered FAQ/About text, correct canonical URLs, and matching JSON-LD support machine readability. [AEO notes](docs/aeo.md) cover commercial launch configuration and limits on discovery/ranking claims.
 
 ## Known limitations and future work
 

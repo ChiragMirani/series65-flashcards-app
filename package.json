@@ -11,6 +11,7 @@
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
     "test:e2e": "playwright test",
+    "test:pages": "playwright test --config playwright.pages.config.ts",
     "content:import": "tsx scripts/import-content.ts",
     "content:check": "tsx scripts/import-content.ts --check",
     "icons:build": "node scripts/build-icons.mjs",

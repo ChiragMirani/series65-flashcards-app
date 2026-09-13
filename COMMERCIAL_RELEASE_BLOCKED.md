@@ -1,6 +1,6 @@
 # COMMERCIAL RELEASE BLOCKED
 
-This is a private development prototype. It is not approved for public distribution, sale, indexing, or claims of exam readiness.
+This is an unverified study preview. The owner explicitly authorized a public GitHub repository and a free hosted preview for phone access on September 13, 2026. That permission does not approve a commercial release, indexing, or claims of exam readiness.
 
 All generated cards are **draft**. A human copyright/provenance audit and a qualified subject-matter accuracy review must be completed before commercial release. Automated source matching, tests, and successful builds do not satisfy either audit.
 
@@ -13,4 +13,4 @@ Release prerequisites:
 - Approve privacy, accessibility, consumer terms, refunds, support, and any later payment/entitlement behavior.
 - Set the real canonical domain and review the AEO/indexing checklist before changing `noindex` or crawler restrictions.
 
-Private GitHub development is permitted. This file does not assert that the future authentication, subscriptions, cloud sync, or practice exams work.
+The public study preview retains draft labels, the independent-provider disclaimer, and noindex metadata. This file does not assert that the future authentication, subscriptions, cloud sync, or practice exams work.

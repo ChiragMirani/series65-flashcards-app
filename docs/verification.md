@@ -39,3 +39,9 @@ The app implementation never modified the original source files. A final fresh-c
 The importer checks source fingerprints and compares all regenerated artifacts. Passing these checks proves reproducibility, not complete subject-matter accuracy or copyright clearance. All 628 cards remain drafts; the human reviews in [COMMERCIAL_RELEASE_BLOCKED.md](../COMMERCIAL_RELEASE_BLOCKED.md) are still required.
 
 GitHub Actions repeats lint, types, unit tests, production build, and browser tests on Ubuntu with Chromium. It uses the committed deck and does not require private source materials. The source-dependent content check is run locally. Consult the repository's Actions tab for the current remote run; local results above are independent of its status.
+
+## Public phone preview
+
+The owner requested public GitHub and phone access on September 13. GitHub Pages uses `/series65-flashcards-app` as its base path. Three additional deployment tests passed locally against that exact path: phone navigation and direct refresh; canonical/manifest/favicon/Apple icon URLs; and first-load offline caching with saved review state. The deployment workflow repeats these tests before publishing. The optional `PAGES_TEST_ORIGIN` setting runs the same suite against the real HTTPS host.
+
+The site retains draft labels, noindex metadata, and the commercial-release audit requirements. Public preview access is separately authorized and does not promote card review status.

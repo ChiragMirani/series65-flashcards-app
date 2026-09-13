@@ -1,6 +1,6 @@
 # Answer-engine and search readiness
 
-The prototype deliberately uses `noindex, nofollow`, a disallow-all robots file, and no invented canonical domain. Private GitHub is development distribution, not a search launch. Noindex and robots are crawler instructions, not access control; use authenticated hosting for any private deployed preview.
+The owner authorized public GitHub and a hosted study preview for phone access. The preview deliberately retains `noindex, nofollow` pending commercial review. Hosted canonicals use `https://chiragmirani.github.io/series65-flashcards-app/`. A project-level robots file does not govern the shared origin; page metadata supplies the indexing restriction. Noindex and robots are crawler instructions, not access control.
 
 ## Implemented
 

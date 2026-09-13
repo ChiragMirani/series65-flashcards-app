@@ -6,6 +6,7 @@ import type { Snapshot } from '@/lib/model';
 import type { Command } from '@/lib/engine';
 import { z } from 'zod';
 import { useRouter } from 'next/navigation';
+import { publicPath } from '@/lib/paths';
 interface Store { data:Snapshot|null; now:Date; busy:boolean; error:string; notice:string; offlineReady:boolean; dispatch:(c:Command)=>Promise<boolean>; clearError:()=>void; }
 const Context=createContext<Store|null>(null);
 export function StudyProvider({children}:{children:ReactNode}){
@@ -43,7 +44,7 @@ export function StudyProvider({children}:{children:ReactNode}){
   useEffect(()=>{
     if(process.env.NODE_ENV!=='production'||!('serviceWorker' in navigator))return;
     let active=true;
-    navigator.serviceWorker.register('/sw.js').then(()=>navigator.serviceWorker.ready).then(()=>{if(active)setOfflineReady(true);}).catch(()=>{if(active)setNotice('Offline download did not finish. Reconnect and reload to try again.');});
+    navigator.serviceWorker.register(publicPath('/sw.js'),{scope:publicPath('/')}).then(()=>navigator.serviceWorker.ready).then(()=>{if(active)setOfflineReady(true);}).catch(()=>{if(active)setNotice('Offline download did not finish. Reconnect and reload to try again.');});
     return()=>{active=false;};
   },[]);
   const dispatch=useCallback(async(command:Command)=>{
