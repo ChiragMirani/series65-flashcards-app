@@ -5,7 +5,8 @@ import { ruleText } from '../content/rules';
 import { remainingRules } from '../content/rules-rest';
 import { applications } from '../content/applications';
 import { contrastText } from '../content/contrasts';
-import { sourcesForRule } from '../content/official-sources';
+import { sourcesForRule, officialSources } from '../content/official-sources';
+import { coverageRules } from '../content/exam-coverage';
 import { reviewRules } from '../content/review-expansion';
 import { reviewChecklist } from '../content/review-checklist';
 import { nasaaRules, assertNasaaSource } from '../content/nasaa-supplement';
@@ -131,9 +132,29 @@ for(const seed of nasaaRules) {
   }
   ledger.push({id:ruleId,section:seed.section,locator:`NASAA supplement: ${seed.clause}`,category,count:2,sourcePath:path.resolve(nasaaFile),sourceHeading});
 }
+const coverageFile='content/exam-coverage.ts';
+for(const seed of coverageRules) {
+  const section=sections.find(s=>s.number===seed.section);
+  if(!section) throw new Error(`Invalid exam-coverage section: ${seed.key}`);
+  const category:Category=seed.section<=11?'laws':seed.section<=17?'recommendations':seed.section<=21?'vehicles':'economics';
+  const ruleId=`s65-${String(seed.section).padStart(2,'0')}-${seed.key}`;
+  const sourceHeading=`Exam coverage — ${seed.topic}`;
+  const officialRefs=seed.sources.map(id=>{if(!officialSources[id]) throw new Error(`Missing public reference: ${id}`);return officialSources[id];});
+  const add=(suffix:string,type:Card['type'],front:string,answer:string,explanation:string)=>{
+    const expanded=expandSequence([front,answer,seed.answer,seed.trap,explanation]);
+    const fields={id:`${ruleId}-${suffix}`,ruleId,deckId:'series65',section:seed.section,sectionTitle:section.title,category,
+      priority:category==='laws'||category==='recommendations'?'high':'medium',type,front:expanded[0],answer:expanded[1],governingRule:expanded[2],trap:expanded[3],explanation:expanded[4],
+      tags:[seed.key,'exam-coverage'],sourcePath:coverageFile,sourceHeading,officialSources:officialRefs,retest:false,reviewStatus:'draft'};
+    cards.push(cardSchema.parse({...fields,contentVersion:hash(JSON.stringify(fields))}));
+  };
+  add('recall','recall',seed.front,seed.answer,seed.explanation);
+  add('contrast','contrast',seed.contrast.front,seed.contrast.answer,seed.explanation);
+  if(seed.application) add('apply',seed.application.type,seed.application.front,seed.application.answer,seed.application.explanation);
+  ledger.push({id:ruleId,section:seed.section,locator:`Exam coverage: ${seed.topic}`,category,count:2+Number(!!seed.application),sourcePath:path.resolve(coverageFile),sourceHeading});
+}
 cards.sort((a,b)=>a.section-b.section);
 ledger.sort((a,b)=>a.section-b.section);
-const authoredSources=await Promise.all([expansionFile,'content/review-checklist.ts',nasaaFile].map(async file=>({file,sha256:hash(await readFile(file,'utf8'))})));
+const authoredSources=await Promise.all([expansionFile,'content/review-checklist.ts',nasaaFile,coverageFile].map(async file=>({file,sha256:hash(await readFile(file,'utf8'))})));
 const missing=locators.filter(x=>!x.found);
 if(missing.length) throw new Error(`Source locators not found: ${JSON.stringify(missing)}`);
 if(new Set(cards.map(c=>c.id)).size!==cards.length) throw new Error('Duplicate stable IDs.');

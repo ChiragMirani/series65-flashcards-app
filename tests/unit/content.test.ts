@@ -4,6 +4,7 @@ import { contrastText } from '../../content/contrasts';
 import { cardSchema } from '../../lib/model';
 import { reviewRules } from '../../content/review-expansion';
 import { nasaaRules, assertNasaaSource } from '../../content/nasaa-supplement';
+import { coverageRules } from '../../content/exam-coverage';
 
 describe('question and answer continuity', () => {
  it('keeps the NASAA supplement attributable and rejects weak or deceptive references', () => {
@@ -23,7 +24,7 @@ describe('question and answer continuity', () => {
  });
  it('requires an authored question and answer for every contrast', () => {
   const authored = Object.values(contrastText).flatMap(rows => rows.trim().split('\n'));
-  expect(authored.length+reviewRules.length+nasaaRules.length).toBe(deck.filter(card => card.type === 'contrast').length);
+  expect(authored.length+reviewRules.length+nasaaRules.length+coverageRules.length).toBe(deck.filter(card => card.type === 'contrast').length);
   for (const card of deck) {
    expect(card.front, card.id).toMatch(/\?$/);
    expect(card.front, card.id).not.toMatch(/trainee|makes this claim|what correction is needed|what applies to/i);

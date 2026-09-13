@@ -39,19 +39,19 @@ act-1934|Did the Securities Act of 1933 create the SEC?|No. The Securities Excha
 state-security-term|Does a state securities registration statement always expire on December 31 like a professional registration?|No. It generally lasts one year from effectiveness, with a possible extension for an underwriter's unsold allotment.
 coordination-clocks|For registration by coordination, are both the filing and final-pricing waiting periods measured in business days?|No. The filing period is 10 days; final pricing must be on file for 2 full business days, unless shortened.
 federal-civil|In the federal Securities Act 1-year/3-year comparison, can late discovery extend the outside three-year cutoff?|No. Use the earlier of one year after discovery or three years after the action.
-state-civil|Does the tested Uniform Securities Act civil-action comparison use the federal one-year discovery period?|No. The state comparison uses two years after discovery or three years after the action, whichever is earlier.
+state-civil|Does the Uniform Securities Act civil-action comparison use the federal one-year discovery period?|No. The state comparison uses two years after discovery or three years after the action, whichever is earlier.
 civil-scope|Does the federal Securities Act 1-year/3-year comparison apply to every federal securities claim?|No. It is a specified Securities Act comparison, not a universal federal deadline.
 bankruptcy-trustee|Does every private trustee qualify for the fiduciary transaction exemption merely by holding that title?|No. The specifically identified trustee is a trustee in bankruptcy.
 underlying-offer|Must underlying shares already be delivered before a right or warrant can constitute an offer of those shares?|No. Issuing the right or warrant is an offer because the holder pays value to acquire the underlying shares.
 non-offers|Is a stock dividend treated as an offer of underlying shares in the same way as a paid right or warrant?|No. A stock dividend is distinguished from a right or warrant requiring payment for the underlying shares.
 fundamental-policy|Can a registered fund's portfolio manager alone approve a fundamental investment-policy change?|No. Approval generally requires a majority of the fund's outstanding voting securities.`,
-4: `tested-act|Does the newer 2002 Uniform Securities Act automatically replace the Series 65's tested legal framework?|No. The exam framework is the 1956 Act as amended by NASAA.
+4: `tested-act|Does the newer 2002 Uniform Securities Act automatically replace the legal framework the Series 65 exam uses?|No. The exam framework is the 1956 Act as amended by NASAA.
 state-effective|Is state professional registration generally effective as soon as the application is filed?|No. It generally becomes effective at noon on the 30th day after filing.
 state-expiry|Does state professional registration always last 12 months from its effective date?|No. It expires on December 31 unless renewed.
 sec-application|Is a federal adviser application automatically approved after 30 days?|No. The SEC has 45 days to grant registration or begin denial proceedings.
 adv-update|Can an adviser use the brochure's 120-day deadline for its annual Form ADV updating amendment?|No. The ADV amendment is due within 90 days after fiscal year-end.
 brochure-annual|Does the client's contract anniversary start the annual brochure-delivery clock?|No. The general 120-day deadline runs from the adviser's fiscal year-end.
-brochure-initial|Under the tested state brochure rule, can an adviser deliver at contract signing without a penalty-free cancellation opportunity?|No. Delivery at signing requires five business days to cancel without penalty; earlier delivery must be at least 48 hours before signing.
+brochure-initial|Under the state brochure rule, can an adviser deliver at contract signing without a penalty-free cancellation opportunity?|No. Delivery at signing requires five business days to cancel without penalty; earlier delivery must be at least 48 hours before signing.
 prompt-amendment|Can a materially inaccurate filing always wait for the next annual update?|No. An item requiring prompt amendment must be corrected promptly.
 records-ordinary|Does the ordinary state adviser five-year retention period always start when a record is created?|No. It runs from fiscal year-end of the last entry; the first two years are generally at the principal office.
 records-formation|Can an adviser discard its formation records after five years while the enterprise continues operating?|No. Formation and governance records stay at the principal office until three years after the enterprise terminates.
@@ -61,29 +61,29 @@ aum-must|For an ordinary adviser, is $100 million the mandatory federal-registra
 aum-exit|Must an already SEC-registered ordinary adviser withdraw as soon as regulatory AUM falls below $100 million?|No. It may generally remain until regulatory AUM falls below $90 million.
 registered-fund|Must a small adviser to a registered investment company use state registration because it falls below ordinary AUM thresholds?|No. Advising a registered investment company supplies a federal basis regardless of those thresholds.
 withdraw-clock|Does the 180-day federal-withdrawal deadline start when the annual update is actually filed?|No. It runs from fiscal year-end, with state registration arranged before the transition.`,
-5: `termination-prompt|Under the tested Uniform Act rule, can an agent substitute a generic 30-day Form U5 deadline for termination notice?|No. The agent and firm or issuer must notify promptly.
+5: `termination-prompt|Under the Uniform Securities Act, can an agent substitute a generic 30-day Form U5 deadline for termination notice?|No. The agent and firm or issuer must notify promptly.
 prepay-state|A state adviser collects $900 per client at the start of each three-month service period. Does that prepayment alone trigger the audited-balance-sheet rule?|No. The fee exceeds $500, but each payment covers only three months. Both the dollar and six-month tests must be met.
 prepay-federal|An SEC-registered adviser collects $2,000 per client for the next three months only. Does that prepayment alone require an audited balance sheet in its brochure?|No. The fee exceeds $1,200, but three months falls short of the required six months. The dollar test alone is insufficient.
-prepay-boundary|For the tested prepaid-fee rules, must both the dollar threshold and the six-month period be strictly exceeded?|No. The dollar threshold must be exceeded, but exactly six months satisfies the time condition.
+prepay-boundary|For the prepaid-fee rules, must both the dollar threshold and the six-month period be strictly exceeded?|No. The dollar threshold must be exceeded, but exactly six months satisfies the time condition.
 prepay-consequence|Does a prepaid fee that exceeds the applicable dollar threshold and covers at least six months become prohibited?|No. Unless an exception applies, the adviser must include an independently audited balance sheet in Part 2A. The fee itself is not prohibited by this test.
 fee-custody|If fee deduction qualifies for a surprise-examination exception, does the adviser cease to have custody?|No. Fee-deduction authority is custody; the examination exception changes an obligation, not the classification.
 bill-custody|Can an adviser with client-authorized bill-paying powers use the fee-deduction-only surprise-exam exception?|No. Bill-paying authority is custody beyond fee deduction and defeats that specific exception.
 consent-custody|Can a signed client consent erase custody status or override a custody prohibition?|No. Consent does not change that classification or supersede the rule.
-custody-worth|Is $35,000 a universal fixed bond amount for every state adviser with custody?|No. It is the tested minimum net worth for custody; a bond is a separate requirement.
-discretion-worth|Must a state adviser with discretion but no custody meet the $35,000 custody net-worth minimum?|No. The tested minimum for discretion without custody is $10,000.
+custody-worth|Is $35,000 a universal fixed bond amount for every state adviser with custody?|No. It is the minimum net worth for custody; a bond is a separate requirement.
+discretion-worth|Must a state adviser with discretion but no custody meet the $35,000 custody net-worth minimum?|No. The minimum for discretion without custody is $10,000.
 prepay-worth|Does the state prepaid-fee trigger alone require $35,000 of net worth?|No. More than $500 per client prepaid six or more months requires positive net worth under that test.
 deficiency-bond|Does a net-worth-deficiency bond always equal the adviser's entire required minimum net worth?|No. It covers the shortfall, rounded up to a $5,000 increment.
 general-bond|Are $35,000 and $10,000 universal fixed bond amounts for state advisers?|No. They are net-worth thresholds; separate bonding authority may consider client count and AUM.
 enforcement|Can the state Administrator personally issue a court injunction or make an arrest?|No. The Administrator issues cease-and-desist orders and seeks an injunction from a court.
 hearing|Can a final registration suspension ordinarily bypass notice and an opportunity for a hearing?|No. Notice and an opportunity for a hearing ordinarily precede final suspension.`,
-6: `security-exempt|Does an exempt-security classification automatically remove the salesperson's registration duty?|No. It exempts the security from state registration; person registration is tested separately.
+6: `security-exempt|Does an exempt-security classification automatically remove the salesperson's registration duty?|No. It exempts the security from state registration; person registration is analyzed separately.
 transaction-exempt|Does one exempt transaction permanently exempt every later sale of the same security?|No. The exemption applies to that particular transaction.
 covered-security|Does federal-covered security status eliminate all state notice filings and fees?|No. It preempts full state securities registration, but notice filings and fees may remain.
 fraud|Are exempt securities or transactions also exempt from antifraud rules?|No. Antifraud requirements still apply.
 person-separate|Can a broker-dealer or agent rely solely on the security's exemption to avoid its own registration?|No. Person registration must be evaluated separately.
-placement-count|For the tested state private-placement exemption, do only completed retail purchases count toward the ten-person limit?|No. Count noninstitutional offerees in the state over 12 months, whether or not they buy.
-placement-investment|Does a prearranged immediate resale satisfy the investment-intent condition for a retail buyer in the tested state private placement?|No. Noninstitutional buyers must purchase for investment.
-placement-pay|May commissions be paid for soliciting noninstitutional buyers under the tested state private-placement exemption?|No. That state exemption prohibits commissions for soliciting those buyers.
+placement-count|For the state private-placement exemption, do only completed retail purchases count toward the ten-person limit?|No. Count noninstitutional offerees in the state over 12 months, whether or not they buy.
+placement-investment|Does a prearranged immediate resale satisfy the investment-intent condition for a retail buyer in a state private placement?|No. Noninstitutional buyers must purchase for investment.
+placement-pay|May commissions be paid for soliciting noninstitutional buyers under the state private-placement exemption?|No. That state exemption prohibits commissions for soliciting those buyers.
 placement-federal|Does the state's ten-offeree private-placement limit define every federal Regulation D safe harbor?|No. The state exemption and federal Regulation D use different tests.
 notification|Is notification the state registration method identified by a simultaneous federal offering registration?|No. That is coordination; notification is associated with qualifying seasoned issuers.
 coordination|An offering has a federal Securities Act registration filing. Which state method fits: notification or coordination?|Coordination. The same offering's federal registration filing is the identifying fact.
@@ -102,11 +102,11 @@ adviser-exact|Can a solely private-fund adviser use the less-than-$150-million e
 reporting-adviser|Does exemption from adviser registration eliminate an exempt reporting adviser's Form ADV filing obligations?|No. It must still file the required portions of Form ADV.`,
 9: `time-price|Can a broker-dealer agent choose which security to buy under time-and-price authority alone?|No. The customer must already have fixed the security, buy/sell action, and amount.
 agent-written|Can a broker-dealer agent start full discretionary trading and obtain written authority ten business days later?|No. Broader agent discretion generally needs prior written authority; the ten-business-day accommodation is for advisers.
-adviser-written|Under the tested adviser oral-discretion accommodation, is written authority due ten calendar days after the first discretionary trade?|No. It is due within ten business days after that transaction.
+adviser-written|Under the adviser oral-discretion accommodation, is written authority due ten calendar days after the first discretionary trade?|No. It is due within ten business days after that transaction.
 minority-partner|Does a minority partnership membership change without a control transfer necessarily require assignment consent?|No. It generally requires notice to clients within a reasonable time.
 control-consent|Can an adviser complete a control transfer or assignment and merely notify clients afterward?|No. Client consent is required before the assignment.
 contract-terms|Is stating the fee rate alone sufficient for the basic terms of an advisory contract?|No. Include the contract term, fee and termination-refund treatment, and assignment restriction.
-renew-writing|Can an advisory contract's renewal or extension be documented only orally under the tested rule?|No. Renewal or extension must be in writing.
+renew-writing|Can an advisory contract's renewal or extension be documented only orally?|No. Renewal or extension must be in writing.
 pledge-assignment|Does pledging advisory client contracts avoid assignment requirements because the contracts are not sold outright?|No. A pledge is treated as an assignment and requires client consent.
 oral-offer|Does an ordinary oral securities offer count as a prospectus?|No. An ordinary oral offer is not a prospectus.
 media-prospectus|Can a radio offering communication count as a prospectus even though it is not printed?|Yes. Radio, television, and written offering communications can be prospectuses.
@@ -136,9 +136,9 @@ affiliate-reporting|An affiliate has held restricted shares of a reporting issue
 affiliate-nonreporting|An affiliate has held restricted shares of a nonreporting issuer for one year. Have all Rule 144 resale conditions ended?|No. The one-year holding period is met, but affiliate resale conditions still apply.
 lookback|Does resigning as an affiliate yesterday immediately satisfy Rule 144's nonaffiliate test?|No. The seller must not be an affiliate now or during the preceding three months.
 affiliate-conditions|Is a holding period the only Rule 144 restriction an affiliate must consider?|No. Affiliate resales also involve current information, volume, manner-of-sale, and notice conditions.
-listed-volume|For the tested listed-equity Rule 144 volume ceiling, do you use the smaller of 1% outstanding and average weekly trading volume?|No. Use the greater of 1% outstanding or the preceding four-week average weekly volume.
-otc-volume|Can a high four-week trading average increase the tested Rule 144 volume allowance for over-the-counter equity?|No. The tested over-the-counter allowance is 1% of outstanding shares.
-form144|Must a Rule 144 sale exceed both 5,000 shares and $50,000 before the tested notice requirement is triggered?|No. Exceeding either threshold during three months triggers the notice requirement.
+listed-volume|For the listed-equity Rule 144 volume ceiling, do you use the smaller of 1% outstanding and average weekly trading volume?|No. Use the greater of 1% outstanding or the preceding four-week average weekly volume.
+otc-volume|Can a high four-week trading average increase the Rule 144 volume allowance for over-the-counter equity?|No. The over-the-counter allowance is 1% of outstanding shares.
+form144|Must a Rule 144 sale exceed both 5,000 shares and $50,000 before the Form 144 notice requirement is triggered?|No. Exceeding either threshold during three months triggers the notice requirement.
 gift-tack|Does a gift of restricted securities restart the recipient's Rule 144 holding clock at zero?|No. The recipient can add the donor's holding period.`,
 11: `plan-million|Does an employee benefit plan's $1 million institutional-client threshold qualify its adviser for the special federal pension-consultant registration basis?|No. It classifies the plan for the state client count; the separate federal consultant test uses $200 million in aggregate plan assets.
 pension-consultant|Must each advised plan separately hold $200 million for the special federal pension-consultant registration basis?|No. The test is at least $200 million across the eligible plans advised.
@@ -175,7 +175,7 @@ qdro-exception|Does an IRA withdrawal qualify for the employer-plan divorce-orde
 roth-order|Are earnings treated as the first money withdrawn from a Roth IRA?|No. Withdrawals are ordered as contributions, then conversions, then earnings.
 roth-contributions|Are withdrawals of Roth IRA contributions penalized solely because the owner is under 59½?|No. Contributions can be withdrawn free of income tax and penalty.
 roth-earnings|Does satisfying the five-tax-year Roth period alone make every earnings withdrawal qualified?|No. An additional qualifying event is needed: age 59½, death, disability, or a qualifying first-home distribution within its $10,000 lifetime limit.
-rmd-penalty|Is the general excise tax for a missed required minimum distribution still always 50%?|No. The general rate is 25%, reduced to 10% for timely correction under the tested rule.
+rmd-penalty|Is the general excise tax for a missed required minimum distribution still always 50%?|No. The general rate is 25%, reduced to 10% for timely correction.
 rmd-working|Can a traditional IRA owner delay required minimum distributions simply by continuing to work?|No. Continued work does not postpone a traditional IRA's required minimum distributions.
 rmd-employer|Can an employee who owns more than 5% use continued work to postpone current-employer plan required minimum distributions?|No. The more-than-5% owner is excluded from that working-employee deferral.
 ira-loans|Can a SIMPLE IRA offer participant loans because it receives employer contributions?|No. Personal, SEP, and SIMPLE IRAs do not permit participant loans.
@@ -233,8 +233,8 @@ pop-pay|Does a mutual fund's net asset value always include the sales charge pai
 forward-price|Does a mutual-fund order lock in the last published price?|No. It receives the next computed offering price or net asset value, as applicable.
 fractional|May an open-end fund refuse redemption solely because the investor owns a fractional share?|No. It must redeem fractional as well as whole shares.
 daily-nav|Do open-end funds and unit investment trusts calculate net asset value only when an investor places an order?|No. They calculate net asset value daily.
-closed-nav|Is monthly net asset value calculation the commonly tested minimum for a closed-end fund?|No. The tested comparison is at least weekly; a fund may calculate it daily.
-sec-report|Must a registered investment company report every individual portfolio trade to the SEC as it happens?|No. The cram-sheet reporting comparison requires SEC reports at least annually, not a report for every trade.
+closed-nav|Is a closed-end fund limited to calculating net asset value once a month?|No. Closed-end funds commonly calculate it at least weekly, and many calculate it daily.
+sec-report|Does a registered fund file just one report with the SEC each year?|No. It files several reports on different schedules, including semiannual shareholder reports on Form N-CSR, monthly portfolio holdings on Form N-PORT, and an annual census report on Form N-CEN.
 shareholder-report|Is one shareholder report per year enough under the registered investment-company reporting comparison?|No. Shareholder reports are sent at least semiannually.
 coverage-three|Does an open-end fund satisfy the bank-debt coverage requirement when assets merely equal bank debt?|No. Assets must be at least three times bank debt: 300% coverage under the stated simplified model.
 repay-equation|When a fund uses cash to repay bank debt, can you calculate coverage by reducing debt while leaving assets unchanged?|No. Both fall by the repayment: coverage = (assets − repayment) ÷ (debt − repayment).
@@ -252,7 +252,7 @@ seller-put|Should a future seller purchase a call to protect against a price dec
 whole-life|Do flexible premiums and fluctuating separate-account cash value identify whole life?|No. Whole life has level or fixed premiums and guaranteed cash value.
 universal-life|Does traditional universal life require fixed premiums and a separate investment account?|No. It has flexible premiums and interest-sensitive cash value.
 policy-loan|Is a policy loan simply a withdrawal of the death benefit with no later consequence?|No. It is borrowing against cash value; unpaid principal and interest generally reduce the eventual payout.`,
-21: `discount-yields|Is the coupon rate the highest yield measure on the tested discount bond?|No. Yield to maturity is highest, followed by current yield, then coupon rate.
+21: `discount-yields|Is the coupon rate the highest yield measure on a bond trading at a discount?|No. Yield to maturity is highest, followed by current yield, then coupon rate.
 maturity-spread|Do bonds of different credit ratings but the same maturity isolate a term spread?|No. They isolate a credit spread; a term spread holds credit quality constant and changes maturity.
 credit-spread|Do different maturities alone identify a credit spread?|No. A credit spread compares different credit ratings while holding maturity constant.
 dividend-declare|Does declaring a cash dividend payable within one year leave working capital unchanged until payment?|No. Working capital falls when the current payable is created; equity also falls. Cash changes at payment.
@@ -262,14 +262,6 @@ risk-labels|Can inflation risk be eliminated simply by holding more issuers?|No.
 bond-rating|Does a higher bond rating guarantee a higher investment return?|No. It signals lower credit or default risk, not a guaranteed return.
 after-tax|To find a taxable bond's after-tax yield, do you divide its stated yield by one minus the tax rate?|No. Multiply the stated yield by one minus the tax rate.
 tax-equivalent|To find a tax-free bond's taxable-equivalent yield, do you multiply by one minus the tax rate?|No. Divide the tax-free yield by one minus the tax rate.`,
-26: `affiliate-reminder|Does buying unrestricted shares publicly remove every Rule 144 condition for an affiliate?|No. It removes the holding-period requirement, but affiliate resale conditions remain.
-gift-reminder|Does a gift force the recipient to start the restricted-stock holding period again?|No. The recipient can tack on the donor's holding period.
-agent-reminder|Does an exempt security automatically exempt the broker-dealer salesperson who sells it from agent registration?|No. Agent registration is a separate question from the security's exemption.
-issuer-reminder|Does receiving no commission automatically exclude every issuer salesperson from agent status?|No. The narrow exception also requires sales only to the specified existing employees, partners, or directors.
-audit-reminder|Does missing audit evidence always require an adverse opinion?|No. Material but nonpervasive effects support a qualified opinion; possible material and pervasive effects support a disclaimer.
-fund-reminder|Is the last displayed mutual-fund price guaranteed for a new order?|No. The order receives the next computed price.
-bond-reminder|Does a fixed coupon make coupon rate the highest yield on a discount bond?|No. Yield to maturity is highest, above current yield and coupon rate.
-payment-reminder|Does paying a previously declared cash dividend create another charge against equity?|No. Payment reduces cash and dividends payable together; equity was reduced at declaration.
-risk-tolerance|Does high income prove that a client is willing to accept high investment risk?|No. The adviser must establish the client's risk tolerance separately.
+26: `risk-tolerance|Does high income prove that a client is willing to accept high investment risk?|No. The adviser must establish the client's risk tolerance separately.
 free-service|Can an advisory service advertised as free require a separate purchase if no advisory fee is itemized?|No. A free service must carry neither monetary charges nor other obligations.`,
 };

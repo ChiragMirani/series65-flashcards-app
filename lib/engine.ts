@@ -41,14 +41,17 @@ export function reduceSnapshot(state: Snapshot, command: Command, cards: Card[])
   else if(command.type==='start') {
     if(command.fullDeck) {
       if(command.resume&&state.session?.scope==='full-deck') {
-        const session=state.session;
+        // A content update can also retire cards: drop IDs no longer in the deck.
+        const known=new Set(cards.map(c=>c.id));
+        const session={...state.session,order:state.session.order!.filter(id=>known.has(id)),queue:state.session.queue.filter(id=>known.has(id)),completed:state.session.completed.filter(id=>known.has(id))};
+        const removed=session.order.length!==state.session.order!.length;
         const saved=new Set(session.order);
         const eligible=makeFullDeckSession(cards,state,new Date(command.now),session.category,session.mode);
         const added=eligible.order!.filter(id=>!saved.has(id));
-        if(!added.length) return state;
+        if(!added.length&&!removed) return state;
         // A content update must not move the current card or erase completed work.
         // Append newly available cards once, within the saved subject and mode.
-        const order=[...session.order!,...added];
+        const order=[...session.order,...added];
         next.session={...session,order,queue:[...session.queue,...added],initialCount:order.length};
       } else next.session=makeFullDeckSession(cards,state,new Date(command.now),command.category,command.mode);
     } else {

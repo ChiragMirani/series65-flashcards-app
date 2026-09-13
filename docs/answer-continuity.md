@@ -1,6 +1,6 @@
 # Question and answer continuity
 
-Editorial pass: September 13, 2026. Every original recall objective, generated contrast pair, and authored application/calculation was read as a question followed by its answer. The revised deck has 775 cards. This is an agent editorial pass, not human subject-matter or copyright verification. All cards remain draft.
+Editorial pass: September 13, 2026. Every original recall objective, generated contrast pair, and authored application/calculation was read as a question followed by its answer. The revised deck has 1003 cards. This is an agent editorial pass, not human subject-matter or copyright verification. All cards remain draft.
 
 - Contrast cards now have independently authored questions and direct answers in content/contrasts.ts, content/review-expansion.ts, and content/nasaa-supplement.ts. There is no generic claim template and no fallback to a recall answer.
 - Yes/no questions answer yes or no before explaining; choice questions name the selected choice.
@@ -39,7 +39,7 @@ Generated pair ledger for review and regression comparison:
 | s65-01-firm-individual-contrast | A federal covered advisory firm must notice-file because of a sixth retail client. Does its representative automatically owe registration in the same state? | No. The firm uses the client-count test; the representative registers based on the representative's place of business. |
 | s65-01-exempt-agent-recall | Does selling an exempt security normally remove a broker-dealer salesperson's agent status? | No. The salesperson generally remains an agent despite the security exemption. |
 | s65-01-exempt-agent-contrast | Does selling an exempt bond automatically exempt a broker-dealer salesperson from agent registration? | No. The security exemption does not remove the salesperson's agent status. |
-| s65-01-issuer-employee-recall | What two conditions support the narrow issuer-employee agent exclusion in the cram sheet? | Sales only to existing employees, partners, or directors, with no sales commission. |
+| s65-01-issuer-employee-recall | What two conditions support the narrow issuer-employee agent exclusion? | Sales only to existing employees, partners, or directors, with no sales commission. |
 | s65-01-issuer-employee-contrast | Is receiving no commission enough, by itself, for an issuer employee's narrow agent exclusion? | No. Sales must also be limited to existing employees, partners, or directors. |
 | s65-01-issuer-employee-apply | An issuer employee receives no commission but sells to unrelated retail investors. Is absence of commission enough for the narrow existing-employee exception? | No. The purchasers are outside the specified existing employee, partner, or director audience. |
 | s65-01-late-incidental-recall | When can a lawyer, accountant, teacher, or engineer be excluded from the adviser definition? | Advice must be solely incidental to the profession and receive no special compensation. |
@@ -65,7 +65,7 @@ Generated pair ledger for review and regression comparison:
 | s65-01-bd-retail-contrast | Can a broker-dealer avoid state registration solely because it serves only four resident retail clients? | No. Four is not a broker-dealer exemption; registration is required unless a separate exclusion applies. |
 | s65-01-issuer-muni-recall | Under the 1956 Uniform Securities Act, are a city employee selling city bonds and a broker-dealer salesperson selling those bonds both excluded as agents? | No. The issuer representative can be excluded for this municipal sale. The broker-dealer salesperson generally must register as an agent. |
 | s65-01-issuer-muni-contrast | A broker-dealer salesperson sells only municipal bonds. Does the issuer-representative exclusion remove that salesperson’s agent registration duty? | No. The salesperson represents the broker-dealer, not the municipal issuer. |
-| s65-01-issuer-security-scope-recall | Does every exempt security automatically qualify its issuer’s representative for the exempt-security agent exclusion? | No. That exclusion covers specified exempt classes, not every exempt security. Other issuer-side exclusions must be tested separately. |
+| s65-01-issuer-security-scope-recall | Does every exempt security automatically qualify its issuer’s representative for the exempt-security agent exclusion? | No. That exclusion covers specified exempt classes, not every exempt security. Other issuer-side exclusions must be analyzed separately. |
 | s65-01-issuer-security-scope-contrast | An issuer representative sells a security in a transaction exempt under section 402(b). Must the security itself also be exempt for that issuer-side exclusion? | No. A qualifying exempt transaction is a separate issuer-representative exclusion. |
 | s65-01-nasaa-bd-advice-recall | What two conditions let a broker-dealer use the incidental-advice exclusion under the Uniform Securities Act? | The advice is solely incidental to brokerage business, and there is no special compensation for it. |
 | s65-01-nasaa-bd-advice-contrast | A broker-dealer charges a separate fee for ongoing securities advice. Can it rely on the incidental-advice exclusion? | No. Special compensation defeats this exclusion; adviser requirements must be evaluated. |
@@ -100,12 +100,12 @@ Generated pair ledger for review and regression comparison:
 | s65-03-state-security-term-contrast | Does a state securities registration statement always expire on December 31 like a professional registration? | No. It generally lasts one year from effectiveness, with a possible extension for an underwriter's unsold allotment. |
 | s65-03-coordination-clocks-recall | Before state registration by coordination becomes effective, how long must the filing and final pricing be on file? | The filing: at least 10 days. Final pricing: at least 2 full business days. The Administrator may shorten these periods. |
 | s65-03-coordination-clocks-contrast | For registration by coordination, are both the filing and final-pricing waiting periods measured in business days? | No. The filing period is 10 days; final pricing must be on file for 2 full business days, unless shortened. |
-| s65-03-federal-civil-recall | In the tested federal Securities Act civil-action comparison, what are the discovery and outside filing deadlines? | The earlier of one year after discovery or three years after the action. |
+| s65-03-federal-civil-recall | In the federal Securities Act civil-action comparison, what are the discovery and outside filing deadlines? | The earlier of one year after discovery or three years after the action. |
 | s65-03-federal-civil-contrast | In the federal Securities Act 1-year/3-year comparison, can late discovery extend the outside three-year cutoff? | No. Use the earlier of one year after discovery or three years after the action. |
 | s65-03-federal-civil-apply | A specified federal Securities Act claim is discovered 34 months after the action. Ignoring tolling and special claim rules, how much of the outside deadline remains? | Two months. |
 | s65-03-state-civil-recall | What is the Uniform Securities Act civil-action deadline comparison? | The earlier of two years after discovery or three years after the action. |
-| s65-03-state-civil-contrast | Does the tested Uniform Securities Act civil-action comparison use the federal one-year discovery period? | No. The state comparison uses two years after discovery or three years after the action, whichever is earlier. |
-| s65-03-state-civil-apply | A Uniform Securities Act civil violation is discovered 28 months after the action. Which deadline controls the cram-sheet comparison? | Month 36 after the action. |
+| s65-03-state-civil-contrast | Does the Uniform Securities Act civil-action comparison use the federal one-year discovery period? | No. The state comparison uses two years after discovery or three years after the action, whichever is earlier. |
+| s65-03-state-civil-apply | A Uniform Securities Act civil violation is discovered 28 months after the action. Under the two-year/three-year comparison, which deadline controls? | Month 36 after the action. |
 | s65-03-civil-scope-recall | Does the federal one-year/three-year comparison govern every federal securities claim? | No. It is the specified Securities Act exam comparison, not a universal deadline. |
 | s65-03-civil-scope-contrast | Does the federal Securities Act 1-year/3-year comparison apply to every federal securities claim? | No. It is a specified Securities Act comparison, not a universal federal deadline. |
 | s65-03-bankruptcy-trustee-recall | Which trustee is specifically identified in the fiduciary transaction exemption? | A trustee in bankruptcy; an ordinary private trustee is not automatically covered. |
@@ -119,7 +119,7 @@ Generated pair ledger for review and regression comparison:
 | s65-03-nasaa-registration-filers-recall | Who may file a securities registration statement under the Uniform Securities Act? | The issuer, another person on whose behalf the offering is made, or a registered broker-dealer. |
 | s65-03-nasaa-registration-filers-contrast | Must the issuer personally file every state securities registration statement? | No. A registered broker-dealer or another person on whose behalf the offering is made may also file. |
 | s65-04-tested-act-recall | Which Uniform Securities Act version is the exam framework? | The 1956 Act as amended by North American Securities Administrators Association (NASAA), not the 2002 Act. |
-| s65-04-tested-act-contrast | Does the newer 2002 Uniform Securities Act automatically replace the Series 65's tested legal framework? | No. The exam framework is the 1956 Act as amended by North American Securities Administrators Association (NASAA). |
+| s65-04-tested-act-contrast | Does the newer 2002 Uniform Securities Act automatically replace the legal framework the Series 65 exam uses? | No. The exam framework is the 1956 Act as amended by North American Securities Administrators Association (NASAA). |
 | s65-04-state-effective-recall | How long after filing does state professional registration generally become effective? | At noon on the 30th day after filing. |
 | s65-04-state-effective-contrast | Is state professional registration generally effective as soon as the application is filed? | No. It generally becomes effective at noon on the 30th day after filing. |
 | s65-04-state-expiry-recall | When does state professional registration expire unless renewed? | December 31. |
@@ -131,8 +131,8 @@ Generated pair ledger for review and regression comparison:
 | s65-04-adv-update-apply | A firm’s fiscal year closes December 31. It treats both the annual ADV update and brochure delivery as due within 120 days. What must change? | The ADV updating amendment must be filed within 90 days; the brochure generally has 120 days. |
 | s65-04-brochure-annual-recall | When is the annual brochure or material-change summary generally delivered? | Within 120 days after fiscal year-end. |
 | s65-04-brochure-annual-contrast | Does the client's contract anniversary start the annual brochure-delivery clock? | No. The general 120-day deadline runs from the adviser's fiscal year-end. |
-| s65-04-brochure-initial-recall | What are the two permitted timings for the tested initial state brochure delivery? | At least 48 hours before contracting, or at signing with five business days to cancel without penalty. |
-| s65-04-brochure-initial-contrast | Under the tested state brochure rule, can an adviser deliver at contract signing without a penalty-free cancellation opportunity? | No. Delivery at signing requires five business days to cancel without penalty; earlier delivery must be at least 48 hours before signing. |
+| s65-04-brochure-initial-recall | What are the two permitted timings for initial state brochure delivery? | At least 48 hours before contracting, or at signing with five business days to cancel without penalty. |
+| s65-04-brochure-initial-contrast | Under the state brochure rule, can an adviser deliver at contract signing without a penalty-free cancellation opportunity? | No. Delivery at signing requires five business days to cancel without penalty; earlier delivery must be at least 48 hours before signing. |
 | s65-04-prompt-amendment-recall | How should a materially inaccurate filing be corrected when its item requires amendment? | Amend it promptly instead of waiting for the annual update. |
 | s65-04-prompt-amendment-contrast | Can a materially inaccurate filing always wait for the next annual update? | No. An item requiring prompt amendment must be corrected promptly. |
 | s65-04-records-ordinary-recall | How long are ordinary state adviser records generally retained? | Five years from fiscal year-end of the last entry, with the first two generally at the principal office. |
@@ -156,16 +156,16 @@ Generated pair ledger for review and regression comparison:
 | s65-04-withdraw-clock-contrast | Does the 180-day federal-withdrawal deadline start when the annual update is actually filed? | No. It runs from fiscal year-end, with state registration arranged before the transition. |
 | s65-04-aum-entry-buffer-recall | At $95 million in regulatory assets under management, can a new federal applicant and an existing Securities and Exchange Commission (SEC) adviser both use the ordinary assets under management (AUM) eligibility route? | No. The existing adviser may generally remain; the new applicant needs at least $100 million to elect this route. |
 | s65-04-aum-entry-buffer-contrast | An existing Securities and Exchange Commission (SEC) adviser reports exactly $90 million in regulatory assets under management. Must it withdraw solely because of that amount? | No. The ordinary withdrawal trigger is below $90 million, not exactly $90 million. |
-| s65-05-termination-prompt-recall | What timing controls an agent's termination notice under the tested Uniform Act rule? | Agent and firm or issuer notify promptly. |
-| s65-05-termination-prompt-contrast | Under the tested Uniform Act rule, can an agent substitute a generic 30-day Form U5 deadline for termination notice? | No. The agent and firm or issuer must notify promptly. |
-| s65-05-prepay-state-recall | What prepaid-fee combination triggers the tested state adviser's financial reporting requirement? | More than $500 per client paid at least six months in advance. |
+| s65-05-termination-prompt-recall | What timing controls an agent's termination notice under the Uniform Securities Act? | Agent and firm or issuer notify promptly. |
+| s65-05-termination-prompt-contrast | Under the Uniform Securities Act, can an agent substitute a generic 30-day Form U5 deadline for termination notice? | No. The agent and firm or issuer must notify promptly. |
+| s65-05-prepay-state-recall | What prepaid-fee combination triggers the state adviser's financial reporting requirement? | More than $500 per client paid at least six months in advance. |
 | s65-05-prepay-state-contrast | A state adviser collects $900 per client at the start of each three-month service period. Does that prepayment alone trigger the audited-balance-sheet rule? | No. The fee exceeds $500, but each payment covers only three months. Both the dollar and six-month tests must be met. |
-| s65-05-prepay-federal-recall | What prepaid-fee combination triggers the federal adviser's tested brochure balance-sheet requirement? | More than $1,200 per client paid at least six months in advance. |
+| s65-05-prepay-federal-recall | What prepaid-fee combination triggers the federal adviser's brochure balance-sheet requirement? | More than $1,200 per client paid at least six months in advance. |
 | s65-05-prepay-federal-contrast | A Securities and Exchange Commission (SEC)-registered adviser collects $2,000 per client for the next three months only. Does that prepayment alone require an audited balance sheet in its brochure? | No. The fee exceeds $1,200, but three months falls short of the required six months. The dollar test alone is insufficient. |
 | s65-05-prepay-federal-apply | A Securities and Exchange Commission (SEC)-registered adviser requires $1,250 per client for exactly six months and has no balance-sheet exception. Must its Part 2A brochure include an audited balance sheet? | Yes. The fee exceeds $1,200 and exactly six months satisfies the time test. Include the most recent fiscal-year balance sheet, independently audited. |
 | s65-05-prepay-boundary-recall | How are the dollar and time boundaries treated in the prepaid-fee tests? | The dollar amount must be exceeded; exactly six months meets the time condition. |
-| s65-05-prepay-boundary-contrast | For the tested prepaid-fee rules, must both the dollar threshold and the six-month period be strictly exceeded? | No. The dollar threshold must be exceeded, but exactly six months satisfies the time condition. |
-| s65-05-prepay-boundary-apply | A state adviser receives exactly $500 per client for eight months in advance. Does this amount meet the tested prepaid-fee financial-reporting trigger? | No. The fee must be more than $500. |
+| s65-05-prepay-boundary-contrast | For the prepaid-fee rules, must both the dollar threshold and the six-month period be strictly exceeded? | No. The dollar threshold must be exceeded, but exactly six months satisfies the time condition. |
+| s65-05-prepay-boundary-apply | A state adviser receives exactly $500 per client for eight months in advance. Does this amount meet the state prepaid-fee financial-reporting trigger? | No. The fee must be more than $500. |
 | s65-05-prepay-consequence-recall | An adviser meets both substantial-prepayment tests and has no applicable exception. What financial statement must its Form ADV Part 2A brochure include? | An independently audited balance sheet for its most recent fiscal year. Meeting the tests does not prohibit collecting the fee. |
 | s65-05-prepay-consequence-contrast | Does a prepaid fee that exceeds the applicable dollar threshold and covers at least six months become prohibited? | No. Unless an exception applies, the adviser must include an independently audited balance sheet in Part 2A. The fee itself is not prohibited by this test. |
 | s65-05-fee-custody-recall | Is authority to deduct advisory fees custody? | Yes, though safeguards may support an exception from the annual surprise examination. |
@@ -175,13 +175,13 @@ Generated pair ledger for review and regression comparison:
 | s65-05-bill-custody-apply | A client gives the adviser permission to deduct fees and pay household invoices. Can the adviser rely on the fee-deduction-only surprise-exam exception? | No. Bill-paying authority extends beyond fee deduction. |
 | s65-05-consent-custody-recall | Can client consent remove custody status or override a custody prohibition? | No. Consent does not erase the classification or supersede the rule. |
 | s65-05-consent-custody-contrast | Can a signed client consent erase custody status or override a custody prohibition? | No. Consent does not change that classification or supersede the rule. |
-| s65-05-custody-worth-recall | What is the tested minimum net worth for a state adviser with custody? | $35,000, subject to applicable exceptions. |
-| s65-05-custody-worth-contrast | Is $35,000 a universal fixed bond amount for every state adviser with custody? | No. It is the tested minimum net worth for custody; a bond is a separate requirement. |
-| s65-05-discretion-worth-recall | What is the tested minimum net worth for a state adviser with discretion but no custody? | $10,000. |
-| s65-05-discretion-worth-contrast | Must a state adviser with discretion but no custody meet the $35,000 custody net-worth minimum? | No. The tested minimum for discretion without custody is $10,000. |
+| s65-05-custody-worth-recall | What is the minimum net worth for a state adviser with custody? | $35,000, subject to applicable exceptions. |
+| s65-05-custody-worth-contrast | Is $35,000 a universal fixed bond amount for every state adviser with custody? | No. It is the minimum net worth for custody; a bond is a separate requirement. |
+| s65-05-discretion-worth-recall | What is the minimum net worth for a state adviser with discretion but no custody? | $10,000. |
+| s65-05-discretion-worth-contrast | Must a state adviser with discretion but no custody meet the $35,000 custody net-worth minimum? | No. The minimum for discretion without custody is $10,000. |
 | s65-05-prepay-worth-recall | What minimum net-worth condition applies when a state adviser receives over $500 per client at least six months in advance? | Positive net worth. |
 | s65-05-prepay-worth-contrast | Does the state prepaid-fee trigger alone require $35,000 of net worth? | No. More than $500 per client prepaid six or more months requires positive net worth under that test. |
-| s65-05-deficiency-bond-recall | How is the tested surety bond calculated for a net-worth deficiency? | Use the deficiency below the applicable minimum, rounded up to a $5,000 increment. |
+| s65-05-deficiency-bond-recall | How is the surety bond calculated for a net-worth deficiency? | Use the deficiency below the applicable minimum, rounded up to a $5,000 increment. |
 | s65-05-deficiency-bond-contrast | Does a net-worth-deficiency bond always equal the adviser's entire required minimum net worth? | No. It covers the shortfall, rounded up to a $5,000 increment. |
 | s65-05-deficiency-bond-apply | A state adviser has custody and $23,000 net worth. Under the deficiency-bond model, what bond is required for the shortfall? | $15,000. |
 | s65-05-general-bond-recall | Are the custody and discretion net-worth minimums universal fixed bond amounts? | No. Separate general bonding authority can take client count and assets under management (AUM) into account. |
@@ -190,8 +190,8 @@ Generated pair ledger for review and regression comparison:
 | s65-05-enforcement-contrast | Can the state Administrator personally issue a court injunction or make an arrest? | No. The Administrator issues cease-and-desist orders and seeks an injunction from a court. |
 | s65-05-hearing-recall | What process ordinarily precedes a final registration suspension? | Notice and an opportunity for a hearing. |
 | s65-05-hearing-contrast | Can a final registration suspension ordinarily bypass notice and an opportunity for a hearing? | No. Notice and an opportunity for a hearing ordinarily precede final suspension. |
-| s65-05-nasaa-criminal-ceiling-recall | What maximum fine and imprisonment does the tested 1956 Uniform Securities Act provide for a qualifying willful violation? | Up to $5,000, up to three years in prison, or both. |
-| s65-05-nasaa-criminal-ceiling-contrast | Under the tested 1956 Uniform Securities Act, must a court choose between a $5,000 fine and three years’ imprisonment? | No. The provision permits both, subject to its conditions. |
+| s65-05-nasaa-criminal-ceiling-recall | What maximum fine and imprisonment does the 1956 Uniform Securities Act provide for a qualifying willful violation? | Up to $5,000, up to three years in prison, or both. |
+| s65-05-nasaa-criminal-ceiling-contrast | Under the 1956 Uniform Securities Act, must a court choose between a $5,000 fine and three years’ imprisonment? | No. The provision permits both, subject to its conditions. |
 | s65-05-nasaa-appeal-deadline-recall | Under the Uniform Securities Act, how long does an aggrieved person have to seek court review of a final Administrator order? | File the petition within 60 days after entry of the final order. |
 | s65-05-nasaa-appeal-deadline-contrast | A final Administrator order was entered 45 days ago. Under the model Act’s ordinary review clock, how many days remain to file a petition? | 15 days. The petition must be filed within 60 days after the order was entered. |
 | s65-05-nasaa-appeal-stay-recall | Does filing for court review automatically pause a final Administrator order? | No. The order remains operative unless the court specifically orders a stay. |
@@ -204,7 +204,7 @@ Generated pair ledger for review and regression comparison:
 | s65-05-nasaa-supervision-contrast | An advisory firm ignores repeated compliance violations by its representatives. Does employing registered people satisfy its supervision duty? | No. Registration does not replace reasonable supervision. |
 | s65-05-nasaa-insolvency-recall | Can a firm’s insolvency support denial, suspension, or revocation under the model Act? | Yes, with a finding that the action is in the public interest and that the firm itself is insolvent. |
 | s65-05-nasaa-insolvency-contrast | One partner cannot pay a personal loan, but the adviser is solvent. Does that fact alone establish the firm-insolvency ground? | No. This ground requires an insolvency finding about the firm itself. |
-| s65-05-nasaa-conviction-recall | Which convictions within the preceding ten years are specified disciplinary grounds in the tested Uniform Securities Act? | Any felony, or a misdemeanor involving a security or the securities business; the public-interest requirement also applies. |
+| s65-05-nasaa-conviction-recall | Which convictions within the preceding ten years are specified disciplinary grounds in the Uniform Securities Act? | Any felony, or a misdemeanor involving a security or the securities business; the public-interest requirement also applies. |
 | s65-05-nasaa-conviction-contrast | An applicant has only been accused of an offense. Does the accusation alone satisfy the model Act’s conviction ground? | No. An accusation is not a conviction; other properly established grounds must be evaluated separately. |
 | s65-05-nasaa-custody-separate-recall | Under North American Securities Administrators Association (NASAA)’s custody model, how must client assets be separated from the adviser’s own assets? | Use a qualified custodian and properly titled client accounts; client assets must not be mixed with the adviser’s money. |
 | s65-05-nasaa-custody-separate-contrast | An adviser temporarily deposits client investment money into its own operating account but tracks each deposit. Is recordkeeping enough to permit this? | No. Accurate records do not make commingling client and adviser assets permissible. |
@@ -219,7 +219,7 @@ Generated pair ledger for review and regression comparison:
 | s65-05-nasaa-custody-balance-recall | Under North American Securities Administrators Association (NASAA)’s financial-reporting model, can custody trigger an audited balance sheet even without substantial prepaid fees? | Yes. Custody is a separate trigger for the adviser’s fiscal-year-end audited balance sheet. |
 | s65-05-nasaa-custody-balance-contrast | A state adviser has custody but bills after providing services. Does the absence of prepaid fees alone remove the model’s audited-balance-sheet requirement? | No. Custody independently triggers that financial-reporting requirement. |
 | s65-06-security-exempt-recall | What does an exempt-security classification remove? | State registration of the security itself. |
-| s65-06-security-exempt-contrast | Does an exempt-security classification automatically remove the salesperson's registration duty? | No. It exempts the security from state registration; person registration is tested separately. |
+| s65-06-security-exempt-contrast | Does an exempt-security classification automatically remove the salesperson's registration duty? | No. It exempts the security from state registration; person registration is analyzed separately. |
 | s65-06-transaction-exempt-recall | What is the scope of a transaction exemption? | It exempts that particular transaction from registration requirements. |
 | s65-06-transaction-exempt-contrast | Does one exempt transaction permanently exempt every later sale of the same security? | No. The exemption applies to that particular transaction. |
 | s65-06-covered-security-recall | What does federal-covered security status preempt? | Full state securities registration, although notice filings and fees may remain. |
@@ -228,13 +228,13 @@ Generated pair ledger for review and regression comparison:
 | s65-06-fraud-contrast | Are exempt securities or transactions also exempt from antifraud rules? | No. Antifraud requirements still apply. |
 | s65-06-person-separate-recall | How should an agent's or broker-dealer's registration be evaluated when a security is exempt? | Separately from the security or transaction exemption. |
 | s65-06-person-separate-contrast | Can a broker-dealer or agent rely solely on the security's exemption to avoid its own registration? | No. Person registration must be evaluated separately. |
-| s65-06-placement-count-recall | How many noninstitutional offerees may a state private placement approach under the tested exemption? | No more than ten in that state during 12 months. Count offerees, not just buyers; institutions do not count. |
-| s65-06-placement-count-contrast | For the tested state private-placement exemption, do only completed retail purchases count toward the ten-person limit? | No. Count noninstitutional offerees in the state over 12 months, whether or not they buy. |
-| s65-06-placement-count-apply | A state private offering approaches eleven noninstitutional residents, but only six buy. Does it fit the ten-offeree count in the tested state exemption? | No. Eleven offerees exceeds the limit even though only six purchased. |
-| s65-06-placement-investment-recall | What purchase intent is required of noninstitutional buyers in the tested state private placement? | They buy for investment. |
-| s65-06-placement-investment-contrast | Does a prearranged immediate resale satisfy the investment-intent condition for a retail buyer in the tested state private placement? | No. Noninstitutional buyers must purchase for investment. |
-| s65-06-placement-pay-recall | Under the tested state private-placement exemption, may commissions be paid for soliciting noninstitutional buyers? | No. Commissions for soliciting those buyers are prohibited. |
-| s65-06-placement-pay-contrast | May commissions be paid for soliciting noninstitutional buyers under the tested state private-placement exemption? | No. That state exemption prohibits commissions for soliciting those buyers. |
+| s65-06-placement-count-recall | How many noninstitutional offerees may a state private placement approach under the state exemption? | No more than ten in that state during 12 months. Count offerees, not just buyers; institutions do not count. |
+| s65-06-placement-count-contrast | For the state private-placement exemption, do only completed retail purchases count toward the ten-person limit? | No. Count noninstitutional offerees in the state over 12 months, whether or not they buy. |
+| s65-06-placement-count-apply | A state private offering approaches eleven noninstitutional residents, but only six buy. Does it fit the ten-offeree limit in the state private-placement exemption? | No. Eleven offerees exceeds the limit even though only six purchased. |
+| s65-06-placement-investment-recall | What purchase intent is required of noninstitutional buyers in a state private placement? | They buy for investment. |
+| s65-06-placement-investment-contrast | Does a prearranged immediate resale satisfy the investment-intent condition for a retail buyer in a state private placement? | No. Noninstitutional buyers must purchase for investment. |
+| s65-06-placement-pay-recall | Under the state private-placement exemption, may commissions be paid for soliciting noninstitutional buyers? | No. Commissions for soliciting those buyers are prohibited. |
+| s65-06-placement-pay-contrast | May commissions be paid for soliciting noninstitutional buyers under the state private-placement exemption? | No. That state exemption prohibits commissions for soliciting those buyers. |
 | s65-06-placement-federal-recall | Can state private-placement limits be substituted for federal Regulation D conditions? | No. They are different legal tests. |
 | s65-06-placement-federal-contrast | Does the state's ten-offeree private-placement limit define every federal Regulation D safe harbor? | No. The state exemption and federal Regulation D use different tests. |
 | s65-06-notification-recall | Which state registration method is associated with an established, seasoned issuer? | Notification. |
@@ -259,7 +259,7 @@ Generated pair ledger for review and regression comparison:
 | s65-06-nasaa-estate-sale-contrast | An estate’s duly appointed administrator sells estate securities in that capacity. Does the model Act identify this as an exempt transaction? | Yes. Transactions by an administrator fall within the listed exemption. |
 | s65-06-nasaa-pledgee-sale-recall | What condition qualifies a pledgee’s transaction for the model Act’s collateral-sale exemption? | It must be a bona fide pledgee transaction, without a purpose of evading the Act. |
 | s65-06-nasaa-pledgee-sale-contrast | A lender sells genuinely pledged securities after default, without a scheme to evade registration. Which transaction exemption fits? | The bona fide pledgee transaction exemption. |
-| s65-06-nasaa-commercial-paper-recall | What maturity, denomination, and rating conditions define the tested commercial-paper exemption in the model Act? | Payment within nine months, denominations of at least $50,000, and a rating in one of the top three categories. |
+| s65-06-nasaa-commercial-paper-recall | What maturity, denomination, and rating conditions define the commercial-paper exemption in the model Act? | Payment within nine months, denominations of at least $50,000, and a rating in one of the top three categories. |
 | s65-06-nasaa-commercial-paper-contrast | A note matures in seven months and has a top-category rating, but its denomination is $20,000. Does it meet this model Act exemption? | No. The denomination must be at least $50,000. |
 | s65-06-nasaa-charity-security-recall | Under the model Act, can securities of a qualifying nonprofit charitable issuer be exempt from state securities registration? | Yes. The issuer must be organized and operated not for private profit and exclusively for a listed purpose. |
 | s65-06-nasaa-charity-security-contrast | A for-profit company gives 5% of revenue to charity. Does that fact alone establish the nonprofit-issuer securities exemption? | No. Occasional charitable giving does not make the issuer a qualifying nonprofit organization. |
@@ -267,7 +267,7 @@ Generated pair ledger for review and regression comparison:
 | s65-06-nasaa-insurer-security-contrast | An insurer seeks the exemption for its ordinary debt in State B but is authorized only in State A. Does home-state authorization alone satisfy the State B condition? | No. It must be authorized to do business in State B for that condition to be met. |
 | s65-07-accredited-recall | Which investor label primarily addresses Regulation D private-offering eligibility? | Accredited investor. |
 | s65-07-accredited-contrast | Does accredited-investor status by itself establish eligibility to pay performance fees? | No. Qualified-client status addresses performance fees; accredited status addresses private-offering eligibility. |
-| s65-07-qualified-client-recall | Which investor label chiefly addresses performance-fee eligibility? | Qualified client; it also matters to the non-venture-capital private-fund adviser exemption in the sheet. |
+| s65-07-qualified-client-recall | Which investor label chiefly addresses performance-fee eligibility? | Qualified client; it also matters to the non-venture-capital private-fund adviser exemption. |
 | s65-07-qualified-client-contrast | Are qualified client and qualified purchaser interchangeable investor labels? | No. Qualified client addresses performance fees; qualified purchaser is the investor standard for a 3(c)(7) fund. |
 | s65-07-qualified-purchaser-recall | Which investor standard is associated with a section 3(c)(7) private fund? | Qualified purchaser. |
 | s65-07-qualified-purchaser-contrast | Does every accredited investor automatically qualify to invest in a 3(c)(7) private fund? | No. The investor must meet the separate qualified-purchaser standard. |
@@ -300,8 +300,8 @@ Generated pair ledger for review and regression comparison:
 | s65-09-time-price-apply | A customer directs a broker-dealer agent to buy 80 shares of a specified stock today. The agent may select the moment and execution price. Is this full discretionary authority? | No. The security, action, and quantity are fixed. |
 | s65-09-agent-written-recall | Before a broker-dealer agent exercises discretion beyond time and price, what client authorization is generally required? | Prior written authorization. |
 | s65-09-agent-written-contrast | Can a broker-dealer agent start full discretionary trading and obtain written authority ten business days later? | No. Broader agent discretion generally needs prior written authority; the ten-business-day accommodation is for advisers. |
-| s65-09-adviser-written-recall | Under the tested adviser oral-discretion accommodation, when must written authority follow? | Within ten business days after the first discretionary transaction. |
-| s65-09-adviser-written-contrast | Under the tested adviser oral-discretion accommodation, is written authority due ten calendar days after the first discretionary trade? | No. It is due within ten business days after that transaction. |
+| s65-09-adviser-written-recall | Under the adviser oral-discretion accommodation, when must written authority follow? | Within ten business days after the first discretionary transaction. |
+| s65-09-adviser-written-contrast | Under the adviser oral-discretion accommodation, is written authority due ten calendar days after the first discretionary trade? | No. It is due within ten business days after that transaction. |
 | s65-09-minority-partner-recall | What does a minority partnership membership change generally require? | Notice to clients within a reasonable time. |
 | s65-09-minority-partner-contrast | Does a minority partnership membership change without a control transfer necessarily require assignment consent? | No. It generally requires notice to clients within a reasonable time. |
 | s65-09-control-consent-recall | What client action is required before an advisory assignment or control transfer? | Obtain client consent. |
@@ -309,7 +309,7 @@ Generated pair ledger for review and regression comparison:
 | s65-09-contract-terms-recall | Which basic terms belong in an advisory contract? | Its term, fee and termination-refund treatment, and assignment restriction. |
 | s65-09-contract-terms-contrast | Is stating the fee rate alone sufficient for the basic terms of an advisory contract? | No. Include the contract term, fee and termination-refund treatment, and assignment restriction. |
 | s65-09-renew-writing-recall | How must an advisory contract's renewal or extension be documented? | In writing. |
-| s65-09-renew-writing-contrast | Can an advisory contract's renewal or extension be documented only orally under the tested rule? | No. Renewal or extension must be in writing. |
+| s65-09-renew-writing-contrast | Can an advisory contract's renewal or extension be documented only orally? | No. Renewal or extension must be in writing. |
 | s65-09-pledge-assignment-recall | How is a pledge of client contracts classified? | As an assignment. |
 | s65-09-pledge-assignment-contrast | Does pledging advisory client contracts avoid assignment requirements because the contracts are not sold outright? | No. A pledge is treated as an assignment and requires client consent. |
 | s65-09-pledge-assignment-apply | An advisory partnership pledges its client contracts to secure financing without selling them outright. What client-contract consequence follows? | The pledge is treated as an assignment and requires client consent. |
@@ -370,6 +370,47 @@ Generated pair ledger for review and regression comparison:
 | s65-09-nasaa-no-guarantee-contrast | An adviser promises that a recommended stock strategy cannot lose money. Does using a diversified portfolio make that promise permissible? | No. Diversification does not permit the adviser to guarantee no loss. |
 | s65-09-nasaa-covered-fraud-recall | Does federal covered adviser status eliminate state authority over fraudulent or deceptive conduct? | No. State antifraud authority remains, within federal preemption limits. |
 | s65-09-nasaa-covered-fraud-contrast | A federally registered adviser claims the state cannot investigate alleged client fraud because the firm is Securities and Exchange Commission (SEC)-registered. Is that claim correct? | No. Federal registration does not erase state antifraud authority. |
+| s65-09-fiduciary-duty-recall | What fiduciary duty does an investment adviser owe its clients under federal law? | A duty of care and a duty of loyalty that applies to the entire relationship. |
+| s65-09-fiduciary-duty-contrast | Can an adviser’s contract waive its fiduciary duty to the client? | No. Disclosure and consent can address conflicts, but the duty cannot be waived. |
+| s65-09-hedge-clause-recall | May an advisory contract include a clause that waives the client’s rights under securities laws? | No. A hedge clause purporting to waive compliance with the law or client rights is prohibited. |
+| s65-09-hedge-clause-contrast | Does a client’s signature on a waiver clause release the adviser from its securities-law obligations? | No. Clients cannot waive those protections by contract. |
+| s65-09-soft-dollars-recall | What can an adviser receive under the Section 28(e) soft-dollar safe harbor? | Research and brokerage services that help investment decisions, paid for with client commissions. |
+| s65-09-soft-dollars-contrast | May an adviser use client commissions to pay its office rent under Section 28(e)? | No. The safe harbor covers research and brokerage services, not overhead. |
+| s65-09-soft-dollars-apply | An adviser uses client commissions for an independent research database and for staff travel to a resort conference. Which fits the Section 28(e) safe harbor? | The research database. |
+| s65-09-wrap-fee-recall | What does a wrap fee program charge, and when can it be unsuitable? | One fee covering advice, trade execution, and custody. It can be unsuitable for accounts that trade rarely. |
+| s65-09-wrap-fee-contrast | Is a wrap fee account always the cheapest choice for a client who trades a few times a year? | No. Low-trading accounts may pay less with separate commissions. |
+| s65-09-form-crs-recall | What is Form CRS, and who must deliver it? | A short plain-English relationship summary that Securities and Exchange Commission (SEC)-registered broker-dealers and investment advisers give retail investors. |
+| s65-09-form-crs-contrast | Is Form CRS required only for institutional clients? | No. It is a relationship summary for retail investors. |
+| s65-09-reg-bi-recall | Whom does Regulation Best Interest cover, and what are its four obligations? | Broker-dealers recommending securities or strategies to retail customers. Obligations: disclosure, care, conflict of interest, and compliance. |
+| s65-09-reg-bi-contrast | Does Regulation Best Interest replace the fiduciary duty of an investment adviser giving advice? | No. It applies to broker-dealer recommendations; advisers keep their fiduciary duty. |
+| s65-09-reg-sp-recall | What does Regulation S-P require of broker-dealers and advisers regarding customer information? | Privacy notices describing information-sharing policies, a chance to opt out of certain sharing with nonaffiliated third parties, and safeguards for customer records. |
+| s65-09-reg-sp-contrast | May a firm share nonpublic customer information with a nonaffiliated marketer without notice or opt-out? | No. Regulation S-P requires notice and an opportunity to opt out of that sharing. |
+| s65-09-aml-stages-recall | What are the three stages of money laundering, in order? | Placement, layering, and integration. |
+| s65-09-aml-stages-contrast | Is integration the first stage, when illicit cash first enters the financial system? | No. Placement is first; integration is the final stage. |
+| s65-09-ctr-sar-recall | What are the thresholds for a Currency Transaction Report and for a broker-dealer’s Suspicious Activity Report? | CTR: cash transactions over $10,000 in a day. SAR: suspicious transactions of $5,000 or more. |
+| s65-09-ctr-sar-contrast | Must a firm tell a customer that it filed a Suspicious Activity Report? | No. Disclosing a SAR filing to the customer is prohibited. |
+| s65-09-structuring-recall | What is structuring? | Breaking cash transactions into smaller amounts to avoid the $10,000 Currency Transaction Report. It is illegal even if the money is legitimate. |
+| s65-09-structuring-contrast | Is deliberately splitting legitimate cash into $9,000 deposits to avoid a CTR legal? | No. Structuring is illegal regardless of the money’s source. |
+| s65-09-cip-recall | What minimum information must a Customer Identification Program collect before opening an individual’s account? | Name, date of birth, address, and an identification number, such as a Social Security number. |
+| s65-09-cip-contrast | Is a customer’s name and email address enough to satisfy the Customer Identification Program? | No. Name, date of birth, address, and an ID number are required. |
+| s65-09-senior-hold-recall | Under FINRA Rule 2165, what may a firm do if it reasonably believes a senior customer is being financially exploited? | Place a temporary hold on disbursements of funds or securities, initially up to 15 business days, with extensions allowed under the rule. |
+| s65-09-senior-hold-contrast | Does FINRA Rule 2165 let a firm freeze a senior customer’s account indefinitely without notice? | No. Holds are temporary, time-limited, and require notice and investigation. |
+| s65-09-trusted-contact-recall | What role does a trusted contact person have under FINRA Rule 4512? | A person the firm may contact about possible exploitation or to confirm the customer’s health or whereabouts; the contact cannot trade in the account. |
+| s65-09-trusted-contact-contrast | Does naming a trusted contact give that person authority to trade the account? | No. The trusted contact has no trading authority. |
+| s65-09-insider-trading-recall | What is illegal insider trading, and can a tippee be liable? | Trading on material nonpublic information in breach of a duty. A tippee who knows the tip came from a breach can also be liable. |
+| s65-09-insider-trading-contrast | Can someone who does not work at the company be liable for trading on a tip of material nonpublic information? | Yes. Tippees who know the information was improperly disclosed can be liable. |
+| s65-09-insider-penalty-recall | What maximum civil penalty may the Securities and Exchange Commission (SEC) seek for insider trading? | Up to three times the profit gained or loss avoided. |
+| s65-09-insider-penalty-contrast | Is the Securities and Exchange Commission (SEC)’s insider-trading civil penalty limited to the profit gained? | No. It can be up to three times the profit gained or loss avoided. |
+| s65-09-code-of-ethics-recall | What personal-trading reports does a Securities and Exchange Commission (SEC)-registered adviser’s code of ethics require from access persons? | An initial and annual holdings report and quarterly transaction reports, plus preapproval for IPOs and private placements. |
+| s65-09-code-of-ethics-contrast | Do access persons report personal holdings only once, when they join the firm? | No. Holdings are reported initially and annually, and transactions quarterly. |
+| s65-09-selling-away-recall | What is selling away? | An agent taking part in private securities transactions outside the firm without first giving the firm written notice and, if paid, getting its written approval. It is prohibited. |
+| s65-09-selling-away-contrast | May an agent sell a friend’s private offering to customers without telling the employing firm? | No. That is selling away; written notice and firm approval are required. |
+| s65-09-confidentiality-recall | May an adviser disclose a client’s identity, holdings, or affairs to others? | Not without client consent, unless required by law, such as a regulatory request or court order. |
+| s65-09-confidentiality-contrast | May an adviser show a prospect another client’s portfolio without that client’s consent? | No. Client information is confidential without consent or legal requirement. |
+| s65-09-investment-counsel-recall | When may an adviser call itself investment counsel? | Only if its principal business is giving investment advice and a substantial part is providing investment supervisory services. |
+| s65-09-investment-counsel-contrast | May any Securities and Exchange Commission (SEC)-registered adviser call itself investment counsel? | No. The title requires advice as the principal business plus substantial supervisory services. |
+| s65-09-performance-fee-recall | Which advisory clients may be charged performance-based fees? | Qualified clients, subject to the rule’s conditions. |
+| s65-09-performance-fee-contrast | May an adviser charge a performance fee to any retail client who consents in writing? | No. Performance fees are generally limited to qualified clients. |
 | s65-10-restricted-clock-recall | Which acquisition characteristic creates the Rule 144 holding-period clock? | Acquiring restricted securities in an unregistered or private transaction. |
 | s65-10-restricted-clock-contrast | Does affiliate status alone create a Rule 144 holding period for shares bought publicly without restriction? | No. Restricted acquisition creates the holding-period clock; affiliate status creates resale conditions. |
 | s65-10-unrestricted-clock-recall | Is there a Rule 144 holding period for unrestricted shares acquired publicly? | No. Publicly acquired unrestricted shares have no Rule 144 holding period. |
@@ -395,17 +436,17 @@ Generated pair ledger for review and regression comparison:
 | s65-10-lookback-contrast | Does resigning as an affiliate yesterday immediately satisfy Rule 144's nonaffiliate test? | No. The seller must not be an affiliate now or during the preceding three months. |
 | s65-10-affiliate-conditions-recall | What four categories of Rule 144 conditions apply to affiliate resales? | Current information, volume, manner of sale, and notice. |
 | s65-10-affiliate-conditions-contrast | Is a holding period the only Rule 144 restriction an affiliate must consider? | No. Affiliate resales also involve current information, volume, manner-of-sale, and notice conditions. |
-| s65-10-listed-volume-recall | What is the exchange-listed equity volume ceiling under the tested affiliate rule? | The greater of 1% outstanding or the four-week average weekly trading volume. |
-| s65-10-listed-volume-contrast | For the tested listed-equity Rule 144 volume ceiling, do you use the smaller of 1% outstanding and average weekly trading volume? | No. Use the greater of 1% outstanding or the preceding four-week average weekly volume. |
-| s65-10-listed-volume-apply | An exchange-listed issuer has 9 million shares outstanding. Four-week average weekly volume is 130,000 shares. What is the tested affiliate volume ceiling? | 130,000 shares. |
-| s65-10-otc-volume-recall | What volume measure applies to the tested over-the-counter affiliate equity sale? | 1% of outstanding shares. |
-| s65-10-otc-volume-contrast | Can a high four-week trading average increase the tested Rule 144 volume allowance for over-the-counter equity? | No. The tested over-the-counter allowance is 1% of outstanding shares. |
-| s65-10-form144-recall | What three-month affiliate-sale thresholds trigger the tested Form 144 notice requirement? | More than 5,000 shares or more than $50,000. Either threshold is enough. |
-| s65-10-form144-contrast | Must a Rule 144 sale exceed both 5,000 shares and $50,000 before the tested notice requirement is triggered? | No. Exceeding either threshold during three months triggers the notice requirement. |
+| s65-10-listed-volume-recall | What is the exchange-listed equity volume ceiling under the Rule 144 affiliate volume limit? | The greater of 1% outstanding or the four-week average weekly trading volume. |
+| s65-10-listed-volume-contrast | For the listed-equity Rule 144 volume ceiling, do you use the smaller of 1% outstanding and average weekly trading volume? | No. Use the greater of 1% outstanding or the preceding four-week average weekly volume. |
+| s65-10-listed-volume-apply | An exchange-listed issuer has 9 million shares outstanding. Four-week average weekly volume is 130,000 shares. What is the affiliate Rule 144 volume ceiling? | 130,000 shares. |
+| s65-10-otc-volume-recall | What volume measure applies to an over-the-counter affiliate equity sale? | 1% of outstanding shares. |
+| s65-10-otc-volume-contrast | Can a high four-week trading average increase the Rule 144 volume allowance for over-the-counter equity? | No. The over-the-counter allowance is 1% of outstanding shares. |
+| s65-10-form144-recall | What three-month affiliate-sale thresholds trigger the Form 144 notice requirement? | More than 5,000 shares or more than $50,000. Either threshold is enough. |
+| s65-10-form144-contrast | Must a Rule 144 sale exceed both 5,000 shares and $50,000 before the Form 144 notice requirement is triggered? | No. Exceeding either threshold during three months triggers the notice requirement. |
 | s65-10-gift-tack-recall | How does a gift affect a restricted security's holding period? | The recipient can tack the donor's holding period. |
 | s65-10-gift-tack-contrast | Does a gift of restricted securities restart the recipient's Rule 144 holding clock at zero? | No. The recipient can add the donor's holding period. |
 | s65-10-gift-tack-apply | A donor held restricted reporting-issuer shares for four months, then gave them to a nonaffiliate who held them two more months. What holding period is counted? | Six months in total. |
-| s65-11-plan-million-recall | When does an employee benefit plan count as institutional for the tested state adviser five-client limit? | When it has at least $1 million in assets. It then does not count toward the noninstitutional-client limit. |
+| s65-11-plan-million-recall | When does an employee benefit plan count as institutional for the state adviser five-client limit? | When it has at least $1 million in assets. It then does not count toward the noninstitutional-client limit. |
 | s65-11-plan-million-contrast | Does an employee benefit plan's $1 million institutional-client threshold qualify its adviser for the special federal pension-consultant registration basis? | No. It classifies the plan for the state client count; the separate federal consultant test uses $200 million in aggregate plan assets. |
 | s65-11-pension-consultant-recall | What plan-asset threshold can support the special federal pension-consultant registration basis? | Aggregate advised employee-benefit, government, or church plan assets of at least $200 million. |
 | s65-11-pension-consultant-contrast | Must each advised plan separately hold $200 million for the special federal pension-consultant registration basis? | No. The test is at least $200 million across the eligible plans advised. |
@@ -484,7 +525,7 @@ Generated pair ledger for review and regression comparison:
 | s65-13-roth-earnings-contrast | Does satisfying the five-tax-year Roth period alone make every earnings withdrawal qualified? | No. An additional qualifying event is needed: age 59½, death, disability, or a qualifying first-home distribution within its $10,000 lifetime limit. |
 | s65-13-roth-earnings-apply | A 62-year-old first funded a Roth two tax years ago and withdraws earnings. Does age alone make the earnings distribution qualified? | No. The five-tax-year requirement is still unmet. |
 | s65-13-rmd-penalty-recall | What is the general tax rate for a missed required minimum distribution, and how can timely correction reduce it? | Generally 25%, reduced to 10% when corrected within the applicable correction window, described here as within two years. |
-| s65-13-rmd-penalty-contrast | Is the general excise tax for a missed required minimum distribution still always 50%? | No. The general rate is 25%, reduced to 10% for timely correction under the tested rule. |
+| s65-13-rmd-penalty-contrast | Is the general excise tax for a missed required minimum distribution still always 50%? | No. The general rate is 25%, reduced to 10% for timely correction. |
 | s65-13-rmd-working-recall | Can continued employment postpone a traditional individual retirement account (IRA) owner's required minimum distribution? | No. Continued work does not postpone the traditional IRA requirement. |
 | s65-13-rmd-working-contrast | Can a traditional individual retirement account (IRA) owner delay required minimum distributions simply by continuing to work? | No. Continued work does not postpone a traditional IRA's required minimum distributions. |
 | s65-13-rmd-employer-recall | When may continued work defer a current-employer plan required minimum distribution (RMD)? | The plan may permit it, except for an owner of more than 5%. |
@@ -561,6 +602,22 @@ Generated pair ledger for review and regression comparison:
 | s65-15-entirety-contrast | Does tenancy by the entirety guarantee identical protection against a spouse's separate creditors in every state? | No. Protection varies by state; the title generally involves spouses and survivorship. |
 | s65-15-gift-dual-recall | A gift’s fair market value is below the donor’s adjusted basis. Which basis applies to a later gain and which to a later loss? | Use the donor’s basis for gain and the lower gift-date value for loss. A sale between them produces neither gain nor loss. |
 | s65-15-gift-dual-contrast | Gift-date value is $8,000 and donor basis is $12,000. If the recipient sells for $15,000, is the taxable gain $7,000? | No. The gain is $3,000: $15,000 minus the donor’s $12,000 basis. |
+| s65-15-holding-period-recall | How long must a capital asset be held for a gain to be long-term? | More than one year. |
+| s65-15-holding-period-contrast | Is a stock bought and sold exactly one year later a long-term holding? | No. It must be held more than one year. |
+| s65-15-wash-sale-recall | What is the wash-sale rule, and what happens to the disallowed loss? | A loss is disallowed if substantially identical securities are bought within 30 days before or after the sale; the loss is added to the new shares’ basis. |
+| s65-15-wash-sale-contrast | Can buying the same stock 20 days before selling it at a loss create a wash sale? | Yes. The window covers 30 days before and after the sale. |
+| s65-15-wash-sale-apply | An investor sells stock at a $2,000 loss and buys the same stock 10 days later for $8,000. What is the basis of the new shares? | $10,000. |
+| s65-15-cost-basis-fifo-recall | Without specific identification of shares sold, what cost-basis method generally applies to stock? | First in, first out (FIFO): the earliest shares bought are treated as sold first. |
+| s65-15-cost-basis-fifo-contrast | Absent specific identification, are the most recently bought shares treated as sold first? | No. The default is first in, first out. |
+| s65-15-step-up-basis-recall | What basis does an heir generally receive in inherited property? | Fair market value at the date of death, and any gain is long-term. |
+| s65-15-step-up-basis-contrast | Does an heir generally use the decedent’s original cost as basis? | No. Basis is generally fair market value on the date of death. |
+| s65-15-step-up-basis-apply | A parent bought stock for $20,000. It was worth $50,000 at death. The heir sells it for $55,000. What gain does the heir report? | $5,000 long-term gain. |
+| s65-15-gift-exclusion-recall | How does the annual gift tax exclusion work, and who generally pays gift tax? | Gifts up to the inflation-indexed annual amount per recipient avoid gift-tax reporting; the donor generally pays any gift tax. |
+| s65-15-gift-exclusion-contrast | Is the recipient of a large gift generally responsible for paying gift tax? | No. The donor is generally responsible for gift tax. |
+| s65-15-estate-tax-recall | Which estates owe federal estate tax, and how are assets left to a surviving U.S.-citizen spouse treated? | Only taxable estates above the lifetime exemption; transfers to a U.S.-citizen spouse qualify for the unlimited marital deduction. |
+| s65-15-estate-tax-contrast | Is property left to a surviving U.S.-citizen spouse generally subject to federal estate tax at the first death? | No. The unlimited marital deduction generally shelters it. |
+| s65-15-revocable-trust-recall | How do revocable and irrevocable trusts differ in control and estate inclusion? | A revocable trust can be changed by the grantor, avoids probate, but stays in the grantor’s taxable estate. An irrevocable trust generally gives up control and can remove assets from the estate. |
+| s65-15-revocable-trust-contrast | Does moving assets into a revocable living trust remove them from the grantor’s taxable estate? | No. Revocable trust assets remain in the estate; it mainly avoids probate. |
 | s65-16-sole-recall | What are the basic liability and tax features of a sole proprietorship? | Unlimited personal liability and taxation passed directly to the owner. |
 | s65-16-sole-contrast | Does a sole proprietor gain limited liability because business income passes through to the owner? | No. A sole proprietor has unlimited personal liability despite pass-through taxation. |
 | s65-16-general-partner-recall | What liability and tax treatment apply to general partners? | Unlimited liability with pass-through taxation. |
@@ -604,6 +661,45 @@ Generated pair ledger for review and regression comparison:
 | s65-17-semi-emh-contrast | Under semi-strong efficiency, should analysis of public financial statements consistently produce excess returns? | No. Prices already reflect public information, so public fundamental analysis should not consistently outperform. |
 | s65-17-strong-emh-recall | What does strong-form efficiency assume about information? | Both public and nonpublic information is reflected, including inside information. |
 | s65-17-strong-emh-contrast | Under strong-form efficiency, does inside information remain a systematic route to excess returns? | No. Strong form assumes prices already reflect both public and nonpublic information. |
+| s65-17-client-profile-recall | What client information should an adviser gather before making a recommendation? | Financial situation, tax status, investment objectives, time horizon, liquidity needs, risk tolerance, experience, and other holdings. |
+| s65-17-client-profile-contrast | Is a client’s desired return alone enough information to make a suitable recommendation? | No. The adviser needs the full profile, including risk tolerance, horizon, liquidity, and taxes. |
+| s65-17-time-horizon-recall | How does a longer time horizon generally affect how much volatility a portfolio can tolerate? | A longer horizon generally allows more exposure to volatile, growth-oriented assets such as stocks. |
+| s65-17-time-horizon-contrast | Is a portfolio for a goal two years away usually the best place for aggressive small-cap stocks? | No. Short horizons generally call for stable, liquid investments. |
+| s65-17-time-horizon-apply | A client needs a $60,000 home down payment in 12 months. Which fits better: an emerging-market stock fund or Treasury bills? | Treasury bills. |
+| s65-17-strategic-allocation-recall | What is strategic asset allocation? | A long-term target mix of asset classes based on the client’s goals and risk, maintained by periodic rebalancing. |
+| s65-17-strategic-allocation-contrast | Is frequently shifting weights to exploit short-term forecasts called strategic asset allocation? | No. That is tactical allocation; strategic allocation sets long-term targets. |
+| s65-17-tactical-allocation-recall | What is tactical asset allocation? | Temporary departures from long-term target weights to take advantage of perceived market opportunities. |
+| s65-17-tactical-allocation-contrast | Does tactical asset allocation keep weights fixed at the long-term targets? | No. It deliberately moves away from targets for short-term opportunities. |
+| s65-17-rebalancing-recall | What does rebalancing a portfolio to its target allocation involve? | Selling assets that have grown above target and buying those below target to restore the intended mix. |
+| s65-17-rebalancing-contrast | Does rebalancing mean adding to the asset class that has already risen above target? | No. Rebalancing trims the overweight asset and adds to the underweight one. |
+| s65-17-rebalancing-apply | A $100,000 portfolio targets 60% stocks and 40% bonds. It now holds $70,000 stocks and $30,000 bonds. How much stock should be sold to rebalance? | $10,000. |
+| s65-17-dollar-cost-averaging-recall | What is dollar-cost averaging, and what does it do to the average cost per share? | Investing a fixed dollar amount at regular intervals; the average cost per share ends up below the average price per share. |
+| s65-17-dollar-cost-averaging-contrast | Does dollar-cost averaging guarantee a profit or protect against loss in a falling market? | No. It lowers average cost relative to average price but guarantees neither. |
+| s65-17-dollar-cost-averaging-apply | An investor invests $300 each month at prices of $10, $15, and $30. What are the average cost per share and the average price? | Average cost $15; average price about $18.33. |
+| s65-17-growth-value-recall | How do growth stocks and value stocks typically differ? | Growth stocks usually have high P/E ratios, low dividends, and above-average expected earnings growth; value stocks trade at low P/E or price-to-book ratios. |
+| s65-17-growth-value-contrast | Do growth stocks typically have low P/E ratios and high dividend yields? | No. Those traits fit value or income stocks; growth stocks usually have high P/Es and low dividends. |
+| s65-17-active-passive-recall | How does active management differ from passive management? | Active managers try to beat a benchmark through security selection or timing; passive managers try to match an index, usually at lower cost. |
+| s65-17-active-passive-contrast | Is a passive index fund designed to outperform its benchmark index? | No. It seeks to track the index; active management seeks to beat it. |
+| s65-17-modern-portfolio-theory-recall | How does modern portfolio theory evaluate an investment? | By its effect on the whole portfolio’s risk and return, using correlations to diversify. |
+| s65-17-modern-portfolio-theory-contrast | Under modern portfolio theory, is each security judged only on its own risk? | No. What matters is the security’s contribution to total portfolio risk and return. |
+| s65-17-efficient-frontier-recall | What does the efficient frontier represent? | The set of portfolios offering the highest expected return for each level of risk. |
+| s65-17-efficient-frontier-contrast | Is a portfolio below the efficient frontier efficient? | No. Another portfolio offers a higher expected return for the same risk. |
+| s65-17-bond-ladder-recall | How does a laddered bond portfolio differ from a barbell portfolio? | A ladder spreads maturities evenly across time; a barbell holds only short and long maturities with nothing in between. |
+| s65-17-bond-ladder-contrast | Does a barbell portfolio hold bonds maturing evenly in every year? | No. That is a ladder; a barbell holds short and long maturities only. |
+| s65-17-margin-account-recall | Under Regulation T, what initial margin applies to a stock purchase, and what FINRA maintenance minimum applies? | Regulation T initial margin is 50% of the purchase; FINRA’s minimum maintenance requirement for long stock is 25% equity. |
+| s65-17-margin-account-contrast | Can losses in a margin account exceed the cash the investor deposited? | Yes. Borrowed money magnifies losses, which can exceed the original deposit. |
+| s65-17-margin-account-apply | An investor buys $20,000 of stock on margin at 50% initial margin. How much must the investor deposit? | $10,000. |
+| s65-17-margin-call-recall | When does a margin call occur on a long margin account? | When equity falls below the maintenance requirement. |
+| s65-17-margin-call-contrast | Must a brokerage firm wait for a customer’s approval before selling securities to meet a margin call? | No. The firm may liquidate positions to meet the call, often without notice. |
+| s65-17-margin-call-apply | A long margin account has a $10,000 debit balance. At what market value does equity equal the 25% maintenance minimum? | About $13,333. |
+| s65-17-short-sale-recall | How does a short sale work, and what is its maximum potential loss? | The investor borrows and sells shares, hoping to buy them back cheaper. The potential loss is unlimited. |
+| s65-17-short-sale-contrast | Is a short seller’s maximum loss limited to the amount received from the sale? | No. The stock can keep rising, so the potential loss is unlimited. |
+| s65-17-limit-order-recall | How does a limit order differ from a market order? | A market order executes promptly at the best available price. A limit order sets a maximum buy price or minimum sell price but may not execute. |
+| s65-17-limit-order-contrast | Does a limit order guarantee that the trade will execute? | No. It guarantees the price limit, not execution; a market order prioritizes execution. |
+| s65-17-stop-order-recall | What happens when the stop price on a stop order is reached, and where is a sell stop placed? | It becomes a market order. A sell stop is placed below the current price to limit loss on a long position. |
+| s65-17-stop-order-contrast | Does a sell stop order guarantee a sale at exactly the stop price? | No. Once triggered it becomes a market order and may fill at a different price. |
+| s65-17-prudent-investor-recall | Under the Uniform Prudent Investor Act, how are a trustee’s investment decisions evaluated? | In the context of the whole portfolio and overall strategy, with a duty to diversify; no investment is imprudent in itself. |
+| s65-17-prudent-investor-contrast | Under the Uniform Prudent Investor Act, is each investment judged on its own, apart from the portfolio? | No. Decisions are judged in the context of the total portfolio. |
 | s65-18-nav-value-recall | How is the value of existing mutual-fund shares measured? | Shares held multiplied by net asset value. |
 | s65-18-nav-value-contrast | Should an investor use the original public offering price to value mutual-fund shares already owned? | No. Current holding value is shares owned multiplied by net asset value. |
 | s65-18-nav-value-apply | An investor owns 240 fund shares. net asset value (NAV) is $25 and the public offering price is $26. What is the value of the shares already owned? | $6,000. |
@@ -615,10 +711,10 @@ Generated pair ledger for review and regression comparison:
 | s65-18-fractional-contrast | May an open-end fund refuse redemption solely because the investor owns a fractional share? | No. It must redeem fractional as well as whole shares. |
 | s65-18-daily-nav-recall | How often do open-end funds and unit investment trusts compute net asset value (NAV)? | Daily, because they issue redeemable securities. |
 | s65-18-daily-nav-contrast | Do open-end funds and unit investment trusts calculate net asset value only when an investor places an order? | No. They calculate net asset value daily. |
-| s65-18-closed-nav-recall | How often is a closed-end fund commonly tested as calculating net asset value? | At least weekly, although it may calculate it daily. |
-| s65-18-closed-nav-contrast | Is monthly net asset value calculation the commonly tested minimum for a closed-end fund? | No. The tested comparison is at least weekly; a fund may calculate it daily. |
-| s65-18-sec-report-recall | Under the tested reporting comparison, how often do registered investment companies file reports with the Securities and Exchange Commission (SEC)? | At least annually. |
-| s65-18-sec-report-contrast | Must a registered investment company report every individual portfolio trade to the Securities and Exchange Commission (SEC) as it happens? | No. The cram-sheet reporting comparison requires SEC reports at least annually, not a report for every trade. |
+| s65-18-closed-nav-recall | How often do closed-end funds commonly calculate net asset value? | At least weekly; many calculate it daily. |
+| s65-18-closed-nav-contrast | Is a closed-end fund limited to calculating net asset value once a month? | No. Closed-end funds commonly calculate it at least weekly, and many calculate it daily. |
+| s65-18-sec-report-recall | Which periodic reports does a registered fund file with the Securities and Exchange Commission (SEC), and how often? | Several on different schedules: shareholder reports on Form N-CSR semiannually, portfolio holdings on Form N-PORT monthly, and a census report on Form N-CEN annually. |
+| s65-18-sec-report-contrast | Does a registered fund file just one report with the Securities and Exchange Commission (SEC) each year? | No. It files several reports on different schedules, including semiannual shareholder reports on Form N-CSR, monthly portfolio holdings on Form N-PORT, and an annual census report on Form N-CEN. |
 | s65-18-shareholder-report-recall | How often are registered investment-company shareholder reports sent? | At least semiannually. |
 | s65-18-shareholder-report-contrast | Is one shareholder report per year enough under the registered investment-company reporting comparison? | No. Shareholder reports are sent at least semiannually. |
 | s65-18-coverage-three-recall | What minimum asset coverage is required for an open-end fund's bank debt? | 300%: assets must be at least three times bank debt under the stated simplified model. |
@@ -639,6 +735,20 @@ Generated pair ledger for review and regression comparison:
 | s65-18-nasaa-inverse-daily-contrast | A daily inverse exchange-traded fund (ETF) tracks an index that falls over a month. Must the fund gain exactly the opposite percentage over that month? | No. A daily objective does not guarantee the corresponding monthly return. |
 | s65-18-nasaa-leverage-direction-recall | Does leveraged exchange-traded fund (ETF) necessarily mean inverse ETF? | No. Leverage targets a multiple; inverse describes the opposite direction. A fund may have either feature or both. |
 | s65-18-nasaa-leverage-direction-contrast | One daily exchange-traded fund (ETF) targets +2 times an index’s return; another targets −2 times. Which one is inverse? | The −2-times fund is inverse. Both are leveraged. |
+| s65-18-share-classes-recall | How do Class A, Class B, and Class C mutual fund shares typically charge sales costs? | Class A: front-end load with lower ongoing fees. Class B: declining back-end sales charge. Class C: level, higher ongoing fees with a small early-redemption charge. |
+| s65-18-share-classes-contrast | For a large purchase held for many years, are Class C shares usually cheaper than Class A shares? | No. Class A with breakpoints and lower ongoing fees is usually cheaper over long periods. |
+| s65-18-breakpoints-recall | What are breakpoints, and how can rights of accumulation help an investor reach them? | Breakpoints are dollar levels where front-end sales charges drop. Rights of accumulation count existing fund-family holdings toward the next breakpoint. |
+| s65-18-breakpoints-contrast | Must a new purchase alone reach the breakpoint, ignoring existing holdings in the same fund family? | No. Rights of accumulation can count existing holdings toward the breakpoint. |
+| s65-18-letter-of-intent-recall | How long does a mutual fund letter of intent give an investor to reach a breakpoint? | 13 months; many funds allow it to be backdated up to 90 days. |
+| s65-18-letter-of-intent-contrast | If an investor fails to complete a letter of intent, does the reduced sales charge still apply? | No. The fund collects the higher sales charge, commonly from escrowed shares. |
+| s65-18-breakpoint-sale-recall | What is a breakpoint sale? | Recommending a purchase just below a breakpoint, or splitting purchases, so the customer pays a higher sales charge. It is prohibited. |
+| s65-18-breakpoint-sale-contrast | May a representative recommend $48,000 when a $50,000 breakpoint is within reach, without telling the customer? | No. Steering a customer just below a breakpoint to earn a higher charge is prohibited. |
+| s65-18-12b-1-fee-recall | What is a 12b-1 fee, and what limit applies to calling a fund no-load? | An annual fee paid from fund assets for distribution and shareholder services. A fund whose 12b-1 fee exceeds 0.25% cannot call itself no-load. |
+| s65-18-12b-1-fee-contrast | Is a 12b-1 fee a one-time charge taken when shares are purchased? | No. It is an ongoing annual fee paid from fund assets. |
+| s65-18-expense-ratio-recall | What does a fund’s expense ratio include and exclude? | It includes ongoing operating costs such as management and 12b-1 fees as a percentage of assets; it excludes sales loads and portfolio trading commissions. |
+| s65-18-expense-ratio-contrast | Does a mutual fund’s expense ratio include its front-end sales load? | No. Sales loads are separate from annual operating expenses. |
+| s65-18-uit-recall | What distinguishes a unit investment trust (UIT) from a mutual fund? | A UIT holds a fixed portfolio that is not actively managed and terminates on a set date; units are redeemable. |
+| s65-18-uit-contrast | Does a unit investment trust employ a manager to actively trade the portfolio? | No. Its portfolio is generally fixed and unmanaged until termination. |
 | s65-19-right-recall | What is the purpose and usual duration of a preemptive right? | A short-term right for existing shareholders to maintain ownership percentage by buying new issuer shares. |
 | s65-19-right-contrast | Is a preemptive right an exchange-written option unrelated to an existing shareholder's ownership? | No. It lets an existing shareholder buy new issuer shares to help maintain ownership percentage and is usually short-term. |
 | s65-19-warrant-recall | What distinguishes a warrant's issuer and exercise effect? | It is generally longer-term and corporation-issued; exercise normally creates new shares. |
@@ -669,7 +779,19 @@ Generated pair ledger for review and regression comparison:
 | s65-19-futures-hedge-contrast | An asset owner has a perfectly matched short futures hedge and the asset price rises. Does the owner retain that entire rise as an added net gain? | No. The asset’s gain is offset by a loss on the short futures hedge. |
 | s65-19-hedge-direction-recall | Which futures direction hedges a producer’s falling sale price, and which hedges a buyer’s rising purchase price? | The producer sells futures; the future buyer buys futures. |
 | s65-19-hedge-direction-contrast | A manufacturer must purchase a commodity in three months and fears higher prices. Should it sell futures as its directional hedge? | No. It should buy futures; a long futures position gains when that commodity’s futures price rises. |
-| s65-20-annuity-default-recall | If a card does not identify a qualified plan or contract, should you assume the annuity is qualified or nonqualified? | Nonqualified. |
+| s65-19-covered-call-recall | What does writing a covered call do to a stock position’s income, upside, and downside? | It adds premium income, caps upside at the strike price, and offers only premium-sized downside protection. |
+| s65-19-covered-call-contrast | Does writing a covered call protect a stock owner against a large price decline? | No. Only the premium cushions the loss; the downside remains. |
+| s65-19-covered-call-apply | An investor buys 100 shares at $50 and sells one 55-strike call for $2. What are the maximum gain and the breakeven price at expiration? | Maximum gain $700; breakeven $48. |
+| s65-19-straddle-recall | What market view fits a long straddle, and what is its maximum loss? | Expecting a large price move in either direction; the maximum loss is the total premium paid. |
+| s65-19-straddle-contrast | Does a long straddle profit most when the underlying price stays near the strike? | No. That is where the long straddle loses the most; it needs a big move. |
+| s65-19-straddle-apply | An investor buys a 50-strike call for $3 and a 50-strike put for $2. What are the breakeven prices at expiration? | $45 and $55. |
+| s65-19-option-risk-recall | What is the maximum loss for a call buyer, and for the writer of an uncovered (naked) call? | The call buyer can lose only the premium; the uncovered call writer faces unlimited loss. |
+| s65-19-option-risk-contrast | Is an uncovered call writer’s maximum loss limited like a call buyer’s? | No. The writer’s risk is unlimited; the buyer’s maximum loss is the premium. |
+| s65-19-intrinsic-value-recall | When is a call option in the money, and what is its intrinsic value? | When the stock price is above the strike price; intrinsic value is stock price minus strike price. |
+| s65-19-intrinsic-value-contrast | Is a call option in the money when the stock trades below the strike price? | No. That call is out of the money; a put would be in the money. |
+| s65-19-intrinsic-value-apply | A stock trades at $62. A 55-strike call costs $9. What are its intrinsic value and time value? | Intrinsic value $7; time value $2. |
+| s65-19-futures-obligation-recall | How do the obligations of a futures contract differ from those of an option buyer? | Both futures parties are obligated to perform; an option buyer has a right but no obligation. |
+| s65-19-futures-obligation-contrast | Can a futures buyer let the contract expire unused like an option buyer? | No. Futures obligate both sides unless the position is closed out. |
 | s65-20-annuity-basis-recall | What is the contribution and growth tax pattern of a nonqualified annuity? | Premiums are after-tax basis and growth is tax-deferred. |
 | s65-20-annuity-lifo-recall | How are nonqualified annuity withdrawals generally allocated before annuitization? | Earnings first, taxable as ordinary income, before recovery of basis. |
 | s65-20-exchange-basis-recall | What happens to tax basis in a qualifying section 1035 exchange? | The exchange is nontaxable and carries the old basis into the new contract. |
@@ -691,8 +813,8 @@ Generated pair ledger for review and regression comparison:
 | s65-20-policy-loan-recall | What supports a policy loan, and what happens if it is not repaid? | Cash value supports borrowing; unpaid principal and interest generally reduce the eventual payout. |
 | s65-20-policy-loan-contrast | Is a policy loan simply a withdrawal of the death benefit with no later consequence? | No. It is borrowing against cash value; unpaid principal and interest generally reduce the eventual payout. |
 | s65-20-life-security-recall | Are ordinary term, whole, and traditional universal life policies securities? | No. Variable life is a security; those ordinary policies are not. |
-| s65-21-discount-yields-recall | For the tested discount bond, which is highest: coupon rate, current yield, or yield to maturity? | Yield to maturity, followed by current yield, then coupon rate. |
-| s65-21-discount-yields-contrast | Is the coupon rate the highest yield measure on the tested discount bond? | No. Yield to maturity is highest, followed by current yield, then coupon rate. |
+| s65-21-discount-yields-recall | For a bond trading at a discount, which is highest: coupon rate, current yield, or yield to maturity? | Yield to maturity, followed by current yield, then coupon rate. |
+| s65-21-discount-yields-contrast | Is the coupon rate the highest yield measure on a bond trading at a discount? | No. Yield to maturity is highest, followed by current yield, then coupon rate. |
 | s65-21-maturity-spread-recall | What must be held constant when identifying a term or maturity spread? | Credit quality; the compared maturities differ. |
 | s65-21-maturity-spread-contrast | Do bonds of different credit ratings but the same maturity isolate a term spread? | No. They isolate a credit spread; a term spread holds credit quality constant and changes maturity. |
 | s65-21-credit-spread-recall | What must be held constant when identifying a credit or quality spread? | Maturity; the compared ratings differ. |
@@ -727,6 +849,51 @@ Generated pair ledger for review and regression comparison:
 | s65-21-preferred-priority-contrast | A company owes subordinated unsecured debt and has preferred shares outstanding. Which claim ranks ahead in liquidation? | The subordinated debt. Even subordinated creditors rank ahead of preferred shareholders. |
 | s65-21-etn-credit-recall | What issuer risk does an exchange-traded note (ETN) add to its linked investment exposure? | Unsecured issuer credit risk. Payment depends on the issuer’s ability to meet its debt obligation. |
 | s65-21-etn-credit-contrast | An exchange-traded note (ETN)’s tracked index rises, but the issuer defaults. Is the investor guaranteed the positive index return? | No. The note is an unsecured promise of the issuer; default can cause a loss despite index gains. |
+| s65-21-treasury-bills-recall | How are Treasury bills issued and how does the investor earn interest? | They are sold at a discount and pay full face value at maturity of one year or less; the difference is the interest. |
+| s65-21-treasury-bills-contrast | Do Treasury bills pay semiannual coupon interest? | No. They are sold at a discount and pay face value at maturity. |
+| s65-21-notes-bonds-recall | How do Treasury notes and Treasury bonds differ in maturity, and how do they pay interest? | Notes mature in 2 to 10 years; bonds in 20 or 30 years. Both pay interest every six months. |
+| s65-21-notes-bonds-contrast | Is a 30-year Treasury security called a Treasury note? | No. The 20- and 30-year securities are Treasury bonds; notes run 2 to 10 years. |
+| s65-21-treasury-tax-recall | How is interest on U.S. Treasury securities taxed? | Subject to federal income tax but exempt from state and local income tax. |
+| s65-21-treasury-tax-contrast | Is Treasury bond interest exempt from federal income tax? | No. It is federally taxable but exempt from state and local income tax. |
+| s65-21-muni-tax-recall | How are interest and capital gains on a typical municipal bond taxed federally? | Interest is generally exempt from federal income tax; capital gains from selling the bond are taxable. |
+| s65-21-muni-tax-contrast | Is a capital gain from selling a municipal bond federally tax-exempt like its interest? | No. Only the interest is generally exempt; capital gains are taxable. |
+| s65-21-go-bond-recall | What backs a general obligation (GO) municipal bond? | The full faith, credit, and taxing power of the issuing government. |
+| s65-21-go-bond-contrast | Is a general obligation bond repaid only from a specific project’s user fees? | No. That describes a revenue bond; a GO bond is backed by taxing power. |
+| s65-21-revenue-bond-recall | What repays a municipal revenue bond? | Revenue from the specific project or source it finances, such as tolls, water fees, or airport charges. |
+| s65-21-revenue-bond-contrast | Is a toll-road revenue bond backed by the state’s general taxing power? | No. It is repaid from the project’s revenues, not general taxes. |
+| s65-21-zero-coupon-recall | How does a zero-coupon bond pay the investor, and how is a taxable zero taxed? | It is bought at a deep discount and pays face value at maturity. Taxable zeros create annual taxable income as the discount accretes. |
+| s65-21-zero-coupon-contrast | Does a taxable zero-coupon bond defer all federal tax until it matures? | No. The accreting discount is generally taxable each year even though no cash is paid. |
+| s65-21-zero-duration-recall | What is the duration of a zero-coupon bond? | Equal to its time to maturity, the highest duration for that maturity. |
+| s65-21-zero-duration-contrast | Is a 10-year zero-coupon bond less sensitive to rate changes than a 10-year coupon bond? | No. The zero is more sensitive; its duration equals its 10-year maturity. |
+| s65-21-call-risk-recall | When interest rates fall, what risk does a callable bond’s investor face? | The issuer may call the bond, forcing the investor to reinvest at lower rates; price gains are also limited. |
+| s65-21-call-risk-contrast | Do falling interest rates help a callable bond’s investor as much as a noncallable bond’s investor? | No. The call feature limits price gains and creates reinvestment risk. |
+| s65-21-convertible-recall | What does a convertible bond allow, and how does its coupon usually compare? | It can be exchanged for a set number of the issuer’s common shares; its coupon is usually lower than a comparable nonconvertible bond. |
+| s65-21-convertible-contrast | Does a convertible bond usually pay a higher coupon than a comparable nonconvertible bond? | No. The conversion option usually means a lower coupon. |
+| s65-21-convertible-apply | A $1,000 convertible bond has a $40 conversion price. The stock trades at $44. What are the conversion ratio and the bond’s parity value? | 25 shares; $1,100. |
+| s65-21-prepayment-risk-recall | What risk do mortgage-backed pass-through investors face when interest rates fall? | Prepayment risk: homeowners refinance, returning principal early to be reinvested at lower rates. |
+| s65-21-prepayment-risk-contrast | Do falling mortgage rates usually slow prepayments on mortgage-backed securities? | No. Falling rates speed prepayments; rising rates slow them. |
+| s65-21-ginnie-mae-recall | Which mortgage-backed securities carry the full faith and credit guarantee of the U.S. government? | Ginnie Mae (GNMA) securities. Fannie Mae and Freddie Mac securities do not carry that explicit guarantee. |
+| s65-21-ginnie-mae-contrast | Do Fannie Mae mortgage-backed securities carry the explicit full faith and credit of the U.S. government? | No. That explicit guarantee applies to Ginnie Mae securities. |
+| s65-21-adr-recall | What is an American depositary receipt (ADR), and does it remove currency risk? | A U.S.-traded certificate issued by a depositary bank representing shares of a foreign company. It does not remove currency risk. |
+| s65-21-adr-contrast | Because an ADR trades in dollars on a U.S. market, is the investor free of currency risk? | No. The underlying shares are priced in foreign currency, so exchange rates still affect value. |
+| s65-21-reit-recall | What is a real estate investment trust (REIT), and what distribution requirement applies? | A company that owns or finances income-producing real estate. It must distribute at least 90% of taxable income as dividends. |
+| s65-21-reit-contrast | Are most REIT dividends qualified dividends taxed at long-term capital-gain rates? | No. Most REIT dividends are taxed as ordinary income. |
+| s65-21-reit-losses-recall | Can a REIT pass its losses through to shareholders like a direct participation program? | No. A REIT passes through income, not losses. |
+| s65-21-reit-losses-contrast | Does owning REIT shares let an investor deduct the REIT’s losses like a limited partner? | No. REITs do not pass through losses; DPPs can. |
+| s65-21-hedge-funds-recall | What features typically distinguish hedge funds from mutual funds? | Private offerings to accredited investors, flexible strategies with leverage and short selling, limited liquidity, and often performance fees. |
+| s65-21-hedge-funds-contrast | Is a typical hedge fund a registered investment company offering daily redemption to any retail investor? | No. It is usually a private fund for accredited investors with limited redemption rights. |
+| s65-21-cumulative-preferred-recall | What happens to missed dividends on cumulative preferred stock? | They accumulate as arrears and must be paid before any common dividend. |
+| s65-21-cumulative-preferred-contrast | Can a company pay a common dividend while cumulative preferred dividends are in arrears? | No. The arrears and the current preferred dividend come first. |
+| s65-21-cumulative-preferred-apply | A cumulative preferred stock pays $5 a year. The company skipped two years and now wants to pay common dividends. How much per preferred share must it pay first? | $15. |
+| s65-21-money-market-recall | What instruments are in the money market, and what is their main long-term risk? | Short-term debt such as T-bills, commercial paper, and certificates of deposit. The main long-term risk is inflation (purchasing-power) risk. |
+| s65-21-money-market-contrast | Is a money market mutual fund insured by the FDIC? | No. It is an investment, not a bank deposit, and can lose value. |
+| s65-21-current-yield-recall | How is a bond’s current yield calculated? | Annual interest ÷ current market price. |
+| s65-21-current-yield-contrast | Is a bond’s current yield annual interest divided by par value? | No. That is the coupon rate; current yield uses the market price. |
+| s65-21-current-yield-apply | A $1,000 par bond with a 5% coupon trades at $950. What is its current yield? | About 5.26%. |
+| s65-21-premium-yields-recall | For a bond trading at a premium, how do coupon rate, current yield, and yield to maturity rank? | Coupon rate is highest, then current yield, then yield to maturity. |
+| s65-21-premium-yields-contrast | Is yield to maturity the highest yield on a bond bought above par? | No. On a premium bond the coupon rate is highest and yield to maturity is lowest. |
+| s65-21-investment-grade-recall | What is the lowest investment-grade rating on the S&P and Moody’s scales? | BBB− (S&P) and Baa3 (Moody’s). Lower ratings are high-yield (junk). |
+| s65-21-investment-grade-contrast | Is a bond rated BB by S&P considered investment grade? | No. BB is below investment grade; the lowest investment grade is BBB−. |
 | s65-22-balance-sheet-recall | Which statement reports financial position at a particular date? | The balance sheet: assets equal liabilities plus owners' equity. |
 | s65-22-income-statement-recall | Which statement reports revenue, expenses, and accounting profit over a period? | The income statement, whose earnings need not equal cash flow. |
 | s65-22-cash-flow-recall | Which statement organizes actual cash movements over a period? | The cash-flow statement, divided into operating, investing, and financing activities. |
@@ -739,6 +906,22 @@ Generated pair ledger for review and regression comparison:
 | s65-22-market-cap-recall | Which share count is multiplied by the current share price to calculate market capitalization? | Outstanding shares. Authorized but unissued shares and treasury shares are excluded. |
 | s65-22-market-cap-contrast | A company has issued 7 million shares and holds 1 million in treasury. Does market capitalization use all 7 million? | No. It uses the 6 million outstanding shares. |
 | s65-22-market-cap-apply | A single-class company has 12 million authorized shares, 8 million issued, and 2 million in treasury. At $25 per share, what is its market capitalization? | $150 million. |
+| s65-22-pe-ratio-recall | How is the price-to-earnings (P/E) ratio calculated? | Market price per share ÷ earnings per share. |
+| s65-22-pe-ratio-contrast | Is the P/E ratio earnings per share divided by the stock price? | No. That is the earnings yield; P/E is price divided by earnings per share. |
+| s65-22-pe-ratio-apply | A stock trades at $60 and has earnings per share of $4. What is its P/E ratio? | 15. |
+| s65-22-dividend-yield-recall | How is a stock’s dividend yield calculated? | Annual dividends per share ÷ current market price per share. |
+| s65-22-dividend-yield-contrast | If a stock’s price falls and its dividend is unchanged, does its dividend yield fall? | No. A lower price with the same dividend raises the dividend yield. |
+| s65-22-dividend-yield-apply | A stock pays $2 in annual dividends and trades at $50. What is its dividend yield? | 4%. |
+| s65-22-eps-recall | How is basic earnings per share (EPS) calculated? | (Net income − preferred dividends) ÷ weighted average common shares outstanding. |
+| s65-22-eps-contrast | Should preferred dividends be included in the earnings used for common EPS? | No. Subtract preferred dividends from net income first. |
+| s65-22-eps-apply | Net income is $10 million, preferred dividends are $1 million, and 3 million common shares are outstanding. What is EPS? | $3.00. |
+| s65-22-payout-ratio-recall | What does the dividend payout ratio measure? | The share of earnings paid as dividends: dividends per share ÷ earnings per share. |
+| s65-22-payout-ratio-contrast | Is the dividend payout ratio dividends divided by the stock price? | No. That is dividend yield; the payout ratio divides dividends by earnings. |
+| s65-22-current-ratio-recall | How are the current ratio and working capital calculated? | Current ratio = current assets ÷ current liabilities. Working capital = current assets − current liabilities. |
+| s65-22-current-ratio-contrast | Is working capital a ratio of current assets to current liabilities? | No. Working capital is the dollar difference; the current ratio is the ratio. |
+| s65-22-current-ratio-apply | Current assets are $600,000 and current liabilities are $250,000. What are the current ratio and working capital? | Current ratio 2.4; working capital $350,000. |
+| s65-22-book-value-recall | How is book value per common share calculated? | Common shareholders’ equity ÷ common shares outstanding. |
+| s65-22-book-value-contrast | Is book value per share the same as the stock’s market price? | No. Book value is an accounting figure from equity; market price is set by trading. |
 | s65-23-leading-recall | Are initial unemployment claims, the Standard & Poor's 500 Index (S&P 500), and new durable-goods orders leading or lagging indicators? | Leading indicators. |
 | s65-23-lagging-recall | Are the average prime rate and average duration of unemployment leading or lagging indicators? | Lagging indicators. |
 | s65-23-claims-duration-recall | How do initial claims differ from average unemployment duration as indicators? | Initial claims lead; average duration lags. |
@@ -746,11 +929,72 @@ Generated pair ledger for review and regression comparison:
 | s65-23-range-recall | How is a data set's range calculated? | Maximum minus minimum. |
 | s65-23-range-apply | Observed values are 3, 5, 5, 8, and 11. What is the range? | 8. |
 | s65-23-deviation-recall | What does standard deviation describe? | Dispersion around the mean. |
-| s65-23-npv-recall | In the tested net-present-value convention, which rate discounts cash flows and serves as the reinvestment rate? | The required or market discount rate. |
-| s65-23-irr-recall | In the tested internal-rate-of-return convention, at what rate are interim cash flows assumed to be reinvested? | At the internal rate of return itself. |
+| s65-23-npv-recall | In the standard net-present-value convention, which rate discounts cash flows and serves as the reinvestment rate? | The required or market discount rate. |
+| s65-23-irr-recall | In the standard internal-rate-of-return convention, at what rate are interim cash flows assumed to be reinvested? | At the internal rate of return itself. |
 | s65-23-bond-cashflow-recall | What timing convention commonly applies to bond coupon cash flows? | Semiannual payments. |
 | s65-23-capm-recall | What market and investor assumptions underlie the capital asset pricing model? | Frictionless markets, common risk-free borrowing and lending, diversified investors, and rational risk-return preferences. |
 | s65-23-capm-specific-recall | How does the capital asset pricing model treat security-specific risk? | It assumes investors have diversified that risk away. |
+| s65-23-business-cycle-recall | What are the four phases of the business cycle, in order? | Expansion, peak, contraction, and trough. |
+| s65-23-business-cycle-contrast | Is a U.S. recession officially defined as two consecutive quarters of falling GDP? | No. The NBER dates recessions from broad measures of activity; two negative quarters is only a rule of thumb. |
+| s65-23-gdp-recall | What does gross domestic product (GDP) measure? | The market value of final goods and services produced within a country during a period. |
+| s65-23-gdp-contrast | Does GDP add the value of intermediate goods on top of the final goods they become? | No. That would double count; GDP measures final goods and services only. |
+| s65-23-real-gdp-recall | How does real GDP differ from nominal GDP? | Real GDP removes the effect of price changes; nominal GDP uses current prices. |
+| s65-23-real-gdp-contrast | Nominal GDP rises 6% while prices rise 2.5%. Did real output grow 6%? | No. Real growth is roughly 3.5% after removing the price increase. |
+| s65-23-real-gdp-apply | Nominal GDP grows 5% and the price level rises 3%. What is the approximate real growth rate? | About 2%. |
+| s65-23-cpi-recall | What does the Consumer Price Index (CPI) measure? | The average change over time in prices paid by urban consumers for a market basket of goods and services. |
+| s65-23-cpi-contrast | Does the Consumer Price Index measure selling prices received by domestic producers? | No. That is the Producer Price Index; CPI tracks prices paid by urban consumers. |
+| s65-23-deflation-recall | During deflation, who gains purchasing power: fixed-rate lenders or fixed-rate borrowers? | Fixed-rate lenders and bondholders. Borrowers repay debt with dollars that buy more. |
+| s65-23-deflation-contrast | Does deflation make a fixed-rate borrower’s debt easier to repay in real terms? | No. The real burden of fixed debt rises when prices fall. |
+| s65-23-fed-tools-recall | Which main tools does the Federal Reserve use to carry out monetary policy? | Its federal funds target range, interest on reserve balances, open market operations, and the discount rate. |
+| s65-23-fed-tools-contrast | Is changing federal tax rates a Federal Reserve monetary-policy tool? | No. Taxes and spending are fiscal policy, set by Congress and the President. |
+| s65-23-open-market-recall | To ease monetary policy through open market operations, does the Federal Reserve buy or sell securities? | It buys securities, adding reserves and putting downward pressure on interest rates. |
+| s65-23-open-market-contrast | Does the Federal Reserve sell Treasury securities to ease monetary policy? | No. Selling drains reserves and tightens; buying eases. |
+| s65-23-fiscal-policy-recall | What is fiscal policy, and who sets it? | Government spending and taxation decisions, set by Congress and the President. |
+| s65-23-fiscal-policy-contrast | Is the Federal Reserve responsible for setting federal spending and tax policy? | No. Congress and the President set fiscal policy; the Federal Reserve sets monetary policy. |
+| s65-23-fed-funds-rate-recall | What is the federal funds rate? | The interest rate banks charge each other for overnight loans of reserves; the Federal Reserve sets a target range for it. |
+| s65-23-fed-funds-rate-contrast | Is the federal funds rate the rate the Federal Reserve charges banks that borrow at its discount window? | No. That is the discount rate; the federal funds rate is the overnight rate between banks. |
+| s65-23-yield-curve-normal-recall | What does a normal yield curve look like? | Upward sloping: longer maturities yield more than shorter maturities of similar credit quality. |
+| s65-23-yield-curve-normal-contrast | Does a normal yield curve show short-term Treasury yields above long-term yields? | No. That is an inverted curve; a normal curve slopes upward. |
+| s65-23-yield-curve-inverted-recall | What does an inverted yield curve show, and what is it often associated with? | Short-term yields above long-term yields; it is often viewed as a possible recession signal. |
+| s65-23-yield-curve-inverted-contrast | Does an inverted yield curve guarantee that a recession will follow? | No. It has often preceded recessions but is not a certain predictor. |
+| s65-23-strong-dollar-recall | How does a stronger U.S. dollar generally affect U.S. exports and imports? | Exports become more expensive for foreign buyers, and imports become cheaper for U.S. buyers. |
+| s65-23-strong-dollar-contrast | Does a weaker dollar make U.S. exports more expensive for foreign buyers? | No. A weaker dollar generally makes U.S. exports cheaper abroad. |
+| s65-23-currency-return-recall | A U.S. investor owns a foreign stock. If the foreign currency weakens against the dollar, what happens to the dollar return? | It falls, because each unit of foreign currency converts into fewer dollars. |
+| s65-23-currency-return-contrast | Does a rising foreign stock guarantee a positive dollar return for a U.S. investor? | No. A large enough decline in that currency can turn a local gain into a dollar loss. |
+| s65-23-currency-return-apply | A foreign stock gains 10% in its local currency while that currency falls 5% against the dollar. What is the approximate dollar return? | 4.5%. |
+| s65-23-future-value-recall | How is the future value of a lump sum with annual compounding calculated? | Present value × (1 + rate) raised to the number of years. |
+| s65-23-future-value-contrast | Does $10,000 at 6% compounded annually for two years grow to exactly $11,200? | No. It grows to $11,236 because the second year earns interest on the first year’s interest. |
+| s65-23-future-value-apply | An investor deposits $10,000 at 6% compounded annually. What is the value after two years? | $11,236. |
+| s65-23-present-value-recall | How does a higher discount rate or a longer wait affect the present value of a future payment? | Both lower the present value. |
+| s65-23-present-value-contrast | Does raising the discount rate increase the present value of a fixed future payment? | No. A higher discount rate reduces present value. |
+| s65-23-present-value-apply | What is the present value of $1,100 received in one year at a 10% discount rate? | $1,000. |
+| s65-23-rule-of-72-recall | How does the Rule of 72 estimate how long an investment takes to double? | Divide 72 by the annual percentage return. |
+| s65-23-rule-of-72-contrast | At an 8% annual return, does the Rule of 72 estimate doubling in 576 years? | No. Divide, don’t multiply: 72 ÷ 8 = about 9 years. |
+| s65-23-rule-of-72-apply | Using the Rule of 72, about how long does money take to double at a 6% annual return? | About 12 years. |
+| s65-23-beta-recall | What does beta measure? | A security’s sensitivity to overall market movements, which is systematic risk. A beta of 1 moves with the market. |
+| s65-23-beta-contrast | Does beta measure total volatility, including company-specific risk? | No. Beta measures market-related (systematic) risk; standard deviation measures total volatility. |
+| s65-23-capm-formula-recall | What is the capital asset pricing model (CAPM) formula for a security’s expected return? | Risk-free rate + beta × (expected market return − risk-free rate). |
+| s65-23-capm-formula-contrast | Under the capital asset pricing model (CAPM), is expected return simply beta multiplied by the market return? | No. Add the risk-free rate to beta times the market risk premium. |
+| s65-23-capm-formula-apply | The risk-free rate is 4%, the expected market return is 9%, and a stock’s beta is 0.8. What is its capital asset pricing model (CAPM) expected return? | 8%. |
+| s65-23-alpha-recall | What does a portfolio’s alpha measure? | The return above or below what was expected for the risk taken, often using capital asset pricing model (CAPM) expected return. |
+| s65-23-alpha-contrast | Is a portfolio with an 11% return automatically showing 11% alpha? | No. Alpha is the return beyond the risk-based expected return, not the total return. |
+| s65-23-alpha-apply | A portfolio earned 11%. The risk-free rate is 3%, the market returned 8%, and the portfolio beta is 1.2. What is its alpha? | 2%. |
+| s65-23-sharpe-ratio-recall | How is the Sharpe ratio calculated, and what does a higher value mean? | (Portfolio return − risk-free rate) ÷ standard deviation. Higher means more excess return per unit of total risk. |
+| s65-23-sharpe-ratio-contrast | Does the Sharpe ratio divide excess return by beta? | No. It divides by standard deviation; dividing by beta gives the Treynor ratio. |
+| s65-23-sharpe-ratio-apply | A portfolio returned 10% with a 16% standard deviation. The risk-free rate is 2%. What is the Sharpe ratio? | 0.5. |
+| s65-23-correlation-range-recall | What is the range of the correlation coefficient, and what do its ends mean? | From −1 to +1. +1 means returns move perfectly together; −1 means they move perfectly opposite. |
+| s65-23-correlation-range-contrast | Can a correlation coefficient be greater than +1? | No. Correlation always falls between −1 and +1. |
+| s65-23-time-weighted-recall | Which return measure removes the effect of client deposits and withdrawals, making it best for judging a manager? | Time-weighted return. |
+| s65-23-time-weighted-contrast | When the client controls deposits and withdrawals, is dollar-weighted return the better measure of manager skill? | No. Time-weighted return removes cash-flow timing; dollar-weighted return reflects the investor’s own timing. |
+| s65-23-dollar-weighted-recall | What is dollar-weighted return, and what does it reflect? | The internal rate of return on the investor’s cash flows; it reflects the timing and size of deposits and withdrawals. |
+| s65-23-dollar-weighted-contrast | Does dollar-weighted return ignore the timing of an investor’s deposits? | No. It is sensitive to the timing and size of cash flows. |
+| s65-23-real-return-recall | How is an approximate real (inflation-adjusted) return calculated? | Nominal return minus the inflation rate. |
+| s65-23-real-return-contrast | With a 7% nominal return and 3% inflation, is the real return about 10%? | No. It is about 4%: subtract inflation from the nominal return. |
+| s65-23-median-mean-recall | How does the median differ from the mean, and which is less affected by extreme values? | The median is the middle value after sorting; the mean is the arithmetic average. The median is less affected by outliers. |
+| s65-23-median-mean-contrast | Is the arithmetic mean less sensitive to an extreme outlier than the median? | No. The median resists outliers; the mean is pulled toward them. |
+| s65-23-median-mean-apply | Returns are 2%, 4%, 4%, 9%, and 31%. What are the median and the mean? | Median 4%; mean 10%. |
+| s65-23-fundamental-technical-recall | How does fundamental analysis differ from technical analysis? | Fundamental analysis studies financial statements, industry, and the economy to estimate value; technical analysis studies price and volume patterns. |
+| s65-23-fundamental-technical-contrast | Does a technical analyst rely mainly on a company’s balance sheet and earnings reports? | No. That is fundamental analysis; technical analysis focuses on price and volume data. |
 | s65-24-clean-recall | Which audit opinion corresponds to no material problem? | Unmodified, unqualified, or clean. |
 | s65-24-qualified-recall | What audit opinion fits a material problem that is not pervasive? | Qualified, meaning except for the identified matter. |
 | s65-24-qualified-apply | An auditor lacks evidence for one material balance. The possible effects are material but not pervasive. Which audit opinion fits? | Qualified. |
@@ -758,24 +1002,8 @@ Generated pair ledger for review and regression comparison:
 | s65-24-adverse-apply | Reliable evidence shows material misstatements throughout the financial statements. Which opinion fits? | Adverse. |
 | s65-24-disclaimer-recall | What opinion fits insufficient evidence with possible material and pervasive effects? | Disclaimer: no opinion. |
 | s65-24-disclaimer-apply | An auditor cannot obtain evidence for a major portion of the accounts. Possible effects are material and pervasive. There is no established misstatement. Which opinion fits? | Disclaimer of opinion. |
-| s65-25-blackout-test-recall | What duration and participation thresholds define the tested pension blackout? | Generally more than three consecutive business days affecting at least 50% of participants' ability to trade employer securities. |
+| s65-25-blackout-test-recall | What duration and participation thresholds define a pension blackout under Regulation BTR? | Generally more than three consecutive business days affecting at least 50% of participants' ability to trade employer securities. |
 | s65-25-blackout-officers-recall | During a qualifying pension blackout, which employer securities are directors and executive officers generally restricted from trading? | Employer securities they acquired through service or employment. |
-| s65-26-affiliate-reminder-recall | An affiliate bought unrestricted shares on the market. Which restriction is absent and which remain? | No holding clock; the affiliate resale conditions still apply. |
-| s65-26-affiliate-reminder-contrast | Does buying unrestricted shares publicly remove every Rule 144 condition for an affiliate? | No. It removes the holding-period requirement, but affiliate resale conditions remain. |
-| s65-26-gift-reminder-recall | Does gifting restricted stock reset the holding period? | No. The recipient adds the donor's holding period. |
-| s65-26-gift-reminder-contrast | Does a gift force the recipient to start the restricted-stock holding period again? | No. The recipient can tack on the donor's holding period. |
-| s65-26-agent-reminder-recall | Does an exempt-security sale automatically exempt a broker-dealer salesperson from registration? | No. Agent registration is evaluated separately. |
-| s65-26-agent-reminder-contrast | Does an exempt security automatically exempt the broker-dealer salesperson who sells it from agent registration? | No. Agent registration is a separate question from the security's exemption. |
-| s65-26-issuer-reminder-recall | Is receiving no commission enough to exclude every issuer salesperson from agent status? | No. The narrow exception also requires sales only to existing employees, partners, or directors. |
-| s65-26-issuer-reminder-contrast | Does receiving no commission automatically exclude every issuer salesperson from agent status? | No. The narrow exception also requires sales only to the specified existing employees, partners, or directors. |
-| s65-26-audit-reminder-recall | How does the pervasiveness of missing audit evidence affect the opinion? | Material but not pervasive supports qualified; possible material and pervasive effects support disclaimer. |
-| s65-26-audit-reminder-contrast | Does missing audit evidence always require an adverse opinion? | No. Material but nonpervasive effects support a qualified opinion; possible material and pervasive effects support a disclaimer. |
-| s65-26-fund-reminder-recall | Does a mutual-fund order use the last published price? | No. It uses the next computed price. |
-| s65-26-fund-reminder-contrast | Is the last displayed mutual-fund price guaranteed for a new order? | No. The order receives the next computed price. |
-| s65-26-bond-reminder-recall | Which yield is highest on the tested discount bond? | Yield to maturity, above current yield and coupon. |
-| s65-26-bond-reminder-contrast | Does a fixed coupon make coupon rate the highest yield on a discount bond? | No. Yield to maturity is highest, above current yield and coupon rate. |
-| s65-26-payment-reminder-recall | What two balances fall together when a declared cash dividend is paid? | Cash and dividends payable. |
-| s65-26-payment-reminder-contrast | Does paying a previously declared cash dividend create another charge against equity? | No. Payment reduces cash and dividends payable together; equity was reduced at declaration. |
 | s65-26-risk-tolerance-recall | Can age and income alone establish that a recommendation is suitable? | No. The adviser must understand the client's risk tolerance. |
 | s65-26-risk-tolerance-contrast | Does high income prove that a client is willing to accept high investment risk? | No. The adviser must establish the client's risk tolerance separately. |
 | s65-26-risk-tolerance-apply | A wealthy older client has little immediate liquidity need. Is that enough to select an aggressive allocation? | No. Establish the client’s risk tolerance and the rest of the relevant circumstances. |

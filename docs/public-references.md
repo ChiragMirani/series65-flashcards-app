@@ -6,7 +6,7 @@ Curated September 13, 2026. Every answer has at least one public reference. Link
 
 The following rules currently link to the NASAA topic outline. This is explicitly labeled **exam topic**, not a rule citation. A specific public authority for the full claim remains a release requirement:
 
-- s65-18-closed-nav: How often is a closed-end fund commonly tested as calculating net asset value?
+- s65-18-closed-nav: How often do closed-end funds commonly calculate net asset value?
 
 ## Rule-to-reference ledger
 
@@ -179,6 +179,26 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-09-nasaa-individual-fit | [NASAA — Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(a)](https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=1) | rule |
 | s65-09-nasaa-no-guarantee | [NASAA — Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — 102(a)(4)-1(l)](https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=2) | rule |
 | s65-09-nasaa-covered-fraud | [NASAA — Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026 — Introduction — federal covered advisers](https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf#page=1) | rule |
+| s65-09-fiduciary-duty | [SEC — Commission interpretation regarding standard of conduct for investment advisers](https://www.sec.gov/rules/interp/2019/ia-5248.pdf) | guidance |
+| s65-09-hedge-clause | [NASAA — Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026](https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf) | rule |
+| s65-09-soft-dollars | [SEC — Commission guidance regarding client commission practices under Section 28(e)](https://www.sec.gov/rules/interp/2006/34-54165.pdf) | guidance |
+| s65-09-wrap-fee | [SEC — Investor bulletin — investment adviser sponsored wrap fee programs](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-40) | guidance |
+| s65-09-form-crs | [SEC — Form CRS relationship summary — frequently asked questions](https://www.sec.gov/investment/form-crs-faq) | guidance |
+| s65-09-reg-bi | [SEC — Regulation Best Interest — frequently asked questions](https://www.sec.gov/tm/faq-regulation-best-interest) | guidance |
+| s65-09-reg-sp | [SEC — Regulation S-P — privacy of consumer financial information](https://www.sec.gov/rules-regulations/2024/05/s7-05-23) | guidance |
+| s65-09-aml-stages | [FINRA — Anti-money laundering — CIP, SARs, and CTRs](https://www.finra.org/rules-guidance/key-topics/aml) | guidance |
+| s65-09-ctr-sar | [FINRA — Anti-money laundering — CIP, SARs, and CTRs](https://www.finra.org/rules-guidance/key-topics/aml) | guidance |
+| s65-09-structuring | [FINRA — Anti-money laundering — CIP, SARs, and CTRs](https://www.finra.org/rules-guidance/key-topics/aml) | guidance |
+| s65-09-cip | [FINRA — Anti-money laundering — CIP, SARs, and CTRs](https://www.finra.org/rules-guidance/key-topics/aml) | guidance |
+| s65-09-senior-hold | [FINRA — Rule 2165 — Financial Exploitation of Specified Adults](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2165) | rule |
+| s65-09-trusted-contact | [FINRA — Rule 4512 — Customer Account Information and trusted contact](https://www.finra.org/rules-guidance/rulebooks/finra-rules/4512) | rule |
+| s65-09-insider-trading | [SEC — Investor.gov glossary — insider trading](https://www.investor.gov/introduction-investing/investing-basics/glossary) | guidance |
+| s65-09-insider-penalty | [SEC — Investor.gov glossary — insider trading](https://www.investor.gov/introduction-investing/investing-basics/glossary) | guidance |
+| s65-09-code-of-ethics | [eCFR — 17 CFR 275.204A-1 — Investment adviser codes of ethics](https://www.ecfr.gov/current/title-17/chapter-II/part-275/section-275.204A-1) | rule |
+| s65-09-selling-away | [FINRA — Rule 3280 — Private Securities Transactions of an Associated Person](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3280) | rule |
+| s65-09-confidentiality | [NASAA — Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026](https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf) | rule |
+| s65-09-investment-counsel | [SEC — Federal securities statutes and links to their full texts](https://www.sec.gov/rules-regulations/statutes-regulations) | guidance |
+| s65-09-performance-fee | [eCFR — 17 CFR 275.205-3 — qualified clients and primary-residence treatment](https://www.ecfr.gov/current/title-17/chapter-II/part-275/section-275.205-3) | rule |
 | s65-10-restricted-clock | [SEC — Rule 144 — reporting and nonreporting issuers, affiliate resale conditions](https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/revisions-rules-144-145) | guidance |
 | s65-10-unrestricted-clock | [SEC — Rule 144 — reporting and nonreporting issuers, affiliate resale conditions](https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/revisions-rules-144-145) | guidance |
 | s65-10-control | [SEC — Rule 144 — reporting and nonreporting issuers, affiliate resale conditions](https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/revisions-rules-144-145) | guidance |
@@ -265,6 +285,13 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-15-will-title | [FDIC — Joint accounts — survivorship and tenancy in common](https://www.fdic.gov/financial-institution-employees-guide-deposit-insurance/joint-accounts) | guidance |
 | s65-15-entirety | [Virginia law — Tenancy by the entirety — one state example; other states differ](https://law.lis.virginia.gov/vacode/title55.1/chapter1/section55.1-136/) | rule |
 | s65-15-gift-dual | [IRS — Basis of property received as a gift — gain and loss bases](https://www.irs.gov/faqs/capital-gains-losses-and-sale-of-home/property-basis-sale-of-home-etc/property-basis-sale-of-home-etc) | guidance |
+| s65-15-holding-period | [IRS — Publication 550 — investment income, capital gains, losses, and dividends](https://www.irs.gov/publications/p550) | guidance |
+| s65-15-wash-sale | [IRS — Publication 550 — investment income, capital gains, losses, and dividends](https://www.irs.gov/publications/p550) | guidance |
+| s65-15-cost-basis-fifo | [IRS — Publication 550 — investment income, capital gains, losses, and dividends](https://www.irs.gov/publications/p550) | guidance |
+| s65-15-step-up-basis | [IRS — Publication 551 — basis of inherited property](https://www.irs.gov/publications/p551) | guidance |
+| s65-15-gift-exclusion | [IRS — Frequently asked questions on gift taxes](https://www.irs.gov/businesses/small-businesses-self-employed/frequently-asked-questions-on-gift-taxes) | guidance |
+| s65-15-estate-tax | [IRS — Estate tax — exemption and marital deduction](https://www.irs.gov/businesses/small-businesses-self-employed/estate-tax) | guidance |
+| s65-15-revocable-trust | [IRS — Estate tax — trusts, exemption, and marital deduction](https://www.irs.gov/businesses/small-businesses-self-employed/estate-tax) | guidance |
 | s65-16-sole | [SBA — Choosing a business structure — liability and taxation](https://www.sba.gov/counseling/launch-your-business/) | guidance |
 | s65-16-general-partner | [SBA — Choosing a business structure — liability and taxation](https://www.sba.gov/counseling/launch-your-business/) | guidance |
 | s65-16-limited-partner | [SBA — Choosing a business structure — liability and taxation](https://www.sba.gov/counseling/launch-your-business/) | guidance |
@@ -285,13 +312,30 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-17-weak-emh | [CFA Institute — Market Efficiency — forms and information reflected in prices](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-efficiency) | reference |
 | s65-17-semi-emh | [CFA Institute — Market Efficiency — forms and information reflected in prices](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-efficiency) | reference |
 | s65-17-strong-emh | [CFA Institute — Market Efficiency — forms and information reflected in prices](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-efficiency) | reference |
+| s65-17-client-profile | [FINRA — Rule 2111 — Suitability and investment profile](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2111) | rule |
+| s65-17-time-horizon | [SEC — Asset allocation, diversification, and risk](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-35) | guidance |
+| s65-17-strategic-allocation | [SEC — Asset allocation, diversification, and risk](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-35) | guidance |
+| s65-17-tactical-allocation | [SEC — Asset allocation, diversification, and risk](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-35) | guidance |
+| s65-17-rebalancing | [SEC — Asset allocation, diversification, and risk](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-35) | guidance |
+| s65-17-dollar-cost-averaging | [SEC — Dollar-cost averaging](https://www.investor.gov/introduction-investing/investing-basics/glossary/dollar-cost-averaging) | guidance |
+| s65-17-growth-value | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
+| s65-17-active-passive | [SEC — Mutual Funds and ETFs — investor guide](https://www.investor.gov/sites/investorgov/files/2019-02/mutual-funds-ETFs.pdf) | guidance |
+| s65-17-modern-portfolio-theory | [SEC — Asset allocation, diversification, and risk](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-35) | guidance |
+| s65-17-efficient-frontier | [SEC — Asset allocation, diversification, and risk](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-35) | guidance |
+| s65-17-bond-ladder | [FINRA — Understanding bond yield and return](https://www.finra.org/investors/insights/bond-yield-return) | guidance |
+| s65-17-margin-account | [SEC — Investor bulletin — understanding margin accounts](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29) | guidance |
+| s65-17-margin-call | [SEC — Investor bulletin — understanding margin accounts](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29) | guidance |
+| s65-17-short-sale | [SEC — Investor.gov glossary — short sales](https://www.investor.gov/introduction-investing/investing-basics/glossary) | guidance |
+| s65-17-limit-order | [SEC — Investor.gov glossary — market, limit, and stop orders](https://www.investor.gov/introduction-investing/investing-basics/glossary) | guidance |
+| s65-17-stop-order | [SEC — Investor.gov glossary — market, limit, and stop orders](https://www.investor.gov/introduction-investing/investing-basics/glossary) | guidance |
+| s65-17-prudent-investor | [Uniform Law Commission — Uniform Prudent Investor Act](https://www.uniformlaws.org/committees/community-home?CommunityKey=58f87d0a-3617-4635-a2af-9a4d02d119c9) | rule |
 | s65-18-nav-value | [SEC — Mutual Funds and ETFs — investor guide](https://www.investor.gov/sites/investorgov/files/2019-02/mutual-funds-ETFs.pdf) | guidance |
 | s65-18-pop-pay | [SEC — Mutual Funds and ETFs — investor guide](https://www.investor.gov/sites/investorgov/files/2019-02/mutual-funds-ETFs.pdf) | guidance |
 | s65-18-forward-price | [SEC — Mutual Funds and ETFs — investor guide](https://www.investor.gov/sites/investorgov/files/2019-02/mutual-funds-ETFs.pdf) | guidance |
 | s65-18-fractional | [SEC — Mutual Funds and ETFs — investor guide](https://www.investor.gov/sites/investorgov/files/2019-02/mutual-funds-ETFs.pdf) | guidance |
 | s65-18-daily-nav | [SEC — Mutual Funds and ETFs — investor guide](https://www.investor.gov/sites/investorgov/files/2019-02/mutual-funds-ETFs.pdf) | guidance |
 | s65-18-closed-nav | [NASAA — Series 65 study guide and topic outline — curriculum scope, not a substantive rule](https://www.nasaa.org/wp-content/uploads/2023/09/NASAA-Series-65-Exam-Study-Guide.pdf) | outline |
-| s65-18-sec-report | [SEC — Form N-CEN — annual report for registered investment companies](https://www.sec.gov/files/formn-cen.pdf) | guidance |
+| s65-18-sec-report | [SEC — Form N-CEN — annual report for registered investment companies](https://www.sec.gov/files/formn-cen.pdf)<br>[SEC — Mutual fund annual and semiannual shareholder reports](https://www.sec.gov/files/ib_readmfreport.pdf) | guidance, guidance |
 | s65-18-shareholder-report | [SEC — Mutual fund annual and semiannual shareholder reports](https://www.sec.gov/files/ib_readmfreport.pdf) | guidance |
 | s65-18-coverage-three | [U.S. Code — 15 USC 80a-18 — investment-company borrowing and asset coverage](https://uscode.house.gov/view.xhtml?req=%28title%3A15+section%3A80a-18+edition%3Aprelim%29) | rule |
 | s65-18-repay-equation | [U.S. Code — 15 USC 80a-18 — investment-company borrowing and asset coverage](https://uscode.house.gov/view.xhtml?req=%28title%3A15+section%3A80a-18+edition%3Aprelim%29) | rule |
@@ -301,6 +345,13 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-18-etf-active | [SEC — Exchange-Traded Funds — market prices, structure, and active management](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24) | guidance |
 | s65-18-nasaa-inverse-daily | [NASAA — Leveraged/inverse ETF report — executive summary and footnote 1](https://www.nasaa.org/wp-content/uploads/2019/07/2019-BD-Study-of-Exchange-Traded-Funds-FINAL.pdf#page=2) | guidance |
 | s65-18-nasaa-leverage-direction | [NASAA — Leveraged/inverse ETF report — executive summary and footnote 1](https://www.nasaa.org/wp-content/uploads/2019/07/2019-BD-Study-of-Exchange-Traded-Funds-FINAL.pdf#page=2) | guidance |
+| s65-18-share-classes | [FINRA — Mutual funds — share classes](https://www.finra.org/investors/investing/investment-products/mutual-funds/share-classes) | guidance |
+| s65-18-breakpoints | [FINRA — Breakpoints — rights of accumulation and letters of intent](https://www.finra.org/rules-guidance/key-topics/breakpoints) | guidance |
+| s65-18-letter-of-intent | [FINRA — Breakpoints — rights of accumulation and letters of intent](https://www.finra.org/rules-guidance/key-topics/breakpoints) | guidance |
+| s65-18-breakpoint-sale | [FINRA — Breakpoints — rights of accumulation and letters of intent](https://www.finra.org/rules-guidance/key-topics/breakpoints) | guidance |
+| s65-18-12b-1-fee | [SEC — Mutual fund and ETF fees and expenses — 12b-1 fees and expense ratios](https://www.investor.gov/introduction-investing/investing-basics/glossary/mutual-fund-fees-and-expenses) | guidance |
+| s65-18-expense-ratio | [SEC — Mutual fund and ETF fees and expenses — 12b-1 fees and expense ratios](https://www.investor.gov/introduction-investing/investing-basics/glossary/mutual-fund-fees-and-expenses) | guidance |
+| s65-18-uit | [SEC — Unit investment trusts (UITs)](https://www.investor.gov/introduction-investing/investing-basics/glossary/unit-investment-trusts-uits) | guidance |
 | s65-19-right | [CFA Institute — Preemptive rights — protecting existing shareholders](https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/non-preemptive-share-issues-in-asia-role-of-regulation.pdf) | reference |
 | s65-19-warrant | [SEC — Investor bulletin — warrants to purchase additional company shares](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-you) | guidance |
 | s65-19-listed-call | [SEC — Options — purchase and sale rights](https://www.investor.gov/introduction-investing/investing-basics/glossary/options) | guidance |
@@ -314,7 +365,11 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-19-protect-short | [OCC / OIC — Options Basics — call purchase rights and put sale rights](https://www.optionseducation.org/optionsoverview/options-basics) | reference |
 | s65-19-futures-hedge | [CME Group — Put-option price floors compared with short futures hedges](https://www.cmegroup.com/education/courses/hedging-with-grain-and-oilseed-futures-and-options/risk-management-for-sellers-of-commoditities/establishing-a-floor-price-by-buying-put-options) | reference |
 | s65-19-hedge-direction | [CME Group — Put-option price floors compared with short futures hedges](https://www.cmegroup.com/education/courses/hedging-with-grain-and-oilseed-futures-and-options/risk-management-for-sellers-of-commoditities/establishing-a-floor-price-by-buying-put-options) | reference |
-| s65-20-annuity-default | [IRS — Publication 575 — Pension and Annuity Income](https://www.irs.gov/publications/p575) | guidance |
+| s65-19-covered-call | [OCC / OIC — Options Basics — call purchase rights and put sale rights](https://www.optionseducation.org/optionsoverview/options-basics) | reference |
+| s65-19-straddle | [OCC / OIC — Options Basics — call purchase rights and put sale rights](https://www.optionseducation.org/optionsoverview/options-basics) | reference |
+| s65-19-option-risk | [OCC / OIC — Options Basics — call purchase rights and put sale rights](https://www.optionseducation.org/optionsoverview/options-basics) | reference |
+| s65-19-intrinsic-value | [OCC / OIC — Options Basics — call purchase rights and put sale rights](https://www.optionseducation.org/optionsoverview/options-basics) | reference |
+| s65-19-futures-obligation | [SEC — Derivatives — underlying assets and examples](https://www.investor.gov/introduction-investing/investing-basics/glossary/derivatives) | guidance |
 | s65-20-annuity-basis | [IRS — Publication 575 — Pension and Annuity Income](https://www.irs.gov/publications/p575) | guidance |
 | s65-20-annuity-lifo | [IRS — Publication 575 — Pension and Annuity Income](https://www.irs.gov/publications/p575) | guidance |
 | s65-20-exchange-basis | [IRS — Publication 575 — Pension and Annuity Income](https://www.irs.gov/publications/p575) | guidance |
@@ -344,6 +399,27 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-21-duration-long-low | [CFA Institute — Yield-Based Bond Duration Measures and Properties](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/yield-based-bond-duration-measures-and-properties) | reference |
 | s65-21-preferred-priority | [FINRA — Stocks — preferred and common liquidation priority](https://www.finra.org/investors/investing/investment-products/stocks) | guidance |
 | s65-21-etn-credit | [SEC — Exchange Traded Notes — unsecured issuer obligations](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-50) | guidance |
+| s65-21-treasury-bills | [U.S. Treasury — Treasury bills — discount pricing and maturities](https://www.treasurydirect.gov/marketable-securities/treasury-bills/) | guidance |
+| s65-21-notes-bonds | [U.S. Treasury — Treasury notes and bonds — maturities, interest, and state tax exemption](https://www.treasurydirect.gov/marketable-securities/treasury-notes/) | guidance |
+| s65-21-treasury-tax | [U.S. Treasury — Treasury notes and bonds — maturities, interest, and state tax exemption](https://www.treasurydirect.gov/marketable-securities/treasury-notes/) | guidance |
+| s65-21-muni-tax | [SEC — Municipal bonds — general obligation and revenue bonds](https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products-0) | guidance |
+| s65-21-go-bond | [SEC — Municipal bonds — general obligation and revenue bonds](https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products-0) | guidance |
+| s65-21-revenue-bond | [SEC — Municipal bonds — general obligation and revenue bonds](https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products-0) | guidance |
+| s65-21-zero-coupon | [SEC — Zero-coupon bonds — discount and annual taxable accretion](https://www.investor.gov/introduction-investing/investing-basics/glossary/zero-coupon-bond) | guidance |
+| s65-21-zero-duration | [CFA Institute — Yield-Based Bond Duration Measures and Properties](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/yield-based-bond-duration-measures-and-properties) | reference |
+| s65-21-call-risk | [SEC — Callable bonds — call risk and reinvestment](https://www.investor.gov/introduction-investing/investing-basics/glossary/callable-or-redeemable-bonds) | guidance |
+| s65-21-convertible | [SEC — Convertible securities — conversion into common stock](https://www.investor.gov/introduction-investing/investing-basics/glossary/convertible-securities) | guidance |
+| s65-21-prepayment-risk | [SEC — Investor.gov glossary — mortgage-backed securities](https://www.investor.gov/introduction-investing/investing-basics/glossary) | guidance |
+| s65-21-ginnie-mae | [SEC — Investor.gov glossary — mortgage-backed securities](https://www.investor.gov/introduction-investing/investing-basics/glossary) | guidance |
+| s65-21-adr | [SEC — Investor.gov glossary — American depositary receipts](https://www.investor.gov/introduction-investing/investing-basics/glossary) | guidance |
+| s65-21-reit | [SEC — Investor.gov glossary — real estate investment trusts](https://www.investor.gov/introduction-investing/investing-basics/glossary) | guidance |
+| s65-21-reit-losses | [SEC — Investor.gov glossary — real estate investment trusts](https://www.investor.gov/introduction-investing/investing-basics/glossary) | guidance |
+| s65-21-hedge-funds | [SEC — Hedge funds — private fund features and risks](https://www.investor.gov/introduction-investing/investing-basics/investment-products/private-investment-funds/hedge-funds) | guidance |
+| s65-21-cumulative-preferred | [FINRA — Stocks — preferred and common liquidation priority](https://www.finra.org/investors/investing/investment-products/stocks) | guidance |
+| s65-21-money-market | [SEC — Investor.gov glossary — money market funds](https://www.investor.gov/introduction-investing/investing-basics/glossary) | guidance |
+| s65-21-current-yield | [FINRA — Understanding bond yield and return](https://www.finra.org/investors/insights/bond-yield-return) | guidance |
+| s65-21-premium-yields | [FINRA — Understanding bond yield and return](https://www.finra.org/investors/insights/bond-yield-return) | guidance |
+| s65-21-investment-grade | [SEC — Corporate bonds — yields and credit ratings](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are) | guidance |
 | s65-22-balance-sheet | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-22-income-statement | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-22-cash-flow | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
@@ -353,6 +429,12 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-22-capitalization | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-22-equity | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-22-market-cap | [SEC — Market Capitalization — outstanding shares times share price](https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization) | guidance |
+| s65-22-pe-ratio | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
+| s65-22-dividend-yield | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
+| s65-22-eps | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
+| s65-22-payout-ratio | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
+| s65-22-current-ratio | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
+| s65-22-book-value | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-23-leading | [The Conference Board — U.S. leading, coincident, and lagging indicators](https://www.conference-board.org/topics/us-leading-indicators/) | reference |
 | s65-23-lagging | [The Conference Board — U.S. leading, coincident, and lagging indicators](https://www.conference-board.org/topics/us-leading-indicators/) | reference |
 | s65-23-claims-duration | [The Conference Board — U.S. leading, coincident, and lagging indicators](https://www.conference-board.org/topics/us-leading-indicators/) | reference |
@@ -364,20 +446,38 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-23-bond-cashflow | [FINRA — Understanding bond yield and return](https://www.finra.org/investors/insights/bond-yield-return) | guidance |
 | s65-23-capm | [CFA Institute — The Capital Asset Pricing Model — Theory and Evidence](https://rpc.cfainstitute.org/research/cfa-digest/2005/05/the-capital-asset-pricing-model-theory-and-evidence-digest-summary) | reference |
 | s65-23-capm-specific | [CFA Institute — The Capital Asset Pricing Model — Theory and Evidence](https://rpc.cfainstitute.org/research/cfa-digest/2005/05/the-capital-asset-pricing-model-theory-and-evidence-digest-summary) | reference |
+| s65-23-business-cycle | [NBER — Business cycle dating — how U.S. recessions are determined](https://www.nber.org/research/business-cycle-dating) | reference |
+| s65-23-gdp | [BEA — Gross domestic product — definition and real versus current dollars](https://www.bea.gov/data/gdp/gross-domestic-product) | guidance |
+| s65-23-real-gdp | [BEA — Gross domestic product — definition and real versus current dollars](https://www.bea.gov/data/gdp/gross-domestic-product) | guidance |
+| s65-23-cpi | [BLS — Consumer Price Index — overview and definition](https://www.bls.gov/cpi/) | guidance |
+| s65-23-deflation | [BLS — Consumer Price Index — overview and definition](https://www.bls.gov/cpi/) | guidance |
+| s65-23-fed-tools | [Federal Reserve — Monetary policy — policy tools and the federal funds rate](https://www.federalreserve.gov/monetarypolicy.htm) | guidance |
+| s65-23-open-market | [Federal Reserve — Monetary policy — policy tools and the federal funds rate](https://www.federalreserve.gov/monetarypolicy.htm) | guidance |
+| s65-23-fiscal-policy | [Federal Reserve — Monetary policy — policy tools and the federal funds rate](https://www.federalreserve.gov/monetarypolicy.htm) | guidance |
+| s65-23-fed-funds-rate | [Federal Reserve — Monetary policy — policy tools and the federal funds rate](https://www.federalreserve.gov/monetarypolicy.htm) | guidance |
+| s65-23-yield-curve-normal | [U.S. Treasury — Interest rate statistics — daily Treasury par yield curve rates](https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics) | guidance |
+| s65-23-yield-curve-inverted | [U.S. Treasury — Interest rate statistics — daily Treasury par yield curve rates](https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics) | guidance |
+| s65-23-strong-dollar | [Federal Reserve — Foreign exchange rates (H.10)](https://www.federalreserve.gov/releases/h10/current/) | guidance |
+| s65-23-currency-return | [Federal Reserve — Foreign exchange rates (H.10)](https://www.federalreserve.gov/releases/h10/current/) | guidance |
+| s65-23-future-value | [CFA Institute — Capital Investments and Capital Allocation — NPV and IRR](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/capital-investments-and-capital-allocation) | reference |
+| s65-23-present-value | [CFA Institute — Capital Investments and Capital Allocation — NPV and IRR](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/capital-investments-and-capital-allocation) | reference |
+| s65-23-rule-of-72 | [CFA Institute — Capital Investments and Capital Allocation — NPV and IRR](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/capital-investments-and-capital-allocation) | reference |
+| s65-23-beta | [SEC — Investor.gov glossary — beta and market risk](https://www.investor.gov/introduction-investing/investing-basics/glossary) | guidance |
+| s65-23-capm-formula | [CFA Institute — The Capital Asset Pricing Model — Theory and Evidence](https://rpc.cfainstitute.org/research/cfa-digest/2005/05/the-capital-asset-pricing-model-theory-and-evidence-digest-summary) | reference |
+| s65-23-alpha | [CFA Institute — The Capital Asset Pricing Model — Theory and Evidence](https://rpc.cfainstitute.org/research/cfa-digest/2005/05/the-capital-asset-pricing-model-theory-and-evidence-digest-summary) | reference |
+| s65-23-sharpe-ratio | [CFA Institute — Capital Asset Pricing Model — risk and return measures](https://rpc.cfainstitute.org/research/cfa-digest/2005/05/the-capital-asset-pricing-model-theory-and-evidence-digest-summary) | reference |
+| s65-23-correlation-range | [SEC — Asset allocation, diversification, and risk](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-35) | guidance |
+| s65-23-time-weighted | [CFA Institute — Rate-of-return measurement — time-weighted and money-weighted returns](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/rates-and-returns) | reference |
+| s65-23-dollar-weighted | [CFA Institute — Rate-of-return measurement — time-weighted and money-weighted returns](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/rates-and-returns) | reference |
+| s65-23-real-return | [BLS — Consumer Price Index — overview and definition](https://www.bls.gov/cpi/) | guidance |
+| s65-23-median-mean | [NIST — Measures of scale — range and standard deviation](https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm) | guidance |
+| s65-23-fundamental-technical | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-24-clean | [PCAOB — AS 3105 — qualified, adverse, and disclaimer audit opinions](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3105) | rule |
 | s65-24-qualified | [PCAOB — AS 3105 — qualified, adverse, and disclaimer audit opinions](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3105) | rule |
 | s65-24-adverse | [PCAOB — AS 3105 — qualified, adverse, and disclaimer audit opinions](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3105) | rule |
 | s65-24-disclaimer | [PCAOB — AS 3105 — qualified, adverse, and disclaimer audit opinions](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3105) | rule |
 | s65-25-blackout-test | [SEC — Regulation BTR — pension blackout trading restrictions](https://www.sec.gov/news/press/2003-6.htm) | guidance |
 | s65-25-blackout-officers | [SEC — Regulation BTR — pension blackout trading restrictions](https://www.sec.gov/news/press/2003-6.htm) | guidance |
-| s65-26-affiliate-reminder | [SEC — Rule 144 — restricted securities, affiliate conditions, and gift tacking](https://www.sec.gov/reports/rule-144-selling-restricted-control-securities) | guidance |
-| s65-26-gift-reminder | [SEC — Rule 144 — restricted securities, affiliate conditions, and gift tacking](https://www.sec.gov/reports/rule-144-selling-restricted-control-securities) | guidance |
-| s65-26-agent-reminder | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
-| s65-26-issuer-reminder | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
-| s65-26-audit-reminder | [PCAOB — AS 3105 — qualified, adverse, and disclaimer audit opinions](https://pcaobus.org/oversight/standards/auditing-standards/details/AS3105) | rule |
-| s65-26-fund-reminder | [SEC — Mutual Funds and ETFs — investor guide](https://www.investor.gov/sites/investorgov/files/2019-02/mutual-funds-ETFs.pdf) | guidance |
-| s65-26-bond-reminder | [FINRA — Understanding bond yield and return](https://www.finra.org/investors/insights/bond-yield-return) | guidance |
-| s65-26-payment-reminder | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-26-risk-tolerance | [NASAA — Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026](https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf) | rule |
 | s65-26-free-service | [NASAA — Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026](https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf) | rule |
 | s65-27-successor-consent | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |

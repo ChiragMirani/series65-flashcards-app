@@ -18,7 +18,7 @@ Expanded September 13, 2026. Each requested topic has recall plus original appli
 | Card ID | Type | Question | Answer |
 |---|---|---|---|
 | s65-06-security-exempt-recall | recall | What does an exempt-security classification remove? | State registration of the security itself. |
-| s65-06-security-exempt-contrast | contrast | Does an exempt-security classification automatically remove the salesperson's registration duty? | No. It exempts the security from state registration; person registration is tested separately. |
+| s65-06-security-exempt-contrast | contrast | Does an exempt-security classification automatically remove the salesperson's registration duty? | No. It exempts the security from state registration; person registration is analyzed separately. |
 | s65-06-transaction-exempt-recall | recall | What is the scope of a transaction exemption? | It exempts that particular transaction from registration requirements. |
 | s65-06-transaction-exempt-contrast | contrast | Does one exempt transaction permanently exempt every later sale of the same security? | No. The exemption applies to that particular transaction. |
 | s65-06-fraud-recall | recall | Do antifraud requirements apply to exempt persons, securities, and transactions? | Yes. Exempt status does not eliminate antifraud requirements. |
@@ -58,12 +58,12 @@ Expanded September 13, 2026. Each requested topic has recall plus original appli
 |---|---|---|---|
 | s65-01-exempt-agent-recall | recall | Does selling an exempt security normally remove a broker-dealer salesperson's agent status? | No. The salesperson generally remains an agent despite the security exemption. |
 | s65-01-exempt-agent-contrast | contrast | Does selling an exempt bond automatically exempt a broker-dealer salesperson from agent registration? | No. The security exemption does not remove the salesperson's agent status. |
-| s65-01-issuer-employee-recall | recall | What two conditions support the narrow issuer-employee agent exclusion in the cram sheet? | Sales only to existing employees, partners, or directors, with no sales commission. |
+| s65-01-issuer-employee-recall | recall | What two conditions support the narrow issuer-employee agent exclusion? | Sales only to existing employees, partners, or directors, with no sales commission. |
 | s65-01-issuer-employee-contrast | contrast | Is receiving no commission enough, by itself, for an issuer employee's narrow agent exclusion? | No. Sales must also be limited to existing employees, partners, or directors. |
 | s65-01-issuer-employee-apply | application | An issuer employee receives no commission but sells to unrelated retail investors. Is absence of commission enough for the narrow existing-employee exception? | No. The purchasers are outside the specified existing employee, partner, or director audience. |
 | s65-01-issuer-muni-recall | recall | Under the 1956 Uniform Securities Act, are a city employee selling city bonds and a broker-dealer salesperson selling those bonds both excluded as agents? | No. The issuer representative can be excluded for this municipal sale. The broker-dealer salesperson generally must register as an agent. |
 | s65-01-issuer-muni-contrast | contrast | A broker-dealer salesperson sells only municipal bonds. Does the issuer-representative exclusion remove that salesperson’s agent registration duty? | No. The salesperson represents the broker-dealer, not the municipal issuer. |
-| s65-01-issuer-security-scope-recall | recall | Does every exempt security automatically qualify its issuer’s representative for the exempt-security agent exclusion? | No. That exclusion covers specified exempt classes, not every exempt security. Other issuer-side exclusions must be tested separately. |
+| s65-01-issuer-security-scope-recall | recall | Does every exempt security automatically qualify its issuer’s representative for the exempt-security agent exclusion? | No. That exclusion covers specified exempt classes, not every exempt security. Other issuer-side exclusions must be analyzed separately. |
 | s65-01-issuer-security-scope-contrast | contrast | An issuer representative sells a security in a transaction exempt under section 402(b). Must the security itself also be exempt for that issuer-side exclusion? | No. A qualifying exempt transaction is a separate issuer-representative exclusion. |
 
 ## 6. Adviser registration: $100M / $110M / below $90M

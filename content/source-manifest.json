@@ -22,7 +22,7 @@
   "authoredSources": [
     {
       "file": "content/review-expansion.ts",
-      "sha256": "c8b659e613ca9169cdeefaa326f49df235a57d33246b214514c0e05ed81068c9"
+      "sha256": "1a871d0939d3314ae7e87765402df9599550364110eb6928c26bcd82f9c010e5"
     },
     {
       "file": "content/review-checklist.ts",
@@ -30,11 +30,15 @@
     },
     {
       "file": "content/nasaa-supplement.ts",
-      "sha256": "5cac934fcfee001c9e0e88a74163784d81baa9f83ebc9afa0280d120f90c096d"
+      "sha256": "0d37ee8f6d7b330cb8ad996e78cc2e1f5895af5c9b258147a8dfdcb4bc25a731"
+    },
+    {
+      "file": "content/exam-coverage.ts",
+      "sha256": "1661f44546ccfadf4a2b996aff1ab067573f4e44769e711341e018e6f01b69b7"
     }
   ],
-  "rules": 375,
-  "cards": 775,
+  "rules": 475,
+  "cards": 1003,
   "sections": [
     {
       "number": 1,

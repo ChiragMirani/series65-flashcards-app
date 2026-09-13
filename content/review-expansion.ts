@@ -44,7 +44,7 @@ export const reviewRules:ReviewRule[] = [
   contrast:{front:'A broker-dealer salesperson sells only municipal bonds. Does the issuer-representative exclusion remove that salesperson’s agent registration duty?',answer:'No. The salesperson represents the broker-dealer, not the municipal issuer.'}},
  {section:1,key:'issuer-security-scope',point:5,
   front:'Does every exempt security automatically qualify its issuer’s representative for the exempt-security agent exclusion?',
-  answer:'No. That exclusion covers specified exempt classes, not every exempt security. Other issuer-side exclusions must be tested separately.',
+  answer:'No. That exclusion covers specified exempt classes, not every exempt security. Other issuer-side exclusions must be analyzed separately.',
   trap:'Any exempt security creates an identical issuer-representative exclusion.',
   explanation:'Section 401(b) names section 402(a)(1), (2), (3), (10), and (11), and separately covers specified exempt transactions and covered-security transactions. The existing-employee route has its own compensation condition.',
   contrast:{front:'An issuer representative sells a security in a transaction exempt under section 402(b). Must the security itself also be exempt for that issuer-side exclusion?',answer:'No. A qualifying exempt transaction is a separate issuer-representative exclusion.'}},

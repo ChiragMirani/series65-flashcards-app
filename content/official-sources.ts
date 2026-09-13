@@ -89,6 +89,53 @@ export const officialSources = {
  durable: source('CFPB', 'Durable power of attorney — incapacity and death; Arizona guide', 'https://www.consumerfinance.gov/documents/6274/cfpb_help-for-agents-under-a-power-of-attorney_arizona.pdf'),
  qualifiedRule: source('eCFR', '17 CFR 275.205-3 — qualified clients and primary-residence treatment', 'https://www.ecfr.gov/current/title-17/chapter-II/part-275/section-275.205-3', 'rule'),
  payPlayProposal: source('SEC', 'Proposed rescission of Rule 206(4)-5 — September 3, 2026; not an effective repeal', 'https://www.sec.gov/rules-regulations/2026/09/s7-2026-31', 'reference'),
+ // Exam-coverage supplement references (content/exam-coverage.ts).
+ nber: source('NBER', 'Business cycle dating — how U.S. recessions are determined', 'https://www.nber.org/research/business-cycle-dating', 'reference'),
+ gdp: source('BEA', 'Gross domestic product — definition and real versus current dollars', 'https://www.bea.gov/data/gdp/gross-domestic-product'),
+ cpi: source('BLS', 'Consumer Price Index — overview and definition', 'https://www.bls.gov/cpi/'),
+ fed: source('Federal Reserve', 'Monetary policy — policy tools and the federal funds rate', 'https://www.federalreserve.gov/monetarypolicy.htm'),
+ yieldCurve: source('U.S. Treasury', 'Interest rate statistics — daily Treasury par yield curve rates', 'https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics'),
+ exchangeRates: source('Federal Reserve', 'Foreign exchange rates (H.10)', 'https://www.federalreserve.gov/releases/h10/current/'),
+ beta: source('SEC', 'Investor.gov glossary — beta and market risk', 'https://www.investor.gov/introduction-investing/investing-basics/glossary'),
+ sharpe: source('CFA Institute', 'Capital Asset Pricing Model — risk and return measures', 'https://rpc.cfainstitute.org/research/cfa-digest/2005/05/the-capital-asset-pricing-model-theory-and-evidence-digest-summary', 'reference'),
+ performance: source('CFA Institute', 'Rate-of-return measurement — time-weighted and money-weighted returns', 'https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/rates-and-returns', 'reference'),
+ tbills: source('U.S. Treasury', 'Treasury bills — discount pricing and maturities', 'https://www.treasurydirect.gov/marketable-securities/treasury-bills/'),
+ treasuries: source('U.S. Treasury', 'Treasury notes and bonds — maturities, interest, and state tax exemption', 'https://www.treasurydirect.gov/marketable-securities/treasury-notes/'),
+ munis: source('SEC', 'Municipal bonds — general obligation and revenue bonds', 'https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products-0'),
+ zeroCoupon: source('SEC', 'Zero-coupon bonds — discount and annual taxable accretion', 'https://www.investor.gov/introduction-investing/investing-basics/glossary/zero-coupon-bond'),
+ callable: source('SEC', 'Callable bonds — call risk and reinvestment', 'https://www.investor.gov/introduction-investing/investing-basics/glossary/callable-or-redeemable-bonds'),
+ convertibles: source('SEC', 'Convertible securities — conversion into common stock', 'https://www.investor.gov/introduction-investing/investing-basics/glossary/convertible-securities'),
+ mbs: source('SEC', 'Investor.gov glossary — mortgage-backed securities', 'https://www.investor.gov/introduction-investing/investing-basics/glossary'),
+ adr: source('SEC', 'Investor.gov glossary — American depositary receipts', 'https://www.investor.gov/introduction-investing/investing-basics/glossary'),
+ reits: source('SEC', 'Investor.gov glossary — real estate investment trusts', 'https://www.investor.gov/introduction-investing/investing-basics/glossary'),
+ hedgeFunds: source('SEC', 'Hedge funds — private fund features and risks', 'https://www.investor.gov/introduction-investing/investing-basics/investment-products/private-investment-funds/hedge-funds'),
+ moneyMarket: source('SEC', 'Investor.gov glossary — money market funds', 'https://www.investor.gov/introduction-investing/investing-basics/glossary'),
+ shareClasses: source('FINRA', 'Mutual funds — share classes', 'https://www.finra.org/investors/investing/investment-products/mutual-funds/share-classes'),
+ breakpoints: source('FINRA', 'Breakpoints — rights of accumulation and letters of intent', 'https://www.finra.org/rules-guidance/key-topics/breakpoints'),
+ feesFunds: source('SEC', 'Mutual fund and ETF fees and expenses — 12b-1 fees and expense ratios', 'https://www.investor.gov/introduction-investing/investing-basics/glossary/mutual-fund-fees-and-expenses'),
+ uit: source('SEC', 'Unit investment trusts (UITs)', 'https://www.investor.gov/introduction-investing/investing-basics/glossary/unit-investment-trusts-uits'),
+ suitability: source('FINRA', 'Rule 2111 — Suitability and investment profile', 'https://www.finra.org/rules-guidance/rulebooks/finra-rules/2111', 'rule'),
+ dca: source('SEC', 'Dollar-cost averaging', 'https://www.investor.gov/introduction-investing/investing-basics/glossary/dollar-cost-averaging'),
+ margin: source('SEC', 'Investor bulletin — understanding margin accounts', 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29'),
+ shortSales: source('SEC', 'Investor.gov glossary — short sales', 'https://www.investor.gov/introduction-investing/investing-basics/glossary'),
+ orderTypes: source('SEC', 'Investor.gov glossary — market, limit, and stop orders', 'https://www.investor.gov/introduction-investing/investing-basics/glossary'),
+ prudentInvestor: source('Uniform Law Commission', 'Uniform Prudent Investor Act', 'https://www.uniformlaws.org/committees/community-home?CommunityKey=58f87d0a-3617-4635-a2af-9a4d02d119c9', 'rule'),
+ inheritance: source('IRS', 'Publication 551 — basis of inherited property', 'https://www.irs.gov/publications/p551'),
+ giftTax: source('IRS', 'Frequently asked questions on gift taxes', 'https://www.irs.gov/businesses/small-businesses-self-employed/frequently-asked-questions-on-gift-taxes'),
+ estateTax: source('IRS', 'Estate tax — exemption and marital deduction', 'https://www.irs.gov/businesses/small-businesses-self-employed/estate-tax'),
+ trusts: source('IRS', 'Estate tax — trusts, exemption, and marital deduction', 'https://www.irs.gov/businesses/small-businesses-self-employed/estate-tax'),
+ fiduciaryAdviser: source('SEC', 'Commission interpretation regarding standard of conduct for investment advisers', 'https://www.sec.gov/rules/interp/2019/ia-5248.pdf', 'guidance'),
+ softDollars: source('SEC', 'Commission guidance regarding client commission practices under Section 28(e)', 'https://www.sec.gov/rules/interp/2006/34-54165.pdf'),
+ wrapFee: source('SEC', 'Investor bulletin — investment adviser sponsored wrap fee programs', 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-40'),
+ formCrs: source('SEC', 'Form CRS relationship summary — frequently asked questions', 'https://www.sec.gov/investment/form-crs-faq'),
+ regBi: source('SEC', 'Regulation Best Interest — frequently asked questions', 'https://www.sec.gov/tm/faq-regulation-best-interest'),
+ regSp: source('SEC', 'Regulation S-P — privacy of consumer financial information', 'https://www.sec.gov/rules-regulations/2024/05/s7-05-23'),
+ aml: source('FINRA', 'Anti-money laundering — CIP, SARs, and CTRs', 'https://www.finra.org/rules-guidance/key-topics/aml'),
+ finra2165: source('FINRA', 'Rule 2165 — Financial Exploitation of Specified Adults', 'https://www.finra.org/rules-guidance/rulebooks/finra-rules/2165', 'rule'),
+ finra4512: source('FINRA', 'Rule 4512 — Customer Account Information and trusted contact', 'https://www.finra.org/rules-guidance/rulebooks/finra-rules/4512', 'rule'),
+ insiderTrading: source('SEC', 'Investor.gov glossary — insider trading', 'https://www.investor.gov/introduction-investing/investing-basics/glossary'),
+ codeOfEthics: source('eCFR', '17 CFR 275.204A-1 — Investment adviser codes of ethics', 'https://www.ecfr.gov/current/title-17/chapter-II/part-275/section-275.204A-1', 'rule'),
+ sellingAway: source('FINRA', 'Rule 3280 — Private Securities Transactions of an Associated Person', 'https://www.finra.org/rules-guidance/rulebooks/finra-rules/3280', 'rule'),
 } satisfies Record<string, OfficialSource>;
 type SourceId = keyof typeof officialSources;
 const sectionDefaults: Record<number, SourceId> = {1:'usa',2:'usa',3:'usa',4:'adviser',5:'financial',6:'usa',7:'qualified',8:'privateFunds',9:'ethics',10:'rule144',11:'adviser',12:'plans',13:'early',14:'education',15:'investments',16:'businesses',17:'diversification',18:'funds',19:'options',20:'annuityTax',21:'bonds',22:'statements',23:'outline',24:'audit',25:'blackout',26:'ethics',27:'usa'};
@@ -127,7 +174,7 @@ map(15,'tic jtwros jtwros-retest will-title','ownership'); map(15,'tod','estate'
 map(16,'loss-gates passive-offset release-loss ptp-silo','passive'); map(16,'april-return','corporateReturn'); map(16,'march-return','partnershipReturn','sReturn');
 map(17,'weak-emh semi-emh strong-emh','efficiency'); map(17,'total-return','bonds');
 map(18,'coverage-three repay-equation borrow-equation','coverage'); map(18,'shareholder-report','fundReports');
-map(18,'closed-nav','outline'); map(18,'sec-report','annualReport');
+map(18,'closed-nav','outline'); map(18,'sec-report','annualReport','fundReports');
 map(19,'right','rights'); map(19,'warrant','warrants'); map(19,'derivative','derivatives'); map(19,'buyer-call seller-put listed-call','optionBasics');
 map(20,'fixed-annuity variable-annuity','annuities'); map(20,'indexed-annuity','indexed');
 map(20,'term-life whole-life universal-life variable-life policy-loan life-security','life');
@@ -135,8 +182,8 @@ map(21,'dividend-declare dividend-pay dividend-current','statements'); map(21,'r
 map(21,'bond-rating','credit'); map(21,'after-tax tax-equivalent','taxYield'); map(21,'maturity-spread','spreads'); map(21,'credit-spread','creditSpreads');
 map(22,'cash-basis accrual','accounting');
 map(23,'range deviation','statistics'); map(23,'mode','mode'); map(23,'leading lagging claims-duration','indicators'); map(23,'npv irr','cashflows'); map(23,'capm capm-specific','capm'); map(23,'bond-cashflow','bonds');
-map(26,'affiliate-reminder gift-reminder','rule144Gifts'); map(26,'agent-reminder issuer-reminder','usa');
-map(26,'audit-reminder','audit'); map(26,'fund-reminder','funds'); map(26,'bond-reminder','bonds'); map(26,'payment-reminder','statements');
+
+
 map(27,'dni-components dni-character dni-gains','trust'); map(27,'mass-ad mailing-source','records');
 map(4,'aum-entry-buffer aum-buffer aum-must aum-exit withdraw-clock','adv');
 map(7,'client-residence','qualified','qualifiedRule');
