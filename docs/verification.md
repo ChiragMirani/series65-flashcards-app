@@ -4,15 +4,15 @@ Verified on September 13, 2026 with Node.js, production Next.js static output, a
 
 | Check | Result |
 |---|---|
-| Reproducible content check | Passed; 311 rule objectives, 628 draft cards, all 27 numbered sections |
+| Reproducible content check | Last imported deck: 311 rule objectives, 628 draft cards, all 27 numbered sections. A later external source edit now requires authoring review; see below. |
 | ESLint | Passed without warnings |
 | Strict TypeScript | Passed; route types generated before checking |
-| Vitest | 21 tests passed |
-| Production build | Passed; 12 static pages and 80 precached URLs |
+| Vitest | 28 tests passed |
+| Production build | Passed; 12 static pages and 79 precached URLs |
 | Playwright | All 7 end-to-end tests passed; no failed tests |
 | Automated accessibility | No axe WCAG 2 A/AA or WCAG 2.1 AA violations in tested routes/states |
 | Responsive checks | No horizontal page overflow at 390px and 1440px |
-| Manual visual review | Phone dashboard, question, revealed answer, dark theme, desktop dashboard, and app icon inspected |
+| Manual visual review | One-page Study at phone and desktop widths, revealed answer, dark theme, and app icon inspected |
 
 ## Behavior exercised
 
@@ -24,8 +24,8 @@ Manual screenshot review found that long answers could place ratings below the p
 
 Representative final screenshots:
 
-- [Desktop dashboard](qa/dashboard-1440.png)
-- [Phone dashboard](qa/dashboard-390.png)
+- [Desktop Study](qa/dashboard-1440.png)
+- [Phone Study](qa/dashboard-390.png)
 - [Phone question](qa/review-phone.png)
 - [Phone answer and reachable ratings](qa/answer-phone.png)
 - [Dark theme](qa/dark-phone.png)
@@ -38,14 +38,18 @@ The app implementation never modified the original source files. A final fresh-c
 
 The importer checks source fingerprints and compares all regenerated artifacts. Passing these checks proves reproducibility, not complete subject-matter accuracy or copyright clearance. All 628 cards remain drafts; the human reviews in [COMMERCIAL_RELEASE_BLOCKED.md](../COMMERCIAL_RELEASE_BLOCKED.md) are still required.
 
+A subsequent external source edit was detected during the UI work: `content:check` reports that the section 14 `minor-owner` locator no longer matches. This UI update retains the committed 628-card deck. The changed source requires a separate authoring reconciliation before the next import; no source files or generated card facts were changed for the one-page interface.
+
 GitHub Actions repeats lint, types, unit tests, production build, and browser tests on Ubuntu with Chromium. It uses the committed deck and does not require private source materials. The source-dependent content check is run locally. Consult the repository's Actions tab for the current remote run; local results above are independent of its status.
 
 ## Public phone preview
 
-The owner requested public GitHub and phone access on September 13. GitHub Pages uses `/series65-flashcards-app` as its base path. Three additional deployment tests passed locally against that exact path: phone navigation and direct refresh; canonical/manifest/favicon/Apple icon URLs; and first-load offline caching with saved review state. The deployment workflow repeats these tests before publishing. The optional `PAGES_TEST_ORIGIN` setting runs the same suite against the real HTTPS host.
+The owner requested public GitHub and phone access on September 13. GitHub Pages uses `/series65-flashcards-app` as its base path. Four additional deployment tests cover inline selection of the entire deck and every subject; phone navigation and direct refresh; canonical/manifest/favicon/Apple icon URLs; and first-load offline caching with saved review state. The deployment workflow repeats these tests before publishing. The optional `PAGES_TEST_ORIGIN` setting runs the same suite against the real HTTPS host.
 
 The site retains draft labels, noindex metadata, and the commercial-release audit requirements. Public preview access is separately authorized and does not promote card review status.
 
-## Simple review selector
+## One-page study
 
-The Study dashboard now uses one top-level dropdown: Random or one of the four categories, followed by a single Start review / Continue review button. Dashboard summary tiles, retest-start controls, study-area cards, and section lists were removed from Study. Their metrics are available on Progress. Four additional engine tests cover shuffled pool selection before trimming, reproducibility, daily limits and exclusions, category isolation, saved-review preservation, and backward-compatible session data. The phone screenshot was inspected with the selector and start button visible above the bottom navigation. The deployment suite now also exercises selecting Random, continuing the same card, switching to Economics & business, and retaining that selection after refresh.
+Study now opens directly to the dropdown and flashcard on the home page. Selection, reveal, rating, and the card counter stay on that page. There are no Start/Continue buttons or separate selection and review screens. Random includes all 628 active cards; subjects contain 321, 187, 92, and 28 cards respectively. Old review bookmarks redirect to Study. Metrics remain on Progress.
+
+Seven new engine tests cover unrestricted full-deck selection, category totals, suspension, reproducible shuffling, persistent card position after repository recreation, old-session migration, Again requeueing, completed-deck resume, and invalid full-deck backups. Browser checks exercise refresh, JSON backup recovery with the full 628-card order, offline legacy-route redirection, keyboard operation, and accessibility. Manual phone and desktop screenshot inspection confirms that the dropdown, counter, flashcard, and reveal button are together on the initial screen; phone rating controls stay reachable after reveal.

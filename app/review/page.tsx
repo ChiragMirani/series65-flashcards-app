@@ -1,4 +1,4 @@
 import type { Metadata } from 'next';
-import { Review } from '@/components/review';
+import { LegacyReviewRedirect } from '@/components/review';
 export const metadata:Metadata={title:'Review cards'};
-export default function ReviewPage(){return <Review/>;}
+export default function ReviewPage(){return <LegacyReviewRedirect/>;}

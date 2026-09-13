@@ -13,18 +13,22 @@ Inject the review instant into the engine; React and the repository do not suppl
 
 Ease begins at 2.5. Again decreases it by 0.20, Hard by 0.15, Good leaves it unchanged, and Easy increases it by 0.15. It is clamped to 1.3–3.0. Intervals cap at 36,500 days. A failed mature card restarts at a short interval after successful relearning rather than immediately returning to its former interval. Successful-review streak resets on Again. The initial failed exposure is not counted as a lapse; later failures are.
 
-## Sessions and daily limits
+## One-page full-deck study
 
-- Due cards precede new cards. Learning cards precede other due cards, followed by greater lapse count to focus on weak recall. Retest priority, exam priority, and stable ID then provide deterministic selection.
-- The dashboard has one review-area dropdown: Random or one of the four exam categories. Area sessions use the priority order above within that category. Random samples due and new cards across all sections, then mixes their order. It excludes suspended and not-yet-due reviewed cards and respects the same daily/session limits.
-- Random selection uses Fisher-Yates with a Mulberry32 seed derived from the supplied session timestamp and snapshot revision. Sampling happens before limits trim each pool, so random mode is not just a reshuffle of the first high-priority cards. The resulting queue and selected mode/category are persisted; Continue review never reshuffles them. Changing areas starts a new pending selection while preserving completed reviews and schedules. Older backups without mode/category fields remain valid.
-- Daily limits restrict initial card selection. The day boundary is UTC. Distinct newly introduced card IDs and distinct previously reviewed card IDs are counted from the day's event log.
+- Study opens a flashcard on the home page. A dropdown immediately switches between Random and the four subjects, without a Start screen or navigation to a second review page. Old `/review/` bookmarks redirect home.
+- Random includes every active card (628 in the current deck). Subject selections include all active cards in that category: laws 321, recommendations 187, vehicles 92, economics 28. Suspended cards are excluded. Due dates and legacy daily/session caps do not restrict full-deck selection.
+- Random uses Fisher-Yates with a Mulberry32 seed derived from the supplied timestamp and snapshot revision. Subjects follow the compiled deck order. The full order, pending queue, selected subject, and ratings are saved together. Changing the dropdown starts that selection at card 1 while retaining all previously saved ratings and schedules.
+- The counter displays the current card's position in the saved order and that selection's unique-card total. Good, Hard, or Easy normally advance to the next number. Again deliberately returns to the failed card's original number. Attempt count can therefore exceed the deck total.
 - Again places the current card behind up to two pending cards. This intentional same-session step is based on intervening cards, not a forced timer. If it is the only card, it can be retried immediately. Its persisted due timestamp is one minute later for another session.
-- Every pending card ID is unique. Only Again deliberately requeues it. Relearning can increase the number of rating attempts beyond the selected unique-card limit.
+- Every pending card ID is unique. Only Again deliberately requeues it.
 - Session queue, completion set, review events, and schedule are committed together in one IndexedDB transaction before the interface advances.
-- Refresh and Continue session restore the queue. Save & exit does not discard it. A targeted section/retest start replaces the pending selection, while preserving all already-saved reviews.
-- Suspending a card removes it from the pending queue and future selection. Browse can resume it. Bookmarks do not alter its schedule.
+- Refresh and returning to Study restore the selection, order, and current card automatically, including a completed deck. A completed deck can be reviewed again explicitly or replaced using the dropdown.
+- Suspending a card removes it from the pending queue and saved order, reducing the total. Browse can resume it for the next selection. Bookmarks do not alter its schedule.
 - Reset this deck clears its progress, bookmarks, suspensions, session, and reports while preserving settings. Reset all also restores settings. These controls require an explicit confirmation in the app and recommend export first.
+
+## Compatibility
+
+Earlier versions selected limited due/new sessions. The original pure selection function and its tests remain available, and old backups still validate. On the first visit to the new Study page, an old limited session is expanded into a full-deck selection; its saved ratings, schedules, bookmarks, and settings are preserved. Subsequent visits resume the full-deck position. Legacy limit values remain in stored settings for backup compatibility and have no controls in the simplified interface. Scheduling and Progress metrics still record due dates, although the Study selector intentionally allows early review of any active card.
 
 ## Time and metrics
 

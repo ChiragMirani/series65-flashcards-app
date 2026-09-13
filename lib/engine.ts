@@ -3,7 +3,7 @@ import { emptySnapshot } from './model';
 import { freshState, isDue, schedule, utcDay } from './scheduler';
 import { shuffled } from './shuffle';
 export type Command =
-  | {type:'start'; now:string; section?:number; retestOnly?:boolean; mode?:'random'; category?:Category}
+  | {type:'start'; now:string; section?:number; retestOnly?:boolean; mode?:'random'; category?:Category; fullDeck?:boolean; resume?:boolean}
   | {type:'rate'; cardId:string; rating:Rating; now:string; sessionId:string; expectedRatings?:number}
   | {type:'flag'; cardId:string; flag:'bookmarked'|'suspended'; value:boolean; now:string}
   | {type:'settings'; settings:Settings}
@@ -25,20 +25,36 @@ export function makeSession(cards: Card[], state: Snapshot, now: Date, section?:
   const queue=(mode==='random'?shuffled(candidates,seed+2):candidates).slice(0,state.settings.sessionLength).map(c=>c.id);
   return {id:now.toISOString(), mode, ...(category?{category}:{}), startedAt:now.toISOString(), queue, completed:[], initialCount:queue.length, ratings:0};
 }
+export function makeFullDeckSession(cards:Card[], state:Snapshot, now:Date, category?:Category):Session {
+  const available=cards.filter(c=>(!category||c.category===category)&&!state.states[c.id]?.suspended);
+  const selected=category?available:shuffled(available,(now.getTime()^state.revision)>>>0);
+  const order=selected.map(c=>c.id);
+  return {id:`${now.toISOString()}:${state.revision}`,scope:'full-deck',mode:category?'scheduled':'random',...(category?{category}:{}),order,queue:[...order],completed:[],initialCount:order.length,ratings:0,startedAt:now.toISOString()};
+}
 export function reduceSnapshot(state: Snapshot, command: Command, cards: Card[]): Snapshot {
   let next: Snapshot = {...state, states:{...state.states}};
   if(command.type==='reset') next = command.scope==='all' ? emptySnapshot() : {...state,states:{},events:[],session:null,issues:[]};
   else if(command.type==='import') next = {...command.data,states:{...command.data.states}};
   else if(command.type==='settings') next.settings = command.settings;
   else if(command.type==='start') {
-    if(state.session?.queue.length && !command.section && !command.retestOnly && !command.category && command.mode!=='random') return state;
-    next.session = makeSession(cards, state, new Date(command.now),command.section,command.retestOnly,command.mode,command.category);
+    if(command.fullDeck) {
+      if(command.resume&&state.session?.scope==='full-deck') return state;
+      next.session=makeFullDeckSession(cards,state,new Date(command.now),command.category);
+    } else {
+      if(state.session?.queue.length && !command.section && !command.retestOnly && !command.category && command.mode!=='random') return state;
+      next.session = makeSession(cards, state, new Date(command.now),command.section,command.retestOnly,command.mode,command.category);
+    }
   } else {
     if(!cards.some(c=>c.id===command.cardId)) throw new Error('This card is no longer in the current deck.');
     if(command.type==='issue') next.issues=[...state.issues,{cardId:command.cardId,text:command.text.trim(),at:command.now}];
     if(command.type==='flag') {
       next.states[command.cardId]={...(state.states[command.cardId] || freshState(command.cardId,new Date(command.now))),[command.flag]:command.value};
-      if(command.flag==='suspended' && command.value && state.session) next.session={...state.session,queue:state.session.queue.filter(id=>id!==command.cardId),completed:[...new Set([...state.session.completed,command.cardId])]};
+      if(command.flag==='suspended' && command.value && state.session) {
+        if(state.session.scope==='full-deck') {
+          const order=state.session.order!.filter(id=>id!==command.cardId);
+          next.session={...state.session,order,initialCount:order.length,queue:state.session.queue.filter(id=>id!==command.cardId),completed:state.session.completed.filter(id=>id!==command.cardId)};
+        } else next.session={...state.session,queue:state.session.queue.filter(id=>id!==command.cardId),completed:[...new Set([...state.session.completed,command.cardId])]};
+      }
     }
     if(command.type==='rate') {
       if(!state.session || state.session.id!==command.sessionId || state.session.queue[0]!==command.cardId || (command.expectedRatings!==undefined && state.session.ratings!==command.expectedRatings)) throw new Error('This session changed in another tab. Reloaded the latest progress.');

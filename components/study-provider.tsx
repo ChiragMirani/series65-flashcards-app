@@ -67,7 +67,7 @@ export function StudyProvider({children}:{children:ReactNode}){
     const context=(document as Document & {modelContext?:{registerTool:(tool:Tool,options:{signal:AbortSignal})=>void|Promise<void>}}).modelContext;
     if(!context)return;
     const lifecycle=new AbortController();
-    const tool:Tool={name:'start_series65_review',description:'Start or resume a local Series 65 study session. This does not reveal or rate cards.',inputSchema:{type:'object',properties:{},additionalProperties:false},annotations:{readOnlyHint:false},execute:async(input)=>{z.object({}).strict().parse(input);if(!await dispatch({type:'start',now:new Date().toISOString()}))throw new Error('Session could not be started.');router.push('/review/');return {started:true};}};
+    const tool:Tool={name:'start_series65_review',description:'Start or resume a local Series 65 study session. This does not reveal or rate cards.',inputSchema:{type:'object',properties:{},additionalProperties:false},annotations:{readOnlyHint:false},execute:async(input)=>{z.object({}).strict().parse(input);if(!await dispatch({type:'start',fullDeck:true,resume:true,now:new Date().toISOString()}))throw new Error('Session could not be started.');router.push('/');return {started:true};}};
     try{void Promise.resolve(context.registerTool(tool,{signal:lifecycle.signal})).catch(()=>undefined);}catch{}
     return()=>lifecycle.abort();
   },[dispatch,router]);

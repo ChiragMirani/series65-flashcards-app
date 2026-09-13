@@ -1,37 +1,45 @@
-import { test, expect } from '@playwright/test';
+﻿import { test, expect } from '@playwright/test';
 const prefix = '/series65-flashcards-app';
 
-test('one dropdown selects random or an area and Continue keeps the saved card', async ({ page }) => {
+test('one page opens a full deck and switches all subjects inline with the correct counter', async ({ page }) => {
   await page.goto(`${prefix}/`);
   const selector = page.getByRole('combobox', { name: 'Review area', exact: true });
+  const counter = page.locator('.card-position');
   await expect(selector).toHaveValue('random');
   await expect(selector.locator('option')).toHaveCount(5);
-  await expect(page.getByRole('button', { name: 'Random review', exact: true })).toHaveCount(0);
-  await page.getByRole('button', { name: 'Start review', exact: true }).click();
-  await expect(page.locator('.session-mode')).toHaveText('Random review');
-  const question = await page.locator('.question-button>span').innerText();
-  await page.getByRole('link', { name: 'Save & exit' }).click();
-  await page.getByRole('button', { name: 'Continue review', exact: true }).click();
-  await expect(page.locator('.question-button>span')).toHaveText(question);
+  await expect(counter).toHaveText('1 of 628');
+  await expect(page.locator('.question-button')).toBeVisible();
+  await expect(page.getByRole('button', { name: /^(Start|Continue) review$/ })).toHaveCount(0);
+  await expect(page.getByRole('link', { name: 'Save & exit' })).toHaveCount(0);
+  const studyUrl = page.url();
+  for (const [category, count] of Object.entries({ laws: 321, recommendations: 187, vehicles: 92, economics: 28 })) {
+    await selector.selectOption(category);
+    await expect(counter).toHaveText(`1 of ${count}`);
+    await expect(page.locator('.question-button')).toBeVisible();
+    await expect(page).toHaveURL(studyUrl);
+  }
   await page.getByRole('button', { name: 'Reveal answer', exact: true }).click();
   await page.getByRole('button', { name: /^Good/ }).click();
-  await page.getByRole('link', { name: 'Save & exit' }).click();
-  await selector.selectOption('economics');
-  await page.getByRole('button', { name: 'Start review', exact: true }).click();
-  await expect(page.locator('.session-mode')).toHaveText('Economics & business');
-  const areaQuestion = await page.locator('.question-button>span').innerText();
+  await expect(counter).toHaveText('2 of 28');
+  const question = await page.locator('.question-button>span').innerText();
   await page.reload();
-  await expect(page.locator('.question-button>span')).toHaveText(areaQuestion);
-  await page.getByRole('link', { name: 'Save & exit' }).click();
   await expect(selector).toHaveValue('economics');
-  await expect(page.getByRole('button', { name: 'Continue review', exact: true })).toBeVisible();
+  await expect(counter).toHaveText('2 of 28');
+  await expect(page.locator('.question-button>span')).toHaveText(question);
+  await page.getByRole('link', { name: 'Progress', exact: true }).click();
+  await page.getByRole('link', { name: 'Study', exact: true }).click();
+  await expect(page.locator('.question-button>span')).toHaveText(question);
+  await expect(counter).toHaveText('2 of 28');
+  await selector.selectOption('random');
+  await expect(counter).toHaveText('1 of 628');
+  await expect(page).toHaveURL(studyUrl);
 });
 
 test('hosted phone navigation and refresh stay inside the project path', async ({ page }) => {
   const failures: string[] = [];
   page.on('pageerror', error => failures.push(error.message));
   await page.goto(`${prefix}/`);
-  await expect(page.getByRole('button', { name: 'Start review' })).toBeVisible();
+  await expect(page.locator('.question-button')).toBeVisible();
   await page.getByRole('link', { name: 'Browse', exact: true }).click();
   await expect(page).toHaveURL(new RegExp(`${prefix}/browse/`));
   await expect(page.getByRole('heading', { name: 'Find the rule you need.' })).toBeVisible();
@@ -72,12 +80,14 @@ test('hosted worker caches unvisited pages and saves phone reviews offline', asy
   expect(scope).toBe(`${prefix}/`);
   await context.setOffline(true);
   await page.goto(`${prefix}/review/`);
-  await page.getByRole('button', { name: 'Start review', exact: true }).click();
+  await expect(page).toHaveURL(new RegExp(`${prefix}/$`));
+  await expect(page.locator('.card-position')).toHaveText('1 of 628');
   await page.getByRole('button', { name: 'Reveal answer', exact: true }).click();
   await page.getByRole('button', { name: /^Good/ }).click();
   const next = await page.locator('.question-button>span').innerText();
   await page.reload();
   await expect(page.locator('.question-button>span')).toHaveText(next);
+  await expect(page.locator('.card-position')).toHaveText('2 of 628');
   await page.getByRole('link', { name: 'Progress', exact: true }).click();
   await expect(page.locator('.progress-stats')).toContainText('100%');
 });

@@ -1,0 +1,107 @@
+﻿import { describe, it, expect } from 'vitest';
+import { deck } from '../../lib/deck';
+import { emptySnapshot, snapshotSchema, type Category, type Rating, type Snapshot } from '../../lib/model';
+import { makeFullDeckSession, reduceSnapshot } from '../../lib/engine';
+import { freshState } from '../../lib/scheduler';
+import { IndexedDbStudyRepository } from '../../lib/repository';
+import 'fake-indexeddb/auto';
+
+const now = new Date('2026-09-13T15:00:00Z');
+const start = (state = emptySnapshot(), category?: Category) => reduceSnapshot(state, { type: 'start', fullDeck: true, category, now: now.toISOString() }, deck);
+const rate = (state: Snapshot, rating: Rating = 'good') => reduceSnapshot(state, { type: 'rate', cardId: state.session!.queue[0], sessionId: state.session!.id, expectedRatings: state.session!.ratings, rating, now: now.toISOString() }, deck);
+
+describe('one-page full-deck review', () => {
+  it('shuffles the entire deck regardless of old limits or future due dates', () => {
+    const state = emptySnapshot();
+    state.settings = { ...state.settings, dailyNew: 0, dailyReviews: 0, sessionLength: 1 };
+    state.states[deck[0].id] = { ...freshState(deck[0].id, now), totalReviews: 1, stage: 'review', due: '2027-01-01T00:00:00Z' };
+    const session = makeFullDeckSession(deck, state, now);
+    expect(session.initialCount).toBe(628);
+    expect(new Set(session.queue)).toEqual(new Set(deck.map(c => c.id)));
+    expect(session.order).toEqual(session.queue);
+    expect(session.queue).not.toEqual(deck.map(c => c.id));
+    expect(makeFullDeckSession(deck, state, now)).toEqual(session);
+    expect(makeFullDeckSession(deck, state, new Date(now.getTime() + 1)).queue).not.toEqual(session.queue);
+    expect(snapshotSchema.safeParse({ ...state, session }).success).toBe(true);
+  });
+
+  it('selects every card in each subject and excludes suspended cards', () => {
+    const counts = { laws: 321, recommendations: 187, vehicles: 92, economics: 28 };
+    for (const category of Object.keys(counts) as Category[]) {
+      const session = start(emptySnapshot(), category).session!;
+      expect(session.initialCount).toBe(counts[category]);
+      expect(session.order).toEqual(deck.filter(c => c.category === category).map(c => c.id));
+    }
+    const state = emptySnapshot();
+    const excluded = deck.find(c => c.category === 'economics')!;
+    state.states[excluded.id] = { ...freshState(excluded.id, now), suspended: true };
+    expect(start(state).session!.initialCount).toBe(627);
+    const subject = start(state, 'economics').session!;
+    expect(subject.initialCount).toBe(27);
+    expect(subject.queue).not.toContain(excluded.id);
+  });
+
+  it('saves full-deck order and position through repository close, reopen and resume', async () => {
+    const name = 'full-deck-reopen';
+    const first = new IndexedDbStudyRepository(deck, name);
+    let state = await first.execute({ type: 'start', fullDeck: true, category: 'economics', now: now.toISOString() });
+    state = await first.execute({ type: 'rate', cardId: state.session!.queue[0], sessionId: state.session!.id, rating: 'good', now: now.toISOString() });
+    first.close();
+    const second = new IndexedDbStudyRepository(deck, name);
+    expect(await second.read()).toEqual(state);
+    const resumed = await second.execute({ type: 'start', fullDeck: true, resume: true, now: new Date(now.getTime() + 1000).toISOString() });
+    expect(resumed).toEqual(state);
+    expect(resumed.session!.order!.indexOf(resumed.session!.queue[0]) + 1).toBe(2);
+    second.close();
+  });
+
+  it('expands old limited sessions while preserving ratings, settings and bookmarks', () => {
+    let state = reduceSnapshot(emptySnapshot(), { type: 'start', now: now.toISOString() }, deck);
+    state = rate(state);
+    state = reduceSnapshot(state, { type: 'flag', cardId: deck[0].id, flag: 'bookmarked', value: true, now: now.toISOString() }, deck);
+    const migrated = reduceSnapshot(state, { type: 'start', fullDeck: true, resume: true, now: now.toISOString() }, deck);
+    expect(migrated.session!.initialCount).toBe(628);
+    expect(migrated.states).toEqual(state.states);
+    expect(migrated.events).toEqual(state.events);
+    expect(migrated.settings).toEqual(state.settings);
+    const changed = start(migrated, 'economics');
+    expect(changed.session!.initialCount).toBe(28);
+    expect(changed.states).toEqual(state.states);
+    expect(changed.events).toEqual(state.events);
+  });
+
+  it('relearns without duplicating the queue or changing a card number', () => {
+    let state = start();
+    const order = state.session!.order!;
+    const first = order[0];
+    state = rate(state, 'again');
+    expect(state.session!.queue.slice(0, 3)).toEqual([order[1], order[2], first]);
+    state = rate(rate(state));
+    expect(state.session!.queue[0]).toBe(first);
+    expect(state.session!.order).toEqual(order);
+    expect(new Set(state.session!.queue).size).toBe(state.session!.queue.length);
+    expect(snapshotSchema.safeParse(state).success).toBe(true);
+  });
+
+  it('updates the total on suspension and keeps a completed deck completed after refresh', () => {
+    const cards = deck.slice(0, 3);
+    let state = reduceSnapshot(emptySnapshot(), { type: 'start', fullDeck: true, now: now.toISOString() }, cards);
+    const removed = state.session!.queue[0];
+    state = reduceSnapshot(state, { type: 'flag', cardId: removed, flag: 'suspended', value: true, now: now.toISOString() }, cards);
+    expect(state.session!.initialCount).toBe(2);
+    expect(state.session!.order).not.toContain(removed);
+    expect(snapshotSchema.safeParse(state).success).toBe(true);
+    state = rate(rate(state));
+    expect(state.session!.queue).toEqual([]);
+    expect(state.session!.completed).toHaveLength(2);
+    expect(reduceSnapshot(state, { type: 'start', fullDeck: true, resume: true, now: now.toISOString() }, cards)).toBe(state);
+  });
+
+  it('rejects a corrupt full-deck backup order but accepts legacy backups', () => {
+    const state = start();
+    expect(snapshotSchema.safeParse({ ...state, session: { ...state.session, order: undefined } }).success).toBe(false);
+    expect(snapshotSchema.safeParse({ ...state, session: { ...state.session, order: [deck[0].id, deck[0].id] } }).success).toBe(false);
+    expect(snapshotSchema.safeParse({ ...state, session: { ...state.session, initialCount: 20 } }).success).toBe(false);
+    expect(snapshotSchema.safeParse(reduceSnapshot(emptySnapshot(), { type: 'start', now: now.toISOString() }, deck)).success).toBe(true);
+  });
+});

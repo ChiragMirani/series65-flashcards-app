@@ -37,10 +37,12 @@ export type Settings = z.infer<typeof settingsSchema>;
 export const eventSchema = z.object({ id: z.string().max(200), cardId: safeId, at: iso, rating: ratingSchema, wasNew: z.boolean() });
 export type ReviewEvent = z.infer<typeof eventSchema>;
 export const sessionSchema = z.object({
+  scope: z.literal('full-deck').optional(),
+  order: z.array(safeId).max(10000).optional(),
   mode: z.enum(['scheduled','random']).optional(), // Older saved sessions omit this field.
   category: z.enum(['laws','recommendations','vehicles','economics']).optional(),
-  id: z.string().max(200), startedAt: iso, queue: z.array(safeId).max(1000), completed: z.array(safeId).max(1000),
-  initialCount: z.number().int().nonnegative().max(200), ratings: z.number().int().nonnegative(),
+  id: z.string().max(200), startedAt: iso, queue: z.array(safeId).max(10000), completed: z.array(safeId).max(10000),
+  initialCount: z.number().int().nonnegative().max(10000), ratings: z.number().int().nonnegative(),
 });
 export type Session = z.infer<typeof sessionSchema>;
 export const snapshotSchema = z.object({
@@ -51,6 +53,10 @@ export const snapshotSchema = z.object({
 }).superRefine((s, ctx) => {
   for (const [id, state] of Object.entries(s.states)) if(id !== state.cardId) ctx.addIssue({code:'custom',message:'Card ID does not match progress key.'});
   if(s.session && new Set(s.session.queue).size !== s.session.queue.length) ctx.addIssue({code:'custom',message:'Session contains duplicate pending cards.'});
+  if(s.session?.scope==='full-deck') {
+    const order=s.session.order;
+    if(!order || new Set(order).size!==order.length || order.length!==s.session.initialCount || s.session.queue.some(id=>!order.includes(id))) ctx.addIssue({code:'custom',message:'Full-deck order does not match the saved selection.'});
+  }
 });
 export type Snapshot = z.infer<typeof snapshotSchema>;
 export const backupSchema = z.object({ app: z.literal('series65-review'), exportedAt: iso, data: snapshotSchema });
