@@ -18,7 +18,8 @@
     "check": "npm run lint && npm run typecheck && npm test && npm run build",
     "rules:due": "node scripts/rule-watch.mjs",
     "rules:all": "node scripts/rule-watch.mjs --all",
-    "rules:verify": "node scripts/rule-watch.mjs --verify"
+    "rules:verify": "node scripts/rule-watch.mjs --verify",
+    "deck:publish": "npm run content:check && npm test && git push origin HEAD:deck-live"
   },
   "dependencies": {
     "next": "16.3.5",

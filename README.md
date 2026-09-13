@@ -68,6 +68,26 @@ npm run rules:verify -- <id>
 
 `rules:due` shows checks due now. Fix cards if rules changed. Run `content:import` after edits. Then mark the check done. A weekly GitHub job opens an issue too.
 
+## Update the iOS app
+
+Card fixes ship fast. No App Store review needed.
+
+```bash
+npm run deck:publish
+```
+
+It checks the deck first. Then it runs the tests. Then it pushes branch `deck-live`. The iOS app checks that branch. It downloads new cards quietly. Users get them next launch.
+
+Code changes need a new build. On the Mac, run:
+
+```bash
+git pull
+scripts/sync-deck.sh
+fastlane ship
+```
+
+`ship` tests, builds, and uploads to TestFlight.
+
 ## Search and discovery
 
 Topic pages list every question. Search engines can read them. Indexing stays off for now. Set `PUBLIC_INDEXING=true` to allow it.
