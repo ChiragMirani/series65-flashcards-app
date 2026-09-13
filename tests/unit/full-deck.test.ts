@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { deck } from '../../lib/deck';
 import { emptySnapshot, snapshotSchema, type Category, type Rating, type Snapshot } from '../../lib/model';
-import { makeFullDeckSession, reduceSnapshot } from '../../lib/engine';
+import { knownCount, makeFullDeckSession, reduceSnapshot } from '../../lib/engine';
 import { freshState } from '../../lib/scheduler';
 import { IndexedDbStudyRepository } from '../../lib/repository';
 import { selectionFromSearch, studyLink } from '../../lib/study-selection';
@@ -83,6 +83,32 @@ describe('one-page full-deck review', () => {
     expect(resumed.session!.queue[0]).toBe(state.session!.queue[0]);
     expect(resumed.session!.initialCount).toBe(3);
     expect(snapshotSchema.safeParse(resumed).success).toBe(true);
+  });
+
+  it('Again repeats a card soon and Got it skips known cards in new shuffles until included or reset', () => {
+    const cards = deck.slice(0, 8);
+    let state = reduceSnapshot(emptySnapshot(), { type: 'start', fullDeck: true, mode: 'scheduled', now: now.toISOString() }, cards);
+    const first = state.session!.queue[0];
+    const mark = (s: Snapshot, type: 'again' | 'known') => reduceSnapshot(s, { type, cardId: s.session!.queue[0], sessionId: s.session!.id, expectedRatings: s.session!.ratings, now: now.toISOString() }, cards);
+    state = mark(state, 'again');
+    expect(state.session!.queue.indexOf(first)).toBe(4);
+    expect(state.session!.completed).not.toContain(first);
+    expect(state.states[first].known).toBe(false);
+    const second = state.session!.queue[0];
+    state = mark(state, 'known');
+    expect(state.states[second].known).toBe(true);
+    expect(state.session!.completed).toContain(second);
+    expect(state.events).toEqual([]);
+    expect(snapshotSchema.safeParse(state).success).toBe(true);
+    const next = reduceSnapshot(state, { type: 'start', fullDeck: true, mode: 'scheduled', now: now.toISOString() }, cards);
+    expect(next.session!.order).not.toContain(second);
+    expect(knownCount(cards, next)).toBe(1);
+    const withKnown = reduceSnapshot(state, { type: 'start', fullDeck: true, mode: 'scheduled', includeKnown: true, now: now.toISOString() }, cards);
+    expect(withKnown.session!.order).toContain(second);
+    expect(snapshotSchema.parse(withKnown).session!.includeKnown).toBe(true);
+    const cleared = reduceSnapshot(next, { type: 'reset-known' }, cards);
+    expect(knownCount(cards, cleared)).toBe(0);
+    expect(reduceSnapshot(cleared, { type: 'start', fullDeck: true, mode: 'scheduled', now: now.toISOString() }, cards).session!.order).toContain(second);
   });
 
   it('relearns without duplicating the queue or changing a card number', () => {

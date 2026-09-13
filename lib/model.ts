@@ -34,6 +34,7 @@ export const studySchema = z.object({
   stage: z.enum(['new','learning','review']), lastReviewed: iso.nullable(), lapses: z.number().int().nonnegative(),
   streak: z.number().int().nonnegative(), totalReviews: z.number().int().nonnegative(), lastRating: ratingSchema.nullable(),
   bookmarked: z.boolean(), suspended: z.boolean(),
+  known: z.boolean().optional(), // "Got it": skipped in new shuffles unless known cards are included.
 });
 export type StudyState = z.infer<typeof studySchema>;
 export const settingsSchema = z.object({
@@ -48,6 +49,7 @@ export const sessionSchema = z.object({
   order: z.array(safeId).max(10000).optional(),
   mode: z.enum(['scheduled','random']).optional(), // Older saved sessions omit this field.
   category: z.enum(['laws','recommendations','vehicles','economics']).optional(),
+  includeKnown: z.boolean().optional(),
   id: z.string().max(200), startedAt: iso, queue: z.array(safeId).max(10000), completed: z.array(safeId).max(10000),
   initialCount: z.number().int().nonnegative().max(10000), ratings: z.number().int().nonnegative(),
 });

@@ -1,9 +1,10 @@
-﻿'use client';
+'use client';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useStudy } from './study-provider';
-import { cardById } from '@/lib/deck';
+import { cardById, deck } from '@/lib/deck';
+import { knownCount } from '@/lib/engine';
 import { categories, type Category, type Card } from '@/lib/model';
 import { selectionFromSearch, type StudyOrder } from '@/lib/study-selection';
 import { AnswerDetails, CardActions } from './card-actions';
@@ -35,17 +36,20 @@ export function Review() {
   if (!data || !session) return <div className="page review-page" role="status">Opening your cards…</div>;
 
   const mode = session.mode ?? 'random';
+  const includeKnown = session.includeKnown ?? false;
+  const known = knownCount(deck, data, session.category);
   const card = cardById.get(session.queue[0]);
   const position = card ? session.order!.indexOf(card.id) + 1 : session.initialCount;
-  const select = (category:Category|undefined, order:StudyOrder=mode) => dispatch({ type: 'start', fullDeck: true, category, mode: order, now: new Date().toISOString() });
+  const select = (category:Category|undefined, order:StudyOrder=mode, withKnown=includeKnown) => dispatch({ type: 'start', fullDeck: true, category, mode: order, includeKnown: withKnown, now: new Date().toISOString() });
   return <div className="page review-page single-study">
     <h1 className="sr-only">Series 65 flashcards</h1>
     <div className="study-controls"><label htmlFor="review-area">Subject</label><select id="review-area" value={session.category ?? 'all'} disabled={busy} onChange={event => void select(event.target.value === 'all' ? undefined : event.target.value as Category)}>
       <option value="all">All subjects</option>
       {(Object.keys(categories) as Category[]).map(category => <option key={category} value={category}>{categories[category].title}</option>)}
     </select></div>
-    {card ? <ReviewCard key={`${session.id}:${session.ratings}:${card.id}`} card={card} position={position} total={session.initialCount}/> : <div className="study-stage"><section className="flashcard deck-finished"><h2>{session.initialCount ? 'Deck complete.' : 'No active cards.'}</h2><p>{session.initialCount ? 'Your place is saved.' : 'Choose another subject or resume cards in Browse.'}</p>{session.initialCount > 0 && <button className="button primary" disabled={busy} onClick={() => void select(session.category)}>Review again</button>}</section></div>}
+    {card ? <ReviewCard key={`${session.id}:${session.ratings}:${card.id}`} card={card} position={position} total={session.initialCount}/> : <div className="study-stage"><section className="flashcard deck-finished"><h2>{session.initialCount ? 'Deck complete.' : 'No active cards.'}</h2><p>{session.initialCount ? 'Your place is saved.' : known ? 'Every card here is marked known.' : 'Choose another subject or resume cards in Browse.'}</p>{session.initialCount > 0 && <button className="button primary" disabled={busy} onClick={() => void select(session.category)}>Review again</button>}{!session.initialCount && known > 0 && <button className="button primary" disabled={busy} onClick={() => void select(session.category, mode, true)}>Include known cards</button>}</section></div>}
     <div className="study-order" role="group" aria-label="Card order"><button type="button" aria-pressed={mode === 'random'} disabled={busy} onClick={() => { if (mode !== 'random') void select(session.category, 'random'); }}>Shuffle</button><button type="button" aria-pressed={mode === 'scheduled'} disabled={busy} onClick={() => { if (mode !== 'scheduled') void select(session.category, 'scheduled'); }}>Sequential</button></div>
+    {known > 0 && <button type="button" className="known-toggle" aria-pressed={includeKnown} disabled={busy} onClick={() => void select(session.category, mode, !includeKnown)}>{includeKnown ? `Including ${known} known` : `${known} known hidden`}</button>}
     {card && <details className="study-extras" key={card.id}><summary>Card details</summary><div className="study-extra-content"><p>Section {card.section} · {card.sectionTitle}</p><p className="micro muted">{card.type} · {card.reviewStatus}{card.retest ? ' · Retest' : ''}</p><AnswerDetails card={card}/><CardActions card={card}/></div></details>}
   </div>;
 }
@@ -66,6 +70,7 @@ function ReviewCard({ card, position, total }: { card:Card; position:number; tot
     await dispatch({ type: 'advance', cardId: card.id, sessionId: session.id, expectedRatings: session.ratings });
   }, [busy, dispatch, card.id, session.id, session.ratings]);
   const previous = () => dispatch({ type: 'previous', cardId: card.id, sessionId: session.id, expectedRatings: session.ratings });
+  const mark = (type:'again'|'known') => dispatch({ type, cardId: card.id, sessionId: session.id, expectedRatings: session.ratings, now: new Date().toISOString() });
   useEffect(() => { window.scrollTo(0, 0); }, [card.id]);
   useEffect(() => {
     const handler = (event:KeyboardEvent) => {
@@ -91,5 +96,7 @@ function ReviewCard({ card, position, total }: { card:Card; position:number; tot
     <button className="card-arrow next" aria-label="Skip to next card" disabled={busy} onClick={() => void advance()}><ChevronRight aria-hidden="true"/></button>
     <p className="card-position" aria-live="polite" aria-atomic="true">{position} of {total}</p>
     <span className="sr-only" role="status">{revealed ? 'Answer revealed. Tap again for the next card.' : 'Question ready.'}</span>
-  </section></div>;
+  </section>
+  <div className={`mark-row${revealed ? ' show' : ''}`} aria-hidden={!revealed}><button type="button" tabIndex={revealed ? 0 : -1} disabled={busy || !revealed} onClick={() => void mark('again')}>Again</button><button type="button" tabIndex={revealed ? 0 : -1} disabled={busy || !revealed} onClick={() => void mark('known')}>Got it</button></div>
+  </div>;
 }

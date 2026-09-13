@@ -2,6 +2,24 @@
 
 The owner authorized public GitHub and a hosted study preview for phone access. The preview deliberately retains `noindex, nofollow` pending commercial review. Hosted canonicals use `https://chiragmirani.github.io/series65-flashcards-app/`. A project-level robots file does not govern the shared origin; page metadata supplies the indexing restriction. Noindex and robots are crawler instructions, not access control.
 
+## Indexing switch
+
+Indexing is off unless the build sets both `PUBLIC_SITE_URL` (real HTTPS origin) and `PUBLIC_INDEXING=true`. With the
+switch on, pages emit `index, follow`, `robots.txt` allows crawling (except Progress and Settings) and points to the
+sitemap. With it off, every page stays `noindex` and `robots.txt` disallows all. Plan: keep it off; the web preview is
+retired when the iOS app ships, and topic pages move to the marketing site described in
+[app-store-optimization.md](app-store-optimization.md).
+
+## Topic pages (answer-engine content)
+
+- `/topics/` lists 27 topics; `/topics/section-N-…/` renders every card in that section as static HTML: question as
+  `h2`, direct answer, common trap, and official source links.
+- Each topic page carries `Quiz` JSON-LD (`hasPart` Question / acceptedAnswer, matching visible text) and a
+  `BreadcrumbList`. The index carries `CollectionPage` JSON-LD.
+- Sitemap includes the home page, the topic index, all topic pages, About, and FAQ.
+- `public/llms.txt` summarizes the site and links the topics for AI crawlers.
+- Footer links Topics from every page for internal linking.
+
 ## Implemented
 
 - Server-rendered About and FAQ pages: direct definitions, concrete feature explanations, limitations, local-storage behavior, and independent-provider disclaimer.

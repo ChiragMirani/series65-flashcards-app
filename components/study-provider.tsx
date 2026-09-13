@@ -57,6 +57,7 @@ export function StudyProvider({children}:{children:ReactNode}){
       else if(command.type==='settings')setNotice('Settings saved.');
       else if(command.type==='import')setNotice('Progress imported.');
       else if(command.type==='reset')setNotice('Progress reset.');
+      else if(command.type==='reset-known')setNotice('Known cards cleared. They will return in new shuffles.');
       return true;
     }catch(e){setError(e instanceof Error?e.message:'The change could not be saved. Try again.');try{setData(await repo.current.read());}catch{}return false;}
     finally{lock.current=false;setBusy(false);}

@@ -3,6 +3,8 @@ import { publicPath } from './paths';
 export const disclaimer='Independent educational study aid. Not affiliated with or endorsed by NASAA, FINRA, Kaplan, or any examination provider. Passing results are not guaranteed.';
 const raw=process.env.PUBLIC_SITE_URL?.trim();
 export const siteOrigin=raw ? new URL(raw).origin : undefined;
+/** Search indexing is opt-in: set PUBLIC_INDEXING=true with a real PUBLIC_SITE_URL. */
+export const indexable=process.env.PUBLIC_INDEXING==='true' && !!siteOrigin;
 if(raw && (!raw.startsWith('https://') || new URL(raw).pathname!=='/'))throw new Error('PUBLIC_SITE_URL must be a real HTTPS origin without a path.');
 export function pageMetadata(title:string,description:string,route:string):Metadata{return {title,description,alternates:siteOrigin?{canonical:new URL(publicPath(route),siteOrigin).href}:undefined,openGraph:{title:`${title} | Series 65 Review`,description,type:'website',siteName:'Series 65 Review',...(siteOrigin?{url:new URL(publicPath(route),siteOrigin).href}:{})},twitter:{card:'summary',title:`${title} | Series 65 Review`,description}};}
 export const faqItems=[

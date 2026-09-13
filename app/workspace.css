@@ -47,3 +47,11 @@ body{padding-bottom:0}
 .study-extra-content>.micro{margin-top:6px}.study-extra-content .card-actions{margin-top:18px}
 .deck-finished{text-align:center;width:100%;padding:48px 24px}.deck-finished p{margin:18px 0;color:var(--muted)}
 @media(max-width:600px){.study-face{min-height:340px;padding:44px 40px 70px}.study-face .study-question{font-size:1.27rem;line-height:1.5}.study-face .answer-text{font-size:1.02rem}.study-stage{padding:26px 0}.single-study{padding-top:8px}.share-link{right:14px}}
+.mark-row{display:flex;justify-content:center;gap:28px;margin-top:6px;visibility:hidden}
+.mark-row.show{visibility:visible}
+.mark-row button,.known-toggle{min-height:44px;border:0;background:none;color:var(--muted);font-size:.8rem;font-weight:600;padding:0 6px}
+.mark-row button:hover,.known-toggle:hover{color:var(--text)}
+.known-toggle{align-self:center;margin:-2px auto 4px;text-decoration:underline;text-underline-offset:3px}
+.topic-list{padding-left:1.4em;line-height:2}.topic-list a{font-weight:600}
+.topic-pager{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:32px}.topic-pager a{min-height:44px;display:inline-flex;align-items:center}
+.faq-item .micro a{display:block;margin-top:4px;word-break:break-word}

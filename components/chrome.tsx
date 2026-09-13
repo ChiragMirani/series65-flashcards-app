@@ -21,5 +21,5 @@ export function Header() {
 }
 export function Footer() {
   const { offlineReady } = useStudy();
-  return <footer className="site-footer"><nav aria-label="Study tools"><Link href="/">Study</Link><Link href="/browse/">Browse</Link><Link href="/progress/">Progress</Link><Link href="/settings/">Settings</Link><Link href="/about/">About</Link><Link href="/faq/">FAQ</Link></nav><p className="offline-note">{offlineReady ? 'Available offline on this device' : 'Progress stays on this device'}</p><p>{disclaimer}</p></footer>;
+  return <footer className="site-footer"><nav aria-label="Study tools"><Link href="/">Study</Link><Link href="/browse/">Browse</Link><Link href="/topics/">Topics</Link><Link href="/progress/">Progress</Link><Link href="/settings/">Settings</Link><Link href="/about/">About</Link><Link href="/faq/">FAQ</Link></nav><p className="offline-note">{offlineReady ? 'Available offline on this device' : 'Progress stays on this device'}</p><p>{disclaimer}</p></footer>;
 }

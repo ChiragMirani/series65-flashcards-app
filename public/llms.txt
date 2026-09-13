@@ -1,0 +1,13 @@
+# Series 65 Flashcards
+
+> Free study flashcards for the Series 65 Uniform Investment Adviser Law Exam. 1,003 questions with answers, common trap answers, worked calculations, and links to official SEC, NASAA, FINRA, and IRS sources. Independent study aid; not affiliated with NASAA or FINRA. Content is draft pending expert review.
+
+## Topics
+
+- [All topics](topics/): Questions and answers grouped into 27 topics across the four exam sections: laws and ethics, client recommendations, investment vehicles, and economics.
+
+## App
+
+- [Study](./): Tap-through flashcards that work offline. Mark cards "Again" to repeat or "Got it" to skip in later shuffles.
+- [About](about/): What the deck covers and how it was built.
+- [FAQ](faq/): Offline use, progress storage, and content limits.

@@ -3,15 +3,20 @@ import { emptySnapshot } from './model';
 import { freshState, isDue, schedule, utcDay } from './scheduler';
 import { shuffled } from './shuffle';
 export type Command =
-  | {type:'start'; now:string; section?:number; retestOnly?:boolean; mode?:'random'|'scheduled'; category?:Category; fullDeck?:boolean; resume?:boolean}
+  | {type:'start'; now:string; section?:number; retestOnly?:boolean; mode?:'random'|'scheduled'; category?:Category; fullDeck?:boolean; resume?:boolean; includeKnown?:boolean}
   | {type:'rate'; cardId:string; rating:Rating; now:string; sessionId:string; expectedRatings?:number}
   | {type:'advance'; cardId:string; sessionId:string; expectedRatings:number}
   | {type:'previous'; cardId:string; sessionId:string; expectedRatings:number}
+  | {type:'again'; cardId:string; sessionId:string; expectedRatings:number; now:string}
+  | {type:'known'; cardId:string; sessionId:string; expectedRatings:number; now:string}
+  | {type:'reset-known'}
   | {type:'flag'; cardId:string; flag:'bookmarked'|'suspended'; value:boolean; now:string}
   | {type:'settings'; settings:Settings}
   | {type:'issue'; cardId:string; text:string; now:string}
   | {type:'reset'; scope:'deck'|'all'}
   | {type:'import'; data:Snapshot};
+/** How many cards later an "Again" card returns within the current round. */
+export const AGAIN_GAP = 4;
 export function makeSession(cards: Card[], state: Snapshot, now: Date, section?:number, retestOnly=false, mode:'scheduled'|'random'='scheduled', category?:Category): Session {
   const today = state.events.filter(e=>utcDay(e.at)===utcDay(now));
   const newUsed = new Set(today.filter(e=>e.wasNew).map(e=>e.cardId)).size;
@@ -27,17 +32,22 @@ export function makeSession(cards: Card[], state: Snapshot, now: Date, section?:
   const queue=(mode==='random'?shuffled(candidates,seed+2):candidates).slice(0,state.settings.sessionLength).map(c=>c.id);
   return {id:now.toISOString(), mode, ...(category?{category}:{}), startedAt:now.toISOString(), queue, completed:[], initialCount:queue.length, ratings:0};
 }
-export function makeFullDeckSession(cards:Card[], state:Snapshot, now:Date, category?:Category, mode:'random'|'scheduled'=category?'scheduled':'random'):Session {
-  const available=cards.filter(c=>(!category||c.category===category)&&!state.states[c.id]?.suspended);
+export function makeFullDeckSession(cards:Card[], state:Snapshot, now:Date, category?:Category, mode:'random'|'scheduled'=category?'scheduled':'random', includeKnown=false):Session {
+  const available=cards.filter(c=>(!category||c.category===category)&&!state.states[c.id]?.suspended&&(includeKnown||!state.states[c.id]?.known));
   const selected=mode==='random'?shuffled(available,(now.getTime()^state.revision)>>>0):available;
   const order=selected.map(c=>c.id);
-  return {id:`${now.toISOString()}:${state.revision}`,scope:'full-deck',mode,...(category?{category}:{}),order,queue:[...order],completed:[],initialCount:order.length,ratings:0,startedAt:now.toISOString()};
+  return {id:`${now.toISOString()}:${state.revision}`,scope:'full-deck',mode,...(category?{category}:{}),...(includeKnown?{includeKnown}:{}),order,queue:[...order],completed:[],initialCount:order.length,ratings:0,startedAt:now.toISOString()};
 }
+/** Known cards within a subject (or the whole deck), excluding suspended cards. */
+export const knownCount = (cards:Card[], state:Snapshot, category?:Category) => cards.filter(c=>(!category||c.category===category)&&state.states[c.id]?.known&&!state.states[c.id]?.suspended).length;
 export function reduceSnapshot(state: Snapshot, command: Command, cards: Card[]): Snapshot {
   let next: Snapshot = {...state, states:{...state.states}};
   if(command.type==='reset') next = command.scope==='all' ? emptySnapshot() : {...state,states:{},events:[],session:null,issues:[]};
   else if(command.type==='import') next = {...command.data,states:{...command.data.states}};
   else if(command.type==='settings') next.settings = command.settings;
+  else if(command.type==='reset-known') {
+    for(const [id,value] of Object.entries(state.states)) if(value.known) next.states[id]={...value,known:false};
+  }
   else if(command.type==='start') {
     if(command.fullDeck) {
       if(command.resume&&state.session?.scope==='full-deck') {
@@ -46,14 +56,14 @@ export function reduceSnapshot(state: Snapshot, command: Command, cards: Card[])
         const session={...state.session,order:state.session.order!.filter(id=>known.has(id)),queue:state.session.queue.filter(id=>known.has(id)),completed:state.session.completed.filter(id=>known.has(id))};
         const removed=session.order.length!==state.session.order!.length;
         const saved=new Set(session.order);
-        const eligible=makeFullDeckSession(cards,state,new Date(command.now),session.category,session.mode);
+        const eligible=makeFullDeckSession(cards,state,new Date(command.now),session.category,session.mode,session.includeKnown);
         const added=eligible.order!.filter(id=>!saved.has(id));
         if(!added.length&&!removed) return state;
         // A content update must not move the current card or erase completed work.
         // Append newly available cards once, within the saved subject and mode.
         const order=[...session.order,...added];
         next.session={...session,order,queue:[...session.queue,...added],initialCount:order.length};
-      } else next.session=makeFullDeckSession(cards,state,new Date(command.now),command.category,command.mode);
+      } else next.session=makeFullDeckSession(cards,state,new Date(command.now),command.category,command.mode,command.includeKnown);
     } else {
       if(state.session?.queue.length && !command.section && !command.retestOnly && !command.category && command.mode!=='random') return state;
       next.session = makeSession(cards, state, new Date(command.now),command.section,command.retestOnly,command.mode,command.category);
@@ -70,12 +80,23 @@ export function reduceSnapshot(state: Snapshot, command: Command, cards: Card[])
         } else next.session={...state.session,queue:state.session.queue.filter(id=>id!==command.cardId),completed:[...new Set([...state.session.completed,command.cardId])]};
       }
     }
-    if(command.type==='rate'||command.type==='advance'||command.type==='previous') {
+    if(command.type==='rate'||command.type==='advance'||command.type==='previous'||command.type==='again'||command.type==='known') {
       if(!state.session || state.session.id!==command.sessionId || state.session.queue[0]!==command.cardId || (command.expectedRatings!==undefined && state.session.ratings!==command.expectedRatings)) throw new Error('This session changed in another tab. Reloaded the latest progress.');
     }
     if(command.type==='advance') {
       // Navigation is not a recall rating: preserve schedules and accuracy data.
       next.session={...state.session!,queue:state.session!.queue.slice(1),completed:[...new Set([...state.session!.completed,command.cardId])]};
+    }
+    if(command.type==='again'||command.type==='known') {
+      // Self-marking changes which cards return; it never alters recall schedules or rating events.
+      const session=state.session!;
+      const current=state.states[command.cardId] || freshState(command.cardId,new Date(command.now));
+      next.states[command.cardId]={...current,known:command.type==='known'};
+      const queue=session.queue.slice(1);
+      if(command.type==='again') {
+        queue.splice(Math.min(AGAIN_GAP,queue.length),0,command.cardId);
+        next.session={...session,queue,completed:session.completed.filter(id=>id!==command.cardId)};
+      } else next.session={...session,queue,completed:[...new Set([...session.completed,command.cardId])]};
     }
     if(command.type==='previous') {
       const session=state.session!;
