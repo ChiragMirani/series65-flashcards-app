@@ -37,6 +37,8 @@ export type Settings = z.infer<typeof settingsSchema>;
 export const eventSchema = z.object({ id: z.string().max(200), cardId: safeId, at: iso, rating: ratingSchema, wasNew: z.boolean() });
 export type ReviewEvent = z.infer<typeof eventSchema>;
 export const sessionSchema = z.object({
+  mode: z.enum(['scheduled','random']).optional(), // Older saved sessions omit this field.
+  category: z.enum(['laws','recommendations','vehicles','economics']).optional(),
   id: z.string().max(200), startedAt: iso, queue: z.array(safeId).max(1000), completed: z.array(safeId).max(1000),
   initialCount: z.number().int().nonnegative().max(200), ratings: z.number().int().nonnegative(),
 });

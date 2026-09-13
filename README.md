@@ -4,6 +4,8 @@ A mobile-first final-review prototype in VocabDeck's visual style: white rounded
 
 **Open on your phone:** [Series 65 Review](https://chiragmirani.github.io/series65-flashcards-app/). The owner authorized this public study preview. You can add it to your phone's home screen and study offline after the initial download.
 
+At the top of **Study**, use the **Review area** dropdown to choose **Random** or one of the four study areas, then tap **Start review**. Random mixes eligible due and new cards across sections. Area reviews focus on the selected category. Both keep daily limits and save ratings; **Continue review** resumes the same card order.
+
 **Commercial release is blocked.** Every card is a draft pending a human accuracy review and copyright/provenance audit. See [COMMERCIAL_RELEASE_BLOCKED.md](COMMERCIAL_RELEASE_BLOCKED.md). Public preview access and passing technical tests do not constitute commercial release approval.
 
 ## Setup and running
@@ -28,7 +30,7 @@ Project path: `C:\Users\chira\Desktop\sports\datascience\series65-flashcards-app
 
 ## Product and architecture
 
-The app includes dashboard, review, browse, progress, settings, About, and FAQ routes. Dashboard metrics include due/new counts, streak, category mastery, weak sections, retest focus, and Continue session. Review includes four ratings, same-session relearning, bookmarks, suspend/resume, local issue reports, and expandable explanations. Browse supports every requested filter. Settings include daily limits, themes, motion preference, JSON export/import, and confirmed resets.
+The app includes dashboard, review, browse, progress, settings, About, and FAQ routes. Study is a minimal area/random selector with a single Start review or Continue review action. Due/new counts, streak, category mastery, weakest sections, and retest counts live on Progress. Review includes four ratings, same-session relearning, bookmarks, suspend/resume, local issue reports, and expandable explanations. Browse supports every requested filter. Settings include daily limits, themes, motion preference, JSON export/import, and confirmed resets.
 
 | Module | Responsibility |
 |---|---|
@@ -78,7 +80,7 @@ Tests exercise scheduling/lapses, daily limits, UTC/DST consistency, duplicate/s
 
 GitHub Actions verifies the root-hosted app, then builds and tests the GitHub Pages version before deploying `out/`. The Pages build sets `PUBLIC_SITE_URL=https://chiragmirani.github.io` and `NEXT_PUBLIC_BASE_PATH=/series65-flashcards-app`. Navigation, canonical URLs, icons, the manifest, worker scope, and cache URLs all include that prefix. Cache cleanup is isolated by app path. No hosting secrets or payment account are needed.
 
-To reproduce the hosted build locally in PowerShell, set those two environment variables, run `npm run build`, then `npm run test:pages`. The three deployment tests use port 3067 and check phone navigation, refresh, install metadata, and offline persistence. Set `PAGES_TEST_ORIGIN=https://chiragmirani.github.io` to run the same checks against the deployed site. Clear the build variables before rebuilding the ordinary localhost preview.
+To reproduce the hosted build locally in PowerShell, set those two environment variables, run `npm run build`, then `npm run test:pages`. The four deployment tests use port 3067 and check phone navigation, refresh, install metadata, and offline persistence. Set `PAGES_TEST_ORIGIN=https://chiragmirani.github.io` to run the same checks against the deployed site. Clear the build variables before rebuilding the ordinary localhost preview.
 
 `npm run build` emits `out/`, including all route `.txt` navigation payloads, chunks, icons, and `sw.js`. Other HTTPS hosts may serve it at an origin root with an empty base path or at the configured prefix. Serve route `index.html` files and use JavaScript MIME plus `Cache-Control: no-cache` for `sw.js` when configurable. `scripts/serve.mjs` demonstrates routing. Do not deploy server intermediates or original study files.
 

@@ -7,7 +7,7 @@ Verified on September 13, 2026 with Node.js, production Next.js static output, a
 | Reproducible content check | Passed; 311 rule objectives, 628 draft cards, all 27 numbered sections |
 | ESLint | Passed without warnings |
 | Strict TypeScript | Passed; route types generated before checking |
-| Vitest | 17 tests passed |
+| Vitest | 21 tests passed |
 | Production build | Passed; 12 static pages and 80 precached URLs |
 | Playwright | All 7 end-to-end tests passed; no failed tests |
 | Automated accessibility | No axe WCAG 2 A/AA or WCAG 2.1 AA violations in tested routes/states |
@@ -45,3 +45,7 @@ GitHub Actions repeats lint, types, unit tests, production build, and browser te
 The owner requested public GitHub and phone access on September 13. GitHub Pages uses `/series65-flashcards-app` as its base path. Three additional deployment tests passed locally against that exact path: phone navigation and direct refresh; canonical/manifest/favicon/Apple icon URLs; and first-load offline caching with saved review state. The deployment workflow repeats these tests before publishing. The optional `PAGES_TEST_ORIGIN` setting runs the same suite against the real HTTPS host.
 
 The site retains draft labels, noindex metadata, and the commercial-release audit requirements. Public preview access is separately authorized and does not promote card review status.
+
+## Simple review selector
+
+The Study dashboard now uses one top-level dropdown: Random or one of the four categories, followed by a single Start review / Continue review button. Dashboard summary tiles, retest-start controls, study-area cards, and section lists were removed from Study. Their metrics are available on Progress. Four additional engine tests cover shuffled pool selection before trimming, reproducibility, daily limits and exclusions, category isolation, saved-review preservation, and backward-compatible session data. The phone screenshot was inspected with the selector and start button visible above the bottom navigation. The deployment suite now also exercises selecting Random, continuing the same card, switching to Economics & business, and retaining that selection after refresh.

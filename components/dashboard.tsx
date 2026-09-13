@@ -1,22 +1,37 @@
-'use client';
+﻿'use client';
+import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
-import { ArrowRight,Flame,RotateCcw,Check } from 'lucide-react';
 import { useStudy } from './study-provider';
-import { deck,sections } from '@/lib/deck';
 import { categories, type Category } from '@/lib/model';
-import { statistics,currentStreak } from '@/lib/metrics';
-export function Dashboard(){
-  const {data,now,busy,dispatch}=useStudy();const router=useRouter();
-  if(!data)return <div className="page loading" role="status"><h1>Your next study session.</h1><p>Opening your local progress…</p></div>;
-  const stats=statistics(deck,data,now);const retest=statistics(deck.filter(c=>c.retest),data,now);
-  const weak=sections.map(s=>({...s,...statistics(deck.filter(c=>c.section===s.number),data,now)})).filter(s=>s.reviews>0).sort((a,b)=>(a.accuracy??100)-(b.accuracy??100)||b.lapses-a.lapses).slice(0,4);
-  const start=async(retestOnly=false,section?:number)=>{if(await dispatch({type:'start',now:new Date().toISOString(),retestOnly,section}))router.push('/review/');};
-  return <div className="page dashboard"><div className="page-heading"><div><p className="eyebrow">A LITTLE PRACTICE, EVERY DAY</p><h1>Keep the rules clear.</h1><p className="muted">Your focused Series 65 review, one card at a time.</p></div><span className="streak-chip"><Flame aria-hidden="true"/>{currentStreak(data,now)} day streak</span></div>
-    <div className="study-overview"><section className="today-card" aria-labelledby="today-title"><div className="row"><span className="eyebrow" id="today-title">YOUR NEXT SESSION</span><span className="badge blue">Spaced repetition</span></div><div className="due-count">{stats.due}<span>cards due today</span></div><p className="muted">{stats.new} new cards ready when you are.</p><button className="button primary large" disabled={busy} onClick={()=>void start()}>{data.session?.queue.length?'Continue session':'Start a session'}<ArrowRight aria-hidden="true"/></button><p className="micro">Up to {data.settings.sessionLength} cards · {data.settings.dailyNew} new cards per day</p></section>
-    <aside className="session-side"><div className="mini-stat"><span className="icon-wrap"><Check aria-hidden="true"/></span><div><strong>{stats.mature}<span> / {deck.length}</span></strong><p>Mature cards</p><small>Review interval of 21+ days</small></div></div><div className="retest-card"><div className="row"><RotateCcw aria-hidden="true"/><span className="eyebrow">RETEST FOCUS</span></div><h2>{retest.due} due <span>· {retest.new} new</span></h2><p>Practice the distinctions most likely to need another pass.</p><button className="text-button" disabled={busy} onClick={()=>void start(true)}>Review retest cards<ArrowRight aria-hidden="true"/></button></div></aside></div>
-    <section className="section-block"><div className="section-heading"><h2>Your four study areas</h2><Link href="/progress/">View progress<ArrowRight aria-hidden="true"/></Link></div><div className="category-grid">{(Object.keys(categories) as Category[]).map((key,i)=>{const category=categories[key];const s=statistics(deck.filter(c=>c.category===key),data,now);return <Link href={`/browse/?category=${key}`} className={`category-card category-${key}`} key={key}><div className="row"><span className="category-number">0{i+1}</span><span className="muted">{category.weight}% of exam</span></div><h3>{category.title}</h3><div className="meter" role="progressbar" aria-label={`${category.title} mature cards`} aria-valuenow={s.mastery} aria-valuemin={0} aria-valuemax={100}><span style={{width:`${s.mastery}%`}}/></div><div className="row micro"><span>{s.mature} of {s.total} mature</span><strong>{s.mastery}%</strong></div></Link>;})}</div></section>
-    <section className="section-block"><div className="section-heading"><h2>{weak.length?'Worth another look':'Build your baseline'}</h2><span className="muted">{weak.length?'Your weakest reviewed sections':'27 cram-sheet sections'}</span></div><div className="section-list">{weak.length?weak.map(s=><button className="section-row" key={s.number} disabled={busy} onClick={()=>void start(false,s.number)}><span className="section-number">{String(s.number).padStart(2,'0')}</span><span>{s.title}<small>{s.reviews} reviews · {s.accuracy}% recalled</small></span><ArrowRight aria-hidden="true"/></button>):<div className="baseline"><p>Start with a short session. Your missed and difficult cards will guide what comes next.</p><Link href="/browse/" className="button secondary">Explore the deck</Link></div>}</div></section>
-    <p className="draft-note">Content preview · All {deck.length} cards are drafts awaiting human accuracy and provenance review. Study ratings are self-assessments, not an exam score.</p>
+
+export function Dashboard() {
+  const { data, busy, dispatch } = useStudy();
+  const router = useRouter();
+  const [selection, setSelection] = useState<Category | 'random' | null>(null);
+  if (!data) return <div className="page minimal-study" role="status"><h1>Opening your cards…</h1></div>;
+
+  const choice = selection ?? data.session?.category ?? 'random';
+  const canContinue = !!data.session?.queue.length && (data.session.category === choice || (choice === 'random' && data.session.mode === 'random' && !data.session.category));
+  const start = async () => {
+    const timestamp = new Date().toISOString();
+    const command = canContinue ? { type: 'start' as const, now: timestamp }
+      : choice === 'random' ? { type: 'start' as const, now: timestamp, mode: 'random' as const }
+      : { type: 'start' as const, now: timestamp, category: choice };
+    if (await dispatch(command)) router.push('/review/');
+  };
+
+  return <div className="page minimal-study">
+    <section className="study-form" aria-labelledby="study-title">
+      <h1 id="study-title">Let’s review.</h1>
+      <div className="review-choice">
+        <label htmlFor="review-area">Review area</label>
+        <select id="review-area" value={choice} disabled={busy} onChange={event => setSelection(event.target.value as Category | 'random')}>
+          <option value="random">Random</option>
+          {(Object.keys(categories) as Category[]).map(category => <option key={category} value={category}>{categories[category].title}</option>)}
+        </select>
+      </div>
+      <button className="button primary" disabled={busy} onClick={() => void start()}>{canContinue ? 'Continue review' : 'Start review'}</button>
+      <p className="micro muted">Up to {data.settings.sessionLength} cards. Your progress saves automatically.</p>
+    </section>
   </div>;
 }

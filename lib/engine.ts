@@ -1,24 +1,29 @@
-import type { Card, Rating, Settings, Snapshot, Session } from './model';
+import type { Card, Category, Rating, Settings, Snapshot, Session } from './model';
 import { emptySnapshot } from './model';
 import { freshState, isDue, schedule, utcDay } from './scheduler';
+import { shuffled } from './shuffle';
 export type Command =
-  | {type:'start'; now:string; section?:number; retestOnly?:boolean}
+  | {type:'start'; now:string; section?:number; retestOnly?:boolean; mode?:'random'; category?:Category}
   | {type:'rate'; cardId:string; rating:Rating; now:string; sessionId:string; expectedRatings?:number}
   | {type:'flag'; cardId:string; flag:'bookmarked'|'suspended'; value:boolean; now:string}
   | {type:'settings'; settings:Settings}
   | {type:'issue'; cardId:string; text:string; now:string}
   | {type:'reset'; scope:'deck'|'all'}
   | {type:'import'; data:Snapshot};
-export function makeSession(cards: Card[], state: Snapshot, now: Date, section?:number, retestOnly=false): Session {
+export function makeSession(cards: Card[], state: Snapshot, now: Date, section?:number, retestOnly=false, mode:'scheduled'|'random'='scheduled', category?:Category): Session {
   const today = state.events.filter(e=>utcDay(e.at)===utcDay(now));
   const newUsed = new Set(today.filter(e=>e.wasNew).map(e=>e.cardId)).size;
   const reviewUsed = new Set(today.filter(e=>!e.wasNew).map(e=>e.cardId)).size;
-  const available = cards.filter(c=>(!section || c.section===section) && (!retestOnly || c.retest) && !state.states[c.id]?.suspended);
+  const available = cards.filter(c=>(!section || c.section===section) && (!category || c.category===category) && (!retestOnly || c.retest) && !state.states[c.id]?.suspended);
   const rank = (a:Card,b:Card) => Number(b.retest)-Number(a.retest) || ({high:0,medium:1,low:2}[a.priority]-{high:0,medium:1,low:2}[b.priority]) || a.id.localeCompare(b.id);
   const due = available.filter(c=>isDue(state.states[c.id],now)).sort((a,b)=>Number(state.states[b.id].stage==='learning')-Number(state.states[a.id].stage==='learning') || state.states[b.id].lapses-state.states[a.id].lapses || rank(a,b));
   const fresh = available.filter(c=>!state.states[c.id]?.totalReviews).sort(rank);
-  const queue = [...due.slice(0,Math.max(0,state.settings.dailyReviews-reviewUsed)),...fresh.slice(0,Math.max(0,state.settings.dailyNew-newUsed))].slice(0,state.settings.sessionLength).map(c=>c.id);
-  return {id:now.toISOString(), startedAt:now.toISOString(), queue, completed:[], initialCount:queue.length, ratings:0};
+  const seed=(now.getTime() ^ state.revision) >>> 0;
+  const duePool=mode==='random'?shuffled(due,seed):due;
+  const newPool=mode==='random'?shuffled(fresh,seed+1):fresh;
+  const candidates=[...duePool.slice(0,Math.max(0,state.settings.dailyReviews-reviewUsed)),...newPool.slice(0,Math.max(0,state.settings.dailyNew-newUsed))];
+  const queue=(mode==='random'?shuffled(candidates,seed+2):candidates).slice(0,state.settings.sessionLength).map(c=>c.id);
+  return {id:now.toISOString(), mode, ...(category?{category}:{}), startedAt:now.toISOString(), queue, completed:[], initialCount:queue.length, ratings:0};
 }
 export function reduceSnapshot(state: Snapshot, command: Command, cards: Card[]): Snapshot {
   let next: Snapshot = {...state, states:{...state.states}};
@@ -26,8 +31,8 @@ export function reduceSnapshot(state: Snapshot, command: Command, cards: Card[])
   else if(command.type==='import') next = {...command.data,states:{...command.data.states}};
   else if(command.type==='settings') next.settings = command.settings;
   else if(command.type==='start') {
-    if(state.session?.queue.length && !command.section && !command.retestOnly) return state;
-    next.session = makeSession(cards, state, new Date(command.now),command.section,command.retestOnly);
+    if(state.session?.queue.length && !command.section && !command.retestOnly && !command.category && command.mode!=='random') return state;
+    next.session = makeSession(cards, state, new Date(command.now),command.section,command.retestOnly,command.mode,command.category);
   } else {
     if(!cards.some(c=>c.id===command.cardId)) throw new Error('This card is no longer in the current deck.');
     if(command.type==='issue') next.issues=[...state.issues,{cardId:command.cardId,text:command.text.trim(),at:command.now}];

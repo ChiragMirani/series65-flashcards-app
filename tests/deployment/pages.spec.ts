@@ -1,11 +1,37 @@
 import { test, expect } from '@playwright/test';
 const prefix = '/series65-flashcards-app';
 
+test('one dropdown selects random or an area and Continue keeps the saved card', async ({ page }) => {
+  await page.goto(`${prefix}/`);
+  const selector = page.getByRole('combobox', { name: 'Review area', exact: true });
+  await expect(selector).toHaveValue('random');
+  await expect(selector.locator('option')).toHaveCount(5);
+  await expect(page.getByRole('button', { name: 'Random review', exact: true })).toHaveCount(0);
+  await page.getByRole('button', { name: 'Start review', exact: true }).click();
+  await expect(page.locator('.session-mode')).toHaveText('Random review');
+  const question = await page.locator('.question-button>span').innerText();
+  await page.getByRole('link', { name: 'Save & exit' }).click();
+  await page.getByRole('button', { name: 'Continue review', exact: true }).click();
+  await expect(page.locator('.question-button>span')).toHaveText(question);
+  await page.getByRole('button', { name: 'Reveal answer', exact: true }).click();
+  await page.getByRole('button', { name: /^Good/ }).click();
+  await page.getByRole('link', { name: 'Save & exit' }).click();
+  await selector.selectOption('economics');
+  await page.getByRole('button', { name: 'Start review', exact: true }).click();
+  await expect(page.locator('.session-mode')).toHaveText('Economics & business');
+  const areaQuestion = await page.locator('.question-button>span').innerText();
+  await page.reload();
+  await expect(page.locator('.question-button>span')).toHaveText(areaQuestion);
+  await page.getByRole('link', { name: 'Save & exit' }).click();
+  await expect(selector).toHaveValue('economics');
+  await expect(page.getByRole('button', { name: 'Continue review', exact: true })).toBeVisible();
+});
+
 test('hosted phone navigation and refresh stay inside the project path', async ({ page }) => {
   const failures: string[] = [];
   page.on('pageerror', error => failures.push(error.message));
   await page.goto(`${prefix}/`);
-  await expect(page.getByRole('button', { name: 'Start a session' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Start review' })).toBeVisible();
   await page.getByRole('link', { name: 'Browse', exact: true }).click();
   await expect(page).toHaveURL(new RegExp(`${prefix}/browse/`));
   await expect(page.getByRole('heading', { name: 'Find the rule you need.' })).toBeVisible();
