@@ -1,0 +1,27 @@
+name: Rule change watch
+on:
+  schedule:
+    - cron: '0 14 * * 1' # Mondays
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node scripts/rule-watch.mjs --markdown > rule-checks.md
+      - name: Open or update the rule-check issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if grep -q '^No rule checks due' rule-checks.md; then echo "Nothing due."; exit 0; fi
+          gh label create rule-watch --color FBCA04 --description "Deck facts to re-verify" --force
+          number=$(gh issue list --label rule-watch --state open --json number -q '.[0].number')
+          if [ -n "$number" ]; then gh issue edit "$number" --body-file rule-checks.md
+          else gh issue create --title "Rule checks due" --label rule-watch --body-file rule-checks.md; fi

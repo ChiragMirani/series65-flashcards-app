@@ -4,8 +4,13 @@ on:
     branches: [main]
   pull_request:
   workflow_dispatch:
+  schedule:
+    - cron: '0 13 * * 1' # Mondays: full every-card browser pass
 permissions:
   contents: read
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -22,29 +27,23 @@ jobs:
       - run: npm test
       - run: npm run build
       - run: npx playwright install --with-deps chromium
-      - run: npm run test:e2e
+      # Pushes run the fast browser suite; the every-card continuity pass runs on PRs, weekly, and manual runs.
+      - if: github.event_name == 'push'
+        run: npx playwright test tests/e2e/app.spec.ts tests/e2e/content-update.spec.ts
+      - if: github.event_name != 'push'
+        run: npm run test:e2e
       - uses: actions/upload-artifact@v4
-        if: always()
+        if: failure()
         with:
           name: browser-checks
           path: |
             playwright-report/
             test-results/
   pages:
-    needs: check
-    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    # Builds and tests the hosted variant in parallel with `check`; nothing publishes until both pass.
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    concurrency:
-      group: pages
-      cancel-in-progress: false
     env:
       NEXT_PUBLIC_BASE_PATH: /series65-flashcards-app
       PUBLIC_SITE_URL: https://chiragmirani.github.io
@@ -62,5 +61,21 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
+  deploy:
+    needs: [check, pages]
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v4
