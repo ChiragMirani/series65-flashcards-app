@@ -60,6 +60,9 @@ export function LegacyReviewRedirect() {
   return <Review/>;
 }
 
+// The card keeps one fixed size; longer cards use smaller type so they still fit.
+const textSize = (card:Card) => { const length = card.front.length + card.answer.length; return length > 260 ? ' text-xl' : length > 190 ? ' text-long' : ''; };
+
 function ReviewCard({ card, position, total }: { card:Card; position:number; total:number }) {
   const { data, busy, dispatch } = useStudy();
   const [revealed, setRevealed] = useState(false);
@@ -87,7 +90,7 @@ function ReviewCard({ card, position, total }: { card:Card; position:number; tot
   return <div className="study-stage"><section className="flashcard vocab-card" aria-label="Study card">
     <span className="card-draft">{card.reviewStatus}</span>
     <button className="card-arrow previous" aria-label="Previous card" disabled={busy || position <= 1} onClick={() => void previous()}><ChevronLeft aria-hidden="true"/></button>
-    <button ref={face} className={`study-face ${revealed ? 'answer-button' : 'question-button'}`} disabled={busy} aria-label={revealed ? 'Next card' : 'Reveal answer'} aria-describedby={`prompt-${card.id}${revealed ? ` answer-${card.id}` : ''}`} onClick={() => { if (revealed) void advance(); else setRevealed(true); }} onKeyDown={event => { if (event.repeat && [' ', 'Enter'].includes(event.key)) event.preventDefault(); }}>
+    <button ref={face} className={`study-face ${revealed ? 'answer-button' : 'question-button'}${textSize(card)}`} disabled={busy} aria-label={revealed ? 'Next card' : 'Reveal answer'} aria-describedby={`prompt-${card.id}${revealed ? ` answer-${card.id}` : ''}`} onClick={() => { if (revealed) void advance(); else setRevealed(true); }} onKeyDown={event => { if (event.repeat && [' ', 'Enter'].includes(event.key)) event.preventDefault(); }}>
       <span className="study-question" id={`prompt-${card.id}`}>{card.front}</span>
       <span className={`study-answer-wrap ${revealed ? 'show' : ''}`} aria-hidden={!revealed}><span className="study-answer-clip"><span className="answer-text" id={`answer-${card.id}`}>{card.answer}</span></span></span>
       <small className="study-hint">{revealed ? 'tap for next' : 'tap to reveal'}</small>
