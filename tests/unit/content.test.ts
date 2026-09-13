@@ -42,4 +42,12 @@ describe('question and answer continuity', () => {
   const invalid = { ...deck[0], officialSources: [{...deck[0].officialSources[0],url:'javascript:alert(1)'}] };
   expect(cardSchema.safeParse(invalid).success).toBe(false);
  });
+ it('keeps articles grammatical after expanding abbreviations and preserves form names', () => {
+  for (const card of deck) {
+   expect(card.front+' '+card.answer,card.id).not.toMatch(/\ban (Uniform|Securities)|\ba (individual retirement|investment adviser|Employee Retirement)/i);
+   expect(card.front,card.id).not.toContain('Form Uniform Application');
+  }
+  expect(deck.find(card=>card.id==='s65-01-federal-notice-recall')!.front).toMatch(/^A Securities and Exchange Commission/);
+  expect(deck.find(card=>card.id==='s65-03-adv-one-contrast')!.front).toContain('Form ADV Part 1');
+ });
 });

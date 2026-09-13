@@ -6,7 +6,7 @@ Verified September 13, 2026 on Windows with production Next.js output and Playwr
 |---|---|
 | Content import and reproducibility | Passed: 312 objectives, 632 draft cards, all 27 sections |
 | ESLint and strict TypeScript | Passed |
-| Vitest | 37 tests passed |
+| Vitest | 38 tests passed |
 | Root production build | Passed: 12 static pages, 79 precached URLs |
 | Root browser suite | 8 tests passed, including a complete traversal of all 632 cards |
 | GitHub Pages build | Passed with the real project base path |
@@ -16,7 +16,7 @@ Verified September 13, 2026 on Windows with production Next.js output and Playwr
 
 ## Continuity review
 
-Every original rule, contrast, and application/calculation was read as a question followed by its answer. This is an agent editorial review, not human subject-matter verification. The revision changes 349 existing question/answer pairs, including all 268 original contrast cards. The additional borrowing contrast brings the total to 269. The complete generated pair ledger is in [answer-continuity.md](answer-continuity.md).
+Every original rule, contrast, and application/calculation was read as a question followed by its answer. This is an agent editorial review, not human subject-matter verification. The revision changes 351 existing question/answer pairs, including all 268 original contrast cards. The additional borrowing contrast brings the total to 269. The complete generated pair ledger is in [answer-continuity.md](answer-continuity.md).
 
 Generic trainee claims were replaced with self-contained questions. Answers respond directly before explaining. The gift-gain contrast now says "No. The donor's basis does," with its basis-adjustment assumption. Affiliate resale questions explicitly ask how long to hold restricted shares and distinguish reporting from nonreporting issuers. Form ADV stays readable as a form name rather than expanding into its formal title in the question.
 

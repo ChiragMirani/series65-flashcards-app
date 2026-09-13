@@ -21,9 +21,18 @@ function expandSequence(strings:string[]):string[]{
   // Form ADV is the form's proper identifier, not an acronym to replace inside
   // a sentence. Its formal title remains in the source heading in Card details.
   const seen=new Set<string>();
-  return strings.map(s=>s.replace(/\b(?:S&P 500|RAUM|[A-Z]{2,6})\b/g,ac=>{
-    if(!glossary[ac]||seen.has(ac)) return ac;
-    seen.add(ac); return `${glossary[ac]} (${ac})`;
+  return strings.map(s=>s.replace(/\b(?:(A|An|a|an) )?(S&P 500|RAUM|[A-Z]{2,6})\b/g,(match:string,article:string|undefined,ac:string)=>{
+    if(!glossary[ac]||seen.has(ac)) return match;
+    seen.add(ac);
+    let prefix = '';
+    if (article) {
+      // The expansion changes the spoken first sound: "an SEC" becomes
+      // "a Securities ...", while "a RAUM" becomes "an assets ...".
+      prefix = /^[aeiou]/i.test(glossary[ac]) && !/^uni(form|t)/i.test(glossary[ac]) ? 'an' : 'a';
+      if (article[0] === article[0].toUpperCase()) prefix = prefix[0].toUpperCase() + prefix.slice(1);
+      prefix += ' ';
+    }
+    return `${prefix}${glossary[ac]} (${ac})`;
   }));
 }
 const text={...ruleText,...remainingRules};

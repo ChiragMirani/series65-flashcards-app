@@ -168,7 +168,7 @@
     "category": "laws",
     "priority": "high",
     "type": "recall",
-    "front": "An Securities and Exchange Commission (SEC)-registered advisory firm has no local office. When does its retail client count generally trigger a state filing?",
+    "front": "A Securities and Exchange Commission (SEC)-registered advisory firm has no local office. When does its retail client count generally trigger a state filing?",
     "answer": "At the sixth noninstitutional resident client in 12 months, the firm generally notice-files; it stays SEC-registered.",
     "governingRule": "At the sixth noninstitutional resident client in 12 months, the firm generally notice-files; it stays SEC-registered.",
     "trap": "The sixth client makes the federal firm a state-registered adviser.",
@@ -179,7 +179,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 1 — De minimis and state registration",
-    "contentVersion": "94df5cbf0bd9c566ed9f69791265d2f46829e27bcb99c13f5fbcd8206d4aa39c",
+    "contentVersion": "69725b0b31c63cc060be9d72fe04c45de609386bd0db15c57b0cb923cec8f69d",
     "officialSources": [
       {
         "authority": "NASAA",
@@ -200,7 +200,7 @@
     "category": "laws",
     "priority": "high",
     "type": "contrast",
-    "front": "An Securities and Exchange Commission (SEC)-registered adviser with no local office adds its sixth resident retail client in 12 months. Must the firm switch to state registration?",
+    "front": "A Securities and Exchange Commission (SEC)-registered adviser with no local office adds its sixth resident retail client in 12 months. Must the firm switch to state registration?",
     "answer": "No. It generally makes a state notice filing and remains SEC-registered.",
     "governingRule": "At the sixth noninstitutional resident client in 12 months, the firm generally notice-files; it stays SEC-registered.",
     "trap": "The sixth client makes the federal firm a state-registered adviser.",
@@ -211,7 +211,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 1 — De minimis and state registration",
-    "contentVersion": "8edd3bbfe2d880e102c07419f364ef58979ca4881329bfa8110fd5764bb02e4d",
+    "contentVersion": "e19fdefa8c526d8ebcba17023a36ae3628745ce33fa715a9ff1ca4ae2f1ac626",
     "officialSources": [
       {
         "authority": "NASAA",
@@ -235,7 +235,7 @@
     "front": "What filing does an in-state office generally trigger for a federal covered advisory firm?",
     "answer": "A state notice filing, rather than state adviser registration.",
     "governingRule": "A state notice filing, rather than state adviser registration.",
-    "trap": "An Securities and Exchange Commission (SEC) registration eliminates every state filing.",
+    "trap": "A Securities and Exchange Commission (SEC) registration eliminates every state filing.",
     "explanation": "A state notice filing, rather than state adviser registration.",
     "tags": [
       "federal-office",
@@ -243,7 +243,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 1 — De minimis and state registration",
-    "contentVersion": "49c9d55b3aecf67efe0879bd3d8eb0eefa8e366681b2ef750feded4818aaa6c2",
+    "contentVersion": "469fb4e1a9dcd26a8cfe87d20b05db981356236541d7369afa493c6307062bee",
     "officialSources": [
       {
         "authority": "NASAA",
@@ -362,7 +362,7 @@
     "category": "laws",
     "priority": "high",
     "type": "application",
-    "front": "A representative of an Securities and Exchange Commission (SEC)-registered firm works only in State L and advises nine residents of State M remotely. The representative has no place of business in M. Must the individual register in M on those facts?",
+    "front": "A representative of a Securities and Exchange Commission (SEC)-registered firm works only in State L and advises nine residents of State M remotely. The representative has no place of business in M. Must the individual register in M on those facts?",
     "answer": "No. The individual has no place of business in State M.",
     "governingRule": "The representative registers where the representative has a place of business; client count alone is insufficient.",
     "trap": "The representative must register in every state with six retail clients.",
@@ -374,7 +374,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 1 — De minimis and state registration",
-    "contentVersion": "931939bc3dc7c43ca3bdfd6362ddd58fb74547facfe88da2cbc3c0f0fe2553eb",
+    "contentVersion": "6928155347d4c26bf0a35180e14f8d73fdef2a32056fb8dd3a61ff6b8f6914fa",
     "officialSources": [
       {
         "authority": "NASAA",
@@ -12660,7 +12660,7 @@
     "category": "recommendations",
     "priority": "high",
     "type": "recall",
-    "front": "Who owns an Uniform Gifts to Minors Act (UGMA) or Uniform Transfers to Minors Act (UTMA) gift before the child reaches the age for taking control?",
+    "front": "Who owns a Uniform Gifts to Minors Act (UGMA) or Uniform Transfers to Minors Act (UTMA) gift before the child reaches the age for taking control?",
     "answer": "The named minor owns it immediately. The custodian manages it until the state termination age.",
     "governingRule": "The named minor owns it immediately. The custodian manages it until the state termination age.",
     "trap": "The custodian owns the property until the child becomes an adult.",
@@ -12671,7 +12671,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 14 — College and minor accounts",
-    "contentVersion": "d6d7381bbb5bef7be9c0f8d74462afedfd7f88ebfac13c502bc4d39844f39e6a",
+    "contentVersion": "261aa5edf2128c38900930ee18501514782bdfc14312a47c19a20e9469c379d1",
     "officialSources": [
       {
         "authority": "FINRA",
@@ -12692,7 +12692,7 @@
     "category": "recommendations",
     "priority": "high",
     "type": "contrast",
-    "front": "Does a custodian own an Uniform Transfers to Minors Act (UTMA) account until the child becomes an adult?",
+    "front": "Does a custodian own a Uniform Transfers to Minors Act (UTMA) account until the child becomes an adult?",
     "answer": "No. The named minor owns it immediately; the custodian only manages it until the state termination age.",
     "governingRule": "The named minor owns it immediately. The custodian manages it until the state termination age.",
     "trap": "The custodian owns the property until the child becomes an adult.",
@@ -12703,7 +12703,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 14 — College and minor accounts",
-    "contentVersion": "d8c8798b50821272e13887c141899551741c46515e54e9bf43229966bd569825",
+    "contentVersion": "5424f0078d3720e20c4e934a773c3c6637326ff86ee27b15f4c923c162f94b56",
     "officialSources": [
       {
         "authority": "FINRA",
@@ -12848,7 +12848,7 @@
     "category": "recommendations",
     "priority": "high",
     "type": "recall",
-    "front": "May a custodian reclaim an Uniform Transfers to Minors Act (UTMA) gift or redirect it to a sibling?",
+    "front": "May a custodian reclaim a Uniform Transfers to Minors Act (UTMA) gift or redirect it to a sibling?",
     "answer": "No. The gift is irrevocable: it permanently belongs to the named minor.",
     "governingRule": "No. The gift is irrevocable: it permanently belongs to the named minor.",
     "trap": "Managing the account gives the custodian the right to choose a new beneficiary.",
@@ -12860,7 +12860,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 14 — College and minor accounts",
-    "contentVersion": "34ab764836e48597cb6d2d756ba625acd1c57e8b544e455dc81c7944dd271845",
+    "contentVersion": "82dfcc6d782280ad90c28e9360f7b5a705d16c9ce675d50cd01465421ae2a838",
     "officialSources": [
       {
         "authority": "FINRA",
@@ -12881,7 +12881,7 @@
     "category": "recommendations",
     "priority": "high",
     "type": "contrast",
-    "front": "Can an Uniform Transfers to Minors Act (UTMA) custodian take back a completed gift or move it to a different child?",
+    "front": "Can a Uniform Transfers to Minors Act (UTMA) custodian take back a completed gift or move it to a different child?",
     "answer": "No. The gift is irrevocable: it permanently belongs to the named minor.",
     "governingRule": "No. The gift is irrevocable: it permanently belongs to the named minor.",
     "trap": "Managing the account gives the custodian the right to choose a new beneficiary.",
@@ -12893,7 +12893,7 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 14 — College and minor accounts",
-    "contentVersion": "a245239bcb5890399e24ab1ec4ee9b2f0bdfe5f36c1878eea258ff5d38a6b776",
+    "contentVersion": "e8de7594b2ac295376a9b3d18baf7d21e8da1aed2ad5fd39ef5a7c148fc78d4b",
     "officialSources": [
       {
         "authority": "FINRA",
@@ -14268,14 +14268,14 @@
     "front": "Must a limited liability company always be taxed as a C corporation?",
     "answer": "No. Its tax treatment is flexible and commonly pass-through.",
     "governingRule": "Members generally have limited liability; tax treatment is flexible and commonly pass-through.",
-    "trap": "An limited liability company (LLC) must always be taxed as a C corporation.",
+    "trap": "A limited liability company (LLC) must always be taxed as a C corporation.",
     "explanation": "Members generally have limited liability; tax treatment is flexible and commonly pass-through.",
     "tags": [
       "llc"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 16 — Business entities and direct participation program (DPP) losses",
-    "contentVersion": "46cfe2e679aebd8f7b2b4a37d25bade3aab7bd47ac2a8c7b01669362f6e7a6e6",
+    "contentVersion": "22d3c68029f34ca0ca553012b136c3e07affe00a0e54e1ad3c4fbc3143dd5fbc",
     "officialSources": [
       {
         "authority": "SBA",
