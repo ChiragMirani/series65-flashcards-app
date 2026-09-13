@@ -2,11 +2,12 @@ import { describe, expect, it } from 'vitest';
 import { deck } from '../../lib/deck';
 import { contrastText } from '../../content/contrasts';
 import { cardSchema } from '../../lib/model';
+import { reviewRules } from '../../content/review-expansion';
 
 describe('question and answer continuity', () => {
  it('requires an authored question and answer for every contrast', () => {
   const authored = Object.values(contrastText).flatMap(rows => rows.trim().split('\n'));
-  expect(authored).toHaveLength(deck.filter(card => card.type === 'contrast').length);
+  expect(authored.length+reviewRules.length).toBe(deck.filter(card => card.type === 'contrast').length);
   for (const card of deck) {
    expect(card.front, card.id).toMatch(/\?$/);
    expect(card.front, card.id).not.toMatch(/trainee|makes this claim|what correction is needed|what applies to/i);

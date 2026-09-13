@@ -76,6 +76,17 @@ export const officialSources = {
  blackout: source('SEC', 'Regulation BTR — pension blackout trading restrictions', 'https://www.sec.gov/news/press/2003-6.htm'),
  trust: source('IRS', 'Form 1041 instructions — trust distributable net income', 'https://www.irs.gov/instructions/i1041'),
  outline: source('NASAA', 'Series 65 study guide and topic outline — curriculum scope, not a substantive rule', 'https://www.nasaa.org/wp-content/uploads/2023/09/NASAA-Series-65-Exam-Study-Guide.pdf', 'outline'),
+ tips: source('U.S. Treasury', 'Treasury Inflation-Protected Securities — principal and interest', 'https://www.treasurydirect.gov/marketable-securities/tips/'),
+ duration: source('CFA Institute', 'Yield-Based Bond Duration Measures and Properties', 'https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/yield-based-bond-duration-measures-and-properties', 'reference'),
+ stocks: source('FINRA', 'Stocks — preferred and common liquidation priority', 'https://www.finra.org/investors/investing/investment-products/stocks'),
+ marketCap: source('SEC', 'Market Capitalization — outstanding shares times share price', 'https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization'),
+ etn: source('SEC', 'Exchange Traded Notes — unsecured issuer obligations', 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-50'),
+ etf: source('SEC', 'Exchange-Traded Funds — market prices, structure, and active management', 'https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24'),
+ optionRights: source('OCC / OIC', 'Options Basics — call purchase rights and put sale rights', 'https://www.optionseducation.org/optionsoverview/options-basics', 'reference'),
+ hedges: source('CME Group', 'Put-option price floors compared with short futures hedges', 'https://www.cmegroup.com/education/courses/hedging-with-grain-and-oilseed-futures-and-options/risk-management-for-sellers-of-commoditities/establishing-a-floor-price-by-buying-put-options', 'reference'),
+ durable: source('CFPB', 'Durable power of attorney — incapacity and death; Arizona guide', 'https://www.consumerfinance.gov/documents/6274/cfpb_help-for-agents-under-a-power-of-attorney_arizona.pdf'),
+ qualifiedRule: source('eCFR', '17 CFR 275.205-3 — qualified clients and primary-residence treatment', 'https://www.ecfr.gov/current/title-17/chapter-II/part-275/section-275.205-3', 'rule'),
+ payPlayProposal: source('SEC', 'Proposed rescission of Rule 206(4)-5 — September 3, 2026; not an effective repeal', 'https://www.sec.gov/rules-regulations/2026/09/s7-2026-31', 'reference'),
 } satisfies Record<string, OfficialSource>;
 type SourceId = keyof typeof officialSources;
 const sectionDefaults: Record<number, SourceId> = {1:'usa',2:'usa',3:'usa',4:'adviser',5:'financial',6:'usa',7:'qualified',8:'privateFunds',9:'ethics',10:'rule144',11:'adviser',12:'plans',13:'early',14:'education',15:'investments',16:'businesses',17:'diversification',18:'funds',19:'options',20:'annuityTax',21:'bonds',22:'statements',23:'outline',24:'audit',25:'blackout',26:'ethics',27:'usa'};
@@ -123,6 +134,14 @@ map(23,'range deviation','statistics'); map(23,'mode','mode'); map(23,'leading l
 map(26,'affiliate-reminder gift-reminder','rule144Gifts'); map(26,'agent-reminder issuer-reminder','usa');
 map(26,'audit-reminder','audit'); map(26,'fund-reminder','funds'); map(26,'bond-reminder','bonds'); map(26,'payment-reminder','statements');
 map(27,'dni-components dni-character dni-gains','trust'); map(27,'mass-ad mailing-source','records');
+map(4,'aum-entry-buffer aum-buffer aum-must aum-exit withdraw-clock','adv');
+map(7,'client-residence','qualified','qualifiedRule');
+map(9,'time-price-expiry','discretion'); map(9,'durable-authority','durable'); map(9,'pay-play-status','payPlayProposal');
+map(13,'conversion-clock roth-clock','ira'); map(15,'gift-dual','giftBasis');
+map(18,'traded-fund-price','funds','etf'); map(18,'etf-structure etf-active','etf');
+map(19,'protect-long protect-short','optionRights'); map(19,'futures-hedge hedge-direction','hedges');
+map(21,'tips-coupon','tips'); map(21,'rates-prices','bonds'); map(21,'duration-long-low','duration');
+map(21,'preferred-priority','stocks'); map(21,'etn-credit','etn'); map(22,'market-cap','marketCap');
 
 export function sourcesForRule(section: number, key: string): OfficialSource[] {
  const ids = overrides.get(`${section}:${key}`) ?? [sectionDefaults[section]];

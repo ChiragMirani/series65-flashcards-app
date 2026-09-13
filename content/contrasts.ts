@@ -174,7 +174,7 @@ ira-home|Does the IRA first-home $10,000 penalty exception renew each year?|No. 
 qdro-exception|Does an IRA withdrawal qualify for the employer-plan divorce-order penalty exception merely because a divorce decree directs it?|No. The qualified domestic relations order exception applies to qualified employer plans, not IRAs.
 roth-order|Are earnings treated as the first money withdrawn from a Roth IRA?|No. Withdrawals are ordered as contributions, then conversions, then earnings.
 roth-contributions|Are withdrawals of Roth IRA contributions penalized solely because the owner is under 59½?|No. Contributions can be withdrawn free of income tax and penalty.
-roth-earnings|Does satisfying the five-year Roth period alone make every earnings withdrawal qualified?|No. An additional qualifying condition is needed: age 59½, death, disability, or the qualifying first-home condition.
+roth-earnings|Does satisfying the five-tax-year Roth period alone make every earnings withdrawal qualified?|No. An additional qualifying event is needed: age 59½, death, disability, or a qualifying first-home distribution within its $10,000 lifetime limit.
 rmd-penalty|Is the general excise tax for a missed required minimum distribution still always 50%?|No. The general rate is 25%, reduced to 10% for timely correction under the tested rule.
 rmd-working|Can a traditional IRA owner delay required minimum distributions simply by continuing to work?|No. Continued work does not postpone a traditional IRA's required minimum distributions.
 rmd-employer|Can an employee who owns more than 5% use continued work to postpone current-employer plan required minimum distributions?|No. The more-than-5% owner is excluded from that working-employee deferral.
@@ -255,7 +255,7 @@ policy-loan|Is a policy loan simply a withdrawal of the death benefit with no la
 21: `discount-yields|Is the coupon rate the highest yield measure on the tested discount bond?|No. Yield to maturity is highest, followed by current yield, then coupon rate.
 maturity-spread|Do bonds of different credit ratings but the same maturity isolate a term spread?|No. They isolate a credit spread; a term spread holds credit quality constant and changes maturity.
 credit-spread|Do different maturities alone identify a credit spread?|No. A credit spread compares different credit ratings while holding maturity constant.
-dividend-declare|Does declaring a cash dividend reduce cash immediately, before payment?|No. Declaration reduces equity and creates a dividend payable; cash falls when payment occurs.
+dividend-declare|Does declaring a cash dividend payable within one year leave working capital unchanged until payment?|No. Working capital falls when the current payable is created; equity also falls. Cash changes at payment.
 dividend-pay|Does paying an already-declared cash dividend reduce equity a second time?|No. Payment reduces cash and the dividend payable equally; equity is unchanged.
 dividend-current|Does paying equal amounts of current assets and current liabilities always raise the current ratio?|No. It rises when the starting ratio is above one; at one it stays unchanged, and below one it falls.
 risk-labels|Can inflation risk be eliminated simply by holding more issuers?|No. Purchasing-power risk is systematic and nondiversifiable.

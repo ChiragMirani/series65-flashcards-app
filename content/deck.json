@@ -1539,6 +1539,210 @@
     "reviewStatus": "draft"
   },
   {
+    "id": "s65-01-bd-retail-recall",
+    "ruleId": "s65-01-bd-retail",
+    "deckId": "series65",
+    "section": 1,
+    "sectionTitle": "De minimis and state registration",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "A broker-dealer has no office in a state and solicits one new resident retail client. With no other exclusion, must it register there?",
+    "answer": "Yes. One resident retail client is enough; broker-dealers have no five-client de minimis allowance.",
+    "governingRule": "Yes. One resident retail client is enough; broker-dealers have no five-client de minimis allowance.",
+    "trap": "A broker-dealer can serve five resident retail clients before registering.",
+    "explanation": "The adviser five-client rule does not extend to broker-dealers. Separate exclusions can apply to an out-of-state broker-dealer serving only institutions or an eligible visiting existing customer.",
+    "tags": [
+      "bd-retail",
+      "essential-review",
+      "review-point-4",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 4 — No five-retail-client allowance for broker-dealers",
+    "contentVersion": "80ea88f82f5c80e618e2346c7e070dbc799007c6f69f09308a91a71653c85407",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-01-bd-retail-contrast",
+    "ruleId": "s65-01-bd-retail",
+    "deckId": "series65",
+    "section": 1,
+    "sectionTitle": "De minimis and state registration",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "Can a broker-dealer avoid state registration solely because it serves only four resident retail clients?",
+    "answer": "No. Four is not a broker-dealer exemption; registration is required unless a separate exclusion applies.",
+    "governingRule": "Yes. One resident retail client is enough; broker-dealers have no five-client de minimis allowance.",
+    "trap": "A broker-dealer can serve five resident retail clients before registering.",
+    "explanation": "The adviser five-client rule does not extend to broker-dealers. Separate exclusions can apply to an out-of-state broker-dealer serving only institutions or an eligible visiting existing customer.",
+    "tags": [
+      "bd-retail",
+      "essential-review",
+      "review-point-4",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 4 — No five-retail-client allowance for broker-dealers",
+    "contentVersion": "75e53832480bfdafab7bb3bc7f96a134bcf0c30fec551697713896781577fa08",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-01-issuer-muni-recall",
+    "ruleId": "s65-01-issuer-muni",
+    "deckId": "series65",
+    "section": 1,
+    "sectionTitle": "De minimis and state registration",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Under the 1956 Uniform Securities Act, are a city employee selling city bonds and a broker-dealer salesperson selling those bonds both excluded as agents?",
+    "answer": "No. The issuer representative can be excluded for this municipal sale. The broker-dealer salesperson generally must register as an agent.",
+    "governingRule": "No. The issuer representative can be excluded for this municipal sale. The broker-dealer salesperson generally must register as an agent.",
+    "trap": "The security exemption excludes every salesperson, regardless of whom the person represents.",
+    "explanation": "The issuer-side exclusion for specified exempt securities differs from the broker-dealer agent test. Identify the employer before applying the exclusion.",
+    "tags": [
+      "issuer-muni",
+      "essential-review",
+      "review-point-5",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 5 — Issuer representatives versus broker-dealer agents",
+    "contentVersion": "82e13dbd80044ca87552a9a383d659dfa6bbebbde61fd0ee56c2bb2755bd81fd",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-01-issuer-muni-contrast",
+    "ruleId": "s65-01-issuer-muni",
+    "deckId": "series65",
+    "section": 1,
+    "sectionTitle": "De minimis and state registration",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A broker-dealer salesperson sells only municipal bonds. Does the issuer-representative exclusion remove that salesperson’s agent registration duty?",
+    "answer": "No. The salesperson represents the broker-dealer, not the municipal issuer.",
+    "governingRule": "No. The issuer representative can be excluded for this municipal sale. The broker-dealer salesperson generally must register as an agent.",
+    "trap": "The security exemption excludes every salesperson, regardless of whom the person represents.",
+    "explanation": "The issuer-side exclusion for specified exempt securities differs from the broker-dealer agent test. Identify the employer before applying the exclusion.",
+    "tags": [
+      "issuer-muni",
+      "essential-review",
+      "review-point-5",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 5 — Issuer representatives versus broker-dealer agents",
+    "contentVersion": "3e6c3b18365ba4eb2c732a77bad07343b2b5d84c717f5398555ff2e3f95f9d7b",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-01-issuer-security-scope-recall",
+    "ruleId": "s65-01-issuer-security-scope",
+    "deckId": "series65",
+    "section": 1,
+    "sectionTitle": "De minimis and state registration",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Does every exempt security automatically qualify its issuer’s representative for the exempt-security agent exclusion?",
+    "answer": "No. That exclusion covers specified exempt classes, not every exempt security. Other issuer-side exclusions must be tested separately.",
+    "governingRule": "No. That exclusion covers specified exempt classes, not every exempt security. Other issuer-side exclusions must be tested separately.",
+    "trap": "Any exempt security creates an identical issuer-representative exclusion.",
+    "explanation": "Section 401(b) names section 402(a)(1), (2), (3), (10), and (11), and separately covers specified exempt transactions and covered-security transactions. The existing-employee route has its own compensation condition.",
+    "tags": [
+      "issuer-security-scope",
+      "essential-review",
+      "review-point-5",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 5 — Issuer representatives versus broker-dealer agents",
+    "contentVersion": "aa82a7b57d0b6d0f90eabc645306d437d7fc79d4387a46ece7c752a9ebfa290a",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-01-issuer-security-scope-contrast",
+    "ruleId": "s65-01-issuer-security-scope",
+    "deckId": "series65",
+    "section": 1,
+    "sectionTitle": "De minimis and state registration",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An issuer representative sells a security in a transaction exempt under section 402(b). Must the security itself also be exempt for that issuer-side exclusion?",
+    "answer": "No. A qualifying exempt transaction is a separate issuer-representative exclusion.",
+    "governingRule": "No. That exclusion covers specified exempt classes, not every exempt security. Other issuer-side exclusions must be tested separately.",
+    "trap": "Any exempt security creates an identical issuer-representative exclusion.",
+    "explanation": "Section 401(b) names section 402(a)(1), (2), (3), (10), and (11), and separately covers specified exempt transactions and covered-security transactions. The existing-employee route has its own compensation condition.",
+    "tags": [
+      "issuer-security-scope",
+      "essential-review",
+      "review-point-5",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 5 — Issuer representatives versus broker-dealer agents",
+    "contentVersion": "25cb94afefbd086553a25812ce9a94409fd41ef03f5090f35d5f95bb6d0a2843",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
     "id": "s65-02-state-employment-recall",
     "ruleId": "s65-02-state-employment",
     "deckId": "series65",
@@ -3649,12 +3853,12 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 4 — Registration clocks and federal/state AUM flips",
-    "contentVersion": "b03b49af428ee3165fe6c3aa062558af2bc9fdf4a6a953b1fbd1e85d790e1f9f",
+    "contentVersion": "fb8650895b0bca757a7aaa9086419aba0953531ba8f645adbef7030c93d7c116",
     "officialSources": [
       {
-        "authority": "NASAA",
-        "title": "Investment Adviser Guide — registration, operations, and state requirements",
-        "url": "https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/",
+        "authority": "SEC",
+        "title": "Form ADV general instructions",
+        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
         "kind": "guidance"
       }
     ],
@@ -3680,12 +3884,12 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 4 — Registration clocks and federal/state AUM flips",
-    "contentVersion": "2235cecab3426ae9dc07abb355a09595b70257255dc238fe99b54d6ac7fcd2a0",
+    "contentVersion": "1aed496a8cf4c6c0d747e11242d064272481e6b72da59bf9cf4258f411a5a4fa",
     "officialSources": [
       {
-        "authority": "NASAA",
-        "title": "Investment Adviser Guide — registration, operations, and state requirements",
-        "url": "https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/",
+        "authority": "SEC",
+        "title": "Form ADV general instructions",
+        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
         "kind": "guidance"
       }
     ],
@@ -3711,12 +3915,12 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 4 — Registration clocks and federal/state AUM flips",
-    "contentVersion": "23e4dcdd79586817932c5eee504b9a6b6e5de2d04679df7c9a326e888da39a22",
+    "contentVersion": "2be99bf24a88c8165645c87a0357d68f94b471af66fd880e7ad2d95fafd8a99c",
     "officialSources": [
       {
-        "authority": "NASAA",
-        "title": "Investment Adviser Guide — registration, operations, and state requirements",
-        "url": "https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/",
+        "authority": "SEC",
+        "title": "Form ADV general instructions",
+        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
         "kind": "guidance"
       }
     ],
@@ -3742,12 +3946,12 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 4 — Registration clocks and federal/state AUM flips",
-    "contentVersion": "9b9465f7670efbd91e08e9dd80725b8c38b5f790cb248b1f61a3170bf88eab17",
+    "contentVersion": "181c43b8013c0a73ebf60e1ce1ec4f5172af3413501949dff915d3038d362146",
     "officialSources": [
       {
-        "authority": "NASAA",
-        "title": "Investment Adviser Guide — registration, operations, and state requirements",
-        "url": "https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/",
+        "authority": "SEC",
+        "title": "Form ADV general instructions",
+        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
         "kind": "guidance"
       }
     ],
@@ -3773,12 +3977,43 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 4 — Registration clocks and federal/state AUM flips",
-    "contentVersion": "00028119230395b2f42514c4820b4e22cb11e011d833890e9f33e2972e54ef83",
+    "contentVersion": "663e6d743604aac05fc8453c1f74d1f426c6095fffe25b8166821e17a5bdcc5f",
     "officialSources": [
       {
-        "authority": "NASAA",
-        "title": "Investment Adviser Guide — registration, operations, and state requirements",
-        "url": "https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/",
+        "authority": "SEC",
+        "title": "Form ADV general instructions",
+        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
+        "kind": "guidance"
+      }
+    ],
+    "retest": false,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-04-aum-must-apply",
+    "ruleId": "s65-04-aum-must",
+    "deckId": "series65",
+    "section": 4,
+    "sectionTitle": "Registration clocks and federal/state AUM flips",
+    "category": "laws",
+    "priority": "high",
+    "type": "application",
+    "front": "An ordinary state adviser reports exactly $110 million in regulatory assets under management on its annual update. With no exemption, is Securities and Exchange Commission (SEC) registration optional?",
+    "answer": "No. It must apply for SEC registration within 90 days after filing that update.",
+    "governingRule": "$110 million or more.",
+    "trap": "The mandatory threshold is $100 million.",
+    "explanation": "At $100 million the ordinary election is optional; at $110 million it is generally mandatory.",
+    "tags": [
+      "aum-must"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 4 — Registration clocks and federal/state AUM flips",
+    "contentVersion": "bab7b0129935654c0e4957a1441104085813fd075eb4cb2b507f3ff8e32df669",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Form ADV general instructions",
+        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
         "kind": "guidance"
       }
     ],
@@ -3804,12 +4039,12 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 4 — Registration clocks and federal/state AUM flips",
-    "contentVersion": "8a40e74e659d05bff5f9032c0d53b671d1d231575ff7c1a0695f295ca020362e",
+    "contentVersion": "9a5d39013c1e7f63f8bbe89ca0f7dacf68e3baa79abeac78f14ab8f15183b9f7",
     "officialSources": [
       {
-        "authority": "NASAA",
-        "title": "Investment Adviser Guide — registration, operations, and state requirements",
-        "url": "https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/",
+        "authority": "SEC",
+        "title": "Form ADV general instructions",
+        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
         "kind": "guidance"
       }
     ],
@@ -3835,12 +4070,12 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 4 — Registration clocks and federal/state AUM flips",
-    "contentVersion": "57d792a38cc14207b13d498cd1458c107dd3a00dd7abc60a519121b78718cae6",
+    "contentVersion": "99a795fc5f3d4af0eb7c1964f2691dae0cbb4c513de6b50d61ce719ffcccfa0b",
     "officialSources": [
       {
-        "authority": "NASAA",
-        "title": "Investment Adviser Guide — registration, operations, and state requirements",
-        "url": "https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/",
+        "authority": "SEC",
+        "title": "Form ADV general instructions",
+        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
         "kind": "guidance"
       }
     ],
@@ -3866,12 +4101,12 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 4 — Registration clocks and federal/state AUM flips",
-    "contentVersion": "4f93b89f830da8d328302c5bccd6beab50f2995e1ed7de00302f2e59aeeb2f3e",
+    "contentVersion": "878b351fc78eb145c0f65862e6cd2c61095039cdb73cf5a607c90dda859dcf19",
     "officialSources": [
       {
-        "authority": "NASAA",
-        "title": "Investment Adviser Guide — registration, operations, and state requirements",
-        "url": "https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/",
+        "authority": "SEC",
+        "title": "Form ADV general instructions",
+        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
         "kind": "guidance"
       }
     ],
@@ -3959,12 +4194,12 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 4 — Registration clocks and federal/state AUM flips",
-    "contentVersion": "57920f9df8969caa041aa34455514c6cd194507e13a2732d024a3256d42c264b",
+    "contentVersion": "da9aaa3de4c8283fae2efc08725b32065e633b7b0d111ab71f8eb1752562a9f4",
     "officialSources": [
       {
-        "authority": "NASAA",
-        "title": "Investment Adviser Guide — registration, operations, and state requirements",
-        "url": "https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/",
+        "authority": "SEC",
+        "title": "Form ADV general instructions",
+        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
         "kind": "guidance"
       }
     ],
@@ -3990,16 +4225,84 @@
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 4 — Registration clocks and federal/state AUM flips",
-    "contentVersion": "96634db8484b6b696e47d5cfedbe1c8730006c8072879089fca8dd26eba90228",
+    "contentVersion": "0bab664f2723a734d3a94cad485d81a02c32e6d369f0d1d7e1bd8072ffef7a68",
     "officialSources": [
       {
-        "authority": "NASAA",
-        "title": "Investment Adviser Guide — registration, operations, and state requirements",
-        "url": "https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/",
+        "authority": "SEC",
+        "title": "Form ADV general instructions",
+        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
         "kind": "guidance"
       }
     ],
     "retest": false,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-04-aum-entry-buffer-recall",
+    "ruleId": "s65-04-aum-entry-buffer",
+    "deckId": "series65",
+    "section": 4,
+    "sectionTitle": "Registration clocks and federal/state AUM flips",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "At $95 million in regulatory assets under management, can a new federal applicant and an existing Securities and Exchange Commission (SEC) adviser both use the ordinary assets under management (AUM) eligibility route?",
+    "answer": "No. The existing adviser may generally remain; the new applicant needs at least $100 million to elect this route.",
+    "governingRule": "No. The existing adviser may generally remain; the new applicant needs at least $100 million to elect this route.",
+    "trap": "The $90 million retention threshold also permits a new SEC application.",
+    "explanation": "Assume no other federal eligibility basis or exemption. Entry may begin at $100 million, generally becomes mandatory at $110 million, and retention generally ends below $90 million.",
+    "tags": [
+      "aum-entry-buffer",
+      "essential-review",
+      "review-point-6",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 6 — Adviser registration: $100M / $110M / below $90M",
+    "contentVersion": "3e99a144e57165321c19f6d8b6a88d56f3d849eb836d226821076bcf2e7160c1",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Form ADV general instructions",
+        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-04-aum-entry-buffer-contrast",
+    "ruleId": "s65-04-aum-entry-buffer",
+    "deckId": "series65",
+    "section": 4,
+    "sectionTitle": "Registration clocks and federal/state AUM flips",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An existing Securities and Exchange Commission (SEC) adviser reports exactly $90 million in regulatory assets under management. Must it withdraw solely because of that amount?",
+    "answer": "No. The ordinary withdrawal trigger is below $90 million, not exactly $90 million.",
+    "governingRule": "No. The existing adviser may generally remain; the new applicant needs at least $100 million to elect this route.",
+    "trap": "The $90 million retention threshold also permits a new SEC application.",
+    "explanation": "Assume no other federal eligibility basis or exemption. Entry may begin at $100 million, generally becomes mandatory at $110 million, and retention generally ends below $90 million.",
+    "tags": [
+      "aum-entry-buffer",
+      "essential-review",
+      "review-point-6",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 6 — Adviser registration: $100M / $110M / below $90M",
+    "contentVersion": "1c7e4c674b9304a5635fdcdbef44bddd4a72263734786a01491fcece9dca09bd",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Form ADV general instructions",
+        "url": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
     "reviewStatus": "draft"
   },
   {
@@ -5869,6 +6172,210 @@
     "reviewStatus": "draft"
   },
   {
+    "id": "s65-06-registration-approval-recall",
+    "ruleId": "s65-06-registration-approval",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Does registration mean a regulator has approved the investment or endorsed the professional?",
+    "answer": "No. Registration is not approval, endorsement, or a guarantee of investment merit.",
+    "governingRule": "No. Registration is not approval, endorsement, or a guarantee of investment merit.",
+    "trap": "An effective registration proves that the regulator recommends the investment.",
+    "explanation": "A regulator can process a registration without vouching for the security, the registrant, or the accuracy of every filed statement. Claiming otherwise is misleading.",
+    "tags": [
+      "registration-approval",
+      "essential-review",
+      "review-point-1",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 1 — Registration is not approval",
+    "contentVersion": "a48d251786e4104812eda809d9d7c5891acbeb8ccec265c726700719139f7914",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-registration-approval-contrast",
+    "ruleId": "s65-06-registration-approval",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A salesperson says a registered offering is recommended by the state Administrator. Is that claim permitted?",
+    "answer": "No. State registration does not mean the Administrator recommends or approves the offering.",
+    "governingRule": "No. Registration is not approval, endorsement, or a guarantee of investment merit.",
+    "trap": "An effective registration proves that the regulator recommends the investment.",
+    "explanation": "A regulator can process a registration without vouching for the security, the registrant, or the accuracy of every filed statement. Claiming otherwise is misleading.",
+    "tags": [
+      "registration-approval",
+      "essential-review",
+      "review-point-1",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 1 — Registration is not approval",
+    "contentVersion": "a7a41e69e307980c3e6805186608d689497f81986866f8f02480e14a758c843f",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-exemption-scope-recall",
+    "ruleId": "s65-06-exemption-scope",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "What is exempt in an exempt security, and what is exempt in an exempt transaction?",
+    "answer": "An exempt security has a registration exemption based on its class. An exempt transaction exempts only the particular transaction.",
+    "governingRule": "An exempt security has a registration exemption based on its class. An exempt transaction exempts only the particular transaction.",
+    "trap": "One exempt sale permanently exempts the security and everyone who sells it.",
+    "explanation": "Test the security, the transaction, and the seller separately. An exemption from registration does not remove antifraud duties.",
+    "tags": [
+      "exemption-scope",
+      "essential-review",
+      "review-point-2",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 2 — Exempt security versus exempt transaction",
+    "contentVersion": "36b4a0585053144820d4e80afa9aa6a79b3aaf2d8c3f90ae2419670784a05b60",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-exemption-scope-contrast",
+    "ruleId": "s65-06-exemption-scope",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "Ordinary corporate shares are sold in an exempt transaction. Is every later resale automatically exempt too?",
+    "answer": "No. Each later transaction needs its own registration basis or exemption.",
+    "governingRule": "An exempt security has a registration exemption based on its class. An exempt transaction exempts only the particular transaction.",
+    "trap": "One exempt sale permanently exempts the security and everyone who sells it.",
+    "explanation": "Test the security, the transaction, and the seller separately. An exemption from registration does not remove antifraud duties.",
+    "tags": [
+      "exemption-scope",
+      "essential-review",
+      "review-point-2",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 2 — Exempt security versus exempt transaction",
+    "contentVersion": "4dc3621f2faf886343ac8c67d7c0685510eb06ae2f52a964bcf56d80a6159b49",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-municipal-issuer-recall",
+    "ruleId": "s65-06-municipal-issuer",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "A city issues bonds exempt from state securities registration. Who is the issuer?",
+    "answer": "The city. The registration exemption does not eliminate the issuer.",
+    "governingRule": "The city. The registration exemption does not eliminate the issuer.",
+    "trap": "An exempt municipal bond is a security without an issuer.",
+    "explanation": "An issuer issues or proposes to issue the security. Governmental identity can support the exemption; it does not erase that role.",
+    "tags": [
+      "municipal-issuer",
+      "essential-review",
+      "review-point-3",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 3 — A municipal security still has an issuer",
+    "contentVersion": "21a1a74cb9a774c5ad46bac321799aaceadbc6ee3fa2af2fac12ae0185a78a41",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-06-municipal-issuer-contrast",
+    "ruleId": "s65-06-municipal-issuer",
+    "deckId": "series65",
+    "section": 6,
+    "sectionTitle": "Securities-law look-alikes",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A municipal bond changes hands between two investors. Does this secondary trade mean the bond no longer has an issuer?",
+    "answer": "No. The municipality remains the issuer; the resale is a nonissuer transaction.",
+    "governingRule": "The city. The registration exemption does not eliminate the issuer.",
+    "trap": "An exempt municipal bond is a security without an issuer.",
+    "explanation": "An issuer issues or proposes to issue the security. Governmental identity can support the exemption; it does not erase that role.",
+    "tags": [
+      "municipal-issuer",
+      "essential-review",
+      "review-point-3",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 3 — A municipal security still has an issuer",
+    "contentVersion": "095e8743f3bff3d3ec2272589952e016cafc4d39b5125baf889ed4e3d36d9fdf",
+    "officialSources": [
+      {
+        "authority": "NASAA",
+        "title": "1956 Uniform Securities Act with NASAA updates and commentary",
+        "url": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
     "id": "s65-07-accredited-recall",
     "ruleId": "s65-07-accredited",
     "deckId": "series65",
@@ -6117,6 +6624,37 @@
     "reviewStatus": "draft"
   },
   {
+    "id": "s65-07-client-managed-apply",
+    "ruleId": "s65-07-client-managed",
+    "deckId": "series65",
+    "section": 7,
+    "sectionTitle": "Three investor labels that are not interchangeable",
+    "category": "laws",
+    "priority": "high",
+    "type": "application",
+    "front": "A new client will have exactly $1.4 million managed by the adviser but only $2 million of qualifying net worth. Is the 2026 federal managed-assets test met?",
+    "answer": "Yes. Exactly $1.4 million satisfies that test.",
+    "governingRule": "At least $1.4 million managed by that adviser.",
+    "trap": "The client must have more than $1.4 million, so equality fails.",
+    "explanation": "The two dollar routes are alternatives: at least $1.4 million managed OR net worth greater than $2.7 million.",
+    "tags": [
+      "client-managed"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 7 — Three investor labels that are not interchangeable",
+    "contentVersion": "657759a8e69616f38c5b9a73c92bc4958a720962a045ebd90d932bcc92d8fa54",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Qualified-client inflation adjustment, Release IA-6961",
+        "url": "https://www.sec.gov/files/rules/ia/2026/ia-6961.pdf",
+        "kind": "rule"
+      }
+    ],
+    "retest": false,
+    "reviewStatus": "draft"
+  },
+  {
     "id": "s65-07-client-worth-recall",
     "ruleId": "s65-07-client-worth",
     "deckId": "series65",
@@ -6269,6 +6807,86 @@
       }
     ],
     "retest": false,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-07-client-residence-recall",
+    "ruleId": "s65-07-client-residence",
+    "deckId": "series65",
+    "section": 7,
+    "sectionTitle": "Three investor labels that are not interchangeable",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Does the value of a client’s primary residence count toward the federal qualified-client net-worth test?",
+    "answer": "No. The primary residence is excluded; qualifying net worth must exceed $2.7 million under the current dollar test.",
+    "governingRule": "No. The primary residence is excluded; qualifying net worth must exceed $2.7 million under the current dollar test.",
+    "trap": "A valuable home automatically supplies the missing qualified-client net worth.",
+    "explanation": "As of June 29, 2026, the alternative dollar test is at least $1.4 million managed by the adviser. Residence-related debt has special rules, including excess debt and certain recent borrowing.",
+    "tags": [
+      "client-residence",
+      "essential-review",
+      "review-point-7",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 7 — Qualified client: at least $1.4M managed or over $2.7M qualifying net worth",
+    "contentVersion": "778bb048a11f25d56c534cc1826de6fbad895dc9d769d4a93e52af4af7dbf339",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Qualified-client inflation adjustment, Release IA-6961",
+        "url": "https://www.sec.gov/files/rules/ia/2026/ia-6961.pdf",
+        "kind": "rule"
+      },
+      {
+        "authority": "eCFR",
+        "title": "17 CFR 275.205-3 — qualified clients and primary-residence treatment",
+        "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-275/section-275.205-3",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-07-client-residence-contrast",
+    "ruleId": "s65-07-client-residence",
+    "deckId": "series65",
+    "section": 7,
+    "sectionTitle": "Three investor labels that are not interchangeable",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A client has $2.5 million outside a debt-free primary home and $900,000 with the adviser. Does adding the home’s $1 million value satisfy either dollar test?",
+    "answer": "No. The home is excluded, and neither the $2.7 million net-worth boundary nor the $1.4 million managed-assets minimum is met.",
+    "governingRule": "No. The primary residence is excluded; qualifying net worth must exceed $2.7 million under the current dollar test.",
+    "trap": "A valuable home automatically supplies the missing qualified-client net worth.",
+    "explanation": "As of June 29, 2026, the alternative dollar test is at least $1.4 million managed by the adviser. Residence-related debt has special rules, including excess debt and certain recent borrowing.",
+    "tags": [
+      "client-residence",
+      "essential-review",
+      "review-point-7",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 7 — Qualified client: at least $1.4M managed or over $2.7M qualifying net worth",
+    "contentVersion": "8d82134cbba25e02c600af5e4b46dcecde1f8e0be4f0fcc07496fa782b9abfb5",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Qualified-client inflation adjustment, Release IA-6961",
+        "url": "https://www.sec.gov/files/rules/ia/2026/ia-6961.pdf",
+        "kind": "rule"
+      },
+      {
+        "authority": "eCFR",
+        "title": "17 CFR 275.205-3 — qualified clients and primary-residence treatment",
+        "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-275/section-275.205-3",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
     "reviewStatus": "draft"
   },
   {
@@ -8415,6 +9033,210 @@
     "reviewStatus": "draft"
   },
   {
+    "id": "s65-09-time-price-expiry-recall",
+    "ruleId": "s65-09-time-price-expiry",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Under FINRA Rule 3260, how long does ordinary oral time-and-price authority for a definite security and amount last?",
+    "answer": "Through the end of that business day. Extending it generally requires the customer’s specific written, signed, and dated instruction.",
+    "governingRule": "Through the end of that business day. Extending it generally requires the customer’s specific written, signed, and dated instruction.",
+    "trap": "Time-and-price authority automatically remains open indefinitely.",
+    "explanation": "The customer fixes the security, buy/sell action, and amount; the agent chooses execution time or price. Rule 3260 has a limited institutional not-held-order exception to the daily limit.",
+    "tags": [
+      "time-price-expiry",
+      "essential-review",
+      "review-point-28",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 28 — Time and price alone are not full discretion",
+    "contentVersion": "cdadc987ba767a2066c660d7b255fff7b4d6080e12a15de455249d1f4cc34ec8",
+    "officialSources": [
+      {
+        "authority": "FINRA",
+        "title": "Rule 3260 — Discretionary Accounts",
+        "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/3260",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-time-price-expiry-contrast",
+    "ruleId": "s65-09-time-price-expiry",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A retail customer orally authorizes timing for today’s purchase of 50 specified shares. With no written extension, can the agent carry that authority into tomorrow?",
+    "answer": "No. The ordinary oral time-and-price authority expires at the end of today’s business day.",
+    "governingRule": "Through the end of that business day. Extending it generally requires the customer’s specific written, signed, and dated instruction.",
+    "trap": "Time-and-price authority automatically remains open indefinitely.",
+    "explanation": "The customer fixes the security, buy/sell action, and amount; the agent chooses execution time or price. Rule 3260 has a limited institutional not-held-order exception to the daily limit.",
+    "tags": [
+      "time-price-expiry",
+      "essential-review",
+      "review-point-28",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 28 — Time and price alone are not full discretion",
+    "contentVersion": "35c3c87cfbd6297515cda6047c5b29c471b4827606e55a1849bad300e699ad27",
+    "officialSources": [
+      {
+        "authority": "FINRA",
+        "title": "Rule 3260 — Discretionary Accounts",
+        "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/3260",
+        "kind": "rule"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-durable-authority-recall",
+    "ruleId": "s65-09-durable-authority",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "Does a durable power of attorney survive the principal’s incapacity, death, or both?",
+    "answer": "Incapacity, not death. Authority under the power of attorney ends when the principal dies.",
+    "governingRule": "Incapacity, not death. Authority under the power of attorney ends when the principal dies.",
+    "trap": "Durable means the agent can continue acting after death until the estate is settled.",
+    "explanation": "The document and applicable state law still limit the agent’s powers. Being an attorney-in-fact does not automatically appoint the person as executor or estate representative.",
+    "tags": [
+      "durable-authority",
+      "essential-review",
+      "review-point-29",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 29 — Durable authority survives incapacity, not death",
+    "contentVersion": "b708bcfdb43bbbe3348db47a5247df3c0d79023e1c7cd8e034cd96c01c45d060",
+    "officialSources": [
+      {
+        "authority": "CFPB",
+        "title": "Durable power of attorney — incapacity and death; Arizona guide",
+        "url": "https://www.consumerfinance.gov/documents/6274/cfpb_help-for-agents-under-a-power-of-attorney_arizona.pdf",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-durable-authority-contrast",
+    "ruleId": "s65-09-durable-authority",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A client dies while an agent holds durable financial authority. Can the agent place a new trade solely under that power of attorney?",
+    "answer": "No. The power ended at death; estate authority must be established separately.",
+    "governingRule": "Incapacity, not death. Authority under the power of attorney ends when the principal dies.",
+    "trap": "Durable means the agent can continue acting after death until the estate is settled.",
+    "explanation": "The document and applicable state law still limit the agent’s powers. Being an attorney-in-fact does not automatically appoint the person as executor or estate representative.",
+    "tags": [
+      "durable-authority",
+      "essential-review",
+      "review-point-29",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 29 — Durable authority survives incapacity, not death",
+    "contentVersion": "a6c496b514b07c2d28af398aaa05b3f4e445ae18a3fdf6286f49a33db5347d71",
+    "officialSources": [
+      {
+        "authority": "CFPB",
+        "title": "Durable power of attorney — incapacity and death; Arizona guide",
+        "url": "https://www.consumerfinance.gov/documents/6274/cfpb_help-for-agents-under-a-power-of-attorney_arizona.pdf",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-pay-play-status-recall",
+    "ruleId": "s65-09-pay-play-status",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "recall",
+    "front": "As of September 13, 2026, has the Securities and Exchange Commission (SEC)’s proposed pay-to-play rescission taken effect?",
+    "answer": "No. It is a proposal, not an effective repeal. The existing pay-to-play rule still applies.",
+    "governingRule": "No. It is a proposal, not an effective repeal. The existing pay-to-play rule still applies.",
+    "trap": "The September 3 proposal immediately removed the rule’s restrictions.",
+    "explanation": "The SEC proposed rescinding adviser Rule 206(4)-5 on September 3, 2026. A proposal and comment period do not change an effective rule; separate state and other pay-to-play provisions also need independent analysis.",
+    "tags": [
+      "pay-play-status",
+      "essential-review",
+      "review-point-30",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 30 — Pay-to-play rescission is proposed, not effective",
+    "contentVersion": "63cc4b14b0ef8c9192f445d7696b508930ff0f7d78492e2224f17503b5b8aa03",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Proposed rescission of Rule 206(4)-5 — September 3, 2026; not an effective repeal",
+        "url": "https://www.sec.gov/rules-regulations/2026/09/s7-2026-31",
+        "kind": "reference"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-09-pay-play-status-contrast",
+    "ruleId": "s65-09-pay-play-status",
+    "deckId": "series65",
+    "section": 9,
+    "sectionTitle": "Authority, contracts, and offering communications",
+    "category": "laws",
+    "priority": "high",
+    "type": "contrast",
+    "front": "As of September 13, 2026, can an adviser ignore the existing pay-to-play rule solely because the Securities and Exchange Commission (SEC) proposed rescinding it?",
+    "answer": "No. The proposal has not repealed the rule or its applicable two-year compensation restriction.",
+    "governingRule": "No. It is a proposal, not an effective repeal. The existing pay-to-play rule still applies.",
+    "trap": "The September 3 proposal immediately removed the rule’s restrictions.",
+    "explanation": "The SEC proposed rescinding adviser Rule 206(4)-5 on September 3, 2026. A proposal and comment period do not change an effective rule; separate state and other pay-to-play provisions also need independent analysis.",
+    "tags": [
+      "pay-play-status",
+      "essential-review",
+      "review-point-30",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 30 — Pay-to-play rescission is proposed, not effective",
+    "contentVersion": "f4d4edf864032dcda8f0b713b06c0a2b3a247518526cd75fe56fc9615c271ebf",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Proposed rescission of Rule 206(4)-5 — September 3, 2026; not an effective repeal",
+        "url": "https://www.sec.gov/rules-regulations/2026/09/s7-2026-31",
+        "kind": "reference"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
     "id": "s65-10-restricted-clock-recall",
     "ruleId": "s65-10-restricted-clock",
     "deckId": "series65",
@@ -8944,6 +9766,37 @@
     "reviewStatus": "draft"
   },
   {
+    "id": "s65-10-affiliate-reporting-apply",
+    "ruleId": "s65-10-affiliate-reporting",
+    "deckId": "series65",
+    "section": 10,
+    "sectionTitle": "Rule 144",
+    "category": "laws",
+    "priority": "high",
+    "type": "application",
+    "front": "An affiliate has held restricted stock of a reporting issuer for seven months. Does completing the holding period remove the affiliate volume limit?",
+    "answer": "No. The six-month holding period is met, but applicable affiliate resale conditions remain.",
+    "governingRule": "At least six months. Affiliate resale conditions still apply after the holding period.",
+    "trap": "Six months eliminates the affiliate volume restriction.",
+    "explanation": "Holding-period eligibility and affiliate resale conditions are separate requirements.",
+    "tags": [
+      "affiliate-reporting"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 10 — Rule 144",
+    "contentVersion": "c1418d276757fba192b9298a8a54328304e4f7346b4cc7267368f48e468e5578",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Rule 144 — reporting and nonreporting issuers, affiliate resale conditions",
+        "url": "https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/revisions-rules-144-145",
+        "kind": "guidance"
+      }
+    ],
+    "retest": false,
+    "reviewStatus": "draft"
+  },
+  {
     "id": "s65-10-affiliate-nonreporting-recall",
     "ruleId": "s65-10-affiliate-nonreporting",
     "deckId": "series65",
@@ -8994,6 +9847,37 @@
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 10 — Rule 144",
     "contentVersion": "a56f2ef1cfc06e2686658c82e7b0d12e4a95a475e0c509d481b338c45897e181",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Rule 144 — reporting and nonreporting issuers, affiliate resale conditions",
+        "url": "https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/revisions-rules-144-145",
+        "kind": "guidance"
+      }
+    ],
+    "retest": false,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-10-affiliate-nonreporting-apply",
+    "ruleId": "s65-10-affiliate-nonreporting",
+    "deckId": "series65",
+    "section": 10,
+    "sectionTitle": "Rule 144",
+    "category": "laws",
+    "priority": "high",
+    "type": "application",
+    "front": "An affiliate has held restricted shares of a nonreporting issuer for eleven months. Is the Rule 144 holding requirement met?",
+    "answer": "No. At least one year is required, and affiliate conditions still apply afterward.",
+    "governingRule": "At least one year. Affiliate resale conditions still apply after the holding period.",
+    "trap": "A one-year hold removes all conditions even for an affiliate.",
+    "explanation": "Six months is the reporting-issuer period; it cannot be used for a nonreporting issuer.",
+    "tags": [
+      "affiliate-nonreporting"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 10 — Rule 144",
+    "contentVersion": "4d5b87cc3be581a0c35a6565a726ac0c43abda505f3988c724c18606e8ec29b9",
     "officialSources": [
       {
         "authority": "SEC",
@@ -11706,6 +12590,38 @@
     "reviewStatus": "draft"
   },
   {
+    "id": "s65-13-roth-order-apply",
+    "ruleId": "s65-13-roth-order",
+    "deckId": "series65",
+    "section": 13,
+    "sectionTitle": "Retirement penalties and distribution traps",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "calculation",
+    "front": "A Roth individual retirement account (IRA) contains $8,000 of regular contributions, $5,000 of conversions, and $3,000 of earnings, with no earlier withdrawals. How is a $10,000 withdrawal allocated?",
+    "answer": "$8,000 to contributions, then $2,000 to conversions; none to earnings.",
+    "governingRule": "Contributions, then conversions, then earnings.",
+    "trap": "Earnings must be withdrawn first from a Roth IRA.",
+    "explanation": "Ordering selects regular contributions first, then conversions, then earnings. Any tax on the converted amount is a separate question.",
+    "tags": [
+      "roth-order",
+      "retest"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 13 — Retirement penalties and distribution traps",
+    "contentVersion": "4f8f5b9c7c1ed8026ee37c73b489cd105a9ea3bd9aeb4b47f67e57e5036765ef",
+    "officialSources": [
+      {
+        "authority": "IRS",
+        "title": "Publication 590-B — IRA distributions, Roth ordering, and penalties",
+        "url": "https://www.irs.gov/publications/p590b",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
     "id": "s65-13-roth-contributions-recall",
     "ruleId": "s65-13-roth-contributions",
     "deckId": "series65",
@@ -11778,18 +12694,18 @@
     "category": "recommendations",
     "priority": "high",
     "type": "recall",
-    "front": "What two-part test generally makes Roth earnings distributions qualified?",
-    "answer": "Five years plus age 59½, death, disability, or the qualifying first-home condition.",
-    "governingRule": "Five years plus age 59½, death, disability, or the qualifying first-home condition.",
+    "front": "What two-part test makes Roth individual retirement account (IRA) earnings distributions qualified?",
+    "answer": "Five tax years plus age 59½, death, disability, or a qualifying first-home distribution, subject to its $10,000 lifetime limit.",
+    "governingRule": "Five tax years plus age 59½, death, disability, or a qualifying first-home distribution, subject to its $10,000 lifetime limit.",
     "trap": "The five-year period alone qualifies every earnings withdrawal.",
-    "explanation": "Five years plus age 59½, death, disability, or the qualifying first-home condition.",
+    "explanation": "Five tax years plus age 59½, death, disability, or a qualifying first-home distribution, subject to its $10,000 lifetime limit.",
     "tags": [
       "roth-earnings",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 13 — Retirement penalties and distribution traps",
-    "contentVersion": "9999a149022a35b29ffd1815cf27b09e4498c44d66f48ab5517d5ec6ae2b9aa4",
+    "contentVersion": "ee6ede0cd8908c4f12def6d862c0a9773927db152ea5ec748950b97e42e045a5",
     "officialSources": [
       {
         "authority": "IRS",
@@ -11810,18 +12726,50 @@
     "category": "recommendations",
     "priority": "high",
     "type": "contrast",
-    "front": "Does satisfying the five-year Roth period alone make every earnings withdrawal qualified?",
-    "answer": "No. An additional qualifying condition is needed: age 59½, death, disability, or the qualifying first-home condition.",
-    "governingRule": "Five years plus age 59½, death, disability, or the qualifying first-home condition.",
+    "front": "Does satisfying the five-tax-year Roth period alone make every earnings withdrawal qualified?",
+    "answer": "No. An additional qualifying event is needed: age 59½, death, disability, or a qualifying first-home distribution within its $10,000 lifetime limit.",
+    "governingRule": "Five tax years plus age 59½, death, disability, or a qualifying first-home distribution, subject to its $10,000 lifetime limit.",
     "trap": "The five-year period alone qualifies every earnings withdrawal.",
-    "explanation": "Five years plus age 59½, death, disability, or the qualifying first-home condition.",
+    "explanation": "Five tax years plus age 59½, death, disability, or a qualifying first-home distribution, subject to its $10,000 lifetime limit.",
     "tags": [
       "roth-earnings",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 13 — Retirement penalties and distribution traps",
-    "contentVersion": "f4be93f5f2f22a901e37a094b0fce9a6e12f144b677dfa489c6e99d632728a80",
+    "contentVersion": "977e80604380b60daa278eb03b6008ba3b0293e039247ee6149070a29d262d8f",
+    "officialSources": [
+      {
+        "authority": "IRS",
+        "title": "Publication 590-B — IRA distributions, Roth ordering, and penalties",
+        "url": "https://www.irs.gov/publications/p590b",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-13-roth-earnings-apply",
+    "ruleId": "s65-13-roth-earnings",
+    "deckId": "series65",
+    "section": 13,
+    "sectionTitle": "Retirement penalties and distribution traps",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "application",
+    "front": "A 62-year-old first funded a Roth two tax years ago and withdraws earnings. Does age alone make the earnings distribution qualified?",
+    "answer": "No. The five-tax-year requirement is still unmet.",
+    "governingRule": "Five tax years plus age 59½, death, disability, or a qualifying first-home distribution, subject to its $10,000 lifetime limit.",
+    "trap": "The five-year period alone qualifies every earnings withdrawal.",
+    "explanation": "Age 59½ meets the event condition and generally avoids the early-distribution additional tax, but nonqualified earnings remain taxable.",
+    "tags": [
+      "roth-earnings",
+      "retest"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 13 — Retirement penalties and distribution traps",
+    "contentVersion": "a35b9dfa4614e1b06213136a765ea95068ebd34f90d35c8ab3834a70e9215a51",
     "officialSources": [
       {
         "authority": "IRS",
@@ -12211,6 +13159,176 @@
         "authority": "IRS",
         "title": "IRA frequently asked questions — contributions and distributions",
         "url": "https://www.irs.gov/retirement-plans/retirement-plans-faqs-regarding-iras",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-13-conversion-clock-recall",
+    "ruleId": "s65-13-conversion-clock",
+    "deckId": "series65",
+    "section": 13,
+    "sectionTitle": "Retirement penalties and distribution traps",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "recall",
+    "front": "Is the Roth earnings five-year clock the same as the early-withdrawal clock for each taxable conversion?",
+    "answer": "No. Each conversion has a separate five-tax-year clock for potential early-distribution tax; qualified earnings use the first-Roth-contribution clock.",
+    "governingRule": "No. Each conversion has a separate five-tax-year clock for potential early-distribution tax; qualified earnings use the first-Roth-contribution clock.",
+    "trap": "Satisfying the Roth earnings clock automatically removes every conversion-related early-distribution tax.",
+    "explanation": "Roth ordering uses regular contributions first, then conversions oldest first, then earnings. For a conversion, the taxable portion comes before its nontaxable portion. Early withdrawal of taxable converted amounts can trigger the 10% additional tax unless an exception applies.",
+    "tags": [
+      "conversion-clock",
+      "essential-review",
+      "review-point-24",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 24 — Roth ordering: contributions, conversions, earnings",
+    "contentVersion": "86873a1b29a98b1e05675d77f3d4ee040a8d13787785cb2a86a42aa80dcd2e19",
+    "officialSources": [
+      {
+        "authority": "IRS",
+        "title": "Publication 590-B — IRA distributions, Roth ordering, and penalties",
+        "url": "https://www.irs.gov/publications/p590b",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-13-conversion-clock-contrast",
+    "ruleId": "s65-13-conversion-clock",
+    "deckId": "series65",
+    "section": 13,
+    "sectionTitle": "Retirement penalties and distribution traps",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An owner under 59½ has no regular contributions left and withdraws a taxable conversion after two tax years. Does a ten-year-old Roth account alone prevent the conversion-related 10% additional tax?",
+    "answer": "No. That conversion has its own five-year clock; another exception would be needed.",
+    "governingRule": "No. Each conversion has a separate five-tax-year clock for potential early-distribution tax; qualified earnings use the first-Roth-contribution clock.",
+    "trap": "Satisfying the Roth earnings clock automatically removes every conversion-related early-distribution tax.",
+    "explanation": "Roth ordering uses regular contributions first, then conversions oldest first, then earnings. For a conversion, the taxable portion comes before its nontaxable portion. Early withdrawal of taxable converted amounts can trigger the 10% additional tax unless an exception applies.",
+    "tags": [
+      "conversion-clock",
+      "essential-review",
+      "review-point-24",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 24 — Roth ordering: contributions, conversions, earnings",
+    "contentVersion": "4b8218244438376d2b2b5206b2ba2110490c4e9a1e3b1fb83910a1f2d968b34a",
+    "officialSources": [
+      {
+        "authority": "IRS",
+        "title": "Publication 590-B — IRA distributions, Roth ordering, and penalties",
+        "url": "https://www.irs.gov/publications/p590b",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-13-roth-clock-recall",
+    "ruleId": "s65-13-roth-clock",
+    "deckId": "series65",
+    "section": 13,
+    "sectionTitle": "Retirement penalties and distribution traps",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "recall",
+    "front": "When does the five-tax-year clock for qualified Roth individual retirement account (IRA) earnings begin?",
+    "answer": "January 1 of the first tax year for which a contribution was made to any Roth IRA for the owner.",
+    "governingRule": "January 1 of the first tax year for which a contribution was made to any Roth IRA for the owner.",
+    "trap": "Count five years from the exact deposit date or restart the clock for each Roth account.",
+    "explanation": "A conversion can establish the first Roth contribution year. The earnings test also needs age 59½, death, disability, or a qualifying first-home distribution, subject to its $10,000 lifetime limit.",
+    "tags": [
+      "roth-clock",
+      "essential-review",
+      "review-point-25",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 25 — Qualified Roth earnings require five tax years and a qualifying event",
+    "contentVersion": "8191afa4ad87da2476eefcf61953214d7bb858adef0560d671916b1c7a1e86d9",
+    "officialSources": [
+      {
+        "authority": "IRS",
+        "title": "Publication 590-B — IRA distributions, Roth ordering, and penalties",
+        "url": "https://www.irs.gov/publications/p590b",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-13-roth-clock-contrast",
+    "ruleId": "s65-13-roth-clock",
+    "deckId": "series65",
+    "section": 13,
+    "sectionTitle": "Retirement penalties and distribution traps",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A first Roth contribution is made in April 2027 for tax year 2026. Does the earnings clock begin in April 2027?",
+    "answer": "No. It begins January 1, 2026, the tax year of the contribution.",
+    "governingRule": "January 1 of the first tax year for which a contribution was made to any Roth individual retirement account (IRA) for the owner.",
+    "trap": "Count five years from the exact deposit date or restart the clock for each Roth account.",
+    "explanation": "A conversion can establish the first Roth contribution year. The earnings test also needs age 59½, death, disability, or a qualifying first-home distribution, subject to its $10,000 lifetime limit.",
+    "tags": [
+      "roth-clock",
+      "essential-review",
+      "review-point-25",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 25 — Qualified Roth earnings require five tax years and a qualifying event",
+    "contentVersion": "3d7c3617d18a8cd7d9ed8c633d9234b7a2be3362fb6a1365f61e503ef54e7f5a",
+    "officialSources": [
+      {
+        "authority": "IRS",
+        "title": "Publication 590-B — IRA distributions, Roth ordering, and penalties",
+        "url": "https://www.irs.gov/publications/p590b",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-13-roth-clock-apply",
+    "ruleId": "s65-13-roth-clock",
+    "deckId": "series65",
+    "section": 13,
+    "sectionTitle": "Retirement penalties and distribution traps",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "application",
+    "front": "An owner first contributed to a Roth for tax year 2022 and turns 60 in 2026. Is a 2026 earnings withdrawal qualified solely from those facts?",
+    "answer": "No. The five-tax-year period ends after 2026; the earliest qualifying date is January 1, 2027.",
+    "governingRule": "January 1 of the first tax year for which a contribution was made to any Roth individual retirement account (IRA) for the owner.",
+    "trap": "Count five years from the exact deposit date or restart the clock for each Roth account.",
+    "explanation": "The five tax years are 2022, 2023, 2024, 2025, and 2026. Age 59½ is satisfied, but the time requirement is not yet complete.",
+    "tags": [
+      "roth-clock",
+      "essential-review",
+      "review-point-25",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 25 — Qualified Roth earnings require five tax years and a qualifying event",
+    "contentVersion": "dc0151b9b63d3165592a68fa17d65c8995bf068ec325d69d01a6d557ac2b5971",
+    "officialSources": [
+      {
+        "authority": "IRS",
+        "title": "Publication 590-B — IRA distributions, Roth ordering, and penalties",
+        "url": "https://www.irs.gov/publications/p590b",
         "kind": "guidance"
       }
     ],
@@ -13752,6 +14870,37 @@
     "reviewStatus": "draft"
   },
   {
+    "id": "s65-15-tic-apply",
+    "ruleId": "s65-15-tic",
+    "deckId": "series65",
+    "section": 15,
+    "sectionTitle": "Client ownership, taxes, and transfers",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "application",
+    "front": "Two people own property as tenants in common, 70% and 30%. The 70% owner dies without a trust or beneficiary arrangement. Does that share automatically pass to the co-owner?",
+    "answer": "No. The deceased owner’s 70% passes through the estate; the survivor retains 30%.",
+    "governingRule": "Unequal percentages are allowed and there is no automatic survivorship; a deceased owner's share follows the estate plan.",
+    "trap": "All joint ownership automatically includes survivorship.",
+    "explanation": "Tenancy in common has no automatic right of survivorship. A will or intestacy controls the estate transfer.",
+    "tags": [
+      "tic"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 15 — Client ownership, taxes, and transfers",
+    "contentVersion": "330baffa7b5ded1df8b66c56fd0d0af8042e8ced0497488322e7afe21130a442",
+    "officialSources": [
+      {
+        "authority": "FDIC",
+        "title": "Joint accounts — survivorship and tenancy in common",
+        "url": "https://www.fdic.gov/financial-institution-employees-guide-deposit-insurance/joint-accounts",
+        "kind": "guidance"
+      }
+    ],
+    "retest": false,
+    "reviewStatus": "draft"
+  },
+  {
     "id": "s65-15-jtwros-recall",
     "ruleId": "s65-15-jtwros",
     "deckId": "series65",
@@ -14037,6 +15186,74 @@
       }
     ],
     "retest": false,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-15-gift-dual-recall",
+    "ruleId": "s65-15-gift-dual",
+    "deckId": "series65",
+    "section": 15,
+    "sectionTitle": "Client ownership, taxes, and transfers",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "recall",
+    "front": "A gift’s fair market value is below the donor’s adjusted basis. Which basis applies to a later gain and which to a later loss?",
+    "answer": "Use the donor’s basis for gain and the lower gift-date value for loss. A sale between them produces neither gain nor loss.",
+    "governingRule": "Use the donor’s basis for gain and the lower gift-date value for loss. A sale between them produces neither gain nor loss.",
+    "trap": "The lower gift-date value replaces the donor’s basis for every possible sale.",
+    "explanation": "Assume no later basis adjustments. First compare proceeds with both figures; selecting just one basis can create a gain or loss that the dual-basis rule does not permit.",
+    "tags": [
+      "gift-dual",
+      "essential-review",
+      "review-point-23",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 23 — Gift dual basis: gain, loss, and the middle band",
+    "contentVersion": "5ed972f0decbcc8e73a2bdd42347335de342e7ac9239350e8ee77411e390be7f",
+    "officialSources": [
+      {
+        "authority": "IRS",
+        "title": "Basis of property received as a gift — gain and loss bases",
+        "url": "https://www.irs.gov/faqs/capital-gains-losses-and-sale-of-home/property-basis-sale-of-home-etc/property-basis-sale-of-home-etc",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-15-gift-dual-contrast",
+    "ruleId": "s65-15-gift-dual",
+    "deckId": "series65",
+    "section": 15,
+    "sectionTitle": "Client ownership, taxes, and transfers",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "contrast",
+    "front": "Gift-date value is $8,000 and donor basis is $12,000. If the recipient sells for $15,000, is the taxable gain $7,000?",
+    "answer": "No. The gain is $3,000: $15,000 minus the donor’s $12,000 basis.",
+    "governingRule": "Use the donor’s basis for gain and the lower gift-date value for loss. A sale between them produces neither gain nor loss.",
+    "trap": "The lower gift-date value replaces the donor’s basis for every possible sale.",
+    "explanation": "Assume no later basis adjustments. First compare proceeds with both figures; selecting just one basis can create a gain or loss that the dual-basis rule does not permit.",
+    "tags": [
+      "gift-dual",
+      "essential-review",
+      "review-point-23",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 23 — Gift dual basis: gain, loss, and the middle band",
+    "contentVersion": "945571ac27a01370659e66515ff24ae5f17144e2ccb3ac08b9be4ae9c7a0ccc1",
+    "officialSources": [
+      {
+        "authority": "IRS",
+        "title": "Basis of property received as a gift — gain and loss bases",
+        "url": "https://www.irs.gov/faqs/capital-gains-losses-and-sale-of-home/property-basis-sale-of-home-etc/property-basis-sale-of-home-etc",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
     "reviewStatus": "draft"
   },
   {
@@ -14756,6 +15973,37 @@
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 16 — Business entities and direct participation program (DPP) losses",
     "contentVersion": "8cf497500902000458b338de375deed1ea4a880b3dd4ddf60a6bb7c64ebc4ffc",
+    "officialSources": [
+      {
+        "authority": "IRS",
+        "title": "Publication 925 — Passive Activity and At-Risk Rules",
+        "url": "https://www.irs.gov/publications/p925",
+        "kind": "guidance"
+      }
+    ],
+    "retest": false,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-16-passive-offset-apply",
+    "ruleId": "s65-16-passive-offset",
+    "deckId": "series65",
+    "section": 16,
+    "sectionTitle": "Business entities and direct participation program (DPP) losses",
+    "category": "recommendations",
+    "priority": "high",
+    "type": "calculation",
+    "front": "An investor has $9,000 of otherwise allowable passive losses, $2,000 of passive income, and salary. With no special allowance or disposition, how much loss can be used currently?",
+    "answer": "$2,000; the other $7,000 is suspended.",
+    "governingRule": "Passive income, not salary or portfolio income; otherwise they are suspended.",
+    "trap": "Passive losses can freely offset interest and wage income.",
+    "explanation": "The remaining passive loss cannot offset salary. Basis and at-risk limits are assumed satisfied.",
+    "tags": [
+      "passive-offset"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 16 — Business entities and direct participation program (DPP) losses",
+    "contentVersion": "65721ded6daee09b26d5e09985a772bb4a6b49d12f81a26bdda26a869c69a04c",
     "officialSources": [
       {
         "authority": "IRS",
@@ -16164,6 +17412,222 @@
     "reviewStatus": "draft"
   },
   {
+    "id": "s65-18-traded-fund-price-recall",
+    "ruleId": "s65-18-traded-fund-price",
+    "deckId": "series65",
+    "section": 18,
+    "sectionTitle": "Mutual funds",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "recall",
+    "front": "How do retail prices differ between mutual funds, exchange-traded funds (ETFs), and closed-end funds?",
+    "answer": "Mutual funds use the next computed net asset value (NAV), with applicable charges. Exchange-traded closed-end funds and ETFs trade at market prices.",
+    "governingRule": "Mutual funds use the next computed NAV, with applicable charges. Exchange-traded closed-end funds and ETFs trade at market prices.",
+    "trap": "Every fund investor always trades at the last published NAV.",
+    "explanation": "Market prices can be above or below net asset value. The comparison concerns conventional open-end mutual funds versus exchange-traded shares, not an exchange-traded fund (ETF)’s creation-unit process.",
+    "tags": [
+      "traded-fund-price",
+      "essential-review",
+      "review-point-21",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 21 — Mutual-fund next NAV versus exchange-traded market prices",
+    "contentVersion": "17214b9da9896a45e51360d08098a92d18f9ac5f6e67f8ccd12b21d43e7ba93a",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Mutual Funds and ETFs — investor guide",
+        "url": "https://www.investor.gov/sites/investorgov/files/2019-02/mutual-funds-ETFs.pdf",
+        "kind": "guidance"
+      },
+      {
+        "authority": "SEC",
+        "title": "Exchange-Traded Funds — market prices, structure, and active management",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-18-traded-fund-price-contrast",
+    "ruleId": "s65-18-traded-fund-price",
+    "deckId": "series65",
+    "section": 18,
+    "sectionTitle": "Mutual funds",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An exchange-traded fund (ETF) has a $40 net asset value (NAV) but your exchange purchase executes at $40.30. Before fees, what do you pay per share?",
+    "answer": "$40.30. The executed market price controls; this trade is at a premium to NAV.",
+    "governingRule": "Mutual funds use the next computed NAV, with applicable charges. Exchange-traded closed-end funds and ETFs trade at market prices.",
+    "trap": "Every fund investor always trades at the last published NAV.",
+    "explanation": "Market prices can be above or below net asset value. The comparison concerns conventional open-end mutual funds versus exchange-traded shares, not an ETF’s creation-unit process.",
+    "tags": [
+      "traded-fund-price",
+      "essential-review",
+      "review-point-21",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 21 — Mutual-fund next NAV versus exchange-traded market prices",
+    "contentVersion": "aa7c7801aaa7ac12a780dbb2533a2d1c4e0b82d276ff96f7b14aa2e64861a457",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Mutual Funds and ETFs — investor guide",
+        "url": "https://www.investor.gov/sites/investorgov/files/2019-02/mutual-funds-ETFs.pdf",
+        "kind": "guidance"
+      },
+      {
+        "authority": "SEC",
+        "title": "Exchange-Traded Funds — market prices, structure, and active management",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-18-etf-structure-recall",
+    "ruleId": "s65-18-etf-structure",
+    "deckId": "series65",
+    "section": 18,
+    "sectionTitle": "Mutual funds",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "recall",
+    "front": "If an exchange-traded fund (ETF) is legally an open-end investment company, must an ordinary retail exchange trade receive the next net asset value (NAV)?",
+    "answer": "No. Its retail shares still trade at market prices. The open-end mutual-fund pricing shortcut does not describe ETF exchange trades.",
+    "governingRule": "No. Its retail shares still trade at market prices. The open-end mutual-fund pricing shortcut does not describe ETF exchange trades.",
+    "trap": "An open-end legal structure makes all retail trades use mutual-fund forward pricing.",
+    "explanation": "Many ETFs have an open-end investment-company structure; some are unit investment trusts. Legal structure and the retail trading mechanism are separate distinctions.",
+    "tags": [
+      "etf-structure",
+      "essential-review",
+      "review-point-21",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 21 — Mutual-fund next NAV versus exchange-traded market prices",
+    "contentVersion": "8dc1e861420da1a8054675b1b011dde4d6a11254e4837ed104b586ef3c0cd037",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Exchange-Traded Funds — market prices, structure, and active management",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-18-etf-structure-contrast",
+    "ruleId": "s65-18-etf-structure",
+    "deckId": "series65",
+    "section": 18,
+    "sectionTitle": "Mutual funds",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "contrast",
+    "front": "Does an exchange-traded fund (ETF)’s daily net asset value (NAV) calculation guarantee that its exchange price equals NAV throughout the day?",
+    "answer": "No. The market price can differ from NAV, even though arbitrage often keeps them close.",
+    "governingRule": "No. Its retail shares still trade at market prices. The open-end mutual-fund pricing shortcut does not describe ETF exchange trades.",
+    "trap": "An open-end legal structure makes all retail trades use mutual-fund forward pricing.",
+    "explanation": "Many ETFs have an open-end investment-company structure; some are unit investment trusts. Legal structure and the retail trading mechanism are separate distinctions.",
+    "tags": [
+      "etf-structure",
+      "essential-review",
+      "review-point-21",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 21 — Mutual-fund next NAV versus exchange-traded market prices",
+    "contentVersion": "9c5f61a025d4aa2a3193528979624f9147aa6120aadc948dd7c09e4e946d629b",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Exchange-Traded Funds — market prices, structure, and active management",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-18-etf-active-recall",
+    "ruleId": "s65-18-etf-active",
+    "deckId": "series65",
+    "section": 18,
+    "sectionTitle": "Mutual funds",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "recall",
+    "front": "Does exchange-traded fund (ETF) mean the fund must follow a passive index strategy?",
+    "answer": "No. ETFs can be actively managed or passively track an index.",
+    "governingRule": "No. ETFs can be actively managed or passively track an index.",
+    "trap": "Exchange trading proves that a fund is passive.",
+    "explanation": "An exchange-traded fund describes a product and trading structure. Read the investment strategy to learn whether the manager tracks an index or selects investments actively.",
+    "tags": [
+      "etf-active",
+      "essential-review",
+      "review-point-22",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 22 — ETFs can be active or passive",
+    "contentVersion": "a7a34709840e43f1bfd1eaa7786b1c6ad9e131f99c0d4dccceab521cc8ed8ddf",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Exchange-Traded Funds — market prices, structure, and active management",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-18-etf-active-contrast",
+    "ruleId": "s65-18-etf-active",
+    "deckId": "series65",
+    "section": 18,
+    "sectionTitle": "Mutual funds",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An exchange-traded fund (ETF) manager selects holdings without trying to track an index. Does active management disqualify the fund from being an ETF?",
+    "answer": "No. An actively managed ETF is permitted.",
+    "governingRule": "No. ETFs can be actively managed or passively track an index.",
+    "trap": "Exchange trading proves that a fund is passive.",
+    "explanation": "An exchange-traded fund describes a product and trading structure. Read the investment strategy to learn whether the manager tracks an index or selects investments actively.",
+    "tags": [
+      "etf-active",
+      "essential-review",
+      "review-point-22",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 22 — ETFs can be active or passive",
+    "contentVersion": "dbd08f7c5c772ab2de7731194669d2317af2c66b77f80e15a39ccb67d1cd4890",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Exchange-Traded Funds — market prices, structure, and active management",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
     "id": "s65-19-right-recall",
     "ruleId": "s65-19-right",
     "deckId": "series65",
@@ -16798,6 +18262,346 @@
         "title": "Options — purchase and sale rights",
         "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/options",
         "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-19-protect-long-recall",
+    "ruleId": "s65-19-protect-long",
+    "deckId": "series65",
+    "section": 19,
+    "sectionTitle": "Rights, warrants, and calls",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "recall",
+    "front": "Which purchased option protects a long stock position against a price decline?",
+    "answer": "A long put on the same stock. It provides the right to sell at the strike price during the option’s term.",
+    "governingRule": "A long put on the same stock. It provides the right to sell at the strike price during the option’s term.",
+    "trap": "Buy a call to protect shares already owned against falling prices.",
+    "explanation": "Match the option’s underlying, share coverage, and expiry to the exposure. A protective put preserves stock upside, less the premium; it does not promise a profit.",
+    "tags": [
+      "protect-long",
+      "essential-review",
+      "review-point-18",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 18 — Long stock plus long put; short stock plus long call",
+    "contentVersion": "b995cfb09cf618a3ddca6d6bfd6b4b816770a59d529453279f25713a05b55a3d",
+    "officialSources": [
+      {
+        "authority": "OCC / OIC",
+        "title": "Options Basics — call purchase rights and put sale rights",
+        "url": "https://www.optionseducation.org/optionsoverview/options-basics",
+        "kind": "reference"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-19-protect-long-contrast",
+    "ruleId": "s65-19-protect-long",
+    "deckId": "series65",
+    "section": 19,
+    "sectionTitle": "Rights, warrants, and calls",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An investor owns stock and wants a downside floor while retaining uncapped upside. Is selling a covered call equivalent to buying a put?",
+    "answer": "No. A long put creates the floor; a covered call supplies premium income but caps upside and leaves substantial downside.",
+    "governingRule": "A long put on the same stock. It provides the right to sell at the strike price during the option’s term.",
+    "trap": "Buy a call to protect shares already owned against falling prices.",
+    "explanation": "Match the option’s underlying, share coverage, and expiry to the exposure. A protective put preserves stock upside, less the premium; it does not promise a profit.",
+    "tags": [
+      "protect-long",
+      "essential-review",
+      "review-point-18",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 18 — Long stock plus long put; short stock plus long call",
+    "contentVersion": "1432b6d4cafe71ef4f53c109b481f194ff0066eff356da5be92674a5b5138f57",
+    "officialSources": [
+      {
+        "authority": "OCC / OIC",
+        "title": "Options Basics — call purchase rights and put sale rights",
+        "url": "https://www.optionseducation.org/optionsoverview/options-basics",
+        "kind": "reference"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-19-protect-long-apply",
+    "ruleId": "s65-19-protect-long",
+    "deckId": "series65",
+    "section": 19,
+    "sectionTitle": "Rights, warrants, and calls",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "calculation",
+    "front": "You buy 100 shares at $48 and one put covering 100 shares with a $45 strike for $2 per share. What is the maximum loss at expiration, ignoring fees and dividends?",
+    "answer": "$500.",
+    "governingRule": "A long put on the same stock. It provides the right to sell at the strike price during the option’s term.",
+    "trap": "Buy a call to protect shares already owned against falling prices.",
+    "explanation": "Total cost = 100 × ($48 + $2) = $5,000. The put provides a $4,500 sale floor. Maximum loss = $5,000 − $4,500 = $500.",
+    "tags": [
+      "protect-long",
+      "essential-review",
+      "review-point-18",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 18 — Long stock plus long put; short stock plus long call",
+    "contentVersion": "c1d0b780402a3f14f647461a4c9c490038af4198fb8ba865fc56a81939772600",
+    "officialSources": [
+      {
+        "authority": "OCC / OIC",
+        "title": "Options Basics — call purchase rights and put sale rights",
+        "url": "https://www.optionseducation.org/optionsoverview/options-basics",
+        "kind": "reference"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-19-protect-short-recall",
+    "ruleId": "s65-19-protect-short",
+    "deckId": "series65",
+    "section": 19,
+    "sectionTitle": "Rights, warrants, and calls",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "recall",
+    "front": "Which purchased option protects a short stock position against a price rise?",
+    "answer": "A long call on the same stock. It provides the right to buy shares at the strike price to cover the short.",
+    "governingRule": "A long call on the same stock. It provides the right to buy shares at the strike price to cover the short.",
+    "trap": "Buy a put to protect a short seller against rising stock prices.",
+    "explanation": "The short seller needs a purchase-price ceiling. A matching call supplies it during the option’s term; the premium is part of the hedge cost.",
+    "tags": [
+      "protect-short",
+      "essential-review",
+      "review-point-18",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 18 — Long stock plus long put; short stock plus long call",
+    "contentVersion": "6c49222d1b378d602a37cc482cf6d994e61e7cd9b7d3103b6146400e702883d9",
+    "officialSources": [
+      {
+        "authority": "OCC / OIC",
+        "title": "Options Basics — call purchase rights and put sale rights",
+        "url": "https://www.optionseducation.org/optionsoverview/options-basics",
+        "kind": "reference"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-19-protect-short-contrast",
+    "ruleId": "s65-19-protect-short",
+    "deckId": "series65",
+    "section": 19,
+    "sectionTitle": "Rights, warrants, and calls",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A short seller fears a sharp rally. Would buying a put cap the cost of buying back the shares?",
+    "answer": "No. A long call supplies that purchase-price ceiling; a put benefits from a decline.",
+    "governingRule": "A long call on the same stock. It provides the right to buy shares at the strike price to cover the short.",
+    "trap": "Buy a put to protect a short seller against rising stock prices.",
+    "explanation": "The short seller needs a purchase-price ceiling. A matching call supplies it during the option’s term; the premium is part of the hedge cost.",
+    "tags": [
+      "protect-short",
+      "essential-review",
+      "review-point-18",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 18 — Long stock plus long put; short stock plus long call",
+    "contentVersion": "17f2c5e9ce20386d7a035eb310577d2d1937ca4c3f9290c7c3240b4731060f0a",
+    "officialSources": [
+      {
+        "authority": "OCC / OIC",
+        "title": "Options Basics — call purchase rights and put sale rights",
+        "url": "https://www.optionseducation.org/optionsoverview/options-basics",
+        "kind": "reference"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-19-protect-short-apply",
+    "ruleId": "s65-19-protect-short",
+    "deckId": "series65",
+    "section": 19,
+    "sectionTitle": "Rights, warrants, and calls",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "calculation",
+    "front": "You short 100 shares at $60 and buy one call covering them with a $65 strike for $3 per share. What is the maximum loss at expiration, ignoring fees, dividends, and borrowing costs?",
+    "answer": "$800.",
+    "governingRule": "A long call on the same stock. It provides the right to buy shares at the strike price to cover the short.",
+    "trap": "Buy a put to protect a short seller against rising stock prices.",
+    "explanation": "Maximum share loss = ($65 − $60) × 100 = $500. Add the $300 call premium: $800.",
+    "tags": [
+      "protect-short",
+      "essential-review",
+      "review-point-18",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 18 — Long stock plus long put; short stock plus long call",
+    "contentVersion": "eaa7446907c2382887e7fd3851162bb859cdf4eb95bd7104afe4e47f1181a92b",
+    "officialSources": [
+      {
+        "authority": "OCC / OIC",
+        "title": "Options Basics — call purchase rights and put sale rights",
+        "url": "https://www.optionseducation.org/optionsoverview/options-basics",
+        "kind": "reference"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-19-futures-hedge-recall",
+    "ruleId": "s65-19-futures-hedge",
+    "deckId": "series65",
+    "section": 19,
+    "sectionTitle": "Rights, warrants, and calls",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "recall",
+    "front": "For an asset owner, how does a matched short futures hedge differ from buying a protective put?",
+    "answer": "Futures offset both favorable and unfavorable price moves. A put limits downside while preserving upside, for a premium.",
+    "governingRule": "Futures offset both favorable and unfavorable price moves. A put limits downside while preserving upside, for a premium.",
+    "trap": "A futures hedge removes losses but leaves all favorable price gains untouched.",
+    "explanation": "With an effective hedge, a futures gain offsets a cash-market loss and a futures loss offsets a cash-market gain. Actual hedges can have basis risk; a perfect price lock is a simplifying assumption.",
+    "tags": [
+      "futures-hedge",
+      "essential-review",
+      "review-point-19",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 19 — Futures lock price exposure; puts retain upside for a premium",
+    "contentVersion": "5fdd9c10e3968a95c1911c772cf73c122003f8445df7e899095f954f343890e2",
+    "officialSources": [
+      {
+        "authority": "CME Group",
+        "title": "Put-option price floors compared with short futures hedges",
+        "url": "https://www.cmegroup.com/education/courses/hedging-with-grain-and-oilseed-futures-and-options/risk-management-for-sellers-of-commoditities/establishing-a-floor-price-by-buying-put-options",
+        "kind": "reference"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-19-futures-hedge-contrast",
+    "ruleId": "s65-19-futures-hedge",
+    "deckId": "series65",
+    "section": 19,
+    "sectionTitle": "Rights, warrants, and calls",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An asset owner has a perfectly matched short futures hedge and the asset price rises. Does the owner retain that entire rise as an added net gain?",
+    "answer": "No. The asset’s gain is offset by a loss on the short futures hedge.",
+    "governingRule": "Futures offset both favorable and unfavorable price moves. A put limits downside while preserving upside, for a premium.",
+    "trap": "A futures hedge removes losses but leaves all favorable price gains untouched.",
+    "explanation": "With an effective hedge, a futures gain offsets a cash-market loss and a futures loss offsets a cash-market gain. Actual hedges can have basis risk; a perfect price lock is a simplifying assumption.",
+    "tags": [
+      "futures-hedge",
+      "essential-review",
+      "review-point-19",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 19 — Futures lock price exposure; puts retain upside for a premium",
+    "contentVersion": "2fb08ca2c08f944aedb44b2656358b44116158963a78d3da3b57b9b619f7e971",
+    "officialSources": [
+      {
+        "authority": "CME Group",
+        "title": "Put-option price floors compared with short futures hedges",
+        "url": "https://www.cmegroup.com/education/courses/hedging-with-grain-and-oilseed-futures-and-options/risk-management-for-sellers-of-commoditities/establishing-a-floor-price-by-buying-put-options",
+        "kind": "reference"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-19-hedge-direction-recall",
+    "ruleId": "s65-19-hedge-direction",
+    "deckId": "series65",
+    "section": 19,
+    "sectionTitle": "Rights, warrants, and calls",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "recall",
+    "front": "Which futures direction hedges a producer’s falling sale price, and which hedges a buyer’s rising purchase price?",
+    "answer": "The producer sells futures; the future buyer buys futures.",
+    "governingRule": "The producer sells futures; the future buyer buys futures.",
+    "trap": "Both a producer and a future buyer should sell futures whenever prices are uncertain.",
+    "explanation": "Choose a futures position that gains when the underlying business exposure loses. A producer fears falling prices; a buyer fears rising prices.",
+    "tags": [
+      "hedge-direction",
+      "essential-review",
+      "review-point-19",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 19 — Futures lock price exposure; puts retain upside for a premium",
+    "contentVersion": "9e95f7a4d8a1fe4456e91b2f6070dce1b98e32661c62a843212d7833e713516a",
+    "officialSources": [
+      {
+        "authority": "CME Group",
+        "title": "Put-option price floors compared with short futures hedges",
+        "url": "https://www.cmegroup.com/education/courses/hedging-with-grain-and-oilseed-futures-and-options/risk-management-for-sellers-of-commoditities/establishing-a-floor-price-by-buying-put-options",
+        "kind": "reference"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-19-hedge-direction-contrast",
+    "ruleId": "s65-19-hedge-direction",
+    "deckId": "series65",
+    "section": 19,
+    "sectionTitle": "Rights, warrants, and calls",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A manufacturer must purchase a commodity in three months and fears higher prices. Should it sell futures as its directional hedge?",
+    "answer": "No. It should buy futures; a long futures position gains when that commodity’s futures price rises.",
+    "governingRule": "The producer sells futures; the future buyer buys futures.",
+    "trap": "Both a producer and a future buyer should sell futures whenever prices are uncertain.",
+    "explanation": "Choose a futures position that gains when the underlying business exposure loses. A producer fears falling prices; a buyer fears rising prices.",
+    "tags": [
+      "hedge-direction",
+      "essential-review",
+      "review-point-19",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 19 — Futures lock price exposure; puts retain upside for a premium",
+    "contentVersion": "fcd1eb5f46c97b2573aee871aa04bb6623cd0c43d9222b09c198849ad9fd48c6",
+    "officialSources": [
+      {
+        "authority": "CME Group",
+        "title": "Put-option price floors compared with short futures hedges",
+        "url": "https://www.cmegroup.com/education/courses/hedging-with-grain-and-oilseed-futures-and-options/risk-management-for-sellers-of-commoditities/establishing-a-floor-price-by-buying-put-options",
+        "kind": "reference"
       }
     ],
     "retest": true,
@@ -17698,18 +19502,18 @@
     "category": "vehicles",
     "priority": "medium",
     "type": "recall",
-    "front": "What changes when a cash dividend is declared?",
-    "answer": "Equity falls and a dividend payable is created.",
-    "governingRule": "Equity falls and a dividend payable is created.",
+    "front": "What happens to equity and working capital when a cash dividend payable within one year is declared?",
+    "answer": "Both decrease. Declaration reduces equity and creates a current dividend payable; cash has not yet changed.",
+    "governingRule": "Both decrease. Declaration reduces equity and creates a current dividend payable; cash has not yet changed.",
     "trap": "Cash falls immediately on declaration even before payment.",
-    "explanation": "Equity falls and a dividend payable is created.",
+    "explanation": "Both decrease. Declaration reduces equity and creates a current dividend payable; cash has not yet changed.",
     "tags": [
       "dividend-declare",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 21 — Bonds, dividends, and risk labels",
-    "contentVersion": "cb6bd52bda48546dfbe0c7b463f686570800b3bffa99068290480b36f85ffc30",
+    "contentVersion": "d6ca49c729f5116627065856b3ea56c4d01d1888a76f914a41110f5f18693b57",
     "officialSources": [
       {
         "authority": "SEC",
@@ -17730,18 +19534,50 @@
     "category": "vehicles",
     "priority": "medium",
     "type": "contrast",
-    "front": "Does declaring a cash dividend reduce cash immediately, before payment?",
-    "answer": "No. Declaration reduces equity and creates a dividend payable; cash falls when payment occurs.",
-    "governingRule": "Equity falls and a dividend payable is created.",
+    "front": "Does declaring a cash dividend payable within one year leave working capital unchanged until payment?",
+    "answer": "No. Working capital falls when the current payable is created; equity also falls. Cash changes at payment.",
+    "governingRule": "Both decrease. Declaration reduces equity and creates a current dividend payable; cash has not yet changed.",
     "trap": "Cash falls immediately on declaration even before payment.",
-    "explanation": "Equity falls and a dividend payable is created.",
+    "explanation": "Both decrease. Declaration reduces equity and creates a current dividend payable; cash has not yet changed.",
     "tags": [
       "dividend-declare",
       "retest"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 21 — Bonds, dividends, and risk labels",
-    "contentVersion": "57241c3b029b1d51481a70dcfbf61b03dbdc9e13597d6fb1acc53b29309b68f4",
+    "contentVersion": "8ccdd09c567bbc69f49122322204c0b8230679d222ac8815794f9f9c633cc331",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Beginners guide to financial statements and ratios",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-21-dividend-declare-apply",
+    "ruleId": "s65-21-dividend-declare",
+    "deckId": "series65",
+    "section": 21,
+    "sectionTitle": "Bonds, dividends, and risk labels",
+    "category": "vehicles",
+    "priority": "medium",
+    "type": "calculation",
+    "front": "Before declaring a $6,000 cash dividend due next month, a company has $50,000 current assets and $20,000 current liabilities. What is working capital just after declaration?",
+    "answer": "$24,000.",
+    "governingRule": "Both decrease. Declaration reduces equity and creates a current dividend payable; cash has not yet changed.",
+    "trap": "Cash falls immediately on declaration even before payment.",
+    "explanation": "The payable raises current liabilities to $26,000. Working capital = $50,000 − $26,000 = $24,000, down from $30,000. Equity also falls $6,000.",
+    "tags": [
+      "dividend-declare",
+      "retest"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 21 — Bonds, dividends, and risk labels",
+    "contentVersion": "54ffce1321193761fba09ca638bcb8ebb282ffc5a3d36c3da0fa18189fef0daa",
     "officialSources": [
       {
         "authority": "SEC",
@@ -17806,6 +19642,38 @@
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 21 — Bonds, dividends, and risk labels",
     "contentVersion": "c2cdd0711d69fbf970ddcb9f066dbf94793d1064f03db4964180c1d5bf97dc60",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Beginners guide to financial statements and ratios",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-21-dividend-pay-apply",
+    "ruleId": "s65-21-dividend-pay",
+    "deckId": "series65",
+    "section": 21,
+    "sectionTitle": "Bonds, dividends, and risk labels",
+    "category": "vehicles",
+    "priority": "medium",
+    "type": "calculation",
+    "front": "A $6,000 declared dividend is already included in $26,000 current liabilities. Current assets are $50,000. After cash payment, what happens to working capital and equity?",
+    "answer": "Working capital stays $24,000; equity is unchanged by payment.",
+    "governingRule": "Cash and current liabilities fall equally; working capital and equity are unchanged.",
+    "trap": "Payment reduces equity a second time.",
+    "explanation": "Current assets become $44,000 and current liabilities $20,000. Their difference remains $24,000. Equity was reduced at declaration.",
+    "tags": [
+      "dividend-pay",
+      "retest"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 21 — Bonds, dividends, and risk labels",
+    "contentVersion": "ffc08d41bd5605121e266507cdcea63a90826a9664e4a88840835b42dcc7a4bc",
     "officialSources": [
       {
         "authority": "SEC",
@@ -18237,6 +20105,382 @@
     "reviewStatus": "draft"
   },
   {
+    "id": "s65-21-tips-coupon-recall",
+    "ruleId": "s65-21-tips-coupon",
+    "deckId": "series65",
+    "section": 21,
+    "sectionTitle": "Bonds, dividends, and risk labels",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "recall",
+    "front": "For Treasury Inflation-Protected Securities (TIPS), does inflation change the coupon rate or the principal used to calculate interest?",
+    "answer": "The principal changes. The coupon rate is fixed, so interest dollars vary with the inflation-adjusted principal.",
+    "governingRule": "The principal changes. The coupon rate is fixed, so interest dollars vary with the inflation-adjusted principal.",
+    "trap": "TIPS reset their coupon rate whenever inflation changes.",
+    "explanation": "Treasury Inflation-Protected Securities apply a fixed annual rate to adjusted principal and pay interest semiannually. Deflation can reduce interim principal and interest; the original-principal floor applies at maturity.",
+    "tags": [
+      "tips-coupon",
+      "essential-review",
+      "review-point-14",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 14 — TIPS: fixed coupon rate, variable interest dollars",
+    "contentVersion": "9c54e6c7e846401f1e483cb2e4dc8e57d9839cd475719b608d73aa7ecae2ca9f",
+    "officialSources": [
+      {
+        "authority": "U.S. Treasury",
+        "title": "Treasury Inflation-Protected Securities — principal and interest",
+        "url": "https://www.treasurydirect.gov/marketable-securities/tips/",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-21-tips-coupon-contrast",
+    "ruleId": "s65-21-tips-coupon",
+    "deckId": "series65",
+    "section": 21,
+    "sectionTitle": "Bonds, dividends, and risk labels",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "contrast",
+    "front": "If Treasury Inflation-Protected Securities (TIPS) principal rises with inflation, does a fixed coupon rate mean the next interest payment must stay the same?",
+    "answer": "No. The same rate applied to a higher principal produces a larger dollar payment.",
+    "governingRule": "The principal changes. The coupon rate is fixed, so interest dollars vary with the inflation-adjusted principal.",
+    "trap": "TIPS reset their coupon rate whenever inflation changes.",
+    "explanation": "Treasury Inflation-Protected Securities apply a fixed annual rate to adjusted principal and pay interest semiannually. Deflation can reduce interim principal and interest; the original-principal floor applies at maturity.",
+    "tags": [
+      "tips-coupon",
+      "essential-review",
+      "review-point-14",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 14 — TIPS: fixed coupon rate, variable interest dollars",
+    "contentVersion": "9c6b42023d42e4636e9022dbbef13b8d0b35648e82ff283a992384fa20116446",
+    "officialSources": [
+      {
+        "authority": "U.S. Treasury",
+        "title": "Treasury Inflation-Protected Securities — principal and interest",
+        "url": "https://www.treasurydirect.gov/marketable-securities/tips/",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-21-tips-coupon-apply",
+    "ruleId": "s65-21-tips-coupon",
+    "deckId": "series65",
+    "section": 21,
+    "sectionTitle": "Bonds, dividends, and risk labels",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "calculation",
+    "front": "A Treasury inflation-protected bond has a 2% annual coupon and $1,080 of adjusted principal on the payment date. What is its semiannual interest payment?",
+    "answer": "$10.80.",
+    "governingRule": "The principal changes. The coupon rate is fixed, so interest dollars vary with the inflation-adjusted principal.",
+    "trap": "Treasury Inflation-Protected Securities (TIPS) reset their coupon rate whenever inflation changes.",
+    "explanation": "$1,080 × 2% ÷ 2 = $10.80. The rate stays 2%; the principal used for the payment is the adjusted amount.",
+    "tags": [
+      "tips-coupon",
+      "essential-review",
+      "review-point-14",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 14 — TIPS: fixed coupon rate, variable interest dollars",
+    "contentVersion": "e148663d0abdb7d076ab7b3d303ea46f581c4e88be5bd2ffffa909cff86d576e",
+    "officialSources": [
+      {
+        "authority": "U.S. Treasury",
+        "title": "Treasury Inflation-Protected Securities — principal and interest",
+        "url": "https://www.treasurydirect.gov/marketable-securities/tips/",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-21-rates-prices-recall",
+    "ruleId": "s65-21-rates-prices",
+    "deckId": "series65",
+    "section": 21,
+    "sectionTitle": "Bonds, dividends, and risk labels",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "recall",
+    "front": "All else equal, what happens to an existing fixed-rate bond’s price when market yields rise?",
+    "answer": "Its price falls. When market yields fall, its price rises.",
+    "governingRule": "Its price falls. When market yields fall, its price rises.",
+    "trap": "A fixed coupon means the bond’s market price cannot change.",
+    "explanation": "An older fixed payment becomes less attractive when new bonds offer higher yields. Its price must fall to offer a competitive yield; the contractual coupon itself stays fixed.",
+    "tags": [
+      "rates-prices",
+      "essential-review",
+      "review-point-15",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 15 — Interest rates and fixed-rate bond prices move inversely",
+    "contentVersion": "ddfb365aae362955e19822988405307a68cbc9af3fc9d7071bb7a4a50446931d",
+    "officialSources": [
+      {
+        "authority": "FINRA",
+        "title": "Understanding bond yield and return",
+        "url": "https://www.finra.org/investors/insights/bond-yield-return",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-21-rates-prices-contrast",
+    "ruleId": "s65-21-rates-prices",
+    "deckId": "series65",
+    "section": 21,
+    "sectionTitle": "Bonds, dividends, and risk labels",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "contrast",
+    "front": "Market yields fall after a fixed-rate bond is issued. Does its coupon rate fall with them?",
+    "answer": "No. The coupon rate stays fixed; the bond’s market price generally rises.",
+    "governingRule": "Its price falls. When market yields fall, its price rises.",
+    "trap": "A fixed coupon means the bond’s market price cannot change.",
+    "explanation": "An older fixed payment becomes less attractive when new bonds offer higher yields. Its price must fall to offer a competitive yield; the contractual coupon itself stays fixed.",
+    "tags": [
+      "rates-prices",
+      "essential-review",
+      "review-point-15",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 15 — Interest rates and fixed-rate bond prices move inversely",
+    "contentVersion": "714ea139034ee15c191b1e3c87a3d49c82b167e938293a4e867fbc6215e65f16",
+    "officialSources": [
+      {
+        "authority": "FINRA",
+        "title": "Understanding bond yield and return",
+        "url": "https://www.finra.org/investors/insights/bond-yield-return",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-21-duration-long-low-recall",
+    "ruleId": "s65-21-duration-long-low",
+    "deckId": "series65",
+    "section": 21,
+    "sectionTitle": "Bonds, dividends, and risk labels",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "recall",
+    "front": "For otherwise comparable option-free fixed-rate bonds, which combination generally produces higher duration?",
+    "answer": "Longer maturity and a lower coupon. Higher duration means greater sensitivity to yield changes.",
+    "governingRule": "Longer maturity and a lower coupon. Higher duration means greater sensitivity to yield changes.",
+    "trap": "A higher coupon always makes a bond more sensitive to changing rates.",
+    "explanation": "Later cash flows carry more interest-rate sensitivity. Compare otherwise similar bonds, including yield; embedded options can change the usual relationship.",
+    "memoryHook": "Long and low: long maturity, low coupon, high duration.",
+    "tags": [
+      "duration-long-low",
+      "essential-review",
+      "review-point-16",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 16 — Long maturity and low coupon increase duration",
+    "contentVersion": "f530eecaeac47f3a607a675d60440ad5d45c4a9161f7e55a1b74ab038c6d21cc",
+    "officialSources": [
+      {
+        "authority": "CFA Institute",
+        "title": "Yield-Based Bond Duration Measures and Properties",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/yield-based-bond-duration-measures-and-properties",
+        "kind": "reference"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-21-duration-long-low-contrast",
+    "ruleId": "s65-21-duration-long-low",
+    "deckId": "series65",
+    "section": 21,
+    "sectionTitle": "Bonds, dividends, and risk labels",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "contrast",
+    "front": "Two option-free bonds have the same maturity and yield. Does the one with the higher coupon have higher duration?",
+    "answer": "No. The lower-coupon bond has higher duration because more of its value arrives later.",
+    "governingRule": "Longer maturity and a lower coupon. Higher duration means greater sensitivity to yield changes.",
+    "trap": "A higher coupon always makes a bond more sensitive to changing rates.",
+    "explanation": "Later cash flows carry more interest-rate sensitivity. Compare otherwise similar bonds, including yield; embedded options can change the usual relationship.",
+    "memoryHook": "Long and low: long maturity, low coupon, high duration.",
+    "tags": [
+      "duration-long-low",
+      "essential-review",
+      "review-point-16",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 16 — Long maturity and low coupon increase duration",
+    "contentVersion": "e2a35d9d1f2ed805cc3c933c4887d007389691936d603dc26f5b27791b504da0",
+    "officialSources": [
+      {
+        "authority": "CFA Institute",
+        "title": "Yield-Based Bond Duration Measures and Properties",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/yield-based-bond-duration-measures-and-properties",
+        "kind": "reference"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-21-preferred-priority-recall",
+    "ruleId": "s65-21-preferred-priority",
+    "deckId": "series65",
+    "section": 21,
+    "sectionTitle": "Bonds, dividends, and risk labels",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "recall",
+    "front": "In liquidation, where does preferred stock rank relative to common stock and creditors?",
+    "answer": "Ahead of common stock, but behind all creditors, including unsecured and subordinated creditors.",
+    "governingRule": "Ahead of common stock, but behind all creditors, including unsecured and subordinated creditors.",
+    "trap": "Preferred stock outranks unsecured debt because it is called preferred.",
+    "explanation": "Preferred is an equity claim. Its preference is over common equity, not over the company’s debt obligations.",
+    "tags": [
+      "preferred-priority",
+      "essential-review",
+      "review-point-17",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 17 — Preferred stock ranks between creditors and common stock",
+    "contentVersion": "93a7ad18d32e12814b4da6bf11b012d77fd7548c0122330bd1c13a0969038da6",
+    "officialSources": [
+      {
+        "authority": "FINRA",
+        "title": "Stocks — preferred and common liquidation priority",
+        "url": "https://www.finra.org/investors/investing/investment-products/stocks",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-21-preferred-priority-contrast",
+    "ruleId": "s65-21-preferred-priority",
+    "deckId": "series65",
+    "section": 21,
+    "sectionTitle": "Bonds, dividends, and risk labels",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A company owes subordinated unsecured debt and has preferred shares outstanding. Which claim ranks ahead in liquidation?",
+    "answer": "The subordinated debt. Even subordinated creditors rank ahead of preferred shareholders.",
+    "governingRule": "Ahead of common stock, but behind all creditors, including unsecured and subordinated creditors.",
+    "trap": "Preferred stock outranks unsecured debt because it is called preferred.",
+    "explanation": "Preferred is an equity claim. Its preference is over common equity, not over the company’s debt obligations.",
+    "tags": [
+      "preferred-priority",
+      "essential-review",
+      "review-point-17",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 17 — Preferred stock ranks between creditors and common stock",
+    "contentVersion": "0fa5488cb662b089c067ce77857cbe0e5e652bd9395d8fa6b71e0efc298b85dc",
+    "officialSources": [
+      {
+        "authority": "FINRA",
+        "title": "Stocks — preferred and common liquidation priority",
+        "url": "https://www.finra.org/investors/investing/investment-products/stocks",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-21-etn-credit-recall",
+    "ruleId": "s65-21-etn-credit",
+    "deckId": "series65",
+    "section": 21,
+    "sectionTitle": "Bonds, dividends, and risk labels",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "recall",
+    "front": "What issuer risk does an exchange-traded note (ETN) add to its linked investment exposure?",
+    "answer": "Unsecured issuer credit risk. Payment depends on the issuer’s ability to meet its debt obligation.",
+    "governingRule": "Unsecured issuer credit risk. Payment depends on the issuer’s ability to meet its debt obligation.",
+    "trap": "An ETN investor owns a separate fund portfolio backing the note.",
+    "explanation": "An exchange-traded note is debt, not an ownership interest in a fund portfolio. A rising tracked index cannot eliminate the issuer’s default risk.",
+    "tags": [
+      "etn-credit",
+      "essential-review",
+      "review-point-20",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 20 — ETNs carry unsecured issuer credit risk",
+    "contentVersion": "715e72357a51cbe8816b35d825b5ee57fa344eb00771f05f760a036cbe5c49e7",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Exchange Traded Notes — unsecured issuer obligations",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-50",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-21-etn-credit-contrast",
+    "ruleId": "s65-21-etn-credit",
+    "deckId": "series65",
+    "section": 21,
+    "sectionTitle": "Bonds, dividends, and risk labels",
+    "category": "vehicles",
+    "priority": "high",
+    "type": "contrast",
+    "front": "An exchange-traded note (ETN)’s tracked index rises, but the issuer defaults. Is the investor guaranteed the positive index return?",
+    "answer": "No. The note is an unsecured promise of the issuer; default can cause a loss despite index gains.",
+    "governingRule": "Unsecured issuer credit risk. Payment depends on the issuer’s ability to meet its debt obligation.",
+    "trap": "An ETN investor owns a separate fund portfolio backing the note.",
+    "explanation": "An exchange-traded note is debt, not an ownership interest in a fund portfolio. A rising tracked index cannot eliminate the issuer’s default risk.",
+    "tags": [
+      "etn-credit",
+      "essential-review",
+      "review-point-20",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 20 — ETNs carry unsecured issuer credit risk",
+    "contentVersion": "b51d75e76dac69346017deea76cc3dee964de4815c639cae1a30bec5e0eca8aa",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Exchange Traded Notes — unsecured issuer obligations",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-50",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
     "id": "s65-22-balance-sheet-recall",
     "ruleId": "s65-22-balance-sheet",
     "deckId": "series65",
@@ -18431,17 +20675,17 @@
     "category": "economics",
     "priority": "low",
     "type": "calculation",
-    "front": "A company has cash $12,000, marketable securities $8,000, receivables $30,000, inventory $20,000, and current liabilities $25,000. What is its quick ratio?",
+    "front": "A company has cash $12,000, marketable securities $8,000, receivables $30,000, inventory $20,000, prepaids $5,000, and current liabilities $25,000. What is its quick ratio?",
     "answer": "2.0.",
     "governingRule": "Cash, marketable securities, and receivables; divide by current liabilities and exclude inventory and prepayments.",
     "trap": "Inventory belongs in the quick ratio because it is a current asset.",
-    "explanation": "($12,000 + $8,000 + $30,000) ÷ $25,000 = 2. Inventory is excluded.",
+    "explanation": "($12,000 + $8,000 + $30,000) ÷ $25,000 = 2. Exclude both inventory and prepaid expenses.",
     "tags": [
       "quick-ratio"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 22 — Financial statements",
-    "contentVersion": "eb5facd5b0eb6fa7692fbb20d77ac999d24b1e1e48956202e30dfeccf7257e33",
+    "contentVersion": "d05da2cbd0c34c2c531f2c72e23f40fd2bab656ee22e5f201f53e3286805b65b",
     "officialSources": [
       {
         "authority": "SEC",
@@ -18513,6 +20757,108 @@
       }
     ],
     "retest": false,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-22-market-cap-recall",
+    "ruleId": "s65-22-market-cap",
+    "deckId": "series65",
+    "section": 22,
+    "sectionTitle": "Financial statements",
+    "category": "economics",
+    "priority": "high",
+    "type": "recall",
+    "front": "Which share count is multiplied by the current share price to calculate market capitalization?",
+    "answer": "Outstanding shares. Authorized but unissued shares and treasury shares are excluded.",
+    "governingRule": "Outstanding shares. Authorized but unissued shares and treasury shares are excluded.",
+    "trap": "Use all authorized shares or all issued shares even when some are held in treasury.",
+    "explanation": "For a single common-share class, outstanding shares equal issued shares minus treasury shares. Authorized shares are the maximum permitted issuance, not current investor ownership.",
+    "tags": [
+      "market-cap",
+      "essential-review",
+      "review-point-13",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 13 — Market capitalization uses outstanding shares",
+    "contentVersion": "e3c87727459c87f4504d40a7c35f49c412c1f1586ed1f0874c520b8bef437439",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Market Capitalization — outstanding shares times share price",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-22-market-cap-contrast",
+    "ruleId": "s65-22-market-cap",
+    "deckId": "series65",
+    "section": 22,
+    "sectionTitle": "Financial statements",
+    "category": "economics",
+    "priority": "high",
+    "type": "contrast",
+    "front": "A company has issued 7 million shares and holds 1 million in treasury. Does market capitalization use all 7 million?",
+    "answer": "No. It uses the 6 million outstanding shares.",
+    "governingRule": "Outstanding shares. Authorized but unissued shares and treasury shares are excluded.",
+    "trap": "Use all authorized shares or all issued shares even when some are held in treasury.",
+    "explanation": "For a single common-share class, outstanding shares equal issued shares minus treasury shares. Authorized shares are the maximum permitted issuance, not current investor ownership.",
+    "tags": [
+      "market-cap",
+      "essential-review",
+      "review-point-13",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 13 — Market capitalization uses outstanding shares",
+    "contentVersion": "60acf3fa3a99befea8fe78964c323123bf11c88f5b40d9a9010b51f63eec15a2",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Market Capitalization — outstanding shares times share price",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-22-market-cap-apply",
+    "ruleId": "s65-22-market-cap",
+    "deckId": "series65",
+    "section": 22,
+    "sectionTitle": "Financial statements",
+    "category": "economics",
+    "priority": "high",
+    "type": "calculation",
+    "front": "A single-class company has 12 million authorized shares, 8 million issued, and 2 million in treasury. At $25 per share, what is its market capitalization?",
+    "answer": "$150 million.",
+    "governingRule": "Outstanding shares. Authorized but unissued shares and treasury shares are excluded.",
+    "trap": "Use all authorized shares or all issued shares even when some are held in treasury.",
+    "explanation": "Outstanding shares = 8 million − 2 million = 6 million. Market capitalization = 6 million × $25 = $150 million. The authorized count is irrelevant.",
+    "tags": [
+      "market-cap",
+      "essential-review",
+      "review-point-13",
+      "retest"
+    ],
+    "sourcePath": "content/review-expansion.ts",
+    "sourceHeading": "Review point 13 — Market capitalization uses outstanding shares",
+    "contentVersion": "c36ad98d7cd66cd6b39ee01bfbfa26421284f433fa1878b92d80bf5e0d270617",
+    "officialSources": [
+      {
+        "authority": "SEC",
+        "title": "Market Capitalization — outstanding shares times share price",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization",
+        "kind": "guidance"
+      }
+    ],
+    "retest": true,
     "reviewStatus": "draft"
   },
   {
@@ -18950,6 +21296,37 @@
     "reviewStatus": "draft"
   },
   {
+    "id": "s65-24-qualified-apply",
+    "ruleId": "s65-24-qualified",
+    "deckId": "series65",
+    "section": 24,
+    "sectionTitle": "Auditor opinions",
+    "category": "economics",
+    "priority": "low",
+    "type": "application",
+    "front": "An auditor lacks evidence for one material balance. The possible effects are material but not pervasive. Which audit opinion fits?",
+    "answer": "Qualified.",
+    "governingRule": "Qualified, meaning except for the identified matter.",
+    "trap": "Every material problem requires an adverse opinion.",
+    "explanation": "A limited material evidence problem supports a qualified opinion; pervasive possible effects would call for a disclaimer.",
+    "tags": [
+      "qualified"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 24 — Auditor opinions",
+    "contentVersion": "e94ea0be83e74b4370136e10d50677da9a6c30468fd6857402ed583d8a4e3d8d",
+    "officialSources": [
+      {
+        "authority": "PCAOB",
+        "title": "AS 3105 — qualified, adverse, and disclaimer audit opinions",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS3105",
+        "kind": "rule"
+      }
+    ],
+    "retest": false,
+    "reviewStatus": "draft"
+  },
+  {
     "id": "s65-24-adverse-recall",
     "ruleId": "s65-24-adverse",
     "deckId": "series65",
@@ -18969,6 +21346,37 @@
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 24 — Auditor opinions",
     "contentVersion": "dfce087a6a426378ddaa9a0a70a5607644e96a4d27d02fe940b38736969e460d",
+    "officialSources": [
+      {
+        "authority": "PCAOB",
+        "title": "AS 3105 — qualified, adverse, and disclaimer audit opinions",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS3105",
+        "kind": "rule"
+      }
+    ],
+    "retest": false,
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "s65-24-adverse-apply",
+    "ruleId": "s65-24-adverse",
+    "deckId": "series65",
+    "section": 24,
+    "sectionTitle": "Auditor opinions",
+    "category": "economics",
+    "priority": "low",
+    "type": "application",
+    "front": "Reliable evidence shows material misstatements throughout the financial statements. Which opinion fits?",
+    "answer": "Adverse.",
+    "governingRule": "Adverse.",
+    "trap": "A known pervasive misstatement merely means the auditor cannot express any opinion.",
+    "explanation": "Known material and pervasive misstatement calls for adverse, not disclaimer. Disclaimer concerns insufficient evidence.",
+    "tags": [
+      "adverse"
+    ],
+    "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
+    "sourceHeading": "Section 24 — Auditor opinions",
+    "contentVersion": "4346928bac8766fe758cd0dce5da6421c6ab9005feaf0e6c891f2b7922e70992",
     "officialSources": [
       {
         "authority": "PCAOB",

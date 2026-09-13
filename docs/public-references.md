@@ -34,6 +34,9 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-01-adviser-elements | [NASAA — Investment Adviser Guide — registration, operations, and state requirements](https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/) | guidance |
 | s65-01-business-regular | [NASAA — Investment Adviser Guide — registration, operations, and state requirements](https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/) | guidance |
 | s65-01-bond-authority | [NASAA — Minimum Financial Requirements Model Rule 202(d)-1](https://www.nasaa.org/wp-content/uploads/2011/07/IA-Model-Rule-Minimum-Financial-Requirements.pdf) | rule |
+| s65-01-bd-retail | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
+| s65-01-issuer-muni | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
+| s65-01-issuer-security-scope | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
 | s65-02-state-employment | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
 | s65-02-federal-employment | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
 | s65-02-agent-departure | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
@@ -65,11 +68,12 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-04-records-ordinary | [NASAA — Recordkeeping Model Rule 203(a)-2, amended May 2026](https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Recordkeeping-Requirements-for-Investment-Advisers-Model-Rule_203a-2_5-4-2026.pdf) | rule |
 | s65-04-records-formation | [NASAA — Recordkeeping Model Rule 203(a)-2, amended May 2026](https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Recordkeeping-Requirements-for-Investment-Advisers-Model-Rule_203a-2_5-4-2026.pdf) | rule |
 | s65-04-aum-below | [NASAA — Investment Adviser Guide — registration, operations, and state requirements](https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/) | guidance |
-| s65-04-aum-buffer | [NASAA — Investment Adviser Guide — registration, operations, and state requirements](https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/) | guidance |
-| s65-04-aum-must | [NASAA — Investment Adviser Guide — registration, operations, and state requirements](https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/) | guidance |
-| s65-04-aum-exit | [NASAA — Investment Adviser Guide — registration, operations, and state requirements](https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/) | guidance |
+| s65-04-aum-buffer | [SEC — Form ADV general instructions](https://www.sec.gov/about/forms/formadv-instructions.pdf) | guidance |
+| s65-04-aum-must | [SEC — Form ADV general instructions](https://www.sec.gov/about/forms/formadv-instructions.pdf) | guidance |
+| s65-04-aum-exit | [SEC — Form ADV general instructions](https://www.sec.gov/about/forms/formadv-instructions.pdf) | guidance |
 | s65-04-registered-fund | [NASAA — Investment Adviser Guide — registration, operations, and state requirements](https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/) | guidance |
-| s65-04-withdraw-clock | [NASAA — Investment Adviser Guide — registration, operations, and state requirements](https://www.nasaa.org/industry-resources/investment-advisers/investment-adviser-guide/) | guidance |
+| s65-04-withdraw-clock | [SEC — Form ADV general instructions](https://www.sec.gov/about/forms/formadv-instructions.pdf) | guidance |
+| s65-04-aum-entry-buffer | [SEC — Form ADV general instructions](https://www.sec.gov/about/forms/formadv-instructions.pdf) | guidance |
 | s65-05-termination-prompt | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
 | s65-05-prepay-state | [NASAA — Minimum Financial Requirements Model Rule 202(d)-1](https://www.nasaa.org/wp-content/uploads/2011/07/IA-Model-Rule-Minimum-Financial-Requirements.pdf) | rule |
 | s65-05-prepay-federal | [SEC — Form ADV general instructions](https://www.sec.gov/about/forms/formadv-instructions.pdf) | guidance |
@@ -97,12 +101,16 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-06-notification | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
 | s65-06-coordination | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
 | s65-06-qualification | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
+| s65-06-registration-approval | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
+| s65-06-exemption-scope | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
+| s65-06-municipal-issuer | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
 | s65-07-accredited | [SEC — Private Funds — fund exclusions and adviser registration](https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/private-funds) | guidance |
 | s65-07-qualified-client | [SEC — Qualified-client inflation adjustment, Release IA-6961](https://www.sec.gov/files/rules/ia/2026/ia-6961.pdf) | rule |
 | s65-07-qualified-purchaser | [SEC — Private Funds — fund exclusions and adviser registration](https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/private-funds) | guidance |
 | s65-07-client-managed | [SEC — Qualified-client inflation adjustment, Release IA-6961](https://www.sec.gov/files/rules/ia/2026/ia-6961.pdf) | rule |
 | s65-07-client-worth | [SEC — Qualified-client inflation adjustment, Release IA-6961](https://www.sec.gov/files/rules/ia/2026/ia-6961.pdf) | rule |
 | s65-07-client-version | [SEC — Qualified-client inflation adjustment, Release IA-6961](https://www.sec.gov/files/rules/ia/2026/ia-6961.pdf) | rule |
+| s65-07-client-residence | [SEC — Qualified-client inflation adjustment, Release IA-6961](https://www.sec.gov/files/rules/ia/2026/ia-6961.pdf)<br>[eCFR — 17 CFR 275.205-3 — qualified clients and primary-residence treatment](https://www.ecfr.gov/current/title-17/chapter-II/part-275/section-275.205-3) | rule, rule |
 | s65-08-fund-exclusion | [SEC — Private Funds — fund exclusions and adviser registration](https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/private-funds) | guidance |
 | s65-08-fund-one | [SEC — Private Funds — fund exclusions and adviser registration](https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/private-funds) | guidance |
 | s65-08-fund-seven | [SEC — Private Funds — fund exclusions and adviser registration](https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/private-funds) | guidance |
@@ -134,6 +142,9 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-09-testimonial | [SEC — Investment Adviser Marketing Rule compliance guide](https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/investment-adviser-marketing) | guidance |
 | s65-09-promoter-oversight | [SEC — Investment Adviser Marketing Rule compliance guide](https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/investment-adviser-marketing) | guidance |
 | s65-09-promoter-agreement | [SEC — Investment Adviser Marketing Rule compliance guide](https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/investment-adviser-marketing) | guidance |
+| s65-09-time-price-expiry | [FINRA — Rule 3260 — Discretionary Accounts](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3260) | rule |
+| s65-09-durable-authority | [CFPB — Durable power of attorney — incapacity and death; Arizona guide](https://www.consumerfinance.gov/documents/6274/cfpb_help-for-agents-under-a-power-of-attorney_arizona.pdf) | guidance |
+| s65-09-pay-play-status | [SEC — Proposed rescission of Rule 206(4)-5 — September 3, 2026; not an effective repeal](https://www.sec.gov/rules-regulations/2026/09/s7-2026-31) | reference |
 | s65-10-restricted-clock | [SEC — Rule 144 — reporting and nonreporting issuers, affiliate resale conditions](https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/revisions-rules-144-145) | guidance |
 | s65-10-unrestricted-clock | [SEC — Rule 144 — reporting and nonreporting issuers, affiliate resale conditions](https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/revisions-rules-144-145) | guidance |
 | s65-10-control | [SEC — Rule 144 — reporting and nonreporting issuers, affiliate resale conditions](https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/revisions-rules-144-145) | guidance |
@@ -190,6 +201,8 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-13-ira-loans | [IRS — Hardships, early withdrawals and loans](https://www.irs.gov/retirement-plans/hardships-early-withdrawals-and-loans) | guidance |
 | s65-13-irmaa | [SSA — Medicare premiums and income-related adjustments](https://www.ssa.gov/benefits/medicare/medicare-premiums.html) | guidance |
 | s65-13-ira-deadline | [IRS — IRA frequently asked questions — contributions and distributions](https://www.irs.gov/retirement-plans/retirement-plans-faqs-regarding-iras) | guidance |
+| s65-13-conversion-clock | [IRS — Publication 590-B — IRA distributions, Roth ordering, and penalties](https://www.irs.gov/publications/p590b) | guidance |
+| s65-13-roth-clock | [IRS — Publication 590-B — IRA distributions, Roth ordering, and penalties](https://www.irs.gov/publications/p590b) | guidance |
 | s65-14-529-control | [IRS — Publication 970 — 529 and Coverdell education tax benefits](https://www.irs.gov/publications/p970) | guidance |
 | s65-14-529-tax | [IRS — Publication 970 — 529 and Coverdell education tax benefits](https://www.irs.gov/publications/p970) | guidance |
 | s65-14-529-roth | [IRS — Publication 970 — 529 and Coverdell education tax benefits](https://www.irs.gov/publications/p970) | guidance |
@@ -217,6 +230,7 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-15-jtwros-retest | [FDIC — Joint accounts — survivorship and tenancy in common](https://www.fdic.gov/financial-institution-employees-guide-deposit-insurance/joint-accounts) | guidance |
 | s65-15-will-title | [FDIC — Joint accounts — survivorship and tenancy in common](https://www.fdic.gov/financial-institution-employees-guide-deposit-insurance/joint-accounts) | guidance |
 | s65-15-entirety | [Virginia law — Tenancy by the entirety — one state example; other states differ](https://law.lis.virginia.gov/vacode/title55.1/chapter1/section55.1-136/) | rule |
+| s65-15-gift-dual | [IRS — Basis of property received as a gift — gain and loss bases](https://www.irs.gov/faqs/capital-gains-losses-and-sale-of-home/property-basis-sale-of-home-etc/property-basis-sale-of-home-etc) | guidance |
 | s65-16-sole | [SBA — Choosing a business structure — liability and taxation](https://www.sba.gov/counseling/launch-your-business/) | guidance |
 | s65-16-general-partner | [SBA — Choosing a business structure — liability and taxation](https://www.sba.gov/counseling/launch-your-business/) | guidance |
 | s65-16-limited-partner | [SBA — Choosing a business structure — liability and taxation](https://www.sba.gov/counseling/launch-your-business/) | guidance |
@@ -248,6 +262,9 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-18-coverage-three | [U.S. Code — 15 USC 80a-18 — investment-company borrowing and asset coverage](https://uscode.house.gov/view.xhtml?req=%28title%3A15+section%3A80a-18+edition%3Aprelim%29) | rule |
 | s65-18-repay-equation | [U.S. Code — 15 USC 80a-18 — investment-company borrowing and asset coverage](https://uscode.house.gov/view.xhtml?req=%28title%3A15+section%3A80a-18+edition%3Aprelim%29) | rule |
 | s65-18-borrow-equation | [U.S. Code — 15 USC 80a-18 — investment-company borrowing and asset coverage](https://uscode.house.gov/view.xhtml?req=%28title%3A15+section%3A80a-18+edition%3Aprelim%29) | rule |
+| s65-18-traded-fund-price | [SEC — Mutual Funds and ETFs — investor guide](https://www.investor.gov/sites/investorgov/files/2019-02/mutual-funds-ETFs.pdf)<br>[SEC — Exchange-Traded Funds — market prices, structure, and active management](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24) | guidance, guidance |
+| s65-18-etf-structure | [SEC — Exchange-Traded Funds — market prices, structure, and active management](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24) | guidance |
+| s65-18-etf-active | [SEC — Exchange-Traded Funds — market prices, structure, and active management](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24) | guidance |
 | s65-19-right | [CFA Institute — Preemptive rights — protecting existing shareholders](https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/non-preemptive-share-issues-in-asia-role-of-regulation.pdf) | reference |
 | s65-19-warrant | [SEC — Investor bulletin — warrants to purchase additional company shares](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-you) | guidance |
 | s65-19-listed-call | [SEC — Options — purchase and sale rights](https://www.investor.gov/introduction-investing/investing-basics/glossary/options) | guidance |
@@ -257,6 +274,10 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-19-agreement-timing | [FINRA — Rule 2360 — Options, account approval and disclosure requirements](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2360) | rule |
 | s65-19-buyer-call | [SEC — Options — purchase and sale rights](https://www.investor.gov/introduction-investing/investing-basics/glossary/options) | guidance |
 | s65-19-seller-put | [SEC — Options — purchase and sale rights](https://www.investor.gov/introduction-investing/investing-basics/glossary/options) | guidance |
+| s65-19-protect-long | [OCC / OIC — Options Basics — call purchase rights and put sale rights](https://www.optionseducation.org/optionsoverview/options-basics) | reference |
+| s65-19-protect-short | [OCC / OIC — Options Basics — call purchase rights and put sale rights](https://www.optionseducation.org/optionsoverview/options-basics) | reference |
+| s65-19-futures-hedge | [CME Group — Put-option price floors compared with short futures hedges](https://www.cmegroup.com/education/courses/hedging-with-grain-and-oilseed-futures-and-options/risk-management-for-sellers-of-commoditities/establishing-a-floor-price-by-buying-put-options) | reference |
+| s65-19-hedge-direction | [CME Group — Put-option price floors compared with short futures hedges](https://www.cmegroup.com/education/courses/hedging-with-grain-and-oilseed-futures-and-options/risk-management-for-sellers-of-commoditities/establishing-a-floor-price-by-buying-put-options) | reference |
 | s65-20-annuity-default | [IRS — Publication 575 — Pension and Annuity Income](https://www.irs.gov/publications/p575) | guidance |
 | s65-20-annuity-basis | [IRS — Publication 575 — Pension and Annuity Income](https://www.irs.gov/publications/p575) | guidance |
 | s65-20-annuity-lifo | [IRS — Publication 575 — Pension and Annuity Income](https://www.irs.gov/publications/p575) | guidance |
@@ -282,6 +303,11 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-21-bond-rating | [SEC — Corporate bonds — yields and credit ratings](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are) | guidance |
 | s65-21-after-tax | [MSRB — Understanding taxable municipal bonds — taxable-equivalent yield formula](https://www.msrb.org/Understanding-Taxable-Municipal-Bonds) | guidance |
 | s65-21-tax-equivalent | [MSRB — Understanding taxable municipal bonds — taxable-equivalent yield formula](https://www.msrb.org/Understanding-Taxable-Municipal-Bonds) | guidance |
+| s65-21-tips-coupon | [U.S. Treasury — Treasury Inflation-Protected Securities — principal and interest](https://www.treasurydirect.gov/marketable-securities/tips/) | guidance |
+| s65-21-rates-prices | [FINRA — Understanding bond yield and return](https://www.finra.org/investors/insights/bond-yield-return) | guidance |
+| s65-21-duration-long-low | [CFA Institute — Yield-Based Bond Duration Measures and Properties](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/yield-based-bond-duration-measures-and-properties) | reference |
+| s65-21-preferred-priority | [FINRA — Stocks — preferred and common liquidation priority](https://www.finra.org/investors/investing/investment-products/stocks) | guidance |
+| s65-21-etn-credit | [SEC — Exchange Traded Notes — unsecured issuer obligations](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-50) | guidance |
 | s65-22-balance-sheet | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-22-income-statement | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-22-cash-flow | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
@@ -290,6 +316,7 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-22-quick-ratio | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-22-capitalization | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-22-equity | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
+| s65-22-market-cap | [SEC — Market Capitalization — outstanding shares times share price](https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization) | guidance |
 | s65-23-leading | [The Conference Board — U.S. leading, coincident, and lagging indicators](https://www.conference-board.org/topics/us-leading-indicators/) | reference |
 | s65-23-lagging | [The Conference Board — U.S. leading, coincident, and lagging indicators](https://www.conference-board.org/topics/us-leading-indicators/) | reference |
 | s65-23-claims-duration | [The Conference Board — U.S. leading, coincident, and lagging indicators](https://www.conference-board.org/topics/us-leading-indicators/) | reference |

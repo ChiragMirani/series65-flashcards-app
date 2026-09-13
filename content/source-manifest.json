@@ -12,15 +12,25 @@
     },
     {
       "file": "series_65_new_chat_handoff.md",
-      "sha256": "b041accb930b7fe9bc4289453fa68a77a28622554b72525a307141a8755b0782"
+      "sha256": "75879f0e77881ac4221fdf06b815ca622ff38b4133763de5144ab24fcd9c7926"
     },
     {
       "file": "series_65_test_5_miss_audit_2026-09-12.md",
       "sha256": "b0afdb1fac1e27045c7fee48a1439d848dd30663064c48a9c75b88147625d878"
     }
   ],
-  "rules": 312,
-  "cards": 632,
+  "authoredSources": [
+    {
+      "file": "content/review-expansion.ts",
+      "sha256": "c8b659e613ca9169cdeefaa326f49df235a57d33246b214514c0e05ed81068c9"
+    },
+    {
+      "file": "content/review-checklist.ts",
+      "sha256": "84326b15bf5589a99f046744de89f5d21a04d03749141d476ecd4f4b7a17b499"
+    }
+  ],
+  "rules": 339,
+  "cards": 703,
   "sections": [
     {
       "number": 1,

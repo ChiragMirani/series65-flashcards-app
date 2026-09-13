@@ -1,6 +1,6 @@
 # Content provenance
 
-Study preview; commercial release blocked. All authored prompts, scenarios, traps, and worked numerical examples were independently written for this project. The importer never reads optional vendor-style question banks, keys, or recalled examination materials. Facts come from the canonical sheet. The design blueprint shapes difficulty; handoff and miss audit identify priorities only. No private scores or source-note text are bundled in the application.
+Study preview; commercial release blocked. All authored prompts, scenarios, traps, and worked numerical examples were independently written for this project. The importer never reads optional vendor-style question banks, keys, or recalled examination materials. The original rules come from the canonical sheet. Additional rules in content/review-expansion.ts fulfill the user's September 13, 2026 request to expand 30 review topics; they are independently authored using the public references listed in docs/public-references.md. They are not attributed to the unchanged cram sheet. The design blueprint shapes difficulty; handoff and miss audit identify priorities only. No private scores or source-note text are bundled in the application.
 
 All cards remain **draft**. None has received a human copyright/provenance audit or subject-matter verification. Every imported rule below **requires review against official public authority before commercial release**. A technical schema or source-locator check is not substantive verification.
 
@@ -8,12 +8,14 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 
 - C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md — SHA-256 59bcd149398c961f3a35b919ddd662eb5fd38fd74183b0b50644ecc5a43877a7
 - C:\Users\chira\Desktop\sports\datascience\series_65_question_design_research.md — SHA-256 b6e5f333f557230acba4e5902b3569bc49cb6f88ae066029f8342b8fc1aee7e2
-- C:\Users\chira\Desktop\sports\datascience\series_65_new_chat_handoff.md — SHA-256 b041accb930b7fe9bc4289453fa68a77a28622554b72525a307141a8755b0782
+- C:\Users\chira\Desktop\sports\datascience\series_65_new_chat_handoff.md — SHA-256 75879f0e77881ac4221fdf06b815ca622ff38b4133763de5144ab24fcd9c7926
 - C:\Users\chira\Desktop\sports\datascience\series_65_test_5_miss_audit_2026-09-12.md — SHA-256 b0afdb1fac1e27045c7fee48a1439d848dd30663064c48a9c75b88147625d878
+- C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts — SHA-256 c8b659e613ca9169cdeefaa326f49df235a57d33246b214514c0e05ed81068c9
+- C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-checklist.ts — SHA-256 84326b15bf5589a99f046744de89f5d21a04d03749141d476ecd4f4b7a17b499
 
 ## Rule provenance
 
-| Rule ID | Canonical local path | Source heading | Release review |
+| Rule ID | Local source path | Source heading | Release review |
 |---|---|---|---|
 | s65-01-state-office | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 1 — De minimis and state registration | REQUIRED: primary authority + human wording audit |
 | s65-01-state-sixth | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 1 — De minimis and state registration | REQUIRED: primary authority + human wording audit |
@@ -37,6 +39,9 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 | s65-01-adviser-elements | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 1 — De minimis and state registration | REQUIRED: primary authority + human wording audit |
 | s65-01-business-regular | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 1 — De minimis and state registration | REQUIRED: primary authority + human wording audit |
 | s65-01-bond-authority | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 1 — De minimis and state registration | REQUIRED: primary authority + human wording audit |
+| s65-01-bd-retail | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 4 — No five-retail-client allowance for broker-dealers | REQUIRED: primary authority + human wording audit |
+| s65-01-issuer-muni | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 5 — Issuer representatives versus broker-dealer agents | REQUIRED: primary authority + human wording audit |
+| s65-01-issuer-security-scope | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 5 — Issuer representatives versus broker-dealer agents | REQUIRED: primary authority + human wording audit |
 | s65-02-state-employment | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 2 — IAR employment notice and continuing education | REQUIRED: primary authority + human wording audit |
 | s65-02-federal-employment | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 2 — IAR employment notice and continuing education | REQUIRED: primary authority + human wording audit |
 | s65-02-agent-departure | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 2 — IAR employment notice and continuing education | REQUIRED: primary authority + human wording audit |
@@ -73,6 +78,7 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 | s65-04-aum-exit | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 4 — Registration clocks and federal/state AUM flips | REQUIRED: primary authority + human wording audit |
 | s65-04-registered-fund | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 4 — Registration clocks and federal/state AUM flips | REQUIRED: primary authority + human wording audit |
 | s65-04-withdraw-clock | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 4 — Registration clocks and federal/state AUM flips | REQUIRED: primary authority + human wording audit |
+| s65-04-aum-entry-buffer | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 6 — Adviser registration: $100M / $110M / below $90M | REQUIRED: primary authority + human wording audit |
 | s65-05-termination-prompt | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 5 — Same subject, different deadline or consequence | REQUIRED: primary authority + human wording audit |
 | s65-05-prepay-state | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 5 — Same subject, different deadline or consequence | REQUIRED: primary authority + human wording audit |
 | s65-05-prepay-federal | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 5 — Same subject, different deadline or consequence | REQUIRED: primary authority + human wording audit |
@@ -100,12 +106,16 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 | s65-06-notification | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 6 — Securities-law look-alikes | REQUIRED: primary authority + human wording audit |
 | s65-06-coordination | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 6 — Securities-law look-alikes | REQUIRED: primary authority + human wording audit |
 | s65-06-qualification | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 6 — Securities-law look-alikes | REQUIRED: primary authority + human wording audit |
+| s65-06-registration-approval | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 1 — Registration is not approval | REQUIRED: primary authority + human wording audit |
+| s65-06-exemption-scope | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 2 — Exempt security versus exempt transaction | REQUIRED: primary authority + human wording audit |
+| s65-06-municipal-issuer | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 3 — A municipal security still has an issuer | REQUIRED: primary authority + human wording audit |
 | s65-07-accredited | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 7 — Three investor labels that are not interchangeable | REQUIRED: primary authority + human wording audit |
 | s65-07-qualified-client | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 7 — Three investor labels that are not interchangeable | REQUIRED: primary authority + human wording audit |
 | s65-07-qualified-purchaser | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 7 — Three investor labels that are not interchangeable | REQUIRED: primary authority + human wording audit |
 | s65-07-client-managed | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 7 — Three investor labels that are not interchangeable | REQUIRED: primary authority + human wording audit |
 | s65-07-client-worth | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 7 — Three investor labels that are not interchangeable | REQUIRED: primary authority + human wording audit |
 | s65-07-client-version | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 7 — Three investor labels that are not interchangeable | REQUIRED: primary authority + human wording audit |
+| s65-07-client-residence | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 7 — Qualified client: at least $1.4M managed or over $2.7M qualifying net worth | REQUIRED: primary authority + human wording audit |
 | s65-08-fund-exclusion | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 8 — Private fund versus private fund adviser | REQUIRED: primary authority + human wording audit |
 | s65-08-fund-one | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 8 — Private fund versus private fund adviser | REQUIRED: primary authority + human wording audit |
 | s65-08-fund-seven | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 8 — Private fund versus private fund adviser | REQUIRED: primary authority + human wording audit |
@@ -137,6 +147,9 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 | s65-09-testimonial | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 9 — Authority, contracts, and offering communications | REQUIRED: primary authority + human wording audit |
 | s65-09-promoter-oversight | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 9 — Authority, contracts, and offering communications | REQUIRED: primary authority + human wording audit |
 | s65-09-promoter-agreement | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 9 — Authority, contracts, and offering communications | REQUIRED: primary authority + human wording audit |
+| s65-09-time-price-expiry | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 28 — Time and price alone are not full discretion | REQUIRED: primary authority + human wording audit |
+| s65-09-durable-authority | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 29 — Durable authority survives incapacity, not death | REQUIRED: primary authority + human wording audit |
+| s65-09-pay-play-status | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 30 — Pay-to-play rescission is proposed, not effective | REQUIRED: primary authority + human wording audit |
 | s65-10-restricted-clock | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 10 — Rule 144 | REQUIRED: primary authority + human wording audit |
 | s65-10-unrestricted-clock | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 10 — Rule 144 | REQUIRED: primary authority + human wording audit |
 | s65-10-control | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 10 — Rule 144 | REQUIRED: primary authority + human wording audit |
@@ -193,6 +206,8 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 | s65-13-ira-loans | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 13 — Retirement penalties and distribution traps | REQUIRED: primary authority + human wording audit |
 | s65-13-irmaa | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 13 — Retirement penalties and distribution traps | REQUIRED: primary authority + human wording audit |
 | s65-13-ira-deadline | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 13 — Retirement penalties and distribution traps | REQUIRED: primary authority + human wording audit |
+| s65-13-conversion-clock | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 24 — Roth ordering: contributions, conversions, earnings | REQUIRED: primary authority + human wording audit |
+| s65-13-roth-clock | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 25 — Qualified Roth earnings require five tax years and a qualifying event | REQUIRED: primary authority + human wording audit |
 | s65-14-529-control | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 14 — College and minor accounts | REQUIRED: primary authority + human wording audit |
 | s65-14-529-tax | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 14 — College and minor accounts | REQUIRED: primary authority + human wording audit |
 | s65-14-529-roth | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 14 — College and minor accounts | REQUIRED: primary authority + human wording audit |
@@ -220,6 +235,7 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 | s65-15-jtwros-retest | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 15 — Client ownership, taxes, and transfers | REQUIRED: primary authority + human wording audit |
 | s65-15-will-title | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 15 — Client ownership, taxes, and transfers | REQUIRED: primary authority + human wording audit |
 | s65-15-entirety | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 15 — Client ownership, taxes, and transfers | REQUIRED: primary authority + human wording audit |
+| s65-15-gift-dual | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 23 — Gift dual basis: gain, loss, and the middle band | REQUIRED: primary authority + human wording audit |
 | s65-16-sole | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 16 — Business entities and direct participation program (DPP) losses | REQUIRED: primary authority + human wording audit |
 | s65-16-general-partner | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 16 — Business entities and direct participation program (DPP) losses | REQUIRED: primary authority + human wording audit |
 | s65-16-limited-partner | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 16 — Business entities and direct participation program (DPP) losses | REQUIRED: primary authority + human wording audit |
@@ -251,6 +267,9 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 | s65-18-coverage-three | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 18 — Mutual funds | REQUIRED: primary authority + human wording audit |
 | s65-18-repay-equation | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 18 — Mutual funds | REQUIRED: primary authority + human wording audit |
 | s65-18-borrow-equation | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 18 — Mutual funds | REQUIRED: primary authority + human wording audit |
+| s65-18-traded-fund-price | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 21 — Mutual-fund next NAV versus exchange-traded market prices | REQUIRED: primary authority + human wording audit |
+| s65-18-etf-structure | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 21 — Mutual-fund next NAV versus exchange-traded market prices | REQUIRED: primary authority + human wording audit |
+| s65-18-etf-active | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 22 — ETFs can be active or passive | REQUIRED: primary authority + human wording audit |
 | s65-19-right | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 19 — Rights, warrants, and calls | REQUIRED: primary authority + human wording audit |
 | s65-19-warrant | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 19 — Rights, warrants, and calls | REQUIRED: primary authority + human wording audit |
 | s65-19-listed-call | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 19 — Rights, warrants, and calls | REQUIRED: primary authority + human wording audit |
@@ -260,6 +279,10 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 | s65-19-agreement-timing | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 19 — Rights, warrants, and calls | REQUIRED: primary authority + human wording audit |
 | s65-19-buyer-call | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 19 — Rights, warrants, and calls | REQUIRED: primary authority + human wording audit |
 | s65-19-seller-put | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 19 — Rights, warrants, and calls | REQUIRED: primary authority + human wording audit |
+| s65-19-protect-long | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 18 — Long stock plus long put; short stock plus long call | REQUIRED: primary authority + human wording audit |
+| s65-19-protect-short | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 18 — Long stock plus long put; short stock plus long call | REQUIRED: primary authority + human wording audit |
+| s65-19-futures-hedge | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 19 — Futures lock price exposure; puts retain upside for a premium | REQUIRED: primary authority + human wording audit |
+| s65-19-hedge-direction | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 19 — Futures lock price exposure; puts retain upside for a premium | REQUIRED: primary authority + human wording audit |
 | s65-20-annuity-default | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 20 — Annuities and life insurance | REQUIRED: primary authority + human wording audit |
 | s65-20-annuity-basis | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 20 — Annuities and life insurance | REQUIRED: primary authority + human wording audit |
 | s65-20-annuity-lifo | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 20 — Annuities and life insurance | REQUIRED: primary authority + human wording audit |
@@ -285,6 +308,11 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 | s65-21-bond-rating | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 21 — Bonds, dividends, and risk labels | REQUIRED: primary authority + human wording audit |
 | s65-21-after-tax | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 21 — Bonds, dividends, and risk labels | REQUIRED: primary authority + human wording audit |
 | s65-21-tax-equivalent | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 21 — Bonds, dividends, and risk labels | REQUIRED: primary authority + human wording audit |
+| s65-21-tips-coupon | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 14 — TIPS: fixed coupon rate, variable interest dollars | REQUIRED: primary authority + human wording audit |
+| s65-21-rates-prices | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 15 — Interest rates and fixed-rate bond prices move inversely | REQUIRED: primary authority + human wording audit |
+| s65-21-duration-long-low | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 16 — Long maturity and low coupon increase duration | REQUIRED: primary authority + human wording audit |
+| s65-21-preferred-priority | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 17 — Preferred stock ranks between creditors and common stock | REQUIRED: primary authority + human wording audit |
+| s65-21-etn-credit | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 20 — ETNs carry unsecured issuer credit risk | REQUIRED: primary authority + human wording audit |
 | s65-22-balance-sheet | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 22 — Financial statements | REQUIRED: primary authority + human wording audit |
 | s65-22-income-statement | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 22 — Financial statements | REQUIRED: primary authority + human wording audit |
 | s65-22-cash-flow | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 22 — Financial statements | REQUIRED: primary authority + human wording audit |
@@ -293,6 +321,7 @@ All cards remain **draft**. None has received a human copyright/provenance audit
 | s65-22-quick-ratio | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 22 — Financial statements | REQUIRED: primary authority + human wording audit |
 | s65-22-capitalization | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 22 — Financial statements | REQUIRED: primary authority + human wording audit |
 | s65-22-equity | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 22 — Financial statements | REQUIRED: primary authority + human wording audit |
+| s65-22-market-cap | C:\Users\chira\PycharmProjects\BloombergFlyProject\series65-flashcards-app\content\review-expansion.ts | Review point 13 — Market capitalization uses outstanding shares | REQUIRED: primary authority + human wording audit |
 | s65-23-leading | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 23 — Indicators and statistical labels | REQUIRED: primary authority + human wording audit |
 | s65-23-lagging | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 23 — Indicators and statistical labels | REQUIRED: primary authority + human wording audit |
 | s65-23-claims-duration | C:\Users\chira\Desktop\sports\datascience\series_65_must_memorize_SHORT_2026-09-06.md | Section 23 — Indicators and statistical labels | REQUIRED: primary authority + human wording audit |

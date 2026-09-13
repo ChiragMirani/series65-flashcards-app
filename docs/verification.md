@@ -4,19 +4,29 @@ Verified September 13, 2026 on Windows with production Next.js output and Playwr
 
 | Check | Result |
 |---|---|
-| Content import and reproducibility | Passed: 312 objectives, 632 draft cards, all 27 sections |
+| Content import and reproducibility | Passed: 339 objectives, 703 draft cards, all 27 sections |
 | ESLint and strict TypeScript | Passed |
-| Vitest | 38 tests passed |
+| Vitest | 46 tests passed |
 | Root production build | Passed: 12 static pages, 79 precached URLs |
-| Root browser suite | 8 tests passed, including a complete traversal of all 632 cards |
-| GitHub Pages build | Passed with the real project base path |
-| Deployment browser suite | 7 tests passed |
+| Root browser suite | 8 tests passed, including a complete traversal of all 703 cards |
+| GitHub Pages build | The publish workflow builds with the real project base path after the root checks pass |
+| Deployment browser suite | 7 checks gate publication; they also support testing the live host |
 | Accessibility | No axe WCAG 2 A/AA or 2.1 AA violations in tested routes and answer states |
 | Manual visual inspection | Phone and desktop question/answer flow, short form names, source links, and focus visibility checked |
 
 ## Continuity review
 
-Every original rule, contrast, and application/calculation was read as a question followed by its answer. This is an agent editorial review, not human subject-matter verification. The revision changes 351 existing question/answer pairs, including all 268 original contrast cards. The additional borrowing contrast brings the total to 269. The complete generated pair ledger is in [answer-continuity.md](answer-continuity.md).
+The 30-topic expansion adds **71 cards and 27 objectives**, retaining every one of the prior 632 card IDs. It adds original scenarios, contrasts, and worked calculations; it also clarifies five existing question/answer pairs, including dividend declaration, Roth tax years, and quick-ratio prepayments. Every mapped objective has both recall and non-recall practice. [Requested coverage](requested-review-coverage.md) lists every relevant question and answer under the corresponding numbered topic. All additional content remains draft.
+
+The focused unit checks cover the $90M/$100M/$110M registration boundaries, qualified-client equality tests, continuing affiliate conditions, three audit outcomes, option-loss and market-cap calculations, TIPS payments, dividend accounting, the two Roth clocks, and the dated pay-to-play proposal. The earlier browse test expected three section-21 calculations; the expansion contains six, so the expected count was updated.
+
+Additional phone examples inspected during the expansion:
+
+- [Issuer versus broker-dealer representative](qa/review-issuer-phone.png)
+- [Separate Roth conversion clock](qa/review-roth-phone.png)
+- [TIPS interest calculation](qa/review-tips-phone.png)
+
+In the preceding continuity pass, every original rule, contrast, and application/calculation was read as a question followed by its answer. This is an agent editorial review, not human subject-matter verification. That pass changed 351 existing question/answer pairs, including all 268 original contrast cards. The current deck contains 296 contrasts after the borrowing and 30-topic additions. The complete generated pair ledger is in [answer-continuity.md](answer-continuity.md).
 
 Generic trainee claims were replaced with self-contained questions. Answers respond directly before explaining. The gift-gain contrast now says "No. The donor's basis does," with its basis-adjustment assumption. Affiliate resale questions explicitly ask how long to hold restricted shares and distinguish reporting from nonreporting issuers. Form ADV stays readable as a form name rather than expanding into its formal title in the question.
 
@@ -32,7 +42,7 @@ Manually inspected examples:
 
 Tests cover IndexedDB persistence, stale actions, backup validation, bookmarks, suspension, issue reports, reset/import/export, legacy scheduling, UTC boundaries, and full-deck navigation. Offline checks wait for first-load precaching, disconnect, visit previously unvisited routes, advance a card, refresh, and confirm the saved position. Source pages themselves need internet access.
 
-All four required source files were reread. The canonical document changed in sections 14, 18, and 19 since the previous import. The ownership locator was reconciled, an original borrowing objective received three cards, and the options sequence received an application. All 628 previous card IDs remain present, so saved study state and bookmarks remain associated with the same concepts. Existing sessions retain their captured order; selecting another subject/order or starting another pass includes newly added cards. Original study files were not changed.
+The earlier canonical revision changed sections 14, 18, and 19. The ownership locator was reconciled, an original borrowing objective received three cards, and the options sequence received an application. The present expansion keeps the canonical, design, and miss-audit fingerprints unchanged and records a separately updated handoff, which was reread completely. All 632 pre-expansion IDs remain present, so saved study state and bookmarks remain associated with the same concepts. Existing sessions retain their captured order; selecting another subject/order or starting another pass includes newly added cards. This task did not modify any original study file.
 
 Public references are documented in [public-references.md](public-references.md). Model rules, guidance, professional references, and curriculum-only references have distinct labels. The closed-end-fund weekly-NAV exam shortcut still needs a more specific substantive authority; its current NASAA link is explicitly labeled an exam topic. State adoption, jurisdiction-dependent ownership, tax exceptions, and other qualifications remain human-review tasks.
 

@@ -7,12 +7,12 @@ test('one page opens a full deck and switches all subjects inline with the corre
   const counter = page.locator('.card-position');
   await expect(selector).toHaveValue('all');
   await expect(selector.locator('option')).toHaveCount(5);
-  await expect(counter).toHaveText('1 of 632');
+  await expect(counter).toHaveText('1 of 703');
   await expect(page.locator('.question-button')).toBeVisible();
   await expect(page.getByRole('button', { name: /^(Start|Continue) review$/ })).toHaveCount(0);
   await expect(page.getByRole('link', { name: 'Save & exit' })).toHaveCount(0);
   const studyUrl = page.url();
-  for (const [category, count] of Object.entries({ laws: 321, recommendations: 187, vehicles: 96, economics: 28 })) {
+  for (const [category, count] of Object.entries({ laws: 347, recommendations: 198, vehicles: 125, economics: 33 })) {
     await selector.selectOption(category);
     await expect(counter).toHaveText(`1 of ${count}`);
     await expect(page.locator('.question-button')).toBeVisible();
@@ -20,18 +20,18 @@ test('one page opens a full deck and switches all subjects inline with the corre
   }
   await page.getByRole('button', { name: 'Reveal answer', exact: true }).click();
   await page.getByRole('button', { name: 'Next card', exact: true }).click();
-  await expect(counter).toHaveText('2 of 28');
+  await expect(counter).toHaveText('2 of 33');
   const question = await page.locator('.study-question').innerText();
   await page.reload();
   await expect(selector).toHaveValue('economics');
-  await expect(counter).toHaveText('2 of 28');
+  await expect(counter).toHaveText('2 of 33');
   await expect(page.locator('.study-question')).toHaveText(question);
   await page.getByRole('link', { name: 'Progress', exact: true }).click();
   await page.getByRole('link', { name: 'Study', exact: true }).click();
   await expect(page.locator('.study-question')).toHaveText(question);
-  await expect(counter).toHaveText('2 of 28');
+  await expect(counter).toHaveText('2 of 33');
   await selector.selectOption('all');
-  await expect(counter).toHaveText('1 of 632');
+  await expect(counter).toHaveText('1 of 703');
   await expect(page).toHaveURL(studyUrl);
 });
 
@@ -81,16 +81,16 @@ test('hosted worker caches unvisited pages and saves phone reviews offline', asy
   await context.setOffline(true);
   await page.goto(`${prefix}/review/`);
   await expect(page).toHaveURL(new RegExp(`${prefix}/$`));
-  await expect(page.locator('.card-position')).toHaveText('1 of 632');
+  await expect(page.locator('.card-position')).toHaveText('1 of 703');
   await page.getByRole('button', { name: 'Reveal answer', exact: true }).click();
   await page.getByRole('button', { name: 'Next card', exact: true }).click();
   await expect(page.locator('.question-button')).toBeVisible();
   const next = await page.locator('.study-question').innerText();
   await page.reload();
   await expect(page.locator('.study-question')).toHaveText(next);
-  await expect(page.locator('.card-position')).toHaveText('2 of 632');
+  await expect(page.locator('.card-position')).toHaveText('2 of 703');
   await page.getByRole('link', { name: 'Progress', exact: true }).click();
-  await page.getByRole('link', { name: 'Study', exact: true }).click();await expect(page.locator('.card-position')).toHaveText('2 of 632');
+  await page.getByRole('link', { name: 'Study', exact: true }).click();await expect(page.locator('.card-position')).toHaveText('2 of 703');
 });
 
 test('repeated finger taps reveal and advance at the same spot without ratings', async ({ page }) => {
@@ -103,23 +103,23 @@ test('repeated finger taps reveal and advance at the same spot without ratings',
     await page.touchscreen.tap(x, y);
     await expect(page.locator('.answer-text')).toBeVisible();
     await expect(action).toHaveAttribute('aria-label', 'Next card');await expect(page.locator('.study-answer-wrap')).toHaveCSS('opacity', '1');
-    await expect(page.locator('.card-position')).toHaveText(`${index} of 632`);
+    await expect(page.locator('.card-position')).toHaveText(`${index} of 703`);
     await expect(page.getByRole('button', { name: /^(Again|Hard|Good|Easy)/ })).toHaveCount(0);
     await page.touchscreen.tap(x, y);
     await expect(page.locator('.question-button')).toBeVisible();
-    await expect(page.locator('.card-position')).toHaveText(`${index + 1} of 632`);
+    await expect(page.locator('.card-position')).toHaveText(`${index + 1} of 703`);
   }
   await page.locator('.question-button').tap();
   await page.getByText('Card details', { exact: true }).tap();
-  await expect(page.locator('.card-position')).toHaveText('4 of 632');
+  await expect(page.locator('.card-position')).toHaveText('4 of 703');
   await page.getByText('Card details', { exact: true }).tap();
   await page.locator('.answer-text').tap();
-  await expect(page.locator('.card-position')).toHaveText('5 of 632');
+  await expect(page.locator('.card-position')).toHaveText('5 of 703');
   await expect(page.locator('.question-button')).toBeVisible();
   const next = await page.locator('.study-question').innerText();
   await page.reload();
   await expect(page.locator('.study-question')).toHaveText(next);
-  await expect(page.locator('.card-position')).toHaveText('5 of 632');
+  await expect(page.locator('.card-position')).toHaveText('5 of 703');
 });
 
 test('published answer has a public reference without advancing the card', async ({ page, context }) => {
@@ -136,7 +136,7 @@ test('published answer has a public reference without advancing the card', async
   const popupPromise = page.waitForEvent('popup');
   await source.tap();
   const popup = await popupPromise; await popup.waitForLoadState(); await popup.close();
-  await expect(page.locator('.card-position')).toHaveText('1 of 632');
+  await expect(page.locator('.card-position')).toHaveText('1 of 703');
   await expect(page.getByRole('button', {name:'Next card',exact:true})).toBeVisible();
 });
 
@@ -160,10 +160,10 @@ test('VocabDeck reveal motion, order toggle, previous card and share link', asyn
   expect(await prompt.evaluate(el => getComputedStyle(el).fontSize)).toBe(font);
   await expect(prompt).toHaveText(first);
   await page.locator('.study-face').tap();
-  await expect(page.locator('.card-position')).toHaveText('2 of 28');
+  await expect(page.locator('.card-position')).toHaveText('2 of 33');
   await page.getByRole('button', { name: 'Previous card', exact: true }).tap();
   await expect(prompt).toHaveText(first);
-  await expect(page.locator('.card-position')).toHaveText('1 of 28');
+  await expect(page.locator('.card-position')).toHaveText('1 of 33');
   await page.getByRole('button', { name: 'Shuffle', exact: true }).tap();
   await expect(page.getByRole('button', { name: 'Shuffle', exact: true })).toHaveAttribute('aria-pressed', 'true');
   await page.reload();
@@ -182,7 +182,7 @@ test('VocabDeck reveal motion, order toggle, previous card and share link', asyn
     await friend.goto(shared);
     await expect(friend.getByRole('combobox', { name: 'Subject', exact: true })).toHaveValue('economics');
     await expect(friend.getByRole('button', { name: 'Sequential', exact: true })).toHaveAttribute('aria-pressed', 'true');
-    await expect(friend.locator('.card-position')).toHaveText('1 of 28');
+    await expect(friend.locator('.card-position')).toHaveText('1 of 33');
     await expect(friend.locator('.study-question')).toHaveText(first);
     await friend.getByRole('combobox', { name: 'Subject', exact: true }).selectOption('laws');
     await friend.reload();
