@@ -84,6 +84,7 @@ test('hosted worker caches unvisited pages and saves phone reviews offline', asy
   await expect(page.locator('.card-position')).toHaveText('1 of 628');
   await page.getByRole('button', { name: 'Reveal answer', exact: true }).click();
   await page.getByRole('button', { name: 'Next card', exact: true }).click();
+  await expect(page.locator('.question-button')).toBeVisible();
   const next = await page.locator('.study-question').innerText();
   await page.reload();
   await expect(page.locator('.study-question')).toHaveText(next);
@@ -114,6 +115,7 @@ test('repeated finger taps reveal and advance at the same spot without ratings',
   await page.getByText('Card details', { exact: true }).tap();
   await page.locator('.answer-text').tap();
   await expect(page.locator('.card-position')).toHaveText('5 of 628');
+  await expect(page.locator('.question-button')).toBeVisible();
   const next = await page.locator('.study-question').innerText();
   await page.reload();
   await expect(page.locator('.study-question')).toHaveText(next);
