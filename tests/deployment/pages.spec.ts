@@ -156,7 +156,10 @@ test('VocabDeck reveal motion, order toggle, previous card and share link', asyn
   await page.locator('.study-face').tap();
   await expect(page.locator('.study-answer-wrap')).toHaveCSS('opacity', '1');
   const after = (await prompt.boundingBox())!;
-  expect(after.y).toBeLessThan(before.y - 10);
+  // Stable layout: the question stays put and the answer opens below a fixed center line.
+  expect(Math.abs(after.y - before.y)).toBeLessThan(1);
+  const line = (await page.locator('.answer-text').boundingBox())!;
+  expect(line.y).toBeGreaterThanOrEqual(after.y + after.height - 1);
   expect(await prompt.evaluate(el => getComputedStyle(el).fontSize)).toBe(font);
   await expect(prompt).toHaveText(first);
   await page.locator('.study-face').tap();

@@ -69,6 +69,15 @@ body{padding-bottom:0}
 .study-face>.study-question{margin-top:auto}
 .study-face>.study-hint{margin-bottom:auto}
 @media(max-width:600px){.study-stage{padding:18px 0 6px}.study-face{height:clamp(430px,62svh,500px)}}
-.study-face.text-long .study-question{font-size:1.3rem}.study-face.text-long .answer-text{font-size:1rem}
-.study-face.text-xl .study-question{font-size:1.15rem;line-height:1.42}.study-face.text-xl .answer-text{font-size:.95rem;line-height:1.5}.study-face.text-xl .study-hint{margin-top:14px}
-@media(max-width:600px){.study-face.text-long .study-question{font-size:1.14rem}.study-face.text-long .answer-text{font-size:.95rem}.study-face.text-xl .study-question{font-size:1.04rem}.study-face.text-xl .answer-text{font-size:.9rem}}
+
+/* Fixed center line: question sits above it, answer opens below it; nothing moves on reveal. */
+.study-face,.study-face.answer-button{display:grid;grid-template-rows:minmax(0,1.3fr) minmax(0,1fr);justify-items:center;align-items:stretch;padding:44px 44px 112px}
+.study-face>.study-question{align-self:end;margin:0;padding-bottom:16px}
+.study-face>.study-answer-wrap{align-self:start}
+.study-face .answer-text{margin:0}
+.study-face>.study-hint{position:absolute;left:44px;right:44px;bottom:84px;margin:0;pointer-events:none}
+@media(max-width:600px){.study-face,.study-face.answer-button{padding:36px 38px 108px}.study-face>.study-hint{bottom:80px}}
+
+.study-face.q-long .study-question{font-size:1.3rem}.study-face.q-xl .study-question{font-size:1.15rem;line-height:1.42}
+.study-face.a-long .answer-text{font-size:1rem}.study-face.a-xl .answer-text{font-size:.95rem}
+@media(max-width:600px){.study-face.q-long .study-question{font-size:1.12rem}.study-face.q-xl .study-question{font-size:1.02rem}.study-face.a-long .answer-text{font-size:.95rem}.study-face.a-xl .answer-text{font-size:.88rem}}

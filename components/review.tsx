@@ -60,8 +60,12 @@ export function LegacyReviewRedirect() {
   return <Review/>;
 }
 
-// The card keeps one fixed size; longer cards use smaller type so they still fit.
-const textSize = (card:Card) => { const length = card.front.length + card.answer.length; return length > 260 ? ' text-xl' : length > 190 ? ' text-long' : ''; };
+// The card and its center line keep one fixed position; long questions or answers use smaller type to fit their half.
+const textSize = (card:Card) => {
+  const question = card.front.length > 150 ? ' q-xl' : card.front.length > 110 ? ' q-long' : '';
+  const answer = card.answer.length > 140 ? ' a-xl' : card.answer.length > 90 ? ' a-long' : '';
+  return question + answer;
+};
 
 function ReviewCard({ card, position, total }: { card:Card; position:number; total:number }) {
   const { data, busy, dispatch } = useStudy();
