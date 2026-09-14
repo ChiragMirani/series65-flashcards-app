@@ -33360,16 +33360,16 @@
     "priority": "low",
     "type": "recall",
     "front": "How are voting rights counted for variable annuities and variable life in the exam convention?",
-    "answer": "Variable annuity votes follow accumulation units; variable life is tested as one vote per $100 of cash value.",
-    "governingRule": "Variable annuity votes follow accumulation units; variable life is tested as one vote per $100 of cash value.",
+    "answer": "Variable annuity votes follow accumulation units; variable life gets one vote per $100 of cash value.",
+    "governingRule": "Variable annuity votes follow accumulation units; variable life gets one vote per $100 of cash value.",
     "trap": "Variable life gives exactly one vote per policy.",
-    "explanation": "Variable annuity votes follow accumulation units; variable life is tested as one vote per $100 of cash value.",
+    "explanation": "Variable annuity votes follow accumulation units; variable life gets one vote per $100 of cash value.",
     "tags": [
       "variable-voting"
     ],
     "sourcePath": "series_65_must_memorize_SHORT_2026-09-06.md",
     "sourceHeading": "Section 27 — Test 5 and Test 6 niche last-look rules",
-    "contentVersion": "d1558acf668bbb6676e0ff5dd36c0e0015f851e05dc3b575e875bcff8b157832",
+    "contentVersion": "6d7f6fb151a1b1ee35e5ce5900d1e44ea6d87c3b4c88daaea0e489a2f09ff2d1",
     "officialSources": [
       {
         "authority": "NASAA",
