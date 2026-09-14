@@ -4,7 +4,9 @@
     {
       "id": "pay-to-play-rescission",
       "fact": "SEC proposed rescinding adviser pay-to-play Rule 206(4)-5 on 2026-09-03; the rule stays in effect until final action.",
-      "rules": ["s65-09-pay-play-status"],
+      "rules": [
+        "s65-09-pay-play-status"
+      ],
       "source": "https://www.sec.gov/rules-regulations/2026/09/s7-2026-31",
       "everyDays": 30,
       "lastVerified": "2026-09-13"
@@ -12,7 +14,13 @@
     {
       "id": "qualified-client-thresholds",
       "fact": "Qualified client: at least $1.4M managed or net worth over $2.7M (effective 2026-06-29; SEC adjusts about every five years).",
-      "rules": ["s65-07-client-managed", "s65-07-client-worth", "s65-07-client-version", "s65-07-client-residence", "s65-09-performance-fee"],
+      "rules": [
+        "s65-07-client-managed",
+        "s65-07-client-worth",
+        "s65-07-client-version",
+        "s65-07-client-residence",
+        "s65-09-performance-fee"
+      ],
       "source": "https://www.ecfr.gov/current/title-17/chapter-II/part-275/section-275.205-3",
       "everyDays": 180,
       "lastVerified": "2026-09-13"
@@ -20,7 +28,9 @@
     {
       "id": "series65-exam-outline",
       "fact": "NASAA Series 65 content outline: four sections weighted 15 / 25 / 30 / 30.",
-      "rules": ["s65-04-tested-act"],
+      "rules": [
+        "s65-04-tested-act"
+      ],
       "source": "https://www.nasaa.org/exams/general-exam-information/series-65-exam-content-outline/",
       "everyDays": 90,
       "lastVerified": "2026-09-13"
@@ -28,7 +38,16 @@
     {
       "id": "nasaa-model-rules",
       "fact": "NASAA adviser model rules: unethical practices and recordkeeping amended May 2026; custody, net worth ($35,000 / $10,000), bonding, prepaid-fee reporting, and CE (12 credits: 6 + 6).",
-      "rules": ["s65-05-custody-worth", "s65-05-discretion-worth", "s65-05-deficiency-bond", "s65-05-prepay-state", "s65-04-records-ordinary", "s65-02-ce-split", "s65-05-nasaa-custody-statements", "s65-09-nasaa-third-party-orders"],
+      "rules": [
+        "s65-05-custody-worth",
+        "s65-05-discretion-worth",
+        "s65-05-deficiency-bond",
+        "s65-05-prepay-state",
+        "s65-04-records-ordinary",
+        "s65-02-ce-split",
+        "s65-05-nasaa-custody-statements",
+        "s65-09-nasaa-third-party-orders"
+      ],
       "source": "https://www.nasaa.org/industry-resources/investment-advisers/",
       "everyDays": 90,
       "lastVerified": "2026-09-13"
@@ -36,7 +55,16 @@
     {
       "id": "sec-adviser-registration",
       "fact": "Adviser AUM thresholds $100M / $110M / below $90M; private fund adviser exemption under $150M; pension consultant $200M; prepaid fee over $1,200 for six months or more; Form ADV 90 / 120-day deadlines.",
-      "rules": ["s65-04-aum-buffer", "s65-04-aum-must", "s65-04-aum-exit", "s65-08-adviser-private", "s65-11-pension-consultant", "s65-05-prepay-federal", "s65-04-adv-update", "s65-04-brochure-annual"],
+      "rules": [
+        "s65-04-aum-buffer",
+        "s65-04-aum-must",
+        "s65-04-aum-exit",
+        "s65-08-adviser-private",
+        "s65-11-pension-consultant",
+        "s65-05-prepay-federal",
+        "s65-04-adv-update",
+        "s65-04-brochure-annual"
+      ],
       "source": "https://www.sec.gov/about/forms/formadv-instructions.pdf",
       "everyDays": 180,
       "lastVerified": "2026-09-13"
@@ -44,7 +72,12 @@
     {
       "id": "sec-marketing-crs-regbi-regsp",
       "fact": "Marketing rule promoter de minimis $1,000; Form CRS page limits; Regulation Best Interest obligations; Regulation S-P privacy and safeguards amendments.",
-      "rules": ["s65-09-promoter-agreement", "s65-09-form-crs", "s65-09-reg-bi", "s65-09-reg-sp"],
+      "rules": [
+        "s65-09-promoter-agreement",
+        "s65-09-form-crs",
+        "s65-09-reg-bi",
+        "s65-09-reg-sp"
+      ],
       "source": "https://www.sec.gov/rules-regulations",
       "everyDays": 180,
       "lastVerified": "2026-09-13"
@@ -52,7 +85,12 @@
     {
       "id": "rule-144",
       "fact": "Rule 144 holding periods (6 months / 1 year), Form 144 over 5,000 shares or $50,000, volume limits.",
-      "rules": ["s65-10-nonaffiliate-reporting", "s65-10-affiliate-reporting", "s65-10-form144", "s65-10-listed-volume"],
+      "rules": [
+        "s65-10-nonaffiliate-reporting",
+        "s65-10-affiliate-reporting",
+        "s65-10-form144",
+        "s65-10-listed-volume"
+      ],
       "source": "https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/revisions-rules-144-145",
       "everyDays": 365,
       "lastVerified": "2026-09-13"
@@ -60,7 +98,13 @@
     {
       "id": "finra-bank-secrecy",
       "fact": "Reg T 50% / FINRA 25% maintenance; Rule 3260 time-and-price; Rule 2165 hold periods; Rule 4512 trusted contact; CTR over $10,000 and broker-dealer SAR at $5,000.",
-      "rules": ["s65-17-margin-account", "s65-09-time-price-expiry", "s65-09-senior-hold", "s65-09-trusted-contact", "s65-09-ctr-sar"],
+      "rules": [
+        "s65-17-margin-account",
+        "s65-09-time-price-expiry",
+        "s65-09-senior-hold",
+        "s65-09-trusted-contact",
+        "s65-09-ctr-sar"
+      ],
       "source": "https://www.finra.org/rules-guidance/rulebooks/finra-rules",
       "everyDays": 180,
       "lastVerified": "2026-09-13"
@@ -68,7 +112,15 @@
     {
       "id": "irs-retirement-limits",
       "fact": "SIMPLE 25% first-two-years tax; missed RMD 25% / 10%; IRA first-home $10,000; 529-to-Roth $35,000 lifetime; Coverdell $2,000; $3,000 capital loss; IRMAA Parts B and D.",
-      "rules": ["s65-13-simple-early", "s65-13-rmd-penalty", "s65-13-ira-home", "s65-14-529-roth", "s65-14-coverdell-limit", "s65-15-loss-ordinary", "s65-13-irmaa"],
+      "rules": [
+        "s65-13-simple-early",
+        "s65-13-rmd-penalty",
+        "s65-13-ira-home",
+        "s65-14-529-roth",
+        "s65-14-coverdell-limit",
+        "s65-15-loss-ordinary",
+        "s65-13-irmaa"
+      ],
       "source": "https://www.irs.gov/retirement-plans",
       "everyDays": 365,
       "lastVerified": "2026-09-13"
@@ -76,10 +128,28 @@
     {
       "id": "uniform-securities-act-dollar-limits",
       "fact": "1956 Act as tested: $5,000 / 3 years criminal ceiling, 60-day appeal, commercial paper $50,000 and nine months, private placement ten offerees.",
-      "rules": ["s65-05-nasaa-criminal-ceiling", "s65-05-nasaa-appeal-deadline", "s65-06-nasaa-commercial-paper", "s65-06-placement-count"],
+      "rules": [
+        "s65-05-nasaa-criminal-ceiling",
+        "s65-05-nasaa-appeal-deadline",
+        "s65-06-nasaa-commercial-paper",
+        "s65-06-placement-count"
+      ],
       "source": "https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf",
       "everyDays": 365,
       "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "irs-2026-contribution-limits",
+      "fact": "2026 limits: IRA $7,500 (+$1,100), 401(k)/403(b)/457(b) $24,500 (+$8,000; ages 60–63 $11,250), SIMPLE $17,000 (+$4,000; 60–63 $5,250), SEP lesser of 25% or $72,000. IRS updates each fall for the next year.",
+      "rules": [
+        "s65-12-ira-limit-2026",
+        "s65-12-deferral-limit-2026",
+        "s65-12-simple-limit-2026",
+        "s65-12-sep-limit-2026"
+      ],
+      "source": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500",
+      "everyDays": 90,
+      "lastVerified": "2026-09-14"
     }
   ]
 }

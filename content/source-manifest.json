@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "sourceRevision": "September 13, 2026",
+  "sourceRevision": "September 14, 2026",
   "sourceFiles": [
     {
       "file": "series_65_must_memorize_SHORT_2026-09-06.md",
-      "sha256": "59bcd149398c961f3a35b919ddd662eb5fd38fd74183b0b50644ecc5a43877a7"
+      "sha256": "78e420d53cc546cad7f7e628ed1733b321bc0e37df91b3e6cefb765f1c2bd888"
     },
     {
       "file": "series_65_question_design_research.md",
@@ -12,7 +12,7 @@
     },
     {
       "file": "series_65_new_chat_handoff.md",
-      "sha256": "75879f0e77881ac4221fdf06b815ca622ff38b4133763de5144ab24fcd9c7926"
+      "sha256": "a742413145cf382abd1ed99bc2dcc0773152d5235f0167f4db59f1216942b790"
     },
     {
       "file": "series_65_test_5_miss_audit_2026-09-12.md",
@@ -37,8 +37,8 @@
       "sha256": "1661f44546ccfadf4a2b996aff1ab067573f4e44769e711341e018e6f01b69b7"
     }
   ],
-  "rules": 475,
-  "cards": 1003,
+  "rules": 501,
+  "cards": 1048,
   "sections": [
     {
       "number": 1,
@@ -53,7 +53,7 @@
     {
       "number": 3,
       "title": "Form ADV (Uniform Application for Investment Adviser Registration and Report by Exempt Reporting Advisers), contracts, and federal acts",
-      "sha256": "6ba06be8cf582c8e17b93a448b9143b88ea30209980e435e331ac53e532cf96b"
+      "sha256": "6d639fdbb85bd2470370df91a2b3c486df0751492ee0de3ad3c172d3f71d0518"
     },
     {
       "number": 4,
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "title": "Same subject, different deadline or consequence",
-      "sha256": "b1094df88d7eb68528ec92e97f157f9d873598926068680622228b6c6483acb4"
+      "sha256": "e8729a6adbf401bd2006afe350265c831fdab270c3ea8f637f04c87ec0f59832"
     },
     {
       "number": 6,
@@ -83,7 +83,7 @@
     {
       "number": 9,
       "title": "Authority, contracts, and offering communications",
-      "sha256": "51a8a81fca77dcc50e23a9b1ee6b1a1005be8cfe3b62bc0bf2ce9735df07c847"
+      "sha256": "3cec46e707623b3e1b0aeee175ca13f517b71aa3968c39366e5630beed490bfa"
     },
     {
       "number": 10,
@@ -98,22 +98,22 @@
     {
       "number": 12,
       "title": "Employee Retirement Income Security Act (ERISA) and retirement-plan distinctions",
-      "sha256": "cbe41d1f36e613d1c7275f72922490273aaf30803becbb7df9f8ec9d9b15f4ad"
+      "sha256": "47db904d8d1c572da67bc0842d58b6af998b1a5e383b4e36a3f39600aa1df800"
     },
     {
       "number": 13,
       "title": "Retirement penalties and distribution traps",
-      "sha256": "1a8c7b32950df0b36227acb1cefdc7365976d339fba054dd251b47506f9bf0e2"
+      "sha256": "80502df5b29a50900664f76381a98d84053ffd7e7054bb57be60eec6456772fe"
     },
     {
       "number": 14,
       "title": "College and minor accounts",
-      "sha256": "7b25e4ea99f677efe56ae4919573e7bbfe7089b3fb37266d8a357ed76230fed4"
+      "sha256": "204c510b77d7da10b1516c3c0f8cdedabfae6dc77d8f1a9f05153182a20108e7"
     },
     {
       "number": 15,
       "title": "Client ownership, taxes, and transfers",
-      "sha256": "c22f83e82a79612aaed58a8aa4c92ce358ab842260f3a3a7ec60011dc2f3ed04"
+      "sha256": "4a9a664dd70fc89cb3f7cbc444753fdace8091cfafb31884db7d2a261c70fce0"
     },
     {
       "number": 16,
@@ -123,17 +123,17 @@
     {
       "number": 17,
       "title": "Portfolio theory and efficient market hypothesis (EMH)",
-      "sha256": "00ec6e300c49aeb04df29a3342673cb87f32ee55d7d32c352a85cc835989619c"
+      "sha256": "56f9bb2093efb8462084223c62b93c0c5c230a5e062d8c0107c6bfb6cca415bc"
     },
     {
       "number": 18,
       "title": "Mutual funds",
-      "sha256": "0329c4ba4e65bf4536bd158936d8aff44f42df59ab2a5125ec4d80275621a5e8"
+      "sha256": "5b373d226dc498bbdb678670b23e99afdd9178815a0ff0ba74af512cbc995deb"
     },
     {
       "number": 19,
       "title": "Rights, warrants, and calls",
-      "sha256": "31b6953d468e8b5f828dace4b63600a3a22cff997ba19124fdfe2878f5149166"
+      "sha256": "a73810c9328b74e8c77557700812c5b9f0573a0fe7e726e05bdc7e55046a4b0f"
     },
     {
       "number": 20,
@@ -148,12 +148,12 @@
     {
       "number": 22,
       "title": "Financial statements",
-      "sha256": "c0cd209defae3436aebad6f15ef79288489b0dd1df7deb5926365ca80b84f9ef"
+      "sha256": "afa5b5500867eca00c43e87bf3c6f69a2ebf2d338080614821d1d2f5a4fac5de"
     },
     {
       "number": 23,
       "title": "Indicators and statistical labels",
-      "sha256": "5b43995256a0b97d3a7276155385977a291c03b3338a290bba87513305900f05"
+      "sha256": "e1cc0cd1b945e5e129db7b7e427b235fd16b03360f1aa59d04c47ebef8943f4e"
     },
     {
       "number": 24,
@@ -172,8 +172,8 @@
     },
     {
       "number": 27,
-      "title": "Test 5 niche last-look rules",
-      "sha256": "7969177d46af338741a2c5febf6732fb8393c591016aa25c08b6dfaf2eb4ab71"
+      "title": "Test 5 and Test 6 niche last-look rules",
+      "sha256": "c065a54d5864e7af2594a93a10153921b8169f8d13bc389dbb9463bfe1a85d04"
     }
   ]
 }

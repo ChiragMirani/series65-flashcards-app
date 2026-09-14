@@ -89,6 +89,8 @@ export const officialSources = {
  durable: source('CFPB', 'Durable power of attorney — incapacity and death; Arizona guide', 'https://www.consumerfinance.gov/documents/6274/cfpb_help-for-agents-under-a-power-of-attorney_arizona.pdf'),
  qualifiedRule: source('eCFR', '17 CFR 275.205-3 — qualified clients and primary-residence treatment', 'https://www.ecfr.gov/current/title-17/chapter-II/part-275/section-275.205-3', 'rule'),
  payPlayProposal: source('SEC', 'Proposed rescission of Rule 206(4)-5 — September 3, 2026; not an effective repeal', 'https://www.sec.gov/rules-regulations/2026/09/s7-2026-31', 'reference'),
+ limits2026: source('IRS', '2026 limits: 401(k) $24,500, IRA $7,500, SIMPLE $17,000, SEP $72,000, and catch-ups', 'https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500'),
+ ssDivorced: source('SSA', 'Benefits for a divorced spouse', 'https://www.ssa.gov/benefits/retirement/planner/applying7.html'),
  // Exam-coverage supplement references (content/exam-coverage.ts).
  nber: source('NBER', 'Business cycle dating — how U.S. recessions are determined', 'https://www.nber.org/research/business-cycle-dating', 'reference'),
  gdp: source('BEA', 'Gross domestic product — definition and real versus current dollars', 'https://www.bea.gov/data/gdp/gross-domestic-product'),
@@ -193,6 +195,8 @@ map(18,'traded-fund-price','funds','etf'); map(18,'etf-structure etf-active','et
 map(19,'protect-long protect-short','optionRights'); map(19,'futures-hedge hedge-direction','hedges');
 map(21,'tips-coupon','tips'); map(21,'rates-prices','bonds'); map(21,'duration-long-low','duration');
 map(21,'preferred-priority','stocks'); map(21,'etn-credit','etn'); map(22,'market-cap','marketCap');
+
+map(12,'ira-limit-2026 deferral-limit-2026 simple-limit-2026 sep-limit-2026 roth-shares-deferral governmental-457-separate','limits2026'); map(27,'divorced-social-security','ssDivorced');
 
 export function sourcesForRule(section: number, key: string): OfficialSource[] {
  const ids = overrides.get(`${section}:${key}`) ?? [sectionDefaults[section]];

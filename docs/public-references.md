@@ -7,6 +7,7 @@ Curated September 13, 2026. Every answer has at least one public reference. Link
 The following rules currently link to the NASAA topic outline. This is explicitly labeled **exam topic**, not a rule citation. A specific public authority for the full claim remains a release requirement:
 
 - s65-18-closed-nav: How often do closed-end funds commonly calculate net asset value?
+- s65-23-coincident: Which is a coincident indicator: nonagricultural payroll employment, initial unemployment claims, or the average prime rate?
 
 ## Rule-to-reference ledger
 
@@ -60,6 +61,7 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-03-underlying-offer | [SEC — Federal securities statutes and links to their full texts](https://www.sec.gov/rules-regulations/statutes-regulations) | guidance |
 | s65-03-non-offers | [SEC — Federal securities statutes and links to their full texts](https://www.sec.gov/rules-regulations/statutes-regulations) | guidance |
 | s65-03-fundamental-policy | [SEC — Federal securities statutes and links to their full texts](https://www.sec.gov/rules-regulations/statutes-regulations) | guidance |
+| s65-03-part2b-delivery | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
 | s65-03-nasaa-registration-filers | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary — 305(a)](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=26) | rule |
 | s65-04-tested-act | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
 | s65-04-state-effective | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
@@ -93,6 +95,7 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-05-general-bond | [NASAA — Minimum Financial Requirements Model Rule 202(d)-1](https://www.nasaa.org/wp-content/uploads/2011/07/IA-Model-Rule-Minimum-Financial-Requirements.pdf) | rule |
 | s65-05-enforcement | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
 | s65-05-hearing | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
+| s65-05-prepaid-refund | [NASAA — Minimum Financial Requirements Model Rule 202(d)-1](https://www.nasaa.org/wp-content/uploads/2011/07/IA-Model-Rule-Minimum-Financial-Requirements.pdf) | rule |
 | s65-05-nasaa-criminal-ceiling | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary — 409(a)](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=48) | rule |
 | s65-05-nasaa-appeal-deadline | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary — 411(a)](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=51) | rule |
 | s65-05-nasaa-appeal-stay | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary — 411(b)](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf#page=52) | rule |
@@ -168,6 +171,8 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-09-testimonial | [SEC — Investment Adviser Marketing Rule compliance guide](https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/investment-adviser-marketing) | guidance |
 | s65-09-promoter-oversight | [SEC — Investment Adviser Marketing Rule compliance guide](https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/investment-adviser-marketing) | guidance |
 | s65-09-promoter-agreement | [SEC — Investment Adviser Marketing Rule compliance guide](https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/investment-adviser-marketing) | guidance |
+| s65-09-principal-settlement | [NASAA — Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026](https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf) | rule |
+| s65-09-arbitration-clause | [NASAA — Unethical Business Practices Model Rule 102(a)(4)-1, amended May 2026](https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Unethical-Business-Practices-of-Investment-Advisers-Model-Rule_102a_4-1_5-4-2026.pdf) | rule |
 | s65-09-time-price-expiry | [FINRA — Rule 3260 — Discretionary Accounts](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3260) | rule |
 | s65-09-durable-authority | [CFPB — Durable power of attorney — incapacity and death; Arizona guide](https://www.consumerfinance.gov/documents/6274/cfpb_help-for-agents-under-a-power-of-attorney_arizona.pdf) | guidance |
 | s65-09-pay-play-status | [SEC — Proposed rescission of Rule 206(4)-5 — September 3, 2026; not an effective repeal](https://www.sec.gov/rules-regulations/2026/09/s7-2026-31) | reference |
@@ -237,6 +242,14 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-12-qdro | [IRS — IRA frequently asked questions — contributions and distributions](https://www.irs.gov/retirement-plans/retirement-plans-faqs-regarding-iras) | guidance |
 | s65-12-qualified-erisa | [DOL — Meeting Your Fiduciary Responsibilities — ERISA retirement plans](https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/meeting-your-fiduciary-responsibilities) | guidance |
 | s65-12-government-design | [IRS — Retirement plans — definitions and plan types](https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-plans-definitions) | guidance |
+| s65-12-404c-alternatives | [IRS — Retirement plans — definitions and plan types](https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-plans-definitions) | guidance |
+| s65-12-muni-in-plan | [IRS — Retirement plans — definitions and plan types](https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-plans-definitions) | guidance |
+| s65-12-ira-limit-2026 | [IRS — 2026 limits: 401(k) $24,500, IRA $7,500, SIMPLE $17,000, SEP $72,000, and catch-ups](https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500) | guidance |
+| s65-12-deferral-limit-2026 | [IRS — 2026 limits: 401(k) $24,500, IRA $7,500, SIMPLE $17,000, SEP $72,000, and catch-ups](https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500) | guidance |
+| s65-12-simple-limit-2026 | [IRS — 2026 limits: 401(k) $24,500, IRA $7,500, SIMPLE $17,000, SEP $72,000, and catch-ups](https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500) | guidance |
+| s65-12-sep-limit-2026 | [IRS — 2026 limits: 401(k) $24,500, IRA $7,500, SIMPLE $17,000, SEP $72,000, and catch-ups](https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500) | guidance |
+| s65-12-roth-shares-deferral | [IRS — 2026 limits: 401(k) $24,500, IRA $7,500, SIMPLE $17,000, SEP $72,000, and catch-ups](https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500) | guidance |
+| s65-12-governmental-457-separate | [IRS — 2026 limits: 401(k) $24,500, IRA $7,500, SIMPLE $17,000, SEP $72,000, and catch-ups](https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500) | guidance |
 | s65-13-early-tax | [IRS — Exceptions to tax on early distributions](https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-exceptions-to-tax-on-early-distributions) | guidance |
 | s65-13-simple-early | [IRS — Exceptions to tax on early distributions](https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-exceptions-to-tax-on-early-distributions) | guidance |
 | s65-13-457-exception | [IRS — Exceptions to tax on early distributions](https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-exceptions-to-tax-on-early-distributions) | guidance |
@@ -268,6 +281,8 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-14-minor-purpose | [FINRA — Regulatory Notice 20-07 — UTMA and UGMA ownership and custodians](https://www.finra.org/sites/default/files/2020-02/Regulatory-Notice-20-07.pdf) | guidance |
 | s65-14-minor-property | [FINRA — Regulatory Notice 20-07 — UTMA and UGMA ownership and custodians](https://www.finra.org/sites/default/files/2020-02/Regulatory-Notice-20-07.pdf) | guidance |
 | s65-14-utma-retest | [FINRA — Regulatory Notice 20-07 — UTMA and UGMA ownership and custodians](https://www.finra.org/sites/default/files/2020-02/Regulatory-Notice-20-07.pdf) | guidance |
+| s65-14-account-menus | [IRS — Publication 970 — 529 and Coverdell education tax benefits](https://www.irs.gov/publications/p970) | guidance |
+| s65-14-utma-kiddie | [IRS — Publication 970 — 529 and Coverdell education tax benefits](https://www.irs.gov/publications/p970) | guidance |
 | s65-15-capital-rates | [IRS — Publication 550 — investment income, capital gains, losses, and dividends](https://www.irs.gov/publications/p550) | guidance |
 | s65-15-qualified-dividends | [IRS — Publication 550 — investment income, capital gains, losses, and dividends](https://www.irs.gov/publications/p550) | guidance |
 | s65-15-iso-holding | [IRS — Stock options — incentive option holding periods and tax treatment](https://www.irs.gov/faqs/capital-gains-losses-and-sale-of-home/stocks-options-splits-traders) | guidance |
@@ -284,6 +299,7 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-15-jtwros-retest | [FDIC — Joint accounts — survivorship and tenancy in common](https://www.fdic.gov/financial-institution-employees-guide-deposit-insurance/joint-accounts) | guidance |
 | s65-15-will-title | [FDIC — Joint accounts — survivorship and tenancy in common](https://www.fdic.gov/financial-institution-employees-guide-deposit-insurance/joint-accounts) | guidance |
 | s65-15-entirety | [Virginia law — Tenancy by the entirety — one state example; other states differ](https://law.lis.virginia.gov/vacode/title55.1/chapter1/section55.1-136/) | rule |
+| s65-15-executor-administrator | [IRS — Publication 550 — investment income, capital gains, losses, and dividends](https://www.irs.gov/publications/p550) | guidance |
 | s65-15-gift-dual | [IRS — Basis of property received as a gift — gain and loss bases](https://www.irs.gov/faqs/capital-gains-losses-and-sale-of-home/property-basis-sale-of-home-etc/property-basis-sale-of-home-etc) | guidance |
 | s65-15-holding-period | [IRS — Publication 550 — investment income, capital gains, losses, and dividends](https://www.irs.gov/publications/p550) | guidance |
 | s65-15-wash-sale | [IRS — Publication 550 — investment income, capital gains, losses, and dividends](https://www.irs.gov/publications/p550) | guidance |
@@ -361,6 +377,7 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-19-agreement-timing | [FINRA — Rule 2360 — Options, account approval and disclosure requirements](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2360) | rule |
 | s65-19-buyer-call | [SEC — Options — purchase and sale rights](https://www.investor.gov/introduction-investing/investing-basics/glossary/options) | guidance |
 | s65-19-seller-put | [SEC — Options — purchase and sale rights](https://www.investor.gov/introduction-investing/investing-basics/glossary/options) | guidance |
+| s65-19-futures-forward | [FINRA — Rule 2360 — Options, account approval and disclosure requirements](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2360) | rule |
 | s65-19-protect-long | [OCC / OIC — Options Basics — call purchase rights and put sale rights](https://www.optionseducation.org/optionsoverview/options-basics) | reference |
 | s65-19-protect-short | [OCC / OIC — Options Basics — call purchase rights and put sale rights](https://www.optionseducation.org/optionsoverview/options-basics) | reference |
 | s65-19-futures-hedge | [CME Group — Put-option price floors compared with short futures hedges](https://www.cmegroup.com/education/courses/hedging-with-grain-and-oilseed-futures-and-options/risk-management-for-sellers-of-commoditities/establishing-a-floor-price-by-buying-put-options) | reference |
@@ -428,6 +445,7 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-22-quick-ratio | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-22-capitalization | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-22-equity | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
+| s65-22-balance-classify | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-22-market-cap | [SEC — Market Capitalization — outstanding shares times share price](https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization) | guidance |
 | s65-22-pe-ratio | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
 | s65-22-dividend-yield | [SEC — Beginners guide to financial statements and ratios](https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide) | guidance |
@@ -446,6 +464,7 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-23-bond-cashflow | [FINRA — Understanding bond yield and return](https://www.finra.org/investors/insights/bond-yield-return) | guidance |
 | s65-23-capm | [CFA Institute — The Capital Asset Pricing Model — Theory and Evidence](https://rpc.cfainstitute.org/research/cfa-digest/2005/05/the-capital-asset-pricing-model-theory-and-evidence-digest-summary) | reference |
 | s65-23-capm-specific | [CFA Institute — The Capital Asset Pricing Model — Theory and Evidence](https://rpc.cfainstitute.org/research/cfa-digest/2005/05/the-capital-asset-pricing-model-theory-and-evidence-digest-summary) | reference |
+| s65-23-coincident | [NASAA — Series 65 study guide and topic outline — curriculum scope, not a substantive rule](https://www.nasaa.org/wp-content/uploads/2023/09/NASAA-Series-65-Exam-Study-Guide.pdf) | outline |
 | s65-23-business-cycle | [NBER — Business cycle dating — how U.S. recessions are determined](https://www.nber.org/research/business-cycle-dating) | reference |
 | s65-23-gdp | [BEA — Gross domestic product — definition and real versus current dollars](https://www.bea.gov/data/gdp/gross-domestic-product) | guidance |
 | s65-23-real-gdp | [BEA — Gross domestic product — definition and real versus current dollars](https://www.bea.gov/data/gdp/gross-domestic-product) | guidance |
@@ -487,3 +506,11 @@ The following rules currently link to the NASAA topic outline. This is explicitl
 | s65-27-dni-gains | [IRS — Form 1041 instructions — trust distributable net income](https://www.irs.gov/instructions/i1041) | guidance |
 | s65-27-mass-ad | [NASAA — Recordkeeping Model Rule 203(a)-2, amended May 2026](https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Recordkeeping-Requirements-for-Investment-Advisers-Model-Rule_203a-2_5-4-2026.pdf) | rule |
 | s65-27-mailing-source | [NASAA — Recordkeeping Model Rule 203(a)-2, amended May 2026](https://www.nasaa.org/wp-content/uploads/2026/05/NASAA-Recordkeeping-Requirements-for-Investment-Advisers-Model-Rule_203a-2_5-4-2026.pdf) | rule |
+| s65-27-divorced-social-security | [SSA — Benefits for a divorced spouse](https://www.ssa.gov/benefits/retirement/planner/applying7.html) | guidance |
+| s65-27-ia-exclusions | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
+| s65-27-u4-ever | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
+| s65-27-variable-voting | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
+| s65-27-assumed-interest-rate | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
+| s65-27-cash-margin | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
+| s65-27-independent-contractor | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |
+| s65-27-trading-volume | [NASAA — 1956 Uniform Securities Act with NASAA updates and commentary](https://www.nasaa.org/wp-content/uploads/2021/10/1956-Uniform-Securities-Act-with-NASAA-Updates-and-Commentary.pdf) | rule |

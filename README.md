@@ -1,6 +1,6 @@
 # Series 65 Flashcards
 
-Study for the Series 65. The deck has 1,003 cards. It covers all four sections. It works offline too.
+Study for the Series 65. The deck has 1,048 cards. It covers all four sections. It works offline too.
 
 **Try it:** [chiragmirani.github.io/series65-flashcards-app](https://chiragmirani.github.io/series65-flashcards-app/)
 
@@ -9,10 +9,10 @@ Study for the Series 65. The deck has 1,003 cards. It covers all four sections. 
 
 | Subject | Cards |
 |---|---:|
-| Laws & ethics | 448 |
-| Recommendations | 253 |
-| Investment vehicles | 194 |
-| Economics & business | 108 |
+| Laws & ethics | 464 |
+| Recommendations | 278 |
+| Investment vehicles | 196 |
+| Economics & business | 110 |
 
 ## How to study
 

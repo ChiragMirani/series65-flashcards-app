@@ -57,7 +57,7 @@ Rules applied:
 
 First three screenshots do the selling (most users never scroll). 6.9" iPhone set; iPad set if iPad is supported.
 
-1. **"1,003 Series 65 flashcards"** — a real card mid-reveal.
+1. **"1,048 Series 65 flashcards"** — a real card mid-reveal.
 2. **"All 4 exam sections"** — Laws & ethics, Recommendations, Investment vehicles, Economics, weighted like the exam.
 3. **"Know the trap answers"** — the Common trap panel.
 4. **"Works offline. No subscription."** — airplane-mode badge and the one-time price.

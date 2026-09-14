@@ -44,7 +44,8 @@ civil-scope|Does the federal Securities Act 1-year/3-year comparison apply to ev
 bankruptcy-trustee|Does every private trustee qualify for the fiduciary transaction exemption merely by holding that title?|No. The specifically identified trustee is a trustee in bankruptcy.
 underlying-offer|Must underlying shares already be delivered before a right or warrant can constitute an offer of those shares?|No. Issuing the right or warrant is an offer because the holder pays value to acquire the underlying shares.
 non-offers|Is a stock dividend treated as an offer of underlying shares in the same way as a paid right or warrant?|No. A stock dividend is distinguished from a right or warrant requiring payment for the underlying shares.
-fundamental-policy|Can a registered fund's portfolio manager alone approve a fundamental investment-policy change?|No. Approval generally requires a majority of the fund's outstanding voting securities.`,
+fundamental-policy|Can a registered fund's portfolio manager alone approve a fundamental investment-policy change?|No. Approval generally requires a majority of the fund's outstanding voting securities.
+part2b-delivery|Does being an active officer of the advisory firm, by itself, require a Part 2B supplement?|No. A supplement is required for someone who formulates advice with direct client contact, or who has discretion even without contact.`,
 4: `tested-act|Does the newer 2002 Uniform Securities Act automatically replace the legal framework the Series 65 exam uses?|No. The exam framework is the 1956 Act as amended by NASAA.
 state-effective|Is state professional registration generally effective as soon as the application is filed?|No. It generally becomes effective at noon on the 30th day after filing.
 state-expiry|Does state professional registration always last 12 months from its effective date?|No. It expires on December 31 unless renewed.
@@ -75,7 +76,8 @@ prepay-worth|Does the state prepaid-fee trigger alone require $35,000 of net wor
 deficiency-bond|Does a net-worth-deficiency bond always equal the adviser's entire required minimum net worth?|No. It covers the shortfall, rounded up to a $5,000 increment.
 general-bond|Are $35,000 and $10,000 universal fixed bond amounts for state advisers?|No. They are net-worth thresholds; separate bonding authority may consider client count and AUM.
 enforcement|Can the state Administrator personally issue a court injunction or make an arrest?|No. The Administrator issues cease-and-desist orders and seeks an injunction from a court.
-hearing|Can a final registration suspension ordinarily bypass notice and an opportunity for a hearing?|No. Notice and an opportunity for a hearing ordinarily precede final suspension.`,
+hearing|Can a final registration suspension ordinarily bypass notice and an opportunity for a hearing?|No. Notice and an opportunity for a hearing ordinarily precede final suspension.
+prepaid-refund|Are prepaid advisory fees prohibited once they exceed the dollar threshold?|No. They are permitted; the contract must explain how the unearned prepaid fee is refunded.`,
 6: `security-exempt|Does an exempt-security classification automatically remove the salesperson's registration duty?|No. It exempts the security from state registration; person registration is analyzed separately.
 transaction-exempt|Does one exempt transaction permanently exempt every later sale of the same security?|No. The exemption applies to that particular transaction.
 covered-security|Does federal-covered security status eliminate all state notice filings and fees?|No. It preempts full state securities registration, but notice filings and fees may remain.
@@ -124,7 +126,9 @@ dual-compensation|Does an advisory fee make a dual adviser's additional transact
 forecast-device|Does stating how long a forecasting formula has been used satisfy the advertising disclosure requirement?|No. The advertising must disclose the formula's difficulties and limitations.
 testimonial|Does compensation alone determine whether a marketing statement is a testimonial?|No. A testimonial comes from a current client; an endorsement comes from a nonclient.
 promoter-oversight|Does an accurate paid promotional statement eliminate compensation disclosures and compliance oversight?|No. Compensation and conflicts must still be disclosed, and compliance must be overseen.
-promoter-agreement|Does exactly $1,000 of promoter compensation over the preceding 12 months fit the de minimis written-agreement exception?|Yes. The exception covers compensation of $1,000 or less over that period.`,
+promoter-agreement|Does exactly $1,000 of promoter compensation over the preceding 12 months fit the de minimis written-agreement exception?|Yes. The exception covers compensation of $1,000 or less over that period.
+principal-settlement|For an adviser's principal trade, must client consent always come before execution?|No. Under Release 1732, consent may follow execution but must come before settlement.
+arbitration-clause|A contract says the adviser has no liability for any loss. Is that clause acceptable because the client signed it?|No. A clause that misleads the client into believing nonwaivable rights were surrendered is prohibited.`,
 10: `restricted-clock|Does affiliate status alone create a Rule 144 holding period for shares bought publicly without restriction?|No. Restricted acquisition creates the holding-period clock; affiliate status creates resale conditions.
 unrestricted-clock|An affiliate buys unrestricted shares publicly. Must the affiliate hold them six months under Rule 144?|No. Unrestricted publicly acquired shares have no Rule 144 holding period, though affiliate resale conditions remain.
 control|Can unrestricted shares be control securities?|Yes. Any shares held by an affiliate are control securities, whether restricted or unrestricted.
@@ -162,7 +166,15 @@ keogh|Does Keogh identify only a defined-contribution plan?|No. A qualified self
 nonqualified|Do nonqualified retirement benefits always have the same creditor protection as qualified-plan assets?|No. The employee may be an unsecured creditor in a nonqualified arrangement.
 qdro|Does the qualified domestic relations order framework divide IRA assets in the same way as qualified employer-plan benefits?|No. IRAs use separate divorce-transfer rules; the order framework applies to qualified employer plans.
 qualified-erisa|Can a government retirement plan receive favorable tax treatment while remaining outside ERISA?|Yes. Tax qualification and ERISA coverage are separate classifications.
-government-design|Does a city employer's 457(b) designation mean the plan promises a defined retirement benefit?|No. Governmental 457(b) status does not by itself establish a defined-benefit plan.`,
+government-design|Does a city employer's 457(b) designation mean the plan promises a defined retirement benefit?|No. Governmental 457(b) status does not by itself establish a defined-benefit plan.
+404c-alternatives|Does offering 20 similar large-cap stock funds satisfy the section 404(c) broad-range requirement?|No. The menu needs at least three diversified alternatives with materially different risk and return.
+muni-in-plan|Does holding municipal bonds inside a 401(k) add extra tax savings?|No. The account already shelters income, so the municipal exemption is wasted and taxable bonds usually yield more.
+ira-limit-2026|In 2026, can a 45-year-old contribute $7,500 to a traditional IRA and another $7,500 to a Roth IRA?|No. The $7,500 limit is combined across both IRA types.
+deferral-limit-2026|Does a 61-year-old add both the $8,000 and $11,250 catch-ups to the 2026 401(k) limit?|No. Ages 60 through 63 use $11,250 instead of $8,000, for $35,750 in total.
+simple-limit-2026|Is the 2026 SIMPLE IRA deferral limit the same as the 401(k) limit?|No. SIMPLE IRA deferrals are capped at $17,000, below the $24,500 401(k) limit.
+sep-limit-2026|Does a SEP IRA allow an employee catch-up deferral at age 50?|No. SEP contributions are employer contributions only, up to the lesser of 25% of compensation or $72,000.
+roth-shares-deferral|Can an employee defer $24,500 pre-tax and another $24,500 as Roth in the same 401(k) for 2026?|No. Pre-tax and Roth deferrals share one $24,500 limit.
+governmental-457-separate|Does a governmental 457(b) share one deferral limit with the same employee's 403(b)?|No. The governmental 457(b) has its own separate deferral limit.`,
 13: `early-tax|Does the 10% additional tax on an early taxable retirement distribution replace ordinary income tax?|No. It is added to ordinary income tax unless an exception applies.
 simple-early|Is the additional early-distribution tax on a SIMPLE IRA always limited to 10%?|No. It can be 25% during the first two years.
 457-exception|Does rolling qualified-plan money into a governmental 457(b) automatically eliminate its early-distribution penalty exposure?|No. Rolled-in qualified-plan money can remain subject to the 10% additional tax.
@@ -191,7 +203,9 @@ coverdell-beneficiary|Can a Coverdell beneficiary generally be changed to an eli
 minor-owner|Does a custodian own an UTMA account until the child becomes an adult?|No. The named minor owns it immediately; the custodian only manages it until the state termination age.
 minor-purpose|Must UGMA or UTMA money be spent only on education?|No. It may be used for the named minor's benefit beyond education.
 minor-property|Is UTMA limited to financial property in the same way as UGMA?|No. UTMA can hold broader types of property; UGMA mainly holds financial property.
-utma-retest|Can an UTMA custodian take back a completed gift or move it to a different child?|No. The gift is irrevocable: it permanently belongs to the named minor.`,
+utma-retest|Can an UTMA custodian take back a completed gift or move it to a different child?|No. The gift is irrevocable: it permanently belongs to the named minor.
+account-menus|Can a 529 plan owner generally buy any individual stock in the account?|No. A 529 is limited to the sponsoring plan's menu; a Coverdell can be more self-directed.
+utma-kiddie|Is UTMA account income taxed to the custodian who manages it?|No. The income belongs to the child, and the kiddie tax may apply.`,
 15: `capital-rates|Do all federal long-term capital gains receive one flat basic tax rate?|No. The basic rates are 0%, 15%, or 20%, depending on taxable income.
 qualified-dividends|Are qualified dividends generally taxed at ordinary income rates?|No. They generally receive preferential long-term capital-gain rates.
 iso-holding|For qualifying incentive stock option treatment, is meeting either the post-exercise or post-grant holding period enough?|No. Both are needed: more than one year after exercise and more than two years after grant.
@@ -207,7 +221,8 @@ tic|Does tenancy in common automatically pass a deceased owner's share to the su
 jtwros|Can a deceased joint tenant's will redirect an interest held with right of survivorship away from the survivor?|No. The survivorship interest passes directly to the surviving joint owner.
 jtwros-retest|Two people properly establish a JTWROS account but contribute unequal amounts. Does unequal funding override equal ownership and survivorship?|No. The title still controls equal undivided interests and survivorship; separate gift-tax issues may arise.
 will-title|Does a will control both a tenancy-in-common interest and a joint-tenancy survivorship interest in the same way?|No. The tenancy-in-common interest can follow the will; the survivorship interest passes directly to the survivor.
-entirety|Does tenancy by the entirety guarantee identical protection against a spouse's separate creditors in every state?|No. Protection varies by state; the title generally involves spouses and survivorship.`,
+entirety|Does tenancy by the entirety guarantee identical protection against a spouse's separate creditors in every state?|No. Protection varies by state; the title generally involves spouses and survivorship.
+executor-administrator|When someone dies without a will, does the agent under their durable power of attorney manage the estate?|No. The power ends at death; a court appoints an administrator.`,
 16: `sole|Does a sole proprietor gain limited liability because business income passes through to the owner?|No. A sole proprietor has unlimited personal liability despite pass-through taxation.
 general-partner|Do general partners have corporate-style limited liability?|No. General partners have unlimited liability, with pass-through taxation.
 limited-partner|Does forming a limited partnership give every partner limited liability?|No. The general partner manages with unlimited liability; the limited partner has limited liability in the basic model.
@@ -247,7 +262,8 @@ options-approval|Can a client's signed options order replace the required accoun
 odd-timing|Can delivery of the Options Disclosure Document wait until 15 days after the first options trade?|No. It must be delivered no later than account opening.
 agreement-timing|Does the 15-day deadline for the signed options agreement start with the first exercise?|No. It starts with account approval; the agreement need not arrive before the first trade.
 buyer-call|Should a future buyer purchase a put to protect against a price increase?|No. A call protects a future buyer against rising purchase prices.
-seller-put|Should a future seller purchase a call to protect against a price decrease?|No. A put protects a future seller against falling sale prices.`,
+seller-put|Should a future seller purchase a call to protect against a price decrease?|No. A put protects a future seller against falling sale prices.
+futures-forward|Must a soybean farmer hedge only with exchange-traded futures?|No. The farmer can short futures or a customized over-the-counter forward; futures leave basis risk.`,
 20: `term-life|Does term life build a small cash-value account that can support a policy loan?|No. Term life has no cash value and no cash-value policy loan.
 whole-life|Do flexible premiums and fluctuating separate-account cash value identify whole life?|No. Whole life has level or fixed premiums and guaranteed cash value.
 universal-life|Does traditional universal life require fixed premiums and a separate investment account?|No. It has flexible premiums and interest-sensitive cash value.
